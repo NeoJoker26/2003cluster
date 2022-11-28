@@ -1,0 +1,100 @@
+<%
+' Set Session Locale to English(UK) to solve date differences when swapping from Fasthosts to Tsohost
+' [Tsohost defaults to 1033, which is English(US)]
+Session.LCID=2057
+%>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-28945398-1', 'greensonscreen.co.uk');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript" src="highslide/highslide-full.min.js"></script>
+
+<script type="text/javascript">    
+    hs.graphicsDir = 'highslide/graphics/';
+    hs.outlineType = 'rounded-white';
+    hs.lang = {creditsText: ''};
+    hs.expandDuration = 0;
+</script>
+
+<center>
+
+<div id="banner">
+
+<!-- Christmas Trees -->
+<%
+if month(date) = 12 and day(date) > 17 then
+	'response.write("<img style=""position:absolute; left:419px; bottom:20px;"" src=""images/christmastree.gif"" width=""34"" height=""42"">")
+	'response.write("<img style=""position:absolute; left:553px; bottom:20px;"" src=""images/christmastree.gif"" width=""34"" height=""42"">")	
+end if
+%>
+
+<a style="position:absolute; left:0; bottom:14px; padding: 2px 12px; " href="index.asp">GoS Home</a>
+<a style="position:absolute; left:87px; bottom:15px; background-color:white; border-style:none;" target="_blank" href="http://facebook.com/greensonscreen">
+<img border="0" src="images/facebook_icon.png" width="16" height="16"></a>
+<!--<a style="position:absolute; left:106px; bottom:15px; background-color:white; border-style:none;" target="_blank" href="http://twitter.com/GreensonScreen">
+<img border="0" src="images/twitterlogo.gif" width="23" height="16"></a>-->
+
+<%
+'dim tempx0, tempx1, tempx2
+'tempx0 = Request.ServerVariables("server_software")
+'tempx1 = split(tempx0,"/")
+'tempx2 = split(tempx1(1),".")
+'response.write("<span style=""position:absolute; left:132px; bottom:15px;"">" & tempx2(0) & "</span>")
+%> 
+
+<a style="position:absolute; right:0; bottom:14px; padding: 2px 10px; " 
+href="#" onclick="return hs.htmlExpand(this, { contentId: 'highslide-html-contactus', width:180 },{num:0} )" class="highslide">Contact Us</a>
+
+<a style="position:absolute; right:85px; bottom:14px; padding: 2px 10px; " 
+href="#" onclick="return hs.htmlExpand(this, { contentId: 'highslide-html-about-us' } )" class="highslide">About GoS</a>
+
+<!-- Note the above {num:0} has no effect, but is need to be compatible with the use of Highslide in photodisplay.asp --> 
+
+<span style="position:absolute; left: 5px; top: 4px; text-align:left; color: #ffffff; font-size:11px; font-weight:bold;">Now in its 24th year, and<br>still amateur & advert-free</span>
+<span style="position:absolute; left: 828px; top: 4px; color: #ffffff; font-size:11px; font-weight:bold;">Please do not copy GoS 
+<br>material without asking</span>
+ 
+</div>
+
+<NOSCRIPT>
+<font color="red" style="font-size: 11px; font-weight: 700" face="Arial">
+You have Javascript disabled in your browser, so not all features of this site will function correctly. Consider changing your browser's security settings<br>to allow javascript, or include www.greensonscreen.co.uk as a trusted site. Feel free to contact me if I can help (steve@greensonscreen.co.uk).
+</font></NOSCRIPT>
+
+<div class="highslide-html-content" id="highslide-html-contactus">
+	<div class="highslide-header">
+		<ul>
+			<li class="highslide-close">
+				<a href="#" onclick="return hs.close(this)">Close</a>
+			</li>
+		</ul>	    
+	</div>
+	<div class="highslide-body">
+	<p style="margin:12px 0 0 0;">To get in touch, please write to  
+    <a href="mailto:contact@greensonscreen.co.uk">contact@greensonscreen.co.uk</a></p>
+	</div>
+</div>
+<div class="highslide-html-content" id="highslide-html-about-us">
+  <div class="highslide-header">
+    <ul>
+      <li class="highslide-close"><a href="#" onclick="return hs.close(this)">Close</a>
+      </li>
+    </ul>
+  </div>
+  <div class="highslide-body">
+    <p style="margin:12 0 0 0;">Greens on Screen&#8217;s first page was published in January 1999. Its early purpose was to bring Plymouth Argyle a little closer to those unable to see their team, and whilst it has changed a great deal over the years, its core themes - sites and sounds for Westcountry exiles - still stand. The site was very lucky to take on the content of Trevor Scallan&#8217;s Semper Viridis in the summer of 2007, and in 2009 launched GoS-DB, a wealth of facts and figures from PAFC&#8217;s history. A year later we embarked on a complete history of Argyle, with much-valued contributions from chapter authors.</p>
+    <p style="margin:6 0 6 0;">Greens on Screen is an amateur website and proud of it. It is run by one person as a hobby, although there have been aspects of the site over the years that would be much the poorer without the had work and much-valued contributions of a small band of volunteers.</p>
+    <p style="margin:6 0 6 0;">Greens on Screen is self-taught and as a result, a little bit quirky. Amongst a few stubborn principles, advertisements will never appear (and don&#8217;t get me started on the plague of betting promotions on other sites). It began its life before many others, including the club&#8217;s official site, when there was a large gap to be filled, and although there is now a wide variety to choose from, GoS&#8217;s sole aim, to be a service to fellow supporters, still seems to have a place.</p>
+    <p style="margin:6 0 0 0;">Steve Dean</p>
+  </div>
+  <div class="highslide-footer">
+  </div>
+</div>
