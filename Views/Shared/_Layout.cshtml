@@ -24,15 +24,29 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" data-tag="font" />
     <link rel="stylesheet" href="~/css/style.css" />
     <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/popup.css" rel="stylesheet" />
     <title>@ViewData["Title"] - GoS</title>
 
 
 </head>
 <body>
+    <div id="aboutGoSModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+
+                <p>Greens on Screen’s first page was published in January 1999. Its early purpose was to bring Plymouth Argyle a little closer to those unable to see their team, and whilst it has changed a great deal over the years, its core themes - sites and sounds for Westcountry exiles - still stand. The site was very lucky to take on the content of Trevor Scallan’s Semper Viridis in the summer of 2007, and in 2009 launched GoS-DB, a wealth of facts and figures from PAFC’s history. A year later we embarked on a complete history of Argyle, with much-valued contributions from chapter authors.
+                Greens on Screen is an amateur website and proud of it. It is run by one person as a hobby, although there have been aspects of the site over the years that would be much the poorer without the had work and much-valued contributions of a small band of volunteers.
+                Greens on Screen is self-taught and as a result, a little bit quirky. Amongst a few stubborn principles, advertisements will never appear (and don’t get me started on the plague of betting promotions on other sites). It began its life before many others, including the club’s official site, when there was a large gap to be filled, and although there is now a wide variety to choose from, GoS’s sole aim, to be a service to fellow supporters, still seems to have a place.
+                Steve Dean</p>
+
+        </div>
+    </div>
     <div>
         <link href="~/css/home.css" rel="stylesheet" />
         <div class="home-container">
+
             <div class="home-top-container">
+
                 <div class="home-social-bar">              
                     <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/baseimg/GoS-home.png" width="65" height="65" /></a>             
                     <a asp-area="" asp-controller="Home" asp-action="Facebook"><img src="~/baseimg/GoS-facebook.png" width="65"height="65" /></a>
@@ -44,12 +58,11 @@
                          class="home-image" />
                 </div>
                 <div class="home-about">
-                    <button class="home-about-button">About Us</button>
-                    <button class="home-about-button">Contact Us</button>
+                    <div id="aboutBtn">About GoS</div>
+                </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <div class="container">
         <main role="main" class="pb-3">
@@ -60,7 +73,6 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -55,7 +55,6 @@
 
 .home-text {
     color: var(--dl-color-gray-black);
-    z-index: 100;
     font-size: 0.75rem;
     box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
     text-align: center;
@@ -66,6 +65,7 @@
     margin-bottom: var(--dl-space-space-twounits);
     letter-spacing: 2px;
     text-transform: uppercase;
+    z-index: 1;
 }
 
 .home-lower-top-container {

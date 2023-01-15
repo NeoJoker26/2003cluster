@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5MYlBvBfwJ17A2k+hQfY1xPcf77zf7Ff7O5OU6FAtPs=",
+  "Hash": "6R3fiCljGf/ZTcbBElLv+bzq1qU9rpJ3jK2xf2o7UQI=",
   "Source": "GoS",
   "BasePath": "_content/GoS",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\wwwroot\\css\\popup.css",
+      "SourceId": "GoS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\wwwroot\\",
+      "BasePath": "_content/GoS",
+      "RelativePath": "css/popup.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\popup.css"
     },
     {
       "Identity": "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\wwwroot\\css\\site.css",

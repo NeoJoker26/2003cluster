@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
+      "Id": "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\wwwroot\\css\\popup.css",
+      "PackagePath": "staticwebassets\\css\\popup.css"
+    },
+    {
       "Id": "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
