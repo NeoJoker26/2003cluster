@@ -9,37 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GoS
 build_property.RootNamespace = GoS
-build_property.ProjectDir = C:\Users\Kieran\Desktop\Test\GoS\
+build_property.ProjectDir = C:\Users\Kieran\Desktop\GoS\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Kieran\Desktop\Test\GoS
+build_property.MSBuildProjectDirectory = C:\Users\Kieran\Desktop\GoS
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Kieran/Desktop/Test/GoS/Views/Home/Index.cshtml]
+[C:/Users/Kieran/Desktop/GoS/Views/Home/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaXN0b3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Kieran/Desktop/GoS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kieran/Desktop/Test/GoS/Views/Home/Teamphotos.cshtml]
+[C:/Users/Kieran/Desktop/GoS/Views/Home/Teamphotos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZWFtcGhvdG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kieran/Desktop/Test/GoS/Views/Shared/Error.cshtml]
+[C:/Users/Kieran/Desktop/GoS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kieran/Desktop/Test/GoS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Kieran/Desktop/GoS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kieran/Desktop/Test/GoS/Views/_ViewImports.cshtml]
+[C:/Users/Kieran/Desktop/GoS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kieran/Desktop/Test/GoS/Views/_ViewStart.cshtml]
+[C:/Users/Kieran/Desktop/GoS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kieran/Desktop/Test/GoS/Views/Shared/_Layout.cshtml]
+[C:/Users/Kieran/Desktop/GoS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fd6nbsoq2v

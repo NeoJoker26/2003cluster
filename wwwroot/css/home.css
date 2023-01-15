@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 43fafdfbd8162f61c1b4d2514abe025d7012c24f
 .home-container {
     width: 100%;
     display: flex;
@@ -39,6 +42,14 @@
     background-position: center;
 }
 
+.small_history {
+    width: 85%;
+    height: 50%;
+    justify-content:center;
+    align-self:center;
+    position:relative;
+}
+
 .home-image {
     flex: 1;
     width: 100%;
@@ -55,7 +66,7 @@
 }
 
 .home-text {
-    color: var(--dl-color-gray-black);
+    color: white;
     font-size: 0.75rem;
     box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
     text-align: center;
@@ -66,9 +77,6 @@
     margin-bottom: var(--dl-space-space-twounits);
     letter-spacing: 2px;
     text-transform: uppercase;
-    background-color: white;
-    padding-top: 0px;
-    justify-content: space-between;
 }
 
 
@@ -109,6 +117,10 @@
     padding: var(--dl-space-space-twounits);
     flex-direction: column;
     justify-content: space-between;
+}
+
+.history_button{
+    text-align:center;
 }
 
 .home-middle-content {
@@ -163,32 +175,30 @@
     height: 50%;
     display: flex;
     border-width: 2px;
-    overflow-y: auto;
-
 }
 
 .home-on-this-day {
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
-    padding: 3%;
+    padding: var(--dl-space-space-twounits);
     flex-direction: column;
     justify-content: space-between;
 }
 
 .home-yesterday {
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
-    padding: 3%;
+    padding: var(--dl-space-space-twounits);
     flex-direction: column;
     justify-content: space-between;
 }
 .home-two-days-ago {
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
-    padding: 3%;
+    padding: var(--dl-space-space-twounits);
     flex-direction: column;
     justify-content: space-between;
 }
@@ -197,7 +207,6 @@
     height: 50%;
     display: flex;
     border-width: 2px;
-    overflow-y:auto
 }
 
 
@@ -228,6 +237,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+<<<<<<< HEAD
 .home-text-head {
     background-color: #004f3e;
     color: white;
@@ -254,6 +264,9 @@
     color: white;
     background-color: #2a5045;
 }
+=======
+
+>>>>>>> 43fafdfbd8162f61c1b4d2514abe025d7012c24f
 @media(max-width: 767px) {
     .home-social-bar {
         padding-left: var(--dl-space-space-twounits);
@@ -315,3 +328,7 @@
 }
 
 
+span{
+    background-color:#004f3e;
+    color:white;
+}
