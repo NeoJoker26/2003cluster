@@ -30,20 +30,29 @@
 
 </head>
 <body>
-    <div id="aboutGoSModal" class="modal">
+    <div id="aboutGoSModal" class="modal"> @*About us modal*@
         <div class="modal-content">
-            <span class="close">&times;</span>
+            <span class="close-about">&times;</span>
                 <p>Greens on Screen’s first page was published in January 1999. Its early purpose was to bring Plymouth Argyle a little closer to those unable to see their team, and whilst it has changed a great deal over the years, its core themes - sites and sounds for Westcountry exiles - still stand. The site was very lucky to take on the content of Trevor Scallan’s Semper Viridis in the summer of 2007, and in 2009 launched GoS-DB, a wealth of facts and figures from PAFC’s history. A year later we embarked on a complete history of Argyle, with much-valued contributions from chapter authors.
                 Greens on Screen is an amateur website and proud of it. It is run by one person as a hobby, although there have been aspects of the site over the years that would be much the poorer without the had work and much-valued contributions of a small band of volunteers.
                 Greens on Screen is self-taught and as a result, a little bit quirky. Amongst a few stubborn principles, advertisements will never appear (and don’t get me started on the plague of betting promotions on other sites). It began its life before many others, including the club’s official site, when there was a large gap to be filled, and although there is now a wide variety to choose from, GoS’s sole aim, to be a service to fellow supporters, still seems to have a place.
                 Steve Dean</p>
         </div>
     </div>
+    <div id="ContactGoSModal" class="modal"> @*Contact us modal*@
+        <span class="close-contact">&times;</span>
+        <div class="modal-content">
+            
+            <p>
+                To get in touch, please write to contact@greensonscreen.co.uk
+            </p>
+        </div>
+    </div>
     <div>
         <link href="~/css/home.css" rel="stylesheet" />
         <div class="home-container">
 
-            <div class="home-top-container">
+            <div class="home-top-container"> @* Banner Container *@
 
                 <div class="home-social-bar">              
                     <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/baseimg/GoS-home.png" width="65" height="65" /></a>             
@@ -56,7 +65,8 @@
                          class="home-image" />
                 </div>
                 <div class="home-about">
-                    <div id="aboutBtn">About GoS</div>
+                    <Button id="aboutBtn">About GoS</Button>
+                    <Button id="ContactBtn">Contact GoS</Button>
                 </div>
                 </div>
             </div>
