@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Jonat\\.nuget\\packages\\": {}
+    "C:\\Users\\Kieran\\.nuget\\packages\\": {},
+    "D:\\Dev shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kieran\\Desktop\\GoS\\comp2003_2022-team-p\\GoS.csproj",
+      "projectUniqueName": "C:\\Users\\Kieran\\Desktop\\Test\\GoS\\GoS.csproj",
       "projectName": "GoS",
-      "projectPath": "C:\\Users\\Kieran\\Desktop\\GoS\\comp2003_2022-team-p\\GoS.csproj",
+      "projectPath": "C:\\Users\\Kieran\\Desktop\\Test\\GoS\\GoS.csproj",
       "packagesPath": "C:\\Users\\Kieran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kieran\\Desktop\\GoS\\comp2003_2022-team-p\\obj\\",
+      "outputPath": "C:\\Users\\Kieran\\Desktop\\Test\\GoS\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Dev shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kieran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
