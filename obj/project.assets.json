@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kieran\\Desktop\\Test\\GoS\\GoS.csproj",
+      "projectUniqueName": "C:\\Users\\Kieran\\Desktop\\GoS\\GoS.csproj",
       "projectName": "GoS",
-      "projectPath": "C:\\Users\\Kieran\\Desktop\\Test\\GoS\\GoS.csproj",
+      "projectPath": "C:\\Users\\Kieran\\Desktop\\GoS\\GoS.csproj",
       "packagesPath": "C:\\Users\\Kieran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kieran\\Desktop\\Test\\GoS\\obj\\",
+      "outputPath": "C:\\Users\\Kieran\\Desktop\\GoS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Dev shared\\NuGetPackages"

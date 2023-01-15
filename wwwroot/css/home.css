@@ -38,6 +38,14 @@
     background-position: center;
 }
 
+.small_history {
+    width: 85%;
+    height: 50%;
+    justify-content:center;
+    align-self:center;
+    position:relative;
+}
+
 .home-image {
     flex: 1;
     width: 100%;
