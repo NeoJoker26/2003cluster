@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "sd+uXVl+WxNz3lxUXEzPfZZ/ItjJhRFGOy+Mddz7zeWx+Ze4Os2Ki5+uMzNCpNJuJc/y8S/qoVOFLV6yc1BHNQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\GoS.csproj",
+=======
+  "dgSpecHash": "3Wgi8OikfGZVowCMD8PU54UzVybOJQWHdA/E2QI1N7ITWRUXknHQp8SVGEJyRZHAakRlWMot5ZUX1sRteeERcQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jonat\\OneDrive\\Documents\\Uni\\Y2\\2003\\Test\\comp2003_2022-team-p\\GoS.csproj",
+>>>>>>> 9a2ff0fd975bb93664595dc06f1920714c6996c1
   "expectedPackageFiles": [],
   "logs": []
 }

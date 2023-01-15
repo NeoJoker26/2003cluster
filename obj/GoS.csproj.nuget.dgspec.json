@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\GoS.csproj": {}
   },
   "projects": {
@@ -12,13 +13,22 @@
         "projectPath": "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\GoS.csproj",
         "packagesPath": "C:\\Users\\Kieran\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\obj\\",
+=======
+    "C:\\Users\\Jonat\\OneDrive\\Documents\\Uni\\Y2\\2003\\Test\\comp2003_2022-team-p\\GoS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Jonat\\OneDrive\\Documents\\Uni\\Y2\\2003\\Test\\comp2003_2022-team-p\\GoS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jonat\\OneDrive\\Documents\\Uni\\Y2\\2003\\Test\\comp2003_2022-team-p\\GoS.csproj",
+        "projectName": "GoS",
+        "projectPath": "C:\\Users\\Jonat\\OneDrive\\Documents\\Uni\\Y2\\2003\\Test\\comp2003_2022-team-p\\GoS.csproj",
+        "packagesPath": "C:\\Users\\Jonat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jonat\\OneDrive\\Documents\\Uni\\Y2\\2003\\Test\\comp2003_2022-team-p\\obj\\",
+>>>>>>> 9a2ff0fd975bb93664595dc06f1920714c6996c1
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Dev shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Kieran\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Jonat\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
