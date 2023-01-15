@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\GoS.csproj": {}
+    "C:\\Users\\Kieran\\Desktop\\Ere\\GoS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\GoS.csproj": {
+    "C:\\Users\\Kieran\\Desktop\\Ere\\GoS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\GoS.csproj",
+        "projectUniqueName": "C:\\Users\\Kieran\\Desktop\\Ere\\GoS.csproj",
         "projectName": "GoS",
-        "projectPath": "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\GoS.csproj",
+        "projectPath": "C:\\Users\\Kieran\\Desktop\\Ere\\GoS.csproj",
         "packagesPath": "C:\\Users\\Kieran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kieran\\Desktop\\comp2003_2022-team-p\\obj\\",
+        "outputPath": "C:\\Users\\Kieran\\Desktop\\Ere\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Dev shared\\NuGetPackages"
