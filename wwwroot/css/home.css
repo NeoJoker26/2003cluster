@@ -22,9 +22,9 @@
     border: 2px dashed rgba(120, 120, 120, 0.4);
     height: 80px;
     display: flex;
-    padding-top: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-twounits);
-    justify-content: center;
+    padding-top: var(--dl-space-space-oneunit);
+    padding-bottom: var(--dl-space-space-oneunit);
+    justify-content: left;
 }
 
 .home-banner {
