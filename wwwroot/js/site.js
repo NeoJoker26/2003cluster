@@ -1,30 +1,51 @@
-﻿var modal_about = document.getElementById("aboutGoSModal");
-var modal_contact = document.getElementById("contactGoSModal");
-var btn_about = document.getElementById("aboutBtn");
-var btn_contact = document.getElementById("contactBtn");
-var about_close = document.getElementsByClassName("close-about")[0];
-var contact_close = document.getElementsByClassName("close-contact")[0];
+﻿// Get the modal
+var modalAbout = document.getElementById("about_modal");
 
+// Get the button that opens the modal
+var aboutBtn = document.getElementById("aboutBtn");
 
-btn_about.onclick = function () { //about us open
-        modal_about.style.display = "block"; 
+// Get the <span> element that closes the modal
+var aboutclose = document.getElementsByClassName("about_close")[0];
+
+// When the user clicks the button, open the modal 
+aboutBtn.onclick = function () {
+    modalAbout.style.display = "block";
 }
-btn_contact.onclick = function () { //contact us open BROKEn
-    modal_contact.style.display = "block";
+
+// When the user clicks on <span> (x), close the modal
+aboutclose.onclick = function () {
+    modalAbout.style.display = "none";
 }
 
-
-about_close.onclick = function () { //about us close BROKEN
-    modal_about.style.display = "none";
-    
-}
-contact_close.onclick = function () { // contact us close BROKEN
-    modal_contact.style.display = "none";
-
-}
-window.onclick = function (event) { // add comment pls idk what this is
-    if (event.target == modal_about) {
-        modal_about.style.display = "none";
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+    if (event.target == modalAbout) {
+        modalAbout.style.display = "none";
     }
-  
+}
+
+// Get the modal
+var modalContact = document.getElementById("contact_modal");
+
+// Get the button that opens the modal
+var contactBtn = document.getElementById("contactBtn");
+
+// Get the <span> element that closes the modal
+var contactclose = document.getElementsByClassName("contact_close")[0];
+
+// When the user clicks the button, open the modal 
+contactBtn.onclick = function () {
+    modalContact.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+contactclose.onclick = function () {
+    modalContact.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+    if (event.target == modalContact) {
+        modalContact.style.display = "none";
+    }
 }
