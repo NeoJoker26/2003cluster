@@ -728,3 +728,12 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp,aspnetcore,visualstudio,windows
 /.vs/GoS/v17/.suo
+/bin/Debug/net6.0/GoS.dll
+/bin/Debug/net6.0/GoS.pdb
+/obj/Debug/net6.0/GoS.dll
+/obj/Debug/net6.0/GoS.pdb
+/obj/project.nuget.cache
+/obj/project.assets.json
+/obj/GoS.csproj.nuget.dgspec.json
+/obj/Debug/net6.0/GoS.GeneratedMSBuildEditorConfig.editorconfig
+/obj/Debug/net6.0/GoS.assets.cache
