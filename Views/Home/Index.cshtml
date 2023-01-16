@@ -2,21 +2,25 @@
     ViewData["Title"] = "Home Page";
 }
 <body>
+    @*Database search box*@
 <div class="home-lower-top-container">
     <div class="home-database-search">
         <span class="home-text">Database/search</span>
     </div>
+        @*Match of the day box*@
     <div class="home-last-3-m-o-t-d">
         <span class="home-text">Last three motd</span>
     </div>
+        @*History box*@
     <div class="home-history"><span class="home-text">History</span>
         <img class="small_history" src="~/baseimg/history-small.png">
         <span class="home-text">The History of Argyle is an original, comprehensive and thoroughly researched account of Plymouth Argyle - formerly Argyle FC - from its earliest roots in 1886 to, so far, 1957</span>
         <a class="history_button" asp-area="" asp-controller="Home" asp-action="History">More history here!</a>
     </div>
-
 </div>
+    @*Lower half of the page*@
 <div class="home-middle-content">
+        @*Other Sites/What's new containers*@
     <div class="home-side-bar-left">
         <div class="home-other-sites">
             <span class="home-text">Other sites</span>
@@ -35,10 +39,11 @@
             <li><a target="_blank" href="http://www.historicalkits.co.uk/Plymouth_Argyle/Plymouth_Argyle.htm">Historical Football Kits</a></li>
         </ul>
         </div>
+            @*What's new box*@
         <div class="home-whats-new">
             <span class="home-text">What&apos;s new</span>
             <ul class="other-sites-list">
-
+                    @*What's new box contents*@
                 <li><a asp-controller="Home" asp-action="DailyDiary">Daily Diary & OTD</a></li>
                 <li><a href="">Current Squad</a></li>
                 <li><a href="">The Latest Match: English Football League One #27 Ipswich Town  1 Argyle 1</a></li>
@@ -48,11 +53,12 @@
             </ul>
         </div>
     </div>
+
     <div class="home-middle-boxes">
         <div class="home-middle-boxes-top">
             <div class="home-on-this-day">
                 <span class="home-text-head">
-                        On this day @*On This Day*@
+                        On this day @*On This Day section*@
                     </span>
                 <span class="home-text">
                     
@@ -61,6 +67,7 @@
                     </p1>
                 </span>
             </div>
+            @*Yesterday section*@
             <div class="home-yesterday">
                 <span class="home-text-head">Yesterday</span>
                 <span class="home-text">
@@ -69,6 +76,7 @@
                 </p1>
                 </span>
             </div>
+            @*2 days ago section*@
             <div class="home-two-days-ago">
                 <span class="home-text-head">2 days ago</span>
                 <span class="home-text">
@@ -78,11 +86,13 @@
                 </span>
             </div>
         </div>
+            @*lower middle section*@
         <div class="home-middle-boxes-bottom">
             <div class="home-on-this-day">
-                    <span class=" home-text-head">Born this day</span> @*Born this day*@
-                
-                   <table class="home-table"> @*table of people born today*@
+                    <span class=" home-text-head">Born this day</span> @*Born this day section*@
+
+                    <table class="home-table">
+                        @*table of people born today section*@
                           <tr>
                             <td><img class="home-born-img" src="~/baseimg/CliveGoodyear.jpg" /></td>
                             <td> 1961 - Clive Goodyear - 125 games, 7 goals between 1984 and 1987.
@@ -169,11 +179,12 @@
             </div>
         </div>
     </div>
+    @*bottom right sidebar*@
     <div class="home-side-bar-right">
         <div class="home-here-and-now">
             <span class="home-text">Here and now</span>
             <ul class="other-sites-list">
-
+                @*Here and now*@
                 <li><a href="">Daily Diary & OTD</a></li>
                 <li><a href="">Current Squad</a></li>
                 <li><a href="">The Latest Match: English Football League One #27 Ipswich Town  1 Argyle 1</a></li>
@@ -182,6 +193,7 @@
                 <li><a href="">Progress Graphs</a></li>
             </ul>
         </div>
+            @*Then and now*@
         <div class="home-then-and-now">
                 <span class="home-text"> Then and now </span>
                 <ul class="other-sites-list">
