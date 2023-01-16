@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 43fafdfbd8162f61c1b4d2514abe025d7012c24f
+body {
+    overflow: auto;
+}
 .home-container {
     width: 100%;
     display: flex;
@@ -66,7 +65,8 @@
 }
 
 .home-text {
-    color: white;
+    background-color: white;
+    color: #000000;
     font-size: 0.75rem;
     box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
     text-align: center;
@@ -117,6 +117,7 @@
     padding: var(--dl-space-space-twounits);
     flex-direction: column;
     justify-content: space-between;
+    overflow:auto;
 }
 
 .history_button{
@@ -131,6 +132,7 @@
     border-width: 2px;
     flex-direction: row;
     justify-content: flex-start;
+    overflow: auto;
 }
 
 .home-side-bar-left {
@@ -138,6 +140,7 @@
     height: 100%;
     display: flex;
     border-width: 2px;
+    overflow: auto;
 }
 
 .home-other-sites {
@@ -148,7 +151,8 @@
     border-width: 1px;
     flex-direction: column;
     justify-content: space-between;
-    vertical-align:top;
+    vertical-align: top;
+    overflow: auto;
 }
 
 .home-whats-new {
@@ -168,6 +172,7 @@
     border-width: 2px;
     flex-direction: column;
     justify-content: space-between;
+    overflow: auto;
 }
 
 .home-middle-boxes-top {
@@ -175,6 +180,7 @@
     height: 50%;
     display: flex;
     border-width: 2px;
+    overflow: auto;
 }
 
 .home-on-this-day {
@@ -184,6 +190,7 @@
     padding: var(--dl-space-space-twounits);
     flex-direction: column;
     justify-content: space-between;
+    overflow: auto;
 }
 
 .home-yesterday {
@@ -237,7 +244,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
-<<<<<<< HEAD
+
 .home-text-head {
     background-color: #004f3e;
     color: white;
