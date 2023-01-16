@@ -295,7 +295,7 @@ html::-webkit-scrollbar {
     padding: 1%;
     box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
     border-radius: var(--dl-radius-radius-radius4);
-    margin-bottom: 2vh;
+    margin-bottom: 0.5vh;
 }
 .other-sites-list li a:hover {
     text-decoration: none;
