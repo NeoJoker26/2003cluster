@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 43fafdfbd8162f61c1b4d2514abe025d7012c24f
 .home-container {
     width: 100%;
     display: flex;
@@ -274,7 +270,6 @@
 }
 =======
 
->>>>>>> 43fafdfbd8162f61c1b4d2514abe025d7012c24f
 @media(max-width: 767px) {
     .home-social-bar {
         padding-left: var(--dl-space-space-twounits);
@@ -339,4 +334,15 @@
 span{
     background-color:#004f3e;
     color:white;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color: #004f3e;
+    width: 20%;
+    line-height: 120%;
+    color: white;
+    padding: 1%;
 }

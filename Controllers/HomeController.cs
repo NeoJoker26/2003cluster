@@ -28,6 +28,11 @@ namespace GoS.Controllers
             return View("History");
         }
 
+        public IActionResult DailyDiary()
+        {
+            return View("DailyDiary");
+        }
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
