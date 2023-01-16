@@ -1,4 +1,6 @@
-
+body{
+    overflow: auto;
+}
 .home-container {
     width: 100%;
     display: flex;
@@ -75,7 +77,7 @@
     margin-bottom: var(--dl-space-space-twounits);
     letter-spacing: 2px;
     text-transform: uppercase;
-    padding:1%;
+    padding: 1%;
 }
 
 .home-text-head {
@@ -271,7 +273,6 @@
 
 
 .other-sites-list li {
-    
     float: left;
     list-style: none;
     text-align: center;
@@ -281,6 +282,7 @@
     line-height: 120%;
     color: white;
     padding: 1%;
+
 }
 .other-sites-list li a:hover {
     text-decoration: none;
