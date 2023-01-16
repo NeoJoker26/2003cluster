@@ -286,12 +286,14 @@ body {
     line-height: 120%;
     color: white;
     padding: 1%;
-
+    box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+    border-radius: var(--dl-radius-radius-radius4);
+    margin-bottom: 2vh;
 }
 .other-sites-list li a:hover {
     text-decoration: none;
     color: white;
-    background-color: #2a5045;
+    background-color: #004f3e;
 }
 
 @media(max-width: 767px) {
