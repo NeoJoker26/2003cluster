@@ -1,5 +1,9 @@
-body{
-    overflow: auto;
+html {
+    overflow-y: scroll;
+}
+
+body {
+    position: absolute;
 }
 .home-container {
     width: 100%;
