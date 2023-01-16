@@ -1,11 +1,11 @@
 html {
     line-height: 1.15;
-    overflow:auto;
+    overflow-y:auto;
 }
 
 body {
     margin: 0;
-
+    overflow-y: auto;
 }
 
 * {
