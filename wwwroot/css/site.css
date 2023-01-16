@@ -1,9 +1,11 @@
 html {
     line-height: 1.15;
+    overflow:hidden auto;
 }
 
 body {
     margin: 0;
+
 }
 
 * {
