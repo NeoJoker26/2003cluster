@@ -1,9 +1,16 @@
 html {
-    overflow-y: scroll;
+    overflow-y: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
 
 body {
-    position: absolute;
+    
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+
 }
 .home-container {
     width: 100%;

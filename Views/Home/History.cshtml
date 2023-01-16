@@ -3,9 +3,16 @@
 }
 
 <ul class="navbar">
-    <li><a>How it all began</a></li>
-    <li><a>History menu</a></li>
-    <li><a>Argyle FC facts</a></li>
+    <li><a asp-controller="History" asp-action="HowItAllBegan">How it all began</a></li>
+    <li><a asp-controller="History" asp-action="HistoryMenu">History menu</a></li>
+    <li><a asp-controller="History" asp-action="ArgyleFCFacts">Argyle FC facts</a></li>
     <li><a>Green Jersey Journey PDF</a></li>
-    <li><a>Show chapters</a></li>
+    <li><a asp-controller="History" asp-action="ShowChapters">Show chapters</a></li>
 </ul>
+
+
+
+
+
+
+
