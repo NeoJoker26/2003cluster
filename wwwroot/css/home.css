@@ -148,8 +148,14 @@ html::-webkit-scrollbar {
     overflow:auto;
 }
 
-.history_button{
-    text-align:center;
+.history_button {
+    text-align: center;
+    box-shadow: rgb(212, 212, 212) 5px 5px 10px 0px;
+    border-radius: var(--dl-radius-radius-radius2);
+    margin-bottom: 0.5vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .home-middle-content {
@@ -227,7 +233,7 @@ html::-webkit-scrollbar {
     width: 50%;
     height: 100%;
     display: flex;
-    padding: var(--dl-space-space-twounits);
+    padding: 1%;
     flex-direction: column;
     justify-content: space-between;
     
@@ -236,7 +242,7 @@ html::-webkit-scrollbar {
     width: 50%;
     height: 100%;
     display: flex;
-    padding: var(--dl-space-space-twounits);
+    padding: 1%;
     flex-direction: column;
     justify-content: space-between;
     
