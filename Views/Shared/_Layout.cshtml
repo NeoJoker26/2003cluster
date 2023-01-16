@@ -30,9 +30,9 @@
 
 </head>
 <body>
-
+    @*JS Modals - Popup data*@
     <div id="about_modal" class="aboutmodal">
-        <div class="about_content">
+        <div class="about_content"> @*About Modal*@
             <span class="about_close">&times;</span>
             <p>
                 Greens on Screen’s first page was published in January 1999. Its early purpose was to bring Plymouth Argyle a little closer to those unable to see their team, and whilst it has changed a great deal over the years, its core themes - sites and sounds for Westcountry exiles - still stand. The site was very lucky to take on the content of Trevor Scallan’s Semper Viridis in the summer of 2007, and in 2009 launched GoS-DB, a wealth of facts and figures from PAFC’s history.<br> A year later we embarked on a complete history of Argyle, with much-valued contributions from chapter authors.
@@ -43,7 +43,7 @@
         </div>
     </div>
 
-    <div id="contact_modal" class="contactmodal">
+    <div id="contact_modal" class="contactmodal"> @*Contact Modal*@
         <div class="contact_content">
             <span class="contact_close">&times;</span>
             <p>
@@ -58,17 +58,17 @@
 
             <div class="home-top-container"> @* Banner Container *@
 
-                <div class="home-social-bar">              
+                <div class="home-social-bar">    @*Social media/Home section*@          
                     <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/baseimg/GoS-home.png" width="65" height="65" /></a>             
                     <a asp-area="" asp-controller="Home" asp-action="Facebook"><img src="~/baseimg/GoS-facebook.png" width="65"height="65" /></a>
                 </div>
-                <div class="home-banner">
+                <div class="home-banner"> @* Banner Image*@
                     <img alt="image"
                          src="~/baseimg/goshead.jpg"
                          loading="eager"
                          class="home-image" />
                 </div>
-                <div class="home-about">
+                <div class="home-about"> @*About/Contact Buttons*@
                     <Button id="aboutBtn">About GoS</Button>
                     <Button id="contactBtn">Contact Us</Button>
                 </div>

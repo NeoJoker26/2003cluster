@@ -302,7 +302,15 @@ html::-webkit-scrollbar {
     color: white;
     background-color: #004f3e;
 }
-
+.home-born-img{
+    float:left;
+    width:7vw;
+    padding:0%;
+}
+.home-table td{
+    padding: 0%;
+    border: 1px solid black;
+}
 @media(max-width: 767px) {
     .home-social-bar {
         padding-left: var(--dl-space-space-twounits);
