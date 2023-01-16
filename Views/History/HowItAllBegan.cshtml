@@ -1,6 +1,11 @@
 ﻿@{
     ViewData["Title"] = "How It All Began";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>How It All Began PAGE WILL GO HERE</p>
+<ul class="navbar">
+    <li><a asp-controller="History" asp-action="HowItAllBegan">How it all began</a></li>
+    <li><a asp-controller="History" asp-action="HistoryMenu">History menu</a></li>
+    <li><a asp-controller="History" asp-action="ArgyleFCFacts">Argyle FC facts</a></li>
+    <li><a asp-controller="History" asp-action="ShowChapters">Show chapters</a></li>
+    <li><a href="\Content\argylehistory_shirt.pdf">Green Jersey Journey PDF</a></li>
+</ul>

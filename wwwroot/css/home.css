@@ -377,3 +377,12 @@ span{
     color: white;
     padding: 1%;
 }
+
+.bulktext {
+    margin-left: 0;
+    line-height: 200%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
