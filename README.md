@@ -7,11 +7,15 @@
 - Jacob Brimacombe – Scrum Master
 - Kieran Kirkwood – Technical Lead
 
+## Youtube Unlisted Prototype Demo
+https://www.youtube.com/watch?v=fKqCof2MsyU
 
 
 ## How to use this github repo setup!
 
-Firstly, no one should be pushing to the main branch what-so-ever. The technical lead will merge branches when it is safe to do so, or when milestones are completed.
+Firstly, ~~no one should be pushing to the main branch what-so-ever~~. 
+This method of pushing was a nightmare to teach, and often caused more problems than necessary.
+The technical lead will merge branches when it is safe to do so, or when milestones are completed.
 
 Depending on the work being handled you will be pushing to Features, Bugs or Staging. The main branch reflects a state with the latest delivered development changes for the next release/stable version.
 
