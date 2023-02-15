@@ -44,7 +44,7 @@ $ git push origin staging
 
 This also reflects the same stages for the other supporting branches, which include hot-fixes and a bug branch.
   
- ##UPDATED
+ ## Update
   
   Right click the folder you want to have the branch located
   Click the Git Bash option then follow these commands!
