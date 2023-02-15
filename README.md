@@ -49,9 +49,11 @@ This also reflects the same stages for the other supporting branches, which incl
   Right click the folder you want to have the branch located
   Click the Git Bash option then follow these commands!
   
-  git init
-  git remote add origin https://github.com/Plymouth-University/comp2003_2022-team-p.git
-  git checkout POC
+  $ git init
+  
+  $ git remote add origin https://github.com/Plymouth-University/comp2003_2022-team-p.git
+  
+  $ git checkout POC
   
   SEND ME A MESSAGE IF THIS DOES NOT WORK
   
