@@ -14,7 +14,7 @@ the Gosdb-misc6 page cotains a example of a button working with the backend to d
 2.How to I know the correct parameter to change and which option is avaliable?
 
 
-Request.Query[<nameofparameter>] to check with parameter is going to be readed by the back-end, and to see what option of paramenter work just see the switch statements
+Request.Query[<nameofparameter>] to check which parameter is going to be readed by the back-end, and to see what option of paramenter work just see the switch statements
   
 3. can you  put a comment saying which paramenter option exist and is going to read?
   No, except for misc6 
