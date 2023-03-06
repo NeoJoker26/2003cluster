@@ -1,0 +1,1973 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\css\\GoS.css",
+      "PackagePath": "staticwebassets\\css\\GoS.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\css\\gos2.css",
+      "PackagePath": "staticwebassets\\css\\gos2.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\css\\highslide.css",
+      "PackagePath": "staticwebassets\\css\\highslide.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1898-99-colour-washed.jpg",
+      "PackagePath": "staticwebassets\\images\\1898-99-colour-washed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1898-99.jpg",
+      "PackagePath": "staticwebassets\\images\\1898-99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1899-00.jpg",
+      "PackagePath": "staticwebassets\\images\\1899-00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1900-01.jpg",
+      "PackagePath": "staticwebassets\\images\\1900-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1902-03.jpg",
+      "PackagePath": "staticwebassets\\images\\1902-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1903-04.jpg",
+      "PackagePath": "staticwebassets\\images\\1903-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1904-05.jpg",
+      "PackagePath": "staticwebassets\\images\\1904-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1905-06.jpg",
+      "PackagePath": "staticwebassets\\images\\1905-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1906-07.jpg",
+      "PackagePath": "staticwebassets\\images\\1906-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1907-08a.jpg",
+      "PackagePath": "staticwebassets\\images\\1907-08a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1907-08b.jpg",
+      "PackagePath": "staticwebassets\\images\\1907-08b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1908-09.jpg",
+      "PackagePath": "staticwebassets\\images\\1908-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1909-10.jpg",
+      "PackagePath": "staticwebassets\\images\\1909-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1910-11.jpg",
+      "PackagePath": "staticwebassets\\images\\1910-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1911-12.jpg",
+      "PackagePath": "staticwebassets\\images\\1911-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1912-13.jpg",
+      "PackagePath": "staticwebassets\\images\\1912-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1912-13a.jpg",
+      "PackagePath": "staticwebassets\\images\\1912-13a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1912-13b.jpg",
+      "PackagePath": "staticwebassets\\images\\1912-13b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1913-14.jpg",
+      "PackagePath": "staticwebassets\\images\\1913-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1914-15.jpg",
+      "PackagePath": "staticwebassets\\images\\1914-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1919-20.jpg",
+      "PackagePath": "staticwebassets\\images\\1919-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1920-21.jpg",
+      "PackagePath": "staticwebassets\\images\\1920-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1921-22.jpg",
+      "PackagePath": "staticwebassets\\images\\1921-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1922-23.jpg",
+      "PackagePath": "staticwebassets\\images\\1922-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1923-24.jpg",
+      "PackagePath": "staticwebassets\\images\\1923-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1924-25.jpg",
+      "PackagePath": "staticwebassets\\images\\1924-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1925-26.jpg",
+      "PackagePath": "staticwebassets\\images\\1925-26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1925-26a.jpg",
+      "PackagePath": "staticwebassets\\images\\1925-26a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1926-27.jpg",
+      "PackagePath": "staticwebassets\\images\\1926-27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1927-28.jpg",
+      "PackagePath": "staticwebassets\\images\\1927-28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1928-29.jpg",
+      "PackagePath": "staticwebassets\\images\\1928-29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1928-29a.jpg",
+      "PackagePath": "staticwebassets\\images\\1928-29a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1966-67.jpg",
+      "PackagePath": "staticwebassets\\images\\1966-67.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1966-67a.jpg",
+      "PackagePath": "staticwebassets\\images\\1966-67a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2000-2001.jpg",
+      "PackagePath": "staticwebassets\\images\\2000-2001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2001-2002.jpg",
+      "PackagePath": "staticwebassets\\images\\2001-2002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2002-2003.jpg",
+      "PackagePath": "staticwebassets\\images\\2002-2003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2003-2004.jpg",
+      "PackagePath": "staticwebassets\\images\\2003-2004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2004-2005.jpg",
+      "PackagePath": "staticwebassets\\images\\2004-2005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2005-2006.jpg",
+      "PackagePath": "staticwebassets\\images\\2005-2006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2006-2007.jpg",
+      "PackagePath": "staticwebassets\\images\\2006-2007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2007-2008.jpg",
+      "PackagePath": "staticwebassets\\images\\2007-2008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2008-2009.jpg",
+      "PackagePath": "staticwebassets\\images\\2008-2009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2009-2010.jpg",
+      "PackagePath": "staticwebassets\\images\\2009-2010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2010-2011.jpg",
+      "PackagePath": "staticwebassets\\images\\2010-2011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2011-2012.jpg",
+      "PackagePath": "staticwebassets\\images\\2011-2012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2012-2013.jpg",
+      "PackagePath": "staticwebassets\\images\\2012-2013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2013-2014.jpg",
+      "PackagePath": "staticwebassets\\images\\2013-2014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2014-2015.jpg",
+      "PackagePath": "staticwebassets\\images\\2014-2015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2015-2016.jpg",
+      "PackagePath": "staticwebassets\\images\\2015-2016.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2016-2017.jpg",
+      "PackagePath": "staticwebassets\\images\\2016-2017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2017-2018.jpg",
+      "PackagePath": "staticwebassets\\images\\2017-2018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2018-2019.jpg",
+      "PackagePath": "staticwebassets\\images\\2018-2019.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2019-2020.JPG",
+      "PackagePath": "staticwebassets\\images\\2019-2020.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2020-2021.jpg",
+      "PackagePath": "staticwebassets\\images\\2020-2021.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2021-2022.jpg",
+      "PackagePath": "staticwebassets\\images\\2021-2022.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\2022-2023.jpg",
+      "PackagePath": "staticwebassets\\images\\2022-2023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\arrow-left.gif",
+      "PackagePath": "staticwebassets\\images\\arrow-left.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\arrow-right.gif",
+      "PackagePath": "staticwebassets\\images\\arrow-right.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\blackpixel.gif",
+      "PackagePath": "staticwebassets\\images\\blackpixel.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\blue2_1x1.gif",
+      "PackagePath": "staticwebassets\\images\\blue2_1x1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\bothsquare1.gif",
+      "PackagePath": "staticwebassets\\images\\bothsquare1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\camera16.png",
+      "PackagePath": "staticwebassets\\images\\camera16.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\christmastree.gif",
+      "PackagePath": "staticwebassets\\images\\christmastree.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\close.gif",
+      "PackagePath": "staticwebassets\\images\\close.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\close.png",
+      "PackagePath": "staticwebassets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\close2.png",
+      "PackagePath": "staticwebassets\\images\\close2.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\darkgrey_1x1.gif",
+      "PackagePath": "staticwebassets\\images\\darkgrey_1x1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\dummbar_0.gif",
+      "PackagePath": "staticwebassets\\images\\dummbar_0.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\dummy.gif",
+      "PackagePath": "staticwebassets\\images\\dummy.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\facebook_icon.png",
+      "PackagePath": "staticwebassets\\images\\facebook_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\formaway.gif",
+      "PackagePath": "staticwebassets\\images\\formaway.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\formhome.gif",
+      "PackagePath": "staticwebassets\\images\\formhome.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-about1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-about1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1121.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1121.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1121_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1121_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1121_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1121_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1121_3.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1121_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1160.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1160.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1160_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1160_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1160_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1160_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1160_3.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1160_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1160_4.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1160_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1160_5.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1160_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1160_6.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1160_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1172.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1172.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1172_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1172_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1172_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1172_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1172_3.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1172_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1172_4.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1172_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1175.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1175.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1175_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1175_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1175_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1175_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1175_3.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1175_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1175_4.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1175_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1175_5.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1175_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1187.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1187.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1187_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1187_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1187_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1187_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1187_3.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1187_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1187_4.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1187_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1187_5.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1187_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1188.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1188.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1188_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1188_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1188_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1188_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1188_3.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1188_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1194.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1194.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1194_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1194_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1194_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1194_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1194_3.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1194_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1195.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1195.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1195_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1195_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1195_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1195_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1195_3.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1195_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1209.JPG",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1209.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1209_1.JPG",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1209_1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1209_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1209_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1209_3.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1209_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1209_4.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1209_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1222.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1222.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1222_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1222_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1222_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1222_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1227.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1227.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1227_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1227_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1227_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1227_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1230.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1230.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1230_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1230_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1230_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1230_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1232.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1232.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1232_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1232_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1232_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1232_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1233.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1233.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1233_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1233_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1234.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1234.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1234_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1234_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1235.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1235.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1235_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1235_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1236.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1236.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1236_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1236_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1238.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1238.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1238_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1238_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1238_2.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1238_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1242.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1242.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1243.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1243.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1244.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1244.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1245.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1245.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1245_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1245_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1248.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1248.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1263.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1263.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1263_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1263_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1264.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1264.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1265.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1265.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1266.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1266.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1266_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1266_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1267.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1267.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1267_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1267_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1269.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1269.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1270.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1270.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1271.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1271.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1272.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1272.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1273.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1273.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1273_1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1273_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1274.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1274.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1276.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1276.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\1277.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\1277.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-photos-players\\nophoto.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-photos-players\\nophoto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-small.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\goshead2.jpg",
+      "PackagePath": "staticwebassets\\images\\goshead2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\green1.gif",
+      "PackagePath": "staticwebassets\\images\\green1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\green_1x1.gif",
+      "PackagePath": "staticwebassets\\images\\green_1x1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\greenpixel.gif",
+      "PackagePath": "staticwebassets\\images\\greenpixel.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\greypixel.gif",
+      "PackagePath": "staticwebassets\\images\\greypixel.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gridaxis2.gif",
+      "PackagePath": "staticwebassets\\images\\gridaxis2.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\help.gif",
+      "PackagePath": "staticwebassets\\images\\help.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\history-small.jpg",
+      "PackagePath": "staticwebassets\\images\\history-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\hpentrance.jpg",
+      "PackagePath": "staticwebassets\\images\\hpentrance.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image282.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image282.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image283.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image283.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image284.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image284.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image285.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image285.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image286.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image286.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image287.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image287.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image288.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image288.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image289.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image289.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image290.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image290.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image291.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image291.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image292.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image292.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image293.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image293.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image294.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image294.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image295.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image295.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image296.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image296.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image297.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image297.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image298.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image298.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image299.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image299.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image301.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image301.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image302.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image302.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image303.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image303.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image315.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image315.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image316.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image316.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image317.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image317.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image318.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image318.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image319.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image319.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image320.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image320.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image321.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image321.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\Image322.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\Image322.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image200.png",
+      "PackagePath": "staticwebassets\\images\\images-history\\image200.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image200hold.png",
+      "PackagePath": "staticwebassets\\images\\images-history\\image200hold.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image201.png",
+      "PackagePath": "staticwebassets\\images\\images-history\\image201.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image201hold.png",
+      "PackagePath": "staticwebassets\\images\\images-history\\image201hold.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image202.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image202.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image203.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image203.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image204.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image204.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image205.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image205.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image206.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image206.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image207.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image207.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image208.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image208.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image209.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image209.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image210.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image210.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image211.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image211.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image212.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image212.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image213.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image213.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image214.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image214.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image215.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image215.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image216.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image216.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image217.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image217.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image218.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image218.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image219.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image219.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image220.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image221.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image221.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image222.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image222.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image223.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image223.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image224.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image224.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image225.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image225.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image226.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image226.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image227.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image227.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image228.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image228.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image229.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image229.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image230.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image230.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image231.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image231.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image232.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image232.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image233.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image233.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image234.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image234.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image235.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image235.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image236.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image236.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image237.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image237.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image238.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image238.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image239.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image239.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image240.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image240.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image241.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image241.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image242.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image242.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image243.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image243.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image244.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image244.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image245.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image245.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image246.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image246.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image247.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image247.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image248.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image248.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image249.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image249.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image250.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image250.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image251.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image251.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image251_1.jpg.xmp",
+      "PackagePath": "staticwebassets\\images\\images-history\\image251_1.jpg.xmp"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image252.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image252.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image252.jpg.xmp",
+      "PackagePath": "staticwebassets\\images\\images-history\\image252.jpg.xmp"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image253.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image253.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image254.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image254.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image255.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image255.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image256.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image256.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image257.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image257.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image258.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image258.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image259.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image259.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image260.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image260.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image261.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image261.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image262.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image262.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image263.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image263.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image264.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image264.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image265.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image265.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image266.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image266.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image267.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image267.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image268.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image268.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image269.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image269.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image270.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image270.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image271.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image271.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image272.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image272.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image273.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image273.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image274.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image274.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image280.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image280.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image281.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image281.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image304.png",
+      "PackagePath": "staticwebassets\\images\\images-history\\image304.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image305.png",
+      "PackagePath": "staticwebassets\\images\\images-history\\image305.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image306.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image306.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image307.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image307.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image308.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image308.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image309.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image309.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image310.png",
+      "PackagePath": "staticwebassets\\images\\images-history\\image310.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image311.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image311.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image312.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image312.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image313.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image313.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image314.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image314.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image323.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image323.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image324.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image324.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image325.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image325.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image326.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image326.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image327.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image327.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image328.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image328.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image329.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image329.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image330.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image330.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image331.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image331.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image332.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image332.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image333.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image333.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image334.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image334.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image335.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image335.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image336.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image336.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image337.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image337.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image338.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image338.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image339.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image339.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image340.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image340.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image341.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image341.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image342.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image342.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image343.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image343.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image344.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image344.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image345.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image345.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image346.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image346.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image347.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image347.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image348.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image348.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image349.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image349.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image350.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image350.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image351.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image351.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image352.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image352.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image353.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image353.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image354.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image354.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image355.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image355.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image356.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image356.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image357.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image357.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image358.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image358.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image359.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image359.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image360.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image360.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image361.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image361.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image362.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image362.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image363.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image363.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image364.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image364.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image365.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image365.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image366.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image366.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image367.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image367.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image368.png",
+      "PackagePath": "staticwebassets\\images\\images-history\\image368.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image369.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image369.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image370.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image370.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image371.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image371.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image372.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image372.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image373.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image373.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image374.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image374.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image375.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image375.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image376.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image376.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image377.png",
+      "PackagePath": "staticwebassets\\images\\images-history\\image377.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image378.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image378.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image379.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image379.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image380.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image380.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image381.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image381.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image382.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image382.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image383.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image383.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image384.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image384.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image385.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image385.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image385full.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image385full.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image386.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image386.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image387.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image387.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image388.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image388.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image389.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image389.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image390.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image390.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image391.png",
+      "PackagePath": "staticwebassets\\images\\images-history\\image391.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image392.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image392.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image393.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image393.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image394.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image394.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image395.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image395.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image396.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image396.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image397.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image397.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image398.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image398.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image399.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image399.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image400.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image400.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image401.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image401.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image402.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image402.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image403.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image403.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image404.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image404.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image405.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image405.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image406.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image406.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image407.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image407.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\images-history\\image408.jpg",
+      "PackagePath": "staticwebassets\\images\\images-history\\image408.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\lastsquare1.gif",
+      "PackagePath": "staticwebassets\\images\\lastsquare1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\lightgreenpixel.gif",
+      "PackagePath": "staticwebassets\\images\\lightgreenpixel.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\link5.gif",
+      "PackagePath": "staticwebassets\\images\\link5.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\mic16.png",
+      "PackagePath": "staticwebassets\\images\\mic16.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\more.png",
+      "PackagePath": "staticwebassets\\images\\more.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\nophoto.jpg",
+      "PackagePath": "staticwebassets\\images\\nophoto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\nullsquare1.gif",
+      "PackagePath": "staticwebassets\\images\\nullsquare1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\pointdumm1.gif",
+      "PackagePath": "staticwebassets\\images\\pointdumm1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\pointthis2.gif",
+      "PackagePath": "staticwebassets\\images\\pointthis2.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\predict1.gif",
+      "PackagePath": "staticwebassets\\images\\predict1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\predict2.gif",
+      "PackagePath": "staticwebassets\\images\\predict2.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\promote.gif",
+      "PackagePath": "staticwebassets\\images\\promote.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\redcard.gif",
+      "PackagePath": "staticwebassets\\images\\redcard.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\relegate.gif",
+      "PackagePath": "staticwebassets\\images\\relegate.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\sort.gif",
+      "PackagePath": "staticwebassets\\images\\sort.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot.gif",
+      "PackagePath": "staticwebassets\\images\\spot.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_1.gif",
+      "PackagePath": "staticwebassets\\images\\spot_1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_1_r.gif",
+      "PackagePath": "staticwebassets\\images\\spot_1_r.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_1_y.gif",
+      "PackagePath": "staticwebassets\\images\\spot_1_y.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_2.gif",
+      "PackagePath": "staticwebassets\\images\\spot_2.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_2_r.gif",
+      "PackagePath": "staticwebassets\\images\\spot_2_r.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_2_y.gif",
+      "PackagePath": "staticwebassets\\images\\spot_2_y.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_3.gif",
+      "PackagePath": "staticwebassets\\images\\spot_3.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_3_r.gif",
+      "PackagePath": "staticwebassets\\images\\spot_3_r.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_3_y.gif",
+      "PackagePath": "staticwebassets\\images\\spot_3_y.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_4.gif",
+      "PackagePath": "staticwebassets\\images\\spot_4.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_4_r.gif",
+      "PackagePath": "staticwebassets\\images\\spot_4_r.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_4_y.gif",
+      "PackagePath": "staticwebassets\\images\\spot_4_y.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_5.gif",
+      "PackagePath": "staticwebassets\\images\\spot_5.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_r.gif",
+      "PackagePath": "staticwebassets\\images\\spot_r.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_y.gif",
+      "PackagePath": "staticwebassets\\images\\spot_y.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spot_y1.gif",
+      "PackagePath": "staticwebassets\\images\\spot_y1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotblank.gif",
+      "PackagePath": "staticwebassets\\images\\spotblank.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub_1.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub_1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub_1_r.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub_1_r.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub_1_y.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub_1_y.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub_2.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub_2.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub_2_r.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub_2_r.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub_2_y.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub_2_y.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub_3.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub_3.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub_3_r.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub_3_r.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub_3_y.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub_3_y.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub_r.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub_r.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\spotsub_y.gif",
+      "PackagePath": "staticwebassets\\images\\spotsub_y.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\sv-achievements1.jpg",
+      "PackagePath": "staticwebassets\\images\\sv-achievements1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\sv-achievements2.jpg",
+      "PackagePath": "staticwebassets\\images\\sv-achievements2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\thissquare1.gif",
+      "PackagePath": "staticwebassets\\images\\thissquare1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\transparentdot.gif",
+      "PackagePath": "staticwebassets\\images\\transparentdot.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\video16.png",
+      "PackagePath": "staticwebassets\\images\\video16.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\video7x12.gif",
+      "PackagePath": "staticwebassets\\images\\video7x12.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\yellow_1x1.gif",
+      "PackagePath": "staticwebassets\\images\\yellow_1x1.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\yellowcard.gif",
+      "PackagePath": "staticwebassets\\images\\yellowcard.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\yelredcard.gif",
+      "PackagePath": "staticwebassets\\images\\yelredcard.gif"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\text\\argylehistory1903-1910.txt",
+      "PackagePath": "staticwebassets\\text\\argylehistory1903-1910.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\text\\argylehistory1910-1920.txt",
+      "PackagePath": "staticwebassets\\text\\argylehistory1910-1920.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\text\\argylehistory1920-1930.txt",
+      "PackagePath": "staticwebassets\\text\\argylehistory1920-1930.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\text\\argylehistory1930-1934.txt",
+      "PackagePath": "staticwebassets\\text\\argylehistory1930-1934.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\text\\argylehistory1934-1939.txt",
+      "PackagePath": "staticwebassets\\text\\argylehistory1934-1939.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\text\\argylehistory1939-1945.txt",
+      "PackagePath": "staticwebassets\\text\\argylehistory1939-1945.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\text\\argylehistory1945-1950.txt",
+      "PackagePath": "staticwebassets\\text\\argylehistory1945-1950.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\text\\argylehistory1950-1953.txt",
+      "PackagePath": "staticwebassets\\text\\argylehistory1950-1953.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\text\\argylehistory1953-1957.txt",
+      "PackagePath": "staticwebassets\\text\\argylehistory1953-1957.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.GoSWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.GoSWeb.props",
+      "PackagePath": "build\\GoSWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.GoSWeb.props",
+      "PackagePath": "buildMultiTargeting\\GoSWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.GoSWeb.props",
+      "PackagePath": "buildTransitive\\GoSWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,54 @@
+﻿@page
+@model GoSWeb.Pages.squadModel
+@{
+}
+
+<table id="table1" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin-top:12px;">
+    <thead>
+        <tr>
+            <th>
+                <b>No</b>
+            </th>
+            <th>
+                <b>Name</b>
+            </th>
+            <th>
+                <b>Position</b>
+            </th>
+            <th>
+                <b>Born on</b>
+            </th>
+            <th>
+                <b>Born in</b>
+            </th>
+            <th>
+                <b>Came From</b>
+            </th>
+            <th>
+                <b>Signed</b>
+            </th>
+            <th>
+                <b>Starts</b>
+                <b>(subs)</b>
+            </th>
+            <th>
+                <b>Goals</b>              
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Match in Model.PlayerTable)
+        {
+        <tr>
+            <td>@Match.squad_no</td>
+            <td>@Match.name</td>
+            <td>@Match.sortposition</td>
+            <td>@Match.dob</td>
+            <td>@Match.pob</td>
+            <td>@Match.came_from</td>
+            <td>@Match.signed_this_spell</td>
+            <td>@Match.starts</td>
+            <td>@Match.goal</td>
+        </tr>
+        }
+  

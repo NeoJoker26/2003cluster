@@ -1,0 +1,79 @@
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\GoSWeb.exe
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\css\gos2.css
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\css\highslide.css
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\css\site.css
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette.html
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\28549.png
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\aaw.clhx2.js.download
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\analytics.js.download
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\facebook.png
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\instagram.png
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\jquery.min.js.download
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\logo.png
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\otBannerSdk.js.download
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\otSDKStub.js.download
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\otTCF.js.download
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\saved_resource(1).html
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\saved_resource.html
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\spectrum.min.js.download
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\style.css
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\Discord Color Palette_files\twitter.png
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\favicon.ico
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\gosdb-about1.jpg
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\sv-achievements1.jpg
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\images\sv-achievements2.jpg
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\js\site.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\bootstrap\LICENSE
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\GoSWeb.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\GoSWeb.deps.json
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\GoSWeb.runtimeconfig.json
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\GoSWeb.pdb
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\EntityFramework.SqlServer.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\EntityFramework.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\System.CodeDom.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\System.Data.SqlClient.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\GoSWeb.Views.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Release\net5.0\PubTmp\Out\GoSWeb.Views.pdb
