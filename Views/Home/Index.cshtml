@@ -12,10 +12,32 @@
         <span class="home-text">Last three motd</span>
     </div>
         @*History box*@
-    <div class="home-history"><span class="home-text">History</span>
+    <div class="home-history">
         <img class="small_history" src="~/baseimg/history-small.png">
         <span class="home-text">The History of Argyle is an original, comprehensive and thoroughly researched account of Plymouth Argyle - formerly Argyle FC - from its earliest roots in 1886 to, so far, 1957</span>
-        <a class="history_button" asp-area="" asp-controller="Home" asp-action="History">More history here!</a>
+            <div class="row">
+                <div class="column">
+                    <table class="home-history-table" style="display: inline-block;">
+                        @*table of people born today section*@
+                        <tr>
+                            <td>
+                                <li class=" history-table-btn"><a asp-controller="History" asp-action="HowItAllBegan">How it all began</a></li>
+                                <li class=" history-table-btn"><a asp-controller="History" asp-action="ArgyleFCFacts">Argyle FC facts</a></li>
+                                <li class=" history-table-btn"><a asp-controller="History" asp-action="ShowChapters">Show chapters</a></li>
+                                <li class=" history-table-btn"><a asp-controller="History" asp-action="HistoryMenu">History menu</a></li>
+                                <li class=" history-table-btn"><a href="\Content\argylehistory_shirt.pdf">Green Jersey Journey PDF</a></li>
+
+                                
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+
+            </div>
+      
     </div>
 </div>
     @*Lower half of the page*@

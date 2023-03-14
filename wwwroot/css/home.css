@@ -145,7 +145,7 @@ html::-webkit-scrollbar {
     padding: var(--dl-space-space-twounits);
     flex-direction: column;
     justify-content: space-between;
-    overflow:auto;
+    overflow:hidden;
 }
 
 .history_button {
@@ -248,15 +248,36 @@ html::-webkit-scrollbar {
     justify-content: space-between;
     
 }
-
+.home-history-table {
+    column-count: 3;
+    position: center;
+    overflow: hidden
+}
 .home-side-bar-right {
     width: 25%;
     height: 100%;
     display: flex;
     border-width: 2px;
-    
+}
+.history-table-btn {
+    background-color: #004F3E;
+    color: white;
+    border-radius: 4px;
+    align-content: inherit;
+    margin-bottom: 5px;
+    width: 75%;
+    height: 150%;
+    line-height: 135%;
+    list-style: none;
+    text-align: center;
+    position: center;
+    padding: 1%;
 }
 
+.column {
+    positon: center;
+    text-align: center;
+}
 
 .home-then-and-now {
     width: 50%;
@@ -266,7 +287,6 @@ html::-webkit-scrollbar {
     border-width: 1px;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 
@@ -299,6 +319,19 @@ html::-webkit-scrollbar {
     padding: 0%;
     border: 1px solid black;
 }
+.row {
+    float: left;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+
+
+
 @media(max-width: 767px) {
     .home-social-bar {
         padding-left: var(--dl-space-space-twounits);
