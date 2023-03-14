@@ -220,33 +220,15 @@ html::-webkit-scrollbar {
 }
 
 .home-on-this-day {
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     padding: 1%;
     flex-direction: column;
     justify-content: space-between;
-    
+    position: center;
 }
 
-.home-yesterday {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    padding: 1%;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
-.home-two-days-ago {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    padding: 1%;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
 .home-middle-boxes-bottom {
     width: 100%;
     height: 50%;
@@ -358,18 +340,10 @@ html::-webkit-scrollbar {
         height: 70vh;
     }
 
-    .home-yesterday {
-        height: 70vh;
-        
-    }
-
     .home-here-and-now {
         height: 70vh;
     }
 
-    .home-yesterday1 {
-        height: 70vh;
-    }
 
     .home-then-and-now {
         height: 70vh;
