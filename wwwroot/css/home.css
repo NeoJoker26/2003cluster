@@ -249,9 +249,12 @@ html::-webkit-scrollbar {
     
 }
 .home-history-table {
-    column-count: 3;
-    position: center;
-    overflow: hidden
+    width: 50%;
+    height: 100%;
+    display: flex;
+    padding: var(--dl-space-space-twounits);
+    flex-direction: column;
+    justify-content: space-between;
 }
 .home-side-bar-right {
     width: 25%;
@@ -272,6 +275,7 @@ html::-webkit-scrollbar {
     text-align: center;
     position: center;
     padding: 1%;
+    justify-content: space-between;
 }
 
 .column {
