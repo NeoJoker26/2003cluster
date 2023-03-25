@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2023-02-27T22:49:04.7219917Z;True|2023-02-23T10:52:12.5108490+00:00;False|2023-02-23T10:51:45.9755574+00:00;True|2023-02-15T14:13:08.9210507+00:00;False|2023-02-15T14:12:37.2339373+00:00;True|2023-02-14T17:21:35.0684108+00:00;True|2023-02-09T11:10:30.1204305+00:00;True|2023-02-09T01:36:18.8143151+00:00;True|2023-02-08T23:29:17.5131866+00:00;True|2023-02-08T23:26:31.6406378+00:00;True|2023-02-08T23:23:31.7958909+00:00;True|2023-02-05T13:26:14.9691572+00:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,585 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GoSWeb
+build_property.RootNamespace = GoSWeb
+build_property.ProjectDir = C:\Users\Fireb\OneDrive\Uni Stuff\Second Year\Comp2003 - Computing Group Project\GoS Code\this one 100\2003cluster\GoS Website\GoSWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Fireb\OneDrive\Uni Stuff\Second Year\Comp2003 - Computing Group Project\GoS Code\this one 100\2003cluster\GoS Website\GoSWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/achievements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWNoaWV2ZW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItYWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-history.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItaGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-misc1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-misc10.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzEwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-misc12.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzEyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-misc2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-misc3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-misc4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-misc5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-misc6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-misc7.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-misc8.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/gosdb-misc9.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/squad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3F1YWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/sv-devonprofresults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3YtZGV2b25wcm9mcmVzdWx0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/sv-friendlies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3YtZnJpZW5kbGllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/sv-internationals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3YtaW50ZXJuYXRpb25hbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic00-01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzAwLTAxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic02-03.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzAyLTAzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic03-04.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzAzLTA0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic04-05.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzA0LTA1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic05-06.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzA1LTA2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic06-07.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzA2LTA3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic07-08.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzA3LTA4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic08-09.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzA4LTA5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic09-10.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzA5LTEwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic10-11.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzEwLTExLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic11-12.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzExLTEyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic12-13.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzEyLTEzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic13-14.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzEzLTE0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic14-15.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzE0LTE1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic1898-99.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzE4OTgtOTkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic1899-00.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzE4OTktMDAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic19-20.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzE5LTIwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic20-21.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwLTIxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2000-01.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMDAtMDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2001-02.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMDEtMDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2002-03.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMDItMDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2003-04.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMDMtMDQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2004-05.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMDQtMDUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2005-06.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMDUtMDYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2006-07.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMDYtMDcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2007-08.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMDctMDguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2008-09.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMDgtMDkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2009-10.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMDktMTAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2010-11.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMTAtMTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2011-12.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMTEtMTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2012-13.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMTItMTMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2013-14.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMTMtMTQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2014-15.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMTQtMTUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2015-16.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMTUtMTYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2016-17.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMTYtMTcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2017-18.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMTctMTguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2018-19.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMTgtMTkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2019-20.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMTktMjAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2020-21.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMjAtMjEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2021-22.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMjEtMjIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic2022-23.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIwMjItMjMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic21-22.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIxLTIyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic22-23.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIyLTIzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic23-24.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzIzLTI0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic24-25.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzI0LTI1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic25-26.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzI1LTI2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic26-27.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzI2LTI3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic27-28.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzI3LTI4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic28-29.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzI4LTI5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic29-30.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzI5LTMwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic30-31.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzMwLTMxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic31-32.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzMxLTMyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic32-33.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzMyLTMzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic33-34.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzMzLTM0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic34-35.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzM0LTM1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic35-36.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzM1LTM2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic36-37.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzM2LTM3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic37-38.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzM3LTM4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic38-39.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzM4LTM5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic39-40.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzM5LTQwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic45-46.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzQ1LTQ2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic46-47.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzQ2LTQ3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic47-48.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzQ3LTQ4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic48-49.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzQ4LTQ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic49-50.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzQ5LTUwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic50-51.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzUwLTUxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic51-52.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzUxLTUyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic52-53.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzUyLTUzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic53-54.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzUzLTU0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic54-55.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzU0LTU1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic55-56.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzU1LTU2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic56-57.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzU2LTU3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic57-58.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzU3LTU4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic58-59.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzU4LTU5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic59-60.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzU5LTYwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic60-61.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzYwLTYxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic61-62.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzYxLTYyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic62-63.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzYyLTYzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic63-64.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzYzLTY0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic64-65.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzY0LTY1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic65-66.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzY1LTY2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic66-67.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzY2LTY3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic67-68.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzY3LTY4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic68-69.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzY4LTY5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic69-70.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzY5LTcwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic70-71.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzcwLTcxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic71-72.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzcxLTcyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic72-73.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzcyLTczLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic73-74.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzczLTc0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic74-75.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzc0LTc1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic75-76.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzc1LTc2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic76-77.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzc2LTc3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic77-78.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzc3LTc4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic78-79.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzc4LTc5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic79-80.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzc5LTgwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic80-81.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzgwLTgxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic81-82.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzgxLTgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic82-83.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzgyLTgzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic83-84.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzgzLTg0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic84-85.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzg0LTg1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic85-86.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzg1LTg2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic86-87.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzg2LTg3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic87-88.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzg3LTg4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic88-89.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzg4LTg5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic89-90.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzg5LTkwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic90-91.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzkwLTkxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic91-92.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzkxLTkyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic92-93.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzkyLTkzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic93-94.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzkzLTk0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic94-95.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzk0LTk1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic95-96.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzk1LTk2LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic96-97.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzk2LTk3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic97-98.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzk3LTk4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic98-99.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzk4LTk5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampic99-2000.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzk5LTIwMDAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/teampics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/youtubeview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceW91dHViZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Fireb/OneDrive/Uni Stuff/Second Year/Comp2003 - Computing Group Project/GoS Code/this one 100/2003cluster/GoS Website/GoSWeb/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

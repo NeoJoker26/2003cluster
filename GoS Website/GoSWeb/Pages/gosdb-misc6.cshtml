@@ -1,0 +1,186 @@
+﻿@page
+@model GoSWeb.Pages.gosdb_mic6Model
+@{
+    ViewData["Title"] = "gosdb-misc6";
+}
+
+<!--This is the frontend it will contain the buttons logic and display data from the backend-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="Author" content="Trevor Scallan">    
+    <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+    <title>GoS-DB Miscellaneous Report</title>
+    <link rel="stylesheet" type="text/css" href="~/css/gos2.css">
+
+    
+</head>
+<body>
+    <style>
+        <!--
+        #table1 td {
+            border: 1px solid #c0c0c0;
+            text-align: right;
+            margin: 0;
+            white-space: nowrap;
+            padding-left: 4;
+            padding-right: 4;
+            padding-top: 1;
+            padding-bottom: 1
+        }
+        -->
+    </style>
+
+    <script>
+        function Submit() {
+
+            var comp = document.getElementById("comp").value; // league or  all
+            var points = document.getElementById("points").value; // modpoints diff
+            var length = document.getElementById("length").value; // it's a number between 2 and 30
+            var venue = document.getElementById("venue").value; // ho ha ao
+
+            switch (points) {
+                case "modpoints":
+                    points = "mp";
+                    break;
+                case "diff":
+                    points = "gd";
+                    break;
+                default:
+                    points = "mp";
+                // code block
+            }
+            switch (venue) {
+                case "ho":
+                    venue = "H";
+                    break;
+                case "ao":
+                    venue = "A";
+                    break;
+                case "ha":
+                    venue = "HA";
+                    break;
+                default:
+                    venue = "HA";
+                // code block
+            }
+            console.log(comp + " " + points + " " + length + " " + venue);
+
+            window.location.replace("gosdb-misc6?comp=" + comp + "&points=" + points + "&length=" + length + "&venue=" + venue + "");
+        }
+    </script>
+
+    <td width="460" align="center" style="text-align: center" valign="top">
+        <p style="margin-top:12; margin-bottom:0; text-align:center; font-size:18px; color:#006E32">
+            MISCELLANEOUS REPORTS
+        </p>
+
+        <p style="margin-top:6; margin-bottom:0; text-align:center; font-size:13px">
+            <b>Report 6:  Best and Worst Starts to a Season</b>
+        </p>
+
+    </td>
+
+    <td width="260" valign="top" align="justify">
+        '<span style="font-size: 10px">
+            Miscellaneous Reports' is an ever-growing collection of pages that reflect
+            broad aspects of Argyle's playing history. If you have an idea for another,
+            please get in touch.
+        </span>
+
+    </td>
+    </tr>
+
+
+    <table id="table2" border="0" cellpadding="0" cellspacing="0" width="380" style="border-collapse: collapse">
+
+        <tr><td>Choose competition:</td><td><select id="comp" name="competition" style="font-size: 10px"><option value="league" selected>League Matches</option><option value="all">All Matches</option></select></td></tr>
+        <tr><td>Based on Modern Points (3 for a win applied to every season) or Goal Difference:</td><td><select id="points" name="bycolumn" style="font-size: 10px"><option value="modpoints" selected>Modern Points</option><option value="diff">Goal Difference</option></select></td></tr>
+        <tr><td>Choose length of start (2-30 games; defaults to latest game if between 2 and 30):</td><td><select id="length" name="games" style="font-size: 10px"><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28" selected>28</option><option value="29">29</option><option value="30">30</option></select></td></tr>
+        <tr><td>Choose venue:</td><td><select id="venue" name="homeaway" style="font-size: 10px"><option value="ha" selected>Home & Away</option><option value="ho">Home only</option><option value="ao">Away only</option></select></td></tr>
+        <tr><td colspan="2" align="center"><input type="submit" style="width: auto; overflow: visible; color: #000000; background-color: #e0f0e0; font-size: 11px; padding: 1 5 1 5; margin: 9 0 0 0" value="Select options and click to redisplay" onclick="Submit()" name="B1"></p></td></tr>
+
+    </table>
+
+
+    <table id="table1" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin-top:12px;">
+        <thead>
+            <tr>
+                <th>
+                    <b>#</b>
+                </th>
+                <th>Seasson</th>
+                <th>W</th>
+                <th>D</th>
+                <th>L</th>
+                <th>F</th>
+                <th>A</th>
+                <th>
+                    <b>Goal</b>
+                    <b>Diff</b>
+                </th>
+                <th>
+                    <b>Mod'n</b>
+                    <b>Points</b>
+                </th>
+                <th>
+                    <b>Final</b>
+                    <b>Pos'n</b>
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>           
+            @foreach (var Match in Model.MatchesTable)
+            {
+                <tr>
+                    <td>@Match.rank</td>
+                    <td>@Match.years</td>
+                    <td>@Match.wins</td>
+                    <td>@Match.draws</td>
+                    <td>@Match.defeats</td>
+                    <td>@Match.goalsfor</td>
+                    <td>@Match.goalsagainst</td>
+                    <td>@Match.goaldiff</td>
+                    <td>@Match.modernpoints</td>
+                    <td>@Match.endpos @Match.promrel</td> <!--P means green arrow and R means read arrow-->
+                </tr>
+            }
+        </tbody>
+    </table>
+    <script>
+        //it will make the button display the same option was the User selected previouslly 
+        let params = new URLSearchParams(location.search);
+        let comp = params.get('comp');
+        if(comp == "all")
+            document.getElementById("comp").selectedIndex = "1";
+        else if (comp == "league")
+            document.getElementById("comp").selectedIndex = "0";
+
+        let points = params.get('points');
+        console.log(points);
+        console.log(comp);
+        if (points == "gd")
+            document.getElementById("points").selectedIndex = "1";
+        else if (points == "mp")
+            document.getElementById("points").selectedIndex = "0";
+  
+
+    let n = parseInt(@Model.length);
+    n = n - 2;
+    document.getElementById("length").selectedIndex = n.toString();
+
+        let venue = params.get('venue');
+        if (venue == "H") 
+            document.getElementById("venue").selectedIndex = "1";
+        else if (venue == "A")
+            document.getElementById("venue").selectedIndex = "2";
+        
+ 
+
+    </script>
+</body>
+
+
+</html>
+

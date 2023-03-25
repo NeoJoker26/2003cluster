@@ -1,0 +1,83 @@
+﻿/*Teampic*/
+#teampic {
+    width: 980px;
+    margin: 0 auto;
+}
+
+    #teampic img {
+        max-width: 980px;
+        margin: 12px 0 8px;
+    }
+
+    #teampic p {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 1.5;
+        margin: 6px 0;
+    }
+
+    #teampic .head {
+        display: table;
+        width: 100%;
+        margin: 12px 0 0;
+    }
+
+    #teampic .head1 {
+        display: table-cell;
+        width: 50%;
+        text-align: right;
+        vertical-align: middle;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    #teampic .head2 {
+        display: table-cell;
+        text-align: center;
+        font-size: 18px;
+        padding: 0 72px 0 74px;
+        white-space: nowrap;
+    }
+
+    #teampic .head3 {
+        display: table-cell;
+        width: 50%;
+        text-align: left;
+        vertical-align: middle;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    #teampic .image {
+        display: table;
+        margin: 0;
+        padding: 0;
+    }
+
+    #teampic img {
+        margin: 12px 0;
+        padding: 0;
+    }
+
+    #teampic .caption {
+        display: table-row;
+        text-align: left;
+        line-height: 1.5;
+        margin: 0 4px;
+    }
+/* base */
+#base {
+    width: 1200px;
+    margin: 15px auto 6px;
+    border-top: 2px solid #559761;
+    clear: both;
+}
+
+    #base p {
+        font-family: verdana,arial,helvetica,sans-serif;
+        font-size: 11px;
+        color: #666666;
+        text-align: justify;
+        margin: 4px 0 0;
+        padding: 0 10px;
+    }

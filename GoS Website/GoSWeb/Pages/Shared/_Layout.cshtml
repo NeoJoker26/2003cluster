@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Miguel Relvas">
+    <title>@ViewData["Title"] - GoSWeb</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="icon" type="image/x-icon" href="~/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="~/css/GoS.css">
+</head>
+<NOSCRIPT>
+<font color="red" style="font-size: 11px; font-weight: 700" face="Arial">
+You have Javascript disabled in your browser, so not all features of this site will function correctly. Consider changing your browser's security settings<br>to allow javascript, or include www.greensonscreen.co.uk as a trusted site. Feel free to contact me if I can help (steve@greensonscreen.co.uk).
+</font></NOSCRIPT>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">GoSWeb</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+     <footer>
+        <div id="base">
+            <p>
+                Greens on Screen is run as a service to fellow supporters, in all good
+                faith, without commercial or private gain. &nbsp;I have no wish to abuse
+                copyright regulations and apologise unreservedly if this occurs.&nbsp;If you own
+                any of the material used on this site, and object to its inclusion, please
+                get in touch using the 'Contact Us' button at the top of each page.
+                @{
+                    var britishTime = TimeZoneInfo.ConvertTime(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time"));
+                }
+            <p>UK time at page load: @britishTime.ToShortDateString(), @britishTime.ToShortTimeString().</p>                
+        </div>
+     </footer>
+    
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

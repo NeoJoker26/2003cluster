@@ -1,0 +1,121 @@
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.csproj.AssemblyReference.cache
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.AssemblyInfoInputs.cache
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.AssemblyInfo.cs
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.RazorAssemblyInfo.cache
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.RazorAssemblyInfo.cs
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\staticwebassets\GoSWeb.StaticWebAssets.Manifest.cache
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\staticwebassets\GoSWeb.StaticWebAssets.xml
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\scopedcss\bundle\GoSWeb.styles.css
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.TagHelpers.input.cache
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.TagHelpers.output.cache
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.RazorCoreGenerate.cache
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.RazorTargetAssemblyInfo.cache
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.RazorTargetAssemblyInfo.cs
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\ref\GoSWeb.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.pdb
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\appsettings.json
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\GoSWeb.exe
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\GoSWeb.deps.json
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\GoSWeb.runtimeconfig.json
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\GoSWeb.runtimeconfig.dev.json
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\GoSWeb.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\ref\GoSWeb.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\GoSWeb.pdb
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\GoSWeb.Views.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\GoSWeb.Views.pdb
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\System.CodeDom.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.Views.pdb
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.csproj.CopyComplete
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\GoSWeb.genruntimeconfig.cache
+C:\Users\Miguel\source\repos\GoS\GoSWeb\obj\Debug\net5.0\Razor\Pages\gosdb-misc6.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\appsettings.json
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\GoSWeb.exe
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\GoSWeb.deps.json
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\GoSWeb.runtimeconfig.json
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\GoSWeb.runtimeconfig.dev.json
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\GoSWeb.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\GoSWeb.pdb
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\GoSWeb.Views.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\GoSWeb.Views.pdb
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\EntityFramework.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\System.CodeDom.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.csproj.AssemblyReference.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.AssemblyInfoInputs.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.AssemblyInfo.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.csproj.CoreCompileInputs.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.RazorAssemblyInfo.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.RazorAssemblyInfo.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\staticwebassets\GoSWeb.StaticWebAssets.Manifest.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\scopedcss\bundle\GoSWeb.styles.css
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.TagHelpers.input.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.TagHelpers.output.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.RazorCoreGenerate.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\gosdb-misc6.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\squad.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.RazorTargetAssemblyInfo.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.RazorTargetAssemblyInfo.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.Views.pdb
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\ref\GoSWeb.dll
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.pdb
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.genruntimeconfig.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\GoSWeb.csproj.CopyComplete
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\sv-friendlies.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\youtubeview.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\achievements.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\gosdb-misc1.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\gosdb-history.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\gosdb-about.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\sv-internationals.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\sv-devonprofresults.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\Razor\Pages\gosdb-misc2.cshtml.g.cs
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\bin\Debug\net5.0\GoSWeb.StaticWebAssets.xml
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\staticwebassets\GoSWeb.StaticWebAssets.Pack.cache
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\staticwebassets\msbuild.GoSWeb.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\staticwebassets\msbuild.build.GoSWeb.props
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.GoSWeb.props
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.GoSWeb.props
+C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\obj\Debug\net5.0\refint\GoSWeb.dll

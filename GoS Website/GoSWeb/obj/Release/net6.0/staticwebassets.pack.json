@@ -1,0 +1,261 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\css\\gos2.css",
+      "PackagePath": "staticwebassets\\css\\gos2.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\css\\highslide.css",
+      "PackagePath": "staticwebassets\\css\\highslide.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1898-99-colour-washed.jpg",
+      "PackagePath": "staticwebassets\\images\\1898-99-colour-washed.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\1898-99.jpg",
+      "PackagePath": "staticwebassets\\images\\1898-99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette.html",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette.html"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\28549.png",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\28549.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\aaw.clhx2.js.download",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\aaw.clhx2.js.download"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\analytics.js.download",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\analytics.js.download"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\instagram.png",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\jquery.min.js.download",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\jquery.min.js.download"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\js",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\logo.png",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\otBannerSdk.js.download",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\otBannerSdk.js.download"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\otSDKStub.js.download",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\otSDKStub.js.download"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\otTCF.js.download",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\otTCF.js.download"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\saved_resource(1).html",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\saved_resource(1).html"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\saved_resource.html",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\saved_resource.html"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\spectrum.min.js.download",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\spectrum.min.js.download"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\style.css",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\Discord Color Palette_files\\twitter.png",
+      "PackagePath": "staticwebassets\\images\\Discord Color Palette_files\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\gosdb-about1.jpg",
+      "PackagePath": "staticwebassets\\images\\gosdb-about1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\sv-achievements1.jpg",
+      "PackagePath": "staticwebassets\\images\\sv-achievements1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\images\\sv-achievements2.jpg",
+      "PackagePath": "staticwebassets\\images\\sv-achievements2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Miguel\\Desktop\\empty\\GoS Website\\GoSWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.GoSWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.GoSWeb.props",
+      "PackagePath": "build\\GoSWeb.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.GoSWeb.props",
+      "PackagePath": "buildMultiTargeting\\GoSWeb.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.GoSWeb.props",
+      "PackagePath": "buildTransitive\\GoSWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

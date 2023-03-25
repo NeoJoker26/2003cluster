@@ -1,0 +1,68 @@
+﻿@page
+@model GoSWeb.Pages.gosdb_misc12Model
+@{
+}
+<table border="0" style="border-collapse: collapse; margin:10px 0 6 0" bordercolor="#111111">
+	<tbody>
+		<tr>
+			<td valign="top" style="padding-right:20px">
+				<table id="table1" style="border-collapse: collapse">
+					<tbody>
+						@foreach (var Appearances in Model.AppearancesTable)
+                        {
+                        <tr>
+                        <td>@Appearances.rank</td>
+                        <td><a href="gosdb-players2?pid=@Appearances.player_id">@Appearances.surname, @Appearances.forename</td>
+                        <td>@Appearances.consec_count</td>
+                        <td>@Appearances.start_date.Day @Model.MonthName(Appearances.start_date) @Appearances.start_date.Year to <br>
+                        <td>@Appearances.end_date.Day @Model.MonthName(Appearances.end_date) @Appearances.end_date.Year</td>
+                        </tr>
+                        }
+					</tbody>
+				</table>
+			</td>
+			<td valign="top" style="padding-right:20px">
+				<table id="table2" style="border-collapse: collapse">
+					<tbody>
+						@foreach (var Appearances in Model.AppearancesTable2)
+                        {
+                        <tr>
+                        <td>@Appearances.rank</td>
+                        <td><a href="gosdb-players2?pid=@Appearances.player_id">@Appearances.surname, @Appearances.forename</td>
+                        <td>@Appearances.consec_count</td>
+                        <td>@Appearances.start_date.Day @Model.MonthName(Appearances.start_date) @Appearances.start_date.Year to <br>
+                        <td>@Appearances.end_date.Day @Model.MonthName(Appearances.end_date) @Appearances.end_date.Year</td>
+                        </tr>
+                        }
+					</tbody>
+				</table>
+			</td>
+			<td valign="top">
+				<div style="width:310px">
+					<p class="style1bold" style="margin: 0 0 4px 0;">A Note About Pat Jones</p>
+					<p class="style1" style="margin: 0 0 30px 0;">
+						The left-back's astonishing record of 279 consecutive Football League appearances
+						for Argyle would have been eclipsed by an even more impressive feat -
+						291 in all competitions instead of 175 - had he not been injured for one game,
+						the FA Cup third round replay at Wolves in January 1950.
+					</p>
+				</div>
+				<table id="table3" style="border-collapse: collapse">
+					<tbody>
+						@foreach (var Appearances in Model.AppearancesTable3)
+						{
+							<tr>
+								<td><a href="gosdb-players2?pid=@Appearances.player_id">@Appearances.surname, @Appearances.forename</td>
+								<td>@Appearances.goal_consec_count</td>
+								<td>@Appearances.goal_count</td>
+								<td>@Appearances.start_date.Day @Model.MonthName(Appearances.start_date) @Appearances.start_date.Year to <br>
+								<td>@Appearances.end_date.Day @Model.MonthName(Appearances.end_date) @Appearances.end_date.Year</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+
+			</td>
+		</tr>
+	</tbody>
+</table>

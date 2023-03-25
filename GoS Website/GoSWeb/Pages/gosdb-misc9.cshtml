@@ -1,0 +1,92 @@
+﻿@page
+@model GoSWeb.Pages.gosdb_misc9Model
+@{
+}
+<p style="margin-top:6; margin-bottom:0; text-align:center; font-size:13px; color:#006E32"><b>@Model.heading</b></p>
+<div style="width:600; text-align:justify">
+    <p style="margin-top: 12; margin-bottom: 6">
+        These rankings are based on
+        Argyle's success against teams played more
+        than three times at home or away (to be consistent with the success rankings
+        on GoS-DB's opposition pages) and more than six times in total.
+        'Success' is determined by the average points per game, based on three
+        points for a win and one for a draw in all cases, even for cup matches.&nbsp;If a team
+        has changed its name at any time in its history, all results are combined under
+        its name in the most recent game against them.
+    </p>
+</div>
+<table>
+    <thead>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2">Success Ranking at Home</td>
+            <td>P</td>
+            <td>W</td>
+            <td>D</td>
+            <td>L</td>
+            <td>Pts/<br>Game</td>
+        </tr>
+        @foreach (var table in Model.SRHtable)
+        {
+            <tr>
+                <td>@table.rank</td>
+                <td>@table.name_now</td>
+                <td>@table.p</td>
+                <td>@table.w</td>
+                <td>@table.d</td>
+                <td>@table.l</td>
+                <td>@Math.Round(@table.pointspergame, 3)</td>
+            </tr>
+        }
+</table>
+<table>
+    <thead>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2">Success Ranking Away</td>
+            <td>P</td>
+            <td>W</td>
+            <td>D</td>
+            <td>L</td>
+            <td>Pts/<br>Game</td>
+        </tr>
+        @foreach (var table in Model.SRAtable)
+        {
+            <tr>
+                <td>@table.rank</td>
+                <td>@table.name_now</td>
+                <td>@table.p</td>
+                <td>@table.w</td>
+                <td>@table.d</td>
+                <td>@table.l</td>
+                <td>@Math.Round(@table.pointspergame, 3)</td>
+            </tr>
+        }
+</table>
+<table>
+    <thead>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2">Success Ranking Home & Away</td>
+            <td>P</td>
+            <td>W</td>
+            <td>D</td>
+            <td>L</td>
+            <td>Pts/<br>Game</td>
+        </tr>
+        @foreach (var table in Model.SRHAtable)
+        {
+            <tr>
+                <td>@table.rank</td>
+                <td>@table.name_now</td>
+                <td>@table.p</td>
+                <td>@table.w</td>
+                <td>@table.d</td>
+                <td>@table.l</td>
+                <td>@Math.Round(@table.pointspergame, 3)</td>
+            </tr>
+        }
+</table>
