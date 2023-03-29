@@ -1,0 +1,60 @@
+﻿
+@page
+@model GoSWeb.Pages.EmailcodeModel
+@{
+    }
+    using System.Net;
+    using = System.Net.Mail;
+
+    // This code has been written with the help of http://blog.tacosoup.com/sending-email-through-gmail-using-classic-asp/
+    // Note the Google must be configured with Less Secure Apps 'on' for this to work
+
+    string smtpServer = "smtp.gmail.com";
+    int smtpPort = 465;
+    string emailUsername = "greensonscreen1@gmail.com"; 
+    string emailPassword = "pptudnqvwynssrid"; 
+
+    string toAddress = Request.Query["strTo"].ToString();
+    string ccAddress = Request.Query["strCc"].ToString();
+    string bccAddress = Request.Query["strBcc"].ToString();
+    string fromAddress = Request.Query["strFrom"].ToString();
+    string emailSubject = Request.Query["subject"].ToString();
+    string emailBody = Request.Query["message"].ToString();
+
+    using (SmtpClient client = new SmtpClient(smtpServer, smtpPort))
+    {
+        client.UseDefaultCredentials = false;
+        client.Credentials = new NetworkCredential(emailUsername, emailPassword);
+        client.EnableSsl = true;
+        client.Timeout = 60000;
+
+        using (MailMessage mailMessage = new MailMessage())
+        {
+            mailMessage.To.Add(toAddress);
+            if (!string.IsNullOrEmpty(ccAddress))
+            {
+                mailMessage.CC.Add(ccAddress);
+            }
+
+            if (!string.IsNullOrEmpty(bccAddress))
+            {
+                mailMessage.Bcc.Add(bccAddress);
+            }
+
+            mailMessage.From = new MailAddress(fromAddress);
+            mailMessage.Subject = emailSubject;
+            mailMessage.Body = emailBody;
+            mailMessage.IsBodyHtml = true;
+
+            try
+            {
+                client.Send(mailMessage);
+            }
+            catch (Exception ex)
+            {
+                // Handle the exception
+            }
+        }
+    }
+}
+
