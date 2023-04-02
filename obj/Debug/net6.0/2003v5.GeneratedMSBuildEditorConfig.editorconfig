@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _2003v5
+build_property.RootNamespace = _2003v5
+build_property.ProjectDir = C:\Neo\Code\2003v2\2003FinalV5\2003v5\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Neo\Code\2003v2\2003FinalV5\2003v5
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/AllPlayers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsUGxheWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/ArgyleFCFacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJneWxlRkNGYWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/Day.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/Friendlies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJpZW5kbGllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/GreenJerseyJourney.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JlZW5KZXJzZXlKb3VybmV5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/HistoryMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeU1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/HowItAllBegan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG93SXRBbGxCZWdhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/Managers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/MatchDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0Y2hEYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/NonMatchPhoto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm9uTWF0Y2hQaG90by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/Opposition.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3Bwb3NpdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/RecordsAndAchievements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjb3Jkc0FuZEFjaGlldmVtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/Seasons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vhc29ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/ShowChapters.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd0NoYXB0ZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/ShowFullDatabase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd0Z1bGxEYXRhYmFzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/ShowReports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd1JlcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/TeamPhotos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbVBob3Rvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/TopPlayers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9wUGxheWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/VideosFoundOnline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlkZW9zRm91bmRPbmxpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/Code/2003v2/2003FinalV5/2003v5/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qwuij775mn
