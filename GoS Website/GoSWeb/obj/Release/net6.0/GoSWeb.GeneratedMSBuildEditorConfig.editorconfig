@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GoSWeb
+build_property.RootNamespace = GoSWeb
+build_property.ProjectDir = C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Miguel\Desktop\empty\GoS Website\GoSWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/achievements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWNoaWV2ZW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/gosdb-about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItYWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/gosdb-history.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItaGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/gosdb-misc1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/gosdb-misc2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/gosdb-misc3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/gosdb-misc4.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/gosdb-misc6.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/squad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3F1YWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/sv-devonprofresults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3YtZGV2b25wcm9mcmVzdWx0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/sv-friendlies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3YtZnJpZW5kbGllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/sv-internationals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc3YtaW50ZXJuYXRpb25hbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/teampic1898-99.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpYzE4OTgtOTkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/teampics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVhbXBpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/youtubeview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNceW91dHViZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/empty/GoS Website/GoSWeb/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

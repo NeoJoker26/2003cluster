@@ -1,0 +1,1493 @@
+﻿body {
+    background-color: #ffffff;
+    margin: 1px 0 1px 0;
+    padding: 0;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 10px;
+    overflow: -moz-scrollbars-vertical;
+}
+
+td, th {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 2px 5px;
+}
+
+/*table { border-style:solid; border-color:#111111; }*/
+
+a:link {
+    color: #457b44;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #457b44;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: #c8e0c7;
+}
+
+a:active {
+    color: #457b44;
+    text-decoration: none;
+}
+
+.table {
+    display: table
+}
+
+.table-row {
+    display: table-row
+}
+
+.table-cell {
+    display: table-cell
+}
+
+#cookienotice {
+    width: 1000px;
+    height: 160px;
+    background-color: #404040;
+    margin: 0 auto 2px;
+}
+
+    #cookienotice a:link {
+        color: #ffff00;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    #cookienotice a:visited {
+        color: #ffff00;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    #cookienotice a:active {
+        color: #ffff00;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    #cookienotice a:hover {
+        color: black;
+        background-color: #c8e0c7;
+        font-weight: 700;
+    }
+
+#banner {
+    position: relative;
+    width: 1000px;
+    height: 72px;
+    background: url('images/goshead2.jpg') no-repeat;
+    margin: 0 auto 6px;
+}
+
+    #banner a:link {
+        display: block;
+        color: black;
+        text-decoration: none;
+        background: #e0f0e0;
+        text-align: left;
+        border: 1px solid #c0c0c0;
+    }
+
+    #banner a:visited {
+        display: block;
+        color: black;
+        text-decoration: none;
+        background: #e0f0e0;
+        text-align: left;
+        border: 1px solid #c0c0c0;
+    }
+
+    #banner a:hover {
+        background: transparent;
+        color: #004438;
+        letter-spacing: 0em;
+        font-weight: normal;
+    }
+
+.title1 {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: -4px 0 0 0;
+    text-align: center;
+}
+
+.style0 {
+    font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.style0bold {
+    font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.style0boldgreen {
+    font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #457b44;
+}
+
+.style1 {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.style1green {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    color: #40703f;
+    font-weight: 400;
+}
+
+.style1bold {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.style1boldgreen {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #40703f;
+}
+
+.style1boldgrey {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: #404040;
+}
+
+.style1boldred {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: red;
+}
+
+.style2 {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.style2green {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 10px;
+    color: #457b44;
+    font-weight: 400;
+}
+
+.style2bold {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.style2boldgreen {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #457b44;
+}
+
+.style2boldgrey {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #404040;
+}
+
+.style3 {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 9px;
+}
+
+.style4 {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.style4green {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    color: #40703f;
+    font-weight: 400;
+}
+
+.style4bold {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.style4boldgreen {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #40703f;
+}
+
+.style4boldgrey {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #404040;
+}
+
+.style4boldred {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: red;
+}
+
+.style5 {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.style5green {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 14px;
+    color: #40703f;
+    font-weight: 400;
+}
+
+.style5bold {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.style5boldgreen {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 14px;
+    color: #40703f;
+    font-weight: 700;
+}
+
+#base {
+    width: 1000px;
+    margin: 15px auto 6px;
+    border-top: 2px solid #559761;
+    clear: both;
+}
+
+    #base p {
+        font-family: verdana,arial,helvetica,sans-serif;
+        font-size: 10px;
+        color: #666666;
+        text-align: justify;
+        margin: 4px 0 0;
+        padding: 0 10px;
+    }
+
+
+.whatsnew1 {
+    font-family: tahoma,helvetica,sans-serif;
+    font-size: 11px;
+    text-align: right;
+    color: #457b44;
+    padding: 0 0 0 0;
+    vertical-align: top;
+    white-space: nowrap
+}
+
+.whatsnew2 {
+    font-family: tahoma,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 0 0 0 4px;
+    vertical-align: top;
+}
+
+div#links1 p {
+    font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    margin: 0 9px 0 0;
+    text-align: right;
+    color: 202020;
+}
+
+div#links1 a:link {
+    color: 202020;
+    text-decoration: none;
+}
+
+div#links1 a:visited {
+    color: 202020;
+    text-decoration: none;
+}
+
+div#links1 a:active {
+    color: 202020;
+    text-decoration: none;
+}
+
+div#links1 a:hover {
+    color: black;
+    background-color: c8e0c7
+}
+
+div#links2 p {
+    font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    margin: 0 0 0 9px
+}
+
+div#links2 a:link {
+    color: 202020;
+    text-decoration: none;
+}
+
+div#links2 a:visited {
+    color: 202020;
+    text-decoration: none;
+}
+
+div#links2 a:active {
+    color: 202020;
+    text-decoration: none;
+}
+
+div#links2 a:hover {
+    color: black;
+    background-color: c8e0c7
+}
+
+.linkspic {
+    position: relative;
+    top: -20px;
+    margin: 0;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2px
+}
+
+div#links1 {
+    border-top-width: 1px;
+    border-top-color: #c0c0c0;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-right-color: #c0c0c0;
+    border-right-style: solid;
+    margin: 6px 0 0 0
+}
+
+div#links2 {
+    border-top-width: 1px;
+    border-top-color: #c0c0c0;
+    border-top-style: solid;
+    border-left-width: 1px;
+    border-left-color: #c0c0c0;
+    border-left-style: solid;
+    margin: 6px 0 0 0
+}
+
+div#links1 .head {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 11px;
+    color: 457b44;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+div#links2 .head {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 11px;
+    color: 457b44;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+div#progress td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    line-height =1;
+    text-align: center;
+    font-size: 9px;
+    padding: 0;
+}
+
+div#progress th {
+    font-family: arial,helvetica,sans-serif;
+    line-height =1;
+    vertical-align: top;
+    text-align: center;
+    font-size: 9px;
+    padding: 1px 0;
+}
+
+div#progress2 td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    line-height =1;
+    text-align: center;
+    font-size: 7px;
+    padding: 0 0 0 0;
+}
+
+div#progress2 th {
+    font-family: arial,helvetica,sans-serif;
+    line-height =1;
+    vertical-align: top;
+    text-align: center;
+    font-size: 9px;
+    padding: 1px 0;
+}
+
+div#seasonresults td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 6px 4px;
+    vertical-align: top;
+    text-align: left;
+}
+
+div#squad table {
+    max-width: 980px;
+    margin: 12px auto;
+    border-collapse: collapse;
+}
+
+div#squad td {
+    font-family: verdana,helvetica,sans-serif;
+    text-align: left;
+    vertical-align: top;
+    font-size: 11px;
+    border: 1px solid #d0d0d0;
+    padding: 4px 6px;
+}
+
+div#squad .name1 {
+}
+
+div#squad .name2 {
+}
+
+div#squad .num {
+    text-align: right;
+}
+
+div#squadphotos {
+    max-width: 980px;
+    margin: 12px auto;
+}
+
+    div#squadphotos figure {
+        display: inline-block;
+        margin: 0;
+    }
+
+    div#squadphotos figcaption {
+        margin: 0 0 9px;
+        font-family: verdana,helvetica,sans-serif;
+        font-size: 11px;
+    }
+
+
+
+div#squad .squadname {
+    width: auto;
+    text-align: left;
+    padding-left: 4px;
+    padding-right: 1px;
+}
+
+div#progress .name {
+    font-weight: 700;
+    text-align: left;
+    padding: 0 1px 0 4px;
+}
+
+div#progress .num {
+    text-align: right;
+    padding: 0 6px 0;
+}
+
+div#progress .cuphead {
+    font-size: 7px;
+}
+
+div#squad .header1 {
+    font-size: 10px;
+    color: gray;
+}
+
+div#squad .header2 {
+    border: 1px solid 457b44;
+    color: black;
+}
+
+#graph1 table, #graph2 table {
+    border: 1px solid #c0c0c0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: inline-block;
+    width: auto;
+    margin: 12px 1px 0;
+}
+
+#graph2 {
+    margin-bottom: 30px;
+}
+
+    #graph1 th, #graph2 th {
+        border-right: 1px solid #c0c0c0;
+        border-bottom: 1px solid #c0c0c0;
+        font-family: arial,helvetica,sans-serif;
+        font-size: 10px;
+        width: 14px;
+        padding: 0;
+        text-align: center;
+    }
+
+        #graph1 th:first-of-type {
+            width: 15px;
+        }
+
+#graph1 td {
+    border: none;
+    padding: 0;
+    height: 225px;
+    background-image: url('images/grid2a.gif');
+    background-position: left bottom;
+    vertical-align: bottom
+}
+
+#graph2 td {
+    border: 1px solid #c0c0c0;
+    padding: 0;
+    text-align: center
+}
+
+div#match table {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 0;
+    border-spacing: 0;
+}
+
+div#match td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 0;
+}
+
+div#match1 td {
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    padding: 0;
+}
+
+div#match p {
+    margin: 0 4px 0 6px;
+}
+
+div#opposition a:link {
+    text-decoration: none;
+}
+
+div#opposition a:visited {
+    text-decoration: none;
+}
+
+div#opposition a:active {
+    text-decoration: none;
+}
+
+div#opposition a:hover {
+    text-decoration: underline;
+}
+
+div#oppositioncentre p {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    text-align: center;
+    margin: 0 4px 12px 4px
+}
+
+div#oppositionleft p {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    line-height: 1.1;
+    margin: 0 4px 10px 2px
+}
+
+div#oppositionright p {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    line-height: 1.2;
+    margin: 0 2px 4px 12px
+}
+
+div#whatsnew {
+    overflow: auto;
+    height: 225px;
+    padding: 0;
+    scrollbar-arrow-color: #000000;
+    scrollbar-face-color: #C8E0C7;
+    scrollbar-track-color: #eef7ee;
+    scrollbar-shadxw-color: #000000;
+}
+
+    div#whatsnew p {
+        font-family: verdana,arial,helvetica,sans-serif;
+        font-size: 11px;
+        margin: 0 0 2px 0;
+        text-align: left;
+        font-weight: 500;
+        line-height: 1.1;
+    }
+
+div#match .larger130 {
+    font-size: 130%;
+    font-weight: bold;
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+div#match .larger150 {
+    font-size: 150%;
+    font-weight: bold;
+    color: green;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+div#match .larger160 {
+    font-size: 160%;
+    font-weight: bold;
+    color: green;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+div#match .larger180 {
+    font-size: 180%;
+    font-weight: bold;
+    color: green;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+div#match .larger190 {
+    font-size: 190%;
+    font-weight: bold;
+    color: green;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+div#match .larger200 {
+    font-size: 200%;
+    font-weight: bold;
+    color: green;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+div#match .whitefont {
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+div#match .greenfont {
+    color: #457b44;
+    font-weight: bold;
+}
+
+div#match .scoreaway {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    color: #006E32;
+    background-color: #9661b4;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #006E32;
+}
+
+div#match .scorehome {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    color: white;
+    background-color: #61A76D;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+div#map1 p {
+    font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0 0 0 0;
+    text-align: left;
+    color: 202020;
+}
+
+div#map1 a:link {
+    color: 202020;
+    text-decoration: none;
+}
+
+div#map1 a:visited {
+    color: 202020;
+    text-decoration: none;
+}
+
+div#map1 a:active {
+    color: 202020;
+    text-decoration: none;
+}
+
+div#map1 a:hover {
+    color: black;
+    background-color: c8e0c7
+}
+
+div#map1 .head {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 11px;
+    color: 457b44;
+    padding-top: 6px;
+    padding-bottom: 2px
+}
+
+div.mapadd table {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 0;
+    border-spacing: 0;
+}
+
+div.mapadd td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 9px 0;
+}
+
+div.mapadd p {
+    margin-left: 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+
+#allinview {
+    padding: 0 8px;
+    font-size: 11px;
+}
+
+#userdetails {
+    padding: 6px 2px 12px 2px;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+/* These next lines should now be redundant*/
+div#gosdb1 p {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+}
+
+div#gosdb1 td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    text-align: right;
+    padding: 2px 4px;
+}
+
+div#gosdb1 th {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 2px 4px;
+}
+
+div#gosdb1 form {
+    padding: 0;
+    margin: 0;
+}
+
+div#gosdb2 p {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+}
+
+div#gosdb2 th, div#gosdb2 td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 2px 5px;
+}
+/**/
+
+div#sv p {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+}
+
+div#sv td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 2px 4px;
+}
+
+div#sv1 p {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+}
+
+div#sv1 td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 2px 5px;
+}
+
+div#sv1 th {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 2px;
+}
+
+div#sv1 form {
+    padding: 0;
+    margin: 0;
+}
+
+div#sv2 p {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+div#sv2 td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 4px 5px;
+}
+
+div#sv3 p {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+div#sv3 td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 4px 5px;
+    vertical-align: top;
+}
+
+div#tour p {
+    font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+    font-size: 13px;
+    text-align: left;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+div#tour td {
+    font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+    font-size: 13px;
+    text-align: left;
+    padding: 4px 5px;
+}
+
+div#tour .head {
+    font-family: "Trebuchet MS",arial,helvetica,sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 2px
+}
+
+div#tour .head1 {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: 457b44;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 2px
+}
+
+div#tour .head2 {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 6px;
+    padding-bottom: 2px
+}
+
+div#diary p {
+    font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 5px;
+}
+
+div#diaryarchive td {
+    font-family: "Trebuchet MS",verdana,arial,helvetica,sans-serif;
+    font-size: 13px;
+}
+
+div#search .result1 {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+div#search .result2 {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    margin: 0
+}
+
+div#search .result3 {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 10px;
+    color: 808080;
+    margin: 0 0 12px 0
+}
+
+div#search form {
+    padding: 0;
+    margin: 0;
+}
+
+div#table td {
+    font-family: verdana,arial,verdana,helvetica,sans-serif;
+    text-align: left;
+    vertical-align: top;
+    font-size: 11px;
+    padding: 2px 5px;
+}
+
+div#table tr td {
+    border: 1px solid #808080;
+}
+
+div#table tr.argyle td {
+    background: #D7E9D6;
+}
+
+div#table tr.colhead1 td {
+    padding: 2px 1px 1px 1px;
+}
+
+div#table tr.colhead2 td {
+    padding: 0 1px 2px 1px;
+}
+
+div#table tr.promotion td {
+    border-bottom: 2px solid green;
+}
+
+div#table tr.playoffs td {
+    border-bottom: 2px dashed green;
+}
+
+div#table tr.playoffs_rel td {
+    border-bottom: 2px dashed red;
+}
+
+div#table tr.relegation td {
+    border-bottom: 2px solid red;
+}
+
+div#table td.head0 {
+    border-width: 0;
+    padding: 6px 0 9px 0;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+div#table td.head1 {
+    border-width: 0;
+    padding: 6px 0 6px 20px;
+    font-size: 11px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+div#table td.head2 {
+    background: #ecf4ec;
+    text-align: center;
+    vertical-align: bottom
+}
+
+div#table td.head3 {
+    background: #ecf4ec;
+    text-align: center;
+    vertical-align: bottom
+}
+
+div#table td.num1 {
+    text-align: right;
+}
+
+div#table td.num2 {
+    border-left: 2px solid #808080;
+    text-align: right;
+}
+
+div#table td.main {
+    background: #f8fff8
+}
+
+div#table td.maindark {
+    background: #ecf4ec;
+    font-weight: normal;
+    color: #000000
+}
+
+div#table form {
+    padding: 0;
+    margin: 0;
+}
+
+div#result td {
+    font-family: verdana,arial,verdana,helvetica,sans-serif;
+    text-align: left;
+    vertical-align: top;
+    font-size: 11px;
+    padding: 1px 4px;
+}
+
+div#result tr.argyle td {
+    background: #D7E9D6;
+}
+
+div#result td.head0 {
+    padding: 6px 0;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+div#result td.head1 {
+    padding: 6px 0px 6px 20px;
+    font-size: 11px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+div#result td.right {
+    text-align: right;
+}
+
+div#result td.center {
+    text-align: center;
+}
+
+div#result form {
+    padding: 0;
+    margin: 0;
+}
+
+div#clubresult td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 11px;
+    padding: 6px 4px;
+    vertical-align: top;
+    text-align: left;
+}
+
+    div#clubresult td.head0 {
+        padding: 6px 0 12px 0;
+        font-size: 12px;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+
+    div#clubresult td.head1 {
+        padding: 6px 0 12px 20px;
+        font-size: 11px;
+        text-align: right;
+        vertical-align: middle;
+    }
+
+div#appears td {
+    font-family: verdana,arial,helvetica,sans-serif;
+    line-height =1;
+    text-align: center;
+    font-size: 9px;
+    padding: 0;
+}
+
+div#appears th {
+    font-family: arial,helvetica,sans-serif;
+    line-height =1;
+    vertical-align: top;
+    text-align: center;
+    font-size: 9px;
+    padding: 1px 0;
+}
+
+div#appears td.head0 {
+    padding: 8px 0 6px 0;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+div#appears td.head1 {
+    padding: 8px 0 6px 20px;
+    font-size: 11px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+div#appears .name {
+    font-size: 11px;
+    text-align: left;
+    padding: 0 4px;
+}
+
+div#appears .num {
+    text-align: right;
+    padding: 0 2px;
+}
+
+div#appears .cuphead {
+    font-size: 7px;
+}
+
+#teamphoto {
+    margin: 0 auto;
+}
+
+    #teamphoto #header {
+        display: table;
+        width: 980px;
+        margin: 12px auto 0;
+    }
+
+    #teamphoto .head1 {
+        display: table-cell;
+        width: 50%;
+        text-align: right;
+        vertical-align: middle;
+        font-size: 11px;
+    }
+
+    #teamphoto .head2 {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 18px;
+        color: green;
+        padding: 0 72px 0 72px;
+        white-space: nowrap;
+    }
+
+    #teamphoto .head3 {
+        display: table-cell;
+        width: 50%;
+        text-align: left;
+        vertical-align: middle;
+        font-size: 11px;
+    }
+
+    #teamphoto .photo {
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    #teamphoto .image {
+        display: table;
+        margin: 0;
+        padding: 0;
+    }
+
+    #teamphoto img {
+        object-fit: contain;
+        width: 100%;
+        max-width: 1320px;
+        max-height: 80vh;
+    }
+
+    #teamphoto .fullimg {
+        max-width: 98vw;
+        max-height: 98vh;
+    }
+
+    #teamphoto .caption {
+        display: table;
+        width: auto;
+        margin: 4px auto 18px;
+        padding: 0 10px;
+    }
+
+        #teamphoto .caption p {
+            max-width: 980px;
+            font-size: 12px;
+            text-align: left;
+            margin: 6px;
+        }
+
+    #teamphoto .button {
+        padding: 3px;
+        margin: 3px;
+        font-family: verdana, sans-serif;
+        display: inline-block;
+        white-space: nowrap;
+        font-size: 11px;
+        outline: none;
+        overflow: visible;
+        cursor: pointer;
+        border-radius: 4px;
+        border: 1px solid #808080;
+        background: linear-gradient(#efffef,#dfefdf);
+    }
+
+#admin_head {
+    margin: 0 auto 20px;
+    width: 400px;
+}
+
+    #admin_head h2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #admin_head h3 {
+        margin-top: 6px;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    #admin_head .button {
+        padding: 3px;
+        margin: 3px;
+        font-family: verdana, sans-serif;
+        display: inline-block;
+        white-space: nowrap;
+        font-size: 11px;
+        outline: none;
+        overflow: visible;
+        cursor: pointer;
+        border-radius: 4px;
+        border: 1px solid #808080;
+        background: linear-gradient(#efffef,#dfefdf);
+    }
+/* The #teampic entries can be removed once the teampic page is replaced */
+#teampic {
+    width: 980px;
+    margin: 0 auto;
+}
+
+    #teampic img {
+        max-width: 980px;
+        margin: 12px 0 8px;
+    }
+
+    #teampic p {
+        font-size: 12px;
+        text-align: justify;
+        line-height: 1.5;
+        margin: 6px 0;
+    }
+
+    #teampic .head {
+        display: table;
+        width: 100%;
+        margin: 12px 0 0;
+    }
+
+    #teampic .head1 {
+        display: table-cell;
+        width: 50%;
+        text-align: right;
+        vertical-align: middle;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    #teampic .head2 {
+        display: table-cell;
+        text-align: center;
+        font-size: 18px;
+        padding: 0 72px 0 74px;
+        white-space: nowrap;
+    }
+
+    #teampic .head3 {
+        display: table-cell;
+        width: 50%;
+        text-align: left;
+        vertical-align: middle;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    #teampic .image {
+        display: table;
+        margin: 0;
+        padding: 0;
+    }
+
+    #teampic img {
+        margin: 12px 0;
+        padding: 0;
+    }
+
+    #teampic .caption {
+        display: table-row;
+        text-align: left;
+        line-height: 1.5;
+        margin: 0 4px;
+    }
+
+
+.highslide-html {
+    background-color: white;
+}
+
+.highslide-html-blur {
+}
+
+.highslide-html-content {
+    position: absolute;
+    display: none;
+}
+
+.highslide-loading {
+    display: block;
+    color: black;
+    font-size: 8pt;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: white;
+    padding-left: 22px;
+    background-image: url('highslide/graphics/loader.white.gif');
+    background-repeat: no-repeat;
+    background-position: 3px 1px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px
+}
+
+a.highslide-credits,
+a.highslide-credits i {
+    padding: 2px;
+    color: silver;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+    a.highslide-credits:hover,
+    a.highslide-credits:hover i {
+        color: white;
+        background-color: gray;
+    }
+
+
+/* Styles for the popup */
+.highslide-wrapper {
+    background-color: white;
+}
+
+    .highslide-wrapper .highslide-html-content {
+        width: 400px;
+        padding: 11px;
+    }
+
+    .highslide-wrapper .highslide-header div {
+    }
+
+    .highslide-wrapper .highslide-header ul {
+        margin: 0;
+        padding: 0;
+        text-align: right;
+    }
+
+        .highslide-wrapper .highslide-header ul li {
+            display: inline;
+            padding-left: 1em;
+        }
+
+            .highslide-wrapper .highslide-header ul li.highslide-previous, .highslide-wrapper .highslide-header ul li.highslide-next {
+                display: none;
+            }
+
+    .highslide-wrapper .highslide-header a {
+        font-weight: bold;
+        color: gray;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+        .highslide-wrapper .highslide-header a:hover {
+            color: black;
+        }
+
+    .highslide-wrapper .highslide-header .highslide-move a {
+        cursor: move;
+    }
+
+    .highslide-wrapper .highslide-footer {
+        height: 11px;
+    }
+
+        .highslide-wrapper .highslide-footer .highslide-resize {
+            float: right;
+            height: 11px;
+            width: 11px;
+            background: url('highslide/graphics/resize.gif');
+        }
+
+    .highslide-wrapper .highslide-body {
+        font-size: 11px;
+    }
+
+.highslide-move {
+    cursor: move;
+}
+
+.highslide-resize {
+    cursor: nw-resize;
+}
+
+/* These must be the last of the Highslide rules */
+.highslide-display-block {
+    display: block;
+}
+
+.highslide-display-none {
+    display: none;
+}

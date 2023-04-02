@@ -1,0 +1,189 @@
+﻿@page
+@model GoSWeb.Pages.gosdb_misc5Model
+@{
+    string[] e = {" of ",""};
+    int i = 0;
+}
+
+<center>
+<p>
+    Note: GoS-DB holds birth dates for 
+    @foreach (var Player in Model.Playercount){@Player.playercount@e[i]i++;}
+    players, almost all of the missing ones being for some who appeared before 1920 and in the years close to World War II.
+    </p>
+<p>
+    This report does not include those players, so the rankings shown here could be inaccurate.
+</p>
+</center>
+<table>
+    <thead>
+        <tr>Youngest Players on Debut @Model.tablehead</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>#</td>
+            <td>Player</td>
+            <td>Yr</td>
+            <td>Dy</td>
+            <td>First Match</td>
+        </tr>
+        @foreach (var Match in Model.YPD)
+        {
+        <tr>
+                <td>@Match.rank</td>
+                <td>@Match.surname, @Match.forename</td>
+                <td>@Model.yr(Match.date, Match.dob)</td>
+                <td>@Model.dy(Match.date, Match.dob)</td>
+                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+        </tr>
+        }
+</table>
+<table>
+    <thead>
+        <tr>Oldest Players on Debut @Model.tablehead</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>#</td>
+            <td>Player</td>
+            <td>Yr</td>
+            <td>Dy</td>
+            <td>First Match</td>
+        </tr>
+        @foreach (var Match in Model.OPD)
+        {
+            <tr>
+                <td>@Match.rank</td>
+                <td>@Match.surname, @Match.forename</td>
+                <td>@Model.yr(Match.date, Match.dob)</td>
+                <td>@Model.dy(Match.date, Match.dob)</td>
+                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+            </tr>
+        }
+</table>
+<table>
+    <thead>
+        <tr>Oldest Players to Appear @Model.tablehead</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>#</td>
+            <td>Player</td>
+            <td>Yr</td>
+            <td>Dy</td>
+            <td>First Match</td>
+        </tr>
+        @foreach (var Match in Model.OPA)
+        {
+            <tr>
+                <td>@Match.rank</td>
+                <td>@Match.surname, @Match.forename</td>
+                <td>@Model.yr(Match.date, Match.dob)</td>
+                <td>@Model.dy(Match.date, Match.dob)</td>
+                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+            </tr>
+        }
+</table>
+<table>
+    <thead>
+        <tr>Youngest Scorers @Model.tablehead</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>#</td>
+            <td>Player</td>
+            <td>Yr</td>
+            <td>Dy</td>
+            <td>First Match</td>
+        </tr>
+        @foreach (var Match in Model.YS)
+        {
+            <tr>
+                <td>@Match.rank</td>
+                <td>@Match.surname, @Match.forename @if(Match.goalcount > 1){ @Model.mg }</td>
+                <td>@Model.yr(Match.date, Match.dob)</td>
+                <td>@Model.dy(Match.date, Match.dob)</td>
+                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+            </tr>
+        }
+</table>
+<table>
+    <thead>
+        <tr>Youngest Scorers on Debut @Model.tablehead</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>#</td>
+            <td>Player</td>
+            <td>Yr</td>
+            <td>Dy</td>
+            <td>First Match</td>
+        </tr>
+        @foreach (var Match in Model.YSD)
+        {
+                <tr>
+                    <td>@Match.rank</td>
+                    <td>@Match.surname, @Match.forename @if(Match.goalcount > 1){ @Model.mg }</td>
+                    <td>@Model.yr(Match.date, Match.dob)</td>
+                    <td>@Model.dy(Match.date, Match.dob)</td>
+                    <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+                </tr>
+        }
+</table>
+<table>
+    <thead>
+        <tr>Youngest Scorers on Starting Debut @Model.tablehead</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>#</td>
+            <td>Player</td>
+            <td>Yr</td>
+            <td>Dy</td>
+            <td>First Match</td>
+        </tr>
+        @foreach (var Match in Model.YSSD)
+        {
+            <tr>
+                <td>@Match.rank</td>
+                <td>@Match.surname, @Match.forename @if(Match.goalcount > 1){ @Model.mg }</td>
+                <td>@Model.yr(Match.date, Match.dob)</td>
+                <td>@Model.dy(Match.date, Match.dob)</td>
+                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+            </tr>
+        }
+</table>
+<table>
+    <thead>
+        <tr>Oldest Scorers @Model.tablehead</tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>#</td>
+            <td>Player</td>
+            <td>Yr</td>
+            <td>Dy</td>
+            <td>First Match</td>
+        </tr>
+        @foreach (var Match in Model.OS)
+        {
+                    <tr>
+                        <td>@Match.rank</td>
+                        <td>@Match.surname, @Match.forename @if(Match.goalcount > 1){ @Model.mg }</td>
+                        <td>@Model.yr(Match.date, Match.dob)</td>
+                        <td>@Model.dy(Match.date, Match.dob)</td>
+                        <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+                    </tr>
+        }
+</table>
+<p>* scored more than once in the game</p>
+
+
+
+
+
+
+
+
+
+
