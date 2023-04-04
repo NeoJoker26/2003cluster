@@ -1,0 +1,557 @@
+﻿
+@page
+@model GoSWeb.Pages.Matchreport
+@{
+}
+ using System.Net;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Language" content="en-gb" />
+    <title>["Greens on Screen"]</title>
+
+    <link rel="stylesheet" type="text/css" href="~/css/gos2.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+
+    <style>
+        .centre {
+            text-align: center;
+        }
+
+        td {
+            padding: 1px 4px;
+            vertical-align: middle;
+        }
+
+        th {
+            padding: 3px 4px;
+            vertical-align: middle;
+        }
+
+        input[type=radio] {
+            margin: 1px 0 1px 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>@ViewData["Title"]</h1>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var datepicker = document.querySelector("#datepicker");
+            if (datepicker) {
+                new Pikaday({
+                    field: datepicker,
+                    format: "yy-mm-dd",
+                    minDate: new Date(1903, 0, 1),
+                    maxDate: new Date(),
+                    yearRange: "1903:+0"
+                });
+            }
+        });
+
+    </script>
+
+</body>
+<body>
+    <!--#include file="top_code.htm"-->
+    <p style="text-align: center; margin: 24px 0 18px;">
+        <font color="#47784D"><span style="font-size: 18px"><b>Match Report</b></span></font>
+    </p>
+    @{  }
+    var output = "";
+    var error = 0;
+    var code = Request.Form["code"];
+    var source = Request.Form["source"];
+    var reportdate = Request.Form["reportdate"];
+
+    if (string.IsNullOrEmpty(code))
+    {
+    output += "
+    <div style=\"width:300; margin:0 auto;\">
+        ";
+        output += "<form action="matchreport.cshtml" method="post" name="form1">
+            ";
+            output += "<p style=\"margin: 12px auto;\">Code: <input type="text" name="code" size="11"></p>";
+            output += "<p style=\"margin: 12px auto;\">Source: <input type="text" name="source" size="10"></p>";
+            output += "<p>Date: &nbsp;<input type="text" id="datepicker" name="reportdate" size="11"></p>
+        </form>
+    </div>";
+    output += "
+    <p style=\"margin:200px auto 100px;\"><input type="submit" name="b1" value="Next" style="font-size: 12px; padding: 5px 2px;"></p>";
+    output += "<form>
+        ";
+        output += "<div>
+            ";
+            }
+            else
+            {
+            string initials = "";
+            switch (code)
+            {
+            case "PL82pb:ML":
+            initials = "ML";
+            break;
+            case "PL71qq:MT":
+            initials = "MT";
+            break;
+            case "RH150rq:AH":
+            initials = "AH";
+            break;
+            case "PL65au:SD":
+            initials = "SD";
+            break;
+            case "PL47be:GB":
+            initials = "GB";
+            break;
+            case "PL51lt:BW":
+            initials = "BW";
+            break;
+            case "LS131dt:AC":
+            initials = "AC";
+            break;
+            case "PL68br:JE":
+            initials = "JE";
+            break;
+            default:
+            error = 1;
+            break;
+            }
+
+            string acknowledge = "";
+            if (!string.IsNullOrEmpty(source))
+            {
+            switch (source)
+            {
+            case "AR":
+            acknowledge = "A";
+            break;
+            case "HL":
+            acknowledge = "H";
+            break;
+            case "PA":
+            acknowledge = "P";
+            break;
+            default:
+            error = 2;
+            break;
+            }
+            }
+
+            if (error == 0)
+            {
+            Session["Reporter"] = code;
+            var conn = new ADODB.Connection();
+            var rs = new ADODB.Recordset();
+            conn.Open("conn_read");
+            var output = "";
+            var error = 0;
+            var code = Request.Form["code"];
+            var source = Request.Form["source"];
+            var reportdate = Request.Form["reportdate"];
+
+            if (string.IsNullOrEmpty(reportdate))
+            {
+            output += "
+            <form action="/matchreport_action.asp\" method="post" name="form2">
+                ";
+                output += "<table border="1" style=\"border-collapse: collapse; margin: 9 auto;\" width="700px">
+                    ";
+
+                    var sql = "select date, name_then_short, homeaway, reporter from season_this a join opposition b on a.opposition = b.name_then order by date";
+                    var rs = conn.Execute(sql);
+                    var i = 0;
+                    var j = 0;
+                    var lowyear = rs.Fields["date"].Value.Year;
+                    output += $"
+                    <th colspan="2">{lowyear}</th>
+                    <th>Opposition</th>
+                    <th>H/A</th>
+                    <th>?</th>
+                    <th>ML</th>
+                    <th>MT</th>
+                    <th>SD</th>
+                    <th style="border-width:0"></th>";
+                    output += $"
+                    <th colspan="2">{lowyear + 1}</th>
+                    <th>Opposition</th>
+                    <th>H/A</th>
+                    <th>?</th>
+                    <th>ML</th>
+                    <th>MT</th>
+                    <th>SD</th>";
+
+                    while (!rs.EOF)
+                    {
+                    if (rs.Fields["date"].Value.Year == lowyear)
+                    {
+                    lowlist[i,0] = rs.Fields["date"].Value;
+                    lowlist[i,1] = rs.Fields["name_then_short"].Value;
+                    lowlist[i,2] = rs.Fields["homeaway"].Value;
+                    lowlist[i,3] = rs.Fields["reporter"].Value;
+                    i++;
+                    }
+                    else
+                    {
+                    highlist[j,0] = rs.Fields["date"].Value;
+                    highlist[j,1] = rs.Fields["name_then_short"].Value;
+                    highlist[j,2] = rs.Fields["homeaway"].Value;
+                    highlist[j,3] = rs.Fields["reporter"].Value;
+                    j++;
+                    }
+
+                    tablerows = i - 1;
+                    int x = 1;
+                    int y = i + 1;
+                    for (int i = 0; i <= tablerows; i++)
+                    {
+                    string output = "
+                    <tr>
+                        ";
+                        if (lowlist[i, 0] == "")
+                        {
+                        output += "
+                        <td colspan="8"></td>";
+                        }
+                        else
+                        {
+                        string checked1, checked2, checked3, checked4;
+                        switch (lowlist[i, 3])
+                        {
+                        case "ML":
+                        checked1 = "";
+                        checked2 = "checked";
+                        checked3 = "";
+                        checked4 = "";
+                        break;
+                        case "MT":
+                        checked1 = "";
+                        checked2 = "";
+                        checked3 = "checked";
+                        checked4 = "";
+                        break;
+                        case "SD":
+                        checked1 = "";
+                        checked2 = "";
+                        checked3 = "";
+                        checked4 = "checked";
+                        break;
+                        default:
+                        checked1 = "checked";
+                        checked2 = "";
+                        checked3 = "";
+                        checked4 = "";
+                        break;
+                        ar cellStyle = "";
+                        var x = 0;
+                        var lastMonth1 = 0;
+                        var output = "";
+                        var acknowledge = "";
+                        var lowlist = new List
+                        <Tuple<DateTime, string, int, int>>(); // replace with your database query
+}
+
+for (int i = 0; i < lowlist.Count(); i++)
+{
+    if (lowlist[i].Item1 < DateTime.Now)
+    {
+        cellStyle = "background-color:#f0f0f0";
+    }
+    else
+    {
+        cellStyle = "";
+    }
+
+    if (lowlist[i].Item1.Month == lastMonth1)
+    {
+        output += "<td style="" + cellStyle + "\"></td>";
+    }
+    else
+    {
+        output += "<td style=\"" + cellStyle + "\">" + CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(lowlist[i].Item1.Month) + "</td>";
+        lastMonth1 = lowlist[i].Item1.Month;
+    }
+
+    output += "<td style="" + cellStyle + "\">" + CultureInfo.CurrentCulture.DateTimeFormat.GetDayName(lowlist[i].Item1.DayOfWeek) + " " + lowlist[i].Item1.Day + "</td>";
+    output += "<td style="" + cellStyle + "\"><a href=\"/matchreport1?date=" + lowlist[i].Item1.ToString("yyyy-MM-dd") + "&amp;acknowledge=" + acknowledge + "\">" + lowlist[i].Item2 + "</a></td>";
+    output += "<td style="" + cellStyle + "\" class="centre">" + lowlist[i].Item3 + "</td>";
+    output += "<td style="" + cellStyle + "\" class="centre"><input type="radio\" value=\"? \" " + (lowlist[i].Item4 == 1 ? "checked" : "") + " name=\"willbe" + x + "\"></td>";
+    output += "<td style="" + cellStyle + "\" class="centre"><input type="radio" value=\"ML\" " + (lowlist[i].Item4 == 2 ? "checked" : "") + " name=\"willbe" + x + "\"></td>";
+    output += "<td style="" + cellStyle + "\" class="centre"><input type="radio" value=\"MT\" " + (lowlist[i].Item4 == 3 ? "checked" : "") + " name=\"willbe" + x + "\"></td>";
+    output += "<td style="" + cellStyle + "\" class="centre"><input type="radio" value=\"SD\" " + (lowlist[i].Item4 == 4 ? "checked" : "") + " name=\"willbe" + x + "\"></td>";
+    output += "<input type="hidden" value="" + lowlist[i].Item3 + "\" name="was" + x + "\">";
+    output += "<input type="hidden" value="" + lowlist[i].Item1.ToString("yyyy-MM-dd") + "\" name="date" + x + "\">";
+    output += "<td style="border-width:0"></td>";
+
+    x++;
+}
+
+<table>
+    <tr>
+        <th>Month</th>
+        <th>Date</th>
+        <th>Match</th>
+        <th>Value</th>
+        <th>?</th>
+        <th>ML</th>
+        <th>MT</th>
+        <th>SD</th>
+        <th></th>
+    </tr>
+    Html.Raw(output)
+</table>
+            					end if
+
+					<td style="border-width:0"></td>
+					{x++;}
+				}
+			</tbody>
+                </table>
+                <input type="submit" value="Save Changes" />
+            </form>
+        </div>
+        var output = "";
+        var x = 1;
+        var checked1 = "";
+        var checked2 = "";
+        var checked3 = "";
+        var checked4 = "";
+
+        for (var i = 0; i < highlist.GetLength(0); i++)
+        {
+        if (highlist(i, 0) == "")
+        {
+        output += "<td colspan=\"8\"></td>";
+        }
+        else
+        {
+        switch (highlist(i, 3))
+        {
+        case "ML":
+        checked1 = "";
+        checked2 = "checked";
+        checked3 = "";
+        checked4 = "";
+        break;
+        case "MT":
+        checked1 = "";
+        checked2 = "";
+        checked3 = "checked";
+        checked4 = "";
+        break;
+        case "SD":
+        checked1 = "";
+        checked2 = "";
+        checked3 = "";
+        checked4 = "checked";
+        break;
+        default:
+        checked1 = "checked";
+        checked2 = "";
+        checked3 = "";
+        checked4 = "";
+        break;
+        }
+
+        output += "<tr>
+            ";
+            output += "
+            <td>" + highlist(i, 0) + "</td>";
+            output += "
+            <td>" + highlist(i, 1) + "</td>";
+            output += "
+            <td class=\"centre\">" + highlist(i, 2) + "</td>";
+            output += "
+            <td class=\"centre\"><input type="radio" value=\"?\" " + checked1 + " name="willbe" + x + "\" /></td>";
+            output += "
+            <td class=\"centre\"><input type="radio" value=\"ML\" " + checked2 + " name="willbe" + x + "\" /></td>";
+            output += "
+            <td class=\"centre\"><input type="radio" value="MT" " + checked3 + " name="willbe" + x + "\" /></td>";
+            output += "
+            <td class=\"centre\"><input type="radio" value="SD\" " + checked4 + " name="willbe" + x + "\" /></td>";
+            output += "
+            <input type="hidden" value="" + highlist(i, 3) + "\" name="was" + x + "\" />";
+            output += "
+            <input type="hidden" value="" + highlist(i, 0) + "\" name="date" + x + "\" />";
+            output += "
+        </tr>";
+
+        x++;
+        }
+        }
+        }
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Match</th>
+                    <th>Tipster</th>
+                    <th>?</th>
+                    <th>ML</th>
+                    <th>MT</th>
+                    <th>SD</th>
+                </tr>
+            </thead>
+            <tbody>
+                Html.Raw(output)
+            </tbody>
+        </table>
+
+        string cellstyle = "";
+        int lastmonth2 = 0;
+        int y = 0;
+        string acknowledge = "";
+        }
+
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Month</th>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Location</th>
+                    <th colspan="4">Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                foreach (var item in highlist)
+                {
+                if (DateTime.Parse(item[0]) < DateTime.Now.Date)
+                {
+                cellstyle = " style=\"background-color:#f0f0f0\"";
+                }
+                else
+                {
+                cellstyle = "";
+                }
+                if (DateTime.Parse(item[0]).Month == lastmonth2)
+                {
+                <td@cellstyle>
+                    </td>
+                    }
+                    else
+                    {
+                    <td@cellstyle>
+                        DateTimeFormatInfo.CurrentInfo.GetMonthName(DateTime.Parse(item[0]).Month)</td>
+                        lastmonth2 = DateTime.Parse(item[0]).Month;
+                        }
+                        <td@cellstyle>
+                            (DateTimeFormatInfo.CurrentInfo.GetDayName(DateTime.Parse(item[0]).DayOfWeek) + " " + DateTime.Parse(item[0]).Day)</td>
+                            <td@cellstyle>
+                                <a href="matchreport1.asp?date=item[0]&amp;acknowledge=acknowledge">item[1]</a></td>
+                                <td@cellstyle class="centre">
+                                    item[2]</td>
+                                    string checked1 = (item[4] == "?") ? "checked" : "";
+                                    string checked2 = (item[4] == "ML") ? "checked" : "";
+                                    string checked3 = (item[4] == "MT") ? "checked" : "";
+                                    string checked4 = (item[4] == "SD") ? "checked" : "";
+                                    <td@cellstyle class="centre">
+                                        <input type="radio" value="?" checked1 name="willbe@y"></td>
+                                        <td@cellstyle class="centre">
+                                            <input type="radio" value="ML" checked2 name="willbe@y"></td>
+                                            <td@cellstyle class="centre">
+                                                <input type="radio" value="MT" checked3 name="willbe@y"></td>
+                                                <td@cellstyle class="centre">
+                                                    <input type="radio" value="SD" checked4 name="willbe@y"></td>
+                                                    <input type="hidden" value="item[3]" name="was@y" />
+                                                    <input type="hidden" value="item[0]" name="date@y" />
+                                                    y++;
+                                                    </tr>
+                                                    }
+            </tbody>
+        </table>
+        var output = "</table>";
+        output += $"<input type="hidden" name="initials" value="{initials}">";
+        output += $"<input type="hidden" name="matchcount" value="{y - 1}">";
+        output += "<p style=\"margin:18 auto 24;\"><input type="submit" name="b2" value="Amend Schedule" style="width:120px; font-size: 12px; margin-left:0; margin-right:0; padding:0;"></p>";
+        output += "
+    </form>";
+    }
+
+    if (dateSupplied)
+    {
+    output
+    }
+    else
+    {
+    // Date supplied, so it must be a report for an old match
+    }
+    {
+    var output = "";
+    var acknowledge = "";
+
+    if (String.IsNullOrEmpty(Request.Form["reportdate"]))
+    {
+    if (Request.Form["code"] == "0103" && Request.Form["source"] == "sportsdesk")
+    {
+    var reportdate = Request.Form["date"];
+
+    if (DateTime.TryParse(reportdate, out DateTime parsedDate))
+    {
+    var sql = "select count(*) as count from match where date = '" + parsedDate.ToString("yyyy-MM-dd") + "'";
+
+    using (var conn = new SqlConnection(connectionString))
+    using (var cmd = new SqlCommand(sql, conn))
+    {
+    conn.Open();
+    var rowcount = (int)cmd.ExecuteScalar();
+
+    if (rowcount == 1)
+    {
+    // This is a report for an old date - check for Alec or John - if so, acknowledge
+    switch (Request.Form["initials"])
+    {
+    case "AH":
+    acknowledge = "L";
+    break;
+    case "JE":
+    acknowledge = "J";
+    break;
+    }
+
+    Response.Redirect("matchreport1.asp?date=" + reportdate + "&oldreportind=y&acknowledge=" + acknowledge);
+    }
+    else
+    {
+    output += "<p style=\"margin:24px auto 300px;\">No match was played on this date</p>";
+    }
+    }
+    }
+    else
+    {
+    output += "<p style=\"margin:24px auto 300px;\">Invalid date supplied</p>";
+    }
+    }
+    else
+    {
+    switch (Request.Form["error"])
+    {
+    case "1":
+    output += "<p style=\"margin:24px auto 300px;\">Invalid code supplied</p>";
+    break;
+    case "2":
+    output += "<p style=\"margin:24px auto 300px;\">Invalid source supplied</p>";
+    break;
+    }
+    }
+    }
+
+    Response.Write(output);
+    }
+
+
+    }
+    }
+
+
+    <!--#include file="base_code.htm"-->
+</body>
+
+</html>
