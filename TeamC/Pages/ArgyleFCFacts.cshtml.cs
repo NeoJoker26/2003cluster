@@ -1,12 +1,10 @@
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace _2003v5.Pages
+namespace _2003v5.Pages;
+
+public class ArgyleFCFactsModel : PageModel
 {
-    public class ArgyleFCFactsModel : PageModel
+    public void OnGet()
     {
-        public void OnGet()
-        {
-        }
     }
 }

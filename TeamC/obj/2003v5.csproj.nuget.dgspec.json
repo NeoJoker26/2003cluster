@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Neo\\Code\\2003v2\\2003FinalV5\\2003v5\\2003v5.csproj": {}
+    "C:\\Users\\Neo\\Desktop\\TeamCWIn10\\TeamC\\2003v5.csproj": {}
   },
   "projects": {
-    "C:\\Neo\\Code\\2003v2\\2003FinalV5\\2003v5\\2003v5.csproj": {
+    "C:\\Users\\Neo\\Desktop\\TeamCWIn10\\TeamC\\2003v5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Neo\\Code\\2003v2\\2003FinalV5\\2003v5\\2003v5.csproj",
+        "projectUniqueName": "C:\\Users\\Neo\\Desktop\\TeamCWIn10\\TeamC\\2003v5.csproj",
         "projectName": "2003v5",
-        "projectPath": "C:\\Neo\\Code\\2003v2\\2003FinalV5\\2003v5\\2003v5.csproj",
+        "projectPath": "C:\\Users\\Neo\\Desktop\\TeamCWIn10\\TeamC\\2003v5.csproj",
         "packagesPath": "C:\\Users\\Neo\\.nuget\\packages\\",
-        "outputPath": "C:\\Neo\\Code\\2003v2\\2003FinalV5\\2003v5\\obj\\",
+        "outputPath": "C:\\Users\\Neo\\Desktop\\TeamCWIn10\\TeamC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Neo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

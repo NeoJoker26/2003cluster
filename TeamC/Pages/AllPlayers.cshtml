@@ -1,4 +1,53 @@
 ﻿@page
-@model _2003v5.Pages.AllPlayersModel
-@{
-}
+@model AllPlayersModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Website</title>
+</head>
+<body>
+<!-- Container A with Three Divs -->
+<div class="container mt-4" style="max-width: 1000px; height: 350px; border: 1px solid black;">
+    <div class="row" style="height: 100%;">
+        <!-- First Div with Image -->
+        <div class="col-sm-4 border" style="height: 100%; text-align: left; padding-left: 5px;">
+            <img src="~/images/gosdb-small.jpg" alt="Logo"/>
+        </div>
+        <!-- Second Div with Text and Search Bar -->
+        <div class="col-sm-4 border d-flex flex-column justify-content-center align-items-center" style="height: 100%;">
+            <h1 class="text-center">The Players </h1>
+            <p class="text-center">Competitions selected: all</p>
+            <p class="text-center"><b>To find a player</b>, type the first few letters of the surname:</p>
+            <div class="input-group mb-3" style="width: 230px; padding: 5px;">
+                <input type="text" class="form-control" placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon2" id="searchInput">
+            </div>
+            <p class="text-center">... then select a name revealed below.</p>
+        </div>
+        <!-- Third Div with Paragraph -->
+        <div class="col-sm-4 border" style="height: 100%; text-align: right; padding-right: 5px;">
+            <p style="margin: 5px;">A full PAFC history of every first-team player since 1903, with details relevant for the competitions selected. Note that the names listed here are from the complete set; they are not limited to those playing in the chosen competitions.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Container B with Button -->
+<div class="container mt-4" style="max-width: 1000px; height: 200px; border: 1px solid black;">
+    <div class="row justify-content-center align-items-center" style="height: 100%;">
+        <div class="col-sm-12" style="text-align: center;">
+            <p id="input-output"></p>
+        </div>
+    </div>
+</div>
+
+<script>
+        const input = document.getElementById('searchInput');
+        const output = document.getElementById('input-output');
+        input.addEventListener('input', (event) => {
+            output.innerText = event.target.value;
+            input.value = event.target.value;
+        });
+    </script>
+</body>
+</html>

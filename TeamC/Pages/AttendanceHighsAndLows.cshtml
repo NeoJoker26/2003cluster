@@ -1,0 +1,63 @@
+﻿@page
+@model _2003v5.Pages.AttendanceHighsAndLowsModel
+@{
+}
+<table>
+    <thead>
+        <tr>Highest Attendances at Home Park*</tr>
+    </thead>
+    <tbody>
+        @foreach (var Match in Model.HAHP)
+        {
+            <tr>
+                <td>@Match.rank</td>
+                <td>@Match.attendance</td>
+                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+                <td>@Match.shortcomp @Match.subcomp</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>@Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
+            </tr>
+        }
+</table>
+
+<table>
+    <thead>
+        <tr>Highest Attendances On The Road</tr>
+    </thead>
+    <tbody>
+        @foreach (var Match in Model.HATR)
+        {
+                <tr>
+                    <td>@Match.rank</td>
+                    <td>@Match.attendance</td>
+                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+                    <td>@Match.shortcomp @Match.subcomp</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>@Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
+                </tr>
+        }
+</table>
+
+<table>
+    <thead>
+        <tr>Lowest Attendances at Home Park</tr>
+    </thead>
+    <tbody>
+        @foreach (var Match in Model.LAHP)
+        {
+            <tr>
+                <td>@Match.rank</td>
+                <td>@Match.attendance</td>
+                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+                <td>@Match.shortcomp @Match.subcomp</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>@Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
+            </tr>
+        }
+</table>

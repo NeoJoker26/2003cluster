@@ -1,18 +1,157 @@
-html {
-  font-size: 14px;
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
 }
 
+/* Provide sufficient contrast against white background */
+a {
+    color: #457b44;
+    text-decoration: none;
+    margin: 1px;
+    padding: 0%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
+}
+th{
+    margin:0px;
+    padding:0px;
+    width:35%;
+    justify-content:left;
+    vertical-align:top;
 }
 
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+/*Index Buttons*/
+input[type=button] {
+    font-size: 80%;
+
+
+}
+.search-form-btn {
+    background-color: #e8f4e4;
+    color: black;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.history-btn {
+    background-color: #e8f4e4;
+    color: black;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-right:5px;
+    margin-left:5px;
+    text-align: center;
+    width:80%;
+    justify-content:center;
+}
+.column{
+    flex: 50%;
+    margin-left: 20px auto 100px;
+    justify-content:center;
+
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.history-bottom{
+    justify-content: space-between;
+
+
+
+}
+.here-now-btn {
+    background-color: #e8f4e4;
+    color: black;
+    border-radius: 4px;
+    margin-top: -50px;
+    margin-bottom: 3px;
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+}
+.then-now-btn {
+    background-color: #e8f4e4;
+    color: black;
+    border-radius: 4px;
+    margin-bottom: 3px;
+    text-align: center;
+    width: 80%;
+    justify-content: stretch;
+
+}
+/*Daily Diary (also uses "a" for the months - is at the top)*/
+.diary-dates-tbl {
+
+    margin:0px
+}
+td{
+
+
+
+}
+p{
+    justify-content: left;
+    text-align: left;
+    margin:5px;
 }
