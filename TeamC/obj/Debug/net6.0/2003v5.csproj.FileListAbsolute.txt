@@ -1,0 +1,289 @@
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/appsettings.Development.json
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/appsettings.json
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/2003v5.staticwebassets.runtime.json
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/2003v5
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/2003v5.deps.json
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/2003v5.runtimeconfig.json
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/2003v5.dll
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/ref/2003v5.dll
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/2003v5.pdb
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/System.Data.SqlClient.dll
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.csproj.AssemblyReference.cache
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.GeneratedMSBuildEditorConfig.editorconfig
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfoInputs.cache
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfo.cs
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.csproj.CoreCompileInputs.cache
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.MvcApplicationPartsAssemblyInfo.cache
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cache
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cs
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/staticwebassets.build.json
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/staticwebassets.development.json
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/scopedcss/bundle/2003v5.styles.css
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/scopedcss/projectbundle/2003v5.bundle.scp.css
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.csproj.CopyComplete
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.dll
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/ref/2003v5.dll
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.pdb
+/home/neojoker26/Documents/2003cluster-Team-Neo-Hope-Grog-Call/TeamC/obj/Debug/net6.0/2003v5.genruntimeconfig.cache
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/appsettings.json
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/2003v5.staticwebassets.runtime.json
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/2003v5.exe
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/2003v5.deps.json
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/2003v5.runtimeconfig.json
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/2003v5.dll
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/2003v5.pdb
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/System.Data.SqlClient.dll
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/Neo/Desktop/TeamC/TeamC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.csproj.AssemblyReference.cache
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfoInputs.cache
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfo.cs
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.csproj.CoreCompileInputs.cache
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cache
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cs
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.2003v5.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.build.2003v5.props
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.2003v5.props
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.2003v5.props
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/staticwebassets.pack.json
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/scopedcss/bundle/2003v5.styles.css
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/scopedcss/projectbundle/2003v5.bundle.scp.css
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.csproj.CopyComplete
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.dll
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/refint/2003v5.dll
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.pdb
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/2003v5.genruntimeconfig.cache
+C:/Users/Neo/Desktop/TeamC/TeamC/obj/Debug/net6.0/ref/2003v5.dll
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/appsettings.json
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/2003v5.staticwebassets.runtime.json
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/2003v5.exe
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/2003v5.deps.json
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/2003v5.runtimeconfig.json
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/2003v5.dll
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/2003v5.pdb
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/System.Data.SqlClient.dll
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.csproj.AssemblyReference.cache
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfoInputs.cache
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfo.cs
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.csproj.CoreCompileInputs.cache
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cache
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cs
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.2003v5.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.build.2003v5.props
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.2003v5.props
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.2003v5.props
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/staticwebassets.pack.json
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/scopedcss/bundle/2003v5.styles.css
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/scopedcss/projectbundle/2003v5.bundle.scp.css
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.csproj.CopyComplete
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.dll
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/refint/2003v5.dll
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.pdb
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/2003v5.genruntimeconfig.cache
+C:/Users/Neo/Desktop/TeamCWIn10/TeamC/obj/Debug/net6.0/ref/2003v5.dll
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/appsettings.json
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.staticwebassets.runtime.json
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.exe
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.deps.json
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.runtimeconfig.json
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.dll
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.pdb
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/System.Data.SqlClient.dll
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.csproj.AssemblyReference.cache
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfoInputs.cache
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfo.cs
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.csproj.CoreCompileInputs.cache
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cache
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cs
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.2003v5.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.build.2003v5.props
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.2003v5.props
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.2003v5.props
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets.pack.json
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/scopedcss/bundle/2003v5.styles.css
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/scopedcss/projectbundle/2003v5.bundle.scp.css
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.csproj.CopyComplete
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.dll
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/refint/2003v5.dll
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.pdb
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.genruntimeconfig.cache
+C:/Users/itsni/Documents/GitHub/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/ref/2003v5.dll
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/appsettings.Development.json
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/appsettings.json
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.staticwebassets.runtime.json
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.deps.json
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.runtimeconfig.json
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.dll
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/ref/2003v5.dll
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.pdb
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/System.Data.SqlClient.dll
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.csproj.AssemblyReference.cache
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.GeneratedMSBuildEditorConfig.editorconfig
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfoInputs.cache
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfo.cs
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.csproj.CoreCompileInputs.cache
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.MvcApplicationPartsAssemblyInfo.cache
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cache
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cs
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/staticwebassets.build.json
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/staticwebassets.development.json
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/scopedcss/bundle/2003v5.styles.css
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/scopedcss/projectbundle/2003v5.bundle.scp.css
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.csproj.CopyComplete
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.dll
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/ref/2003v5.dll
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.pdb
+/home/neojoker26/Documents/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.genruntimeconfig.cache
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/appsettings.Development.json
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/appsettings.json
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.staticwebassets.runtime.json
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.exe
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.deps.json
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.runtimeconfig.json
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.dll
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.pdb
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/System.Data.SqlClient.dll
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.csproj.AssemblyReference.cache
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.GeneratedMSBuildEditorConfig.editorconfig
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfoInputs.cache
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfo.cs
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.csproj.CoreCompileInputs.cache
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.MvcApplicationPartsAssemblyInfo.cache
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cache
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cs
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.2003v5.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.build.2003v5.props
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.2003v5.props
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.2003v5.props
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/staticwebassets.pack.json
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/staticwebassets.build.json
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/staticwebassets.development.json
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/scopedcss/bundle/2003v5.styles.css
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/scopedcss/projectbundle/2003v5.bundle.scp.css
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.csproj.CopyComplete
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.dll
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/refint/2003v5.dll
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.pdb
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.genruntimeconfig.cache
+C:/Neo/Year2/Comp2003/FinalSite/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/ref/2003v5.dll
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/appsettings.json
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.staticwebassets.runtime.json
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.exe
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.deps.json
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.runtimeconfig.json
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.dll
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/2003v5.pdb
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/System.Data.SqlClient.dll
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.csproj.AssemblyReference.cache
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfoInputs.cache
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfo.cs
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.csproj.CoreCompileInputs.cache
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cache
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cs
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.2003v5.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.build.2003v5.props
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.2003v5.props
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.2003v5.props
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets.pack.json
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/scopedcss/bundle/2003v5.styles.css
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/scopedcss/projectbundle/2003v5.bundle.scp.css
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.csproj.CopyComplete
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.dll
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/refint/2003v5.dll
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.pdb
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/2003v5.genruntimeconfig.cache
+C:/Users/grogf/OneDrive/Documents/Games Development/COMP2003 - Computing Group Project/2003 Project/comp2003_2022-team-c/TeamC/obj/Debug/net6.0/ref/2003v5.dll
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/appsettings.Development.json
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/appsettings.json
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.staticwebassets.runtime.json
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.deps.json
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.runtimeconfig.json
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.dll
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/ref/2003v5.dll
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/2003v5.pdb
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/System.Data.SqlClient.dll
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win-arm64/native/sni.dll
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win-x64/native/sni.dll
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win-x86/native/sni.dll
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.csproj.AssemblyReference.cache
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.GeneratedMSBuildEditorConfig.editorconfig
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfoInputs.cache
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.AssemblyInfo.cs
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.csproj.CoreCompileInputs.cache
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.MvcApplicationPartsAssemblyInfo.cache
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cache
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.RazorAssemblyInfo.cs
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/staticwebassets.build.json
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/staticwebassets.development.json
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/scopedcss/bundle/2003v5.styles.css
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/scopedcss/projectbundle/2003v5.bundle.scp.css
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.csproj.CopyComplete
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.dll
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/ref/2003v5.dll
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.pdb
+/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/Debug/net6.0/2003v5.genruntimeconfig.cache

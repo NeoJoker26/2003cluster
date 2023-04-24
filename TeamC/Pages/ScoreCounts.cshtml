@@ -1,0 +1,41 @@
+﻿@page
+@model _2003v5.Pages.ScoreCountsModel
+@{
+}
+<p style="margin-top:12px; margin-bottom:12px; text-align:center; font-size:13px; color:#006E32"><b>@Model.heading</b></p>
+
+<table class="tables" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+    <tbody>
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="3">This Season</td>
+            <td colspan="4">PAFC Career</td>
+        </tr>
+        <tr>
+            <td>Season</td>
+            <td>Rank</td>
+            <td>Player</td>
+            <td>Goals</td>
+            <td>Games</td>
+            <td>Goals/<br>Game</td>
+            <td>Sea-<br>sons</td>
+            <td>Goals</td>
+            <td>Games</td>
+            <td>Goals/<br>Game</td>
+        </tr>
+        @foreach (var Table in Model.GRST)
+        {
+                <tr>
+                    <td>@Table.year</td>
+                    <td>@Table.rank</td>
+                    <td><a href="gosdb-players2?pid=@Table.player_id_spell1">@Table.player</a></td>
+                    <td>@Table.goals</td>
+                    <td>@Table.games</td>
+                    <td>@Math.Round(@Table.pergame, 2)</td>
+                    <td>@Table.seassons</td>
+                    <td>@Table.totgoals</td>
+                    <td>@Table.totgames</td>
+                    <td>@Math.Round(@Table.totpergame, 2)</td>
+                </tr>
+        }
+</table>

@@ -1,0 +1,312 @@
+﻿@page
+@model MatchDateModel
+@{
+	
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="~/css/site.css" />
+  
+</head>
+
+<body>
+
+<div id="MainDiv" style="width: 1000px; height: 275px; border: 1px solid black; position: relative;">
+  <div id="DecadesDiv" style="position: absolute; top: 0; left: 0; display: inline-block; width: 50px; height: 20px; border: 1px solid #c0c0c0; padding: 0 0 0 0; color: #202020; font-size: 11px; text-align: center;">
+    Decades
+  </div>
+
+	<div id="ButtonsDiv" style="display: inline-block; width: 900px; height: 50px; margin-left: 80px;">
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+		<button style="width: 75px; height: 15px;"></button>
+	</div>
+	<div id="Div3"></div>
+	<table>
+        
+        
+    </table>
+    <div id="Div4"></div>
+</div>
+<div id="Displayinfo" style="width: 1000px; height: 405px; border: 1px solid black;">
+	
+</div>
+<style>
+    
+</style>
+</body>
+</html>
+<script>
+	// Get all decade buttons
+    var decadeButtons = document.querySelectorAll('.decade-button');
+    
+    // Add event listener to each button
+    decadeButtons.forEach(function(button) {
+        button.addEventListener('click', function(event) {
+            // Remove "selected" class from all buttons
+            decadeButtons.forEach(function(btn) {
+                btn.classList.remove('selected');
+            });
+            
+            // Add "selected" class to clicked button
+            event.target.classList.add('selected');
+        });
+    });
+</script>
+@* 
+<style>
+<!--
+#container {
+    width:980px;
+    margin:15px 0;
+}
+
+.navhandle {
+    text-align: left;
+}
+
+.nav {
+    color: #111;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.nav,.nav2 ul {
+    width:100%; 
+    text-align: left;
+    margin: 5px 0;
+    padding: 0;
+    list-style: none;
+}
+.nav li {
+    display: inline-block;
+    border: 1px solid #c0c0c0;
+    padding: 2px 0 2px 6px;
+    margin: 0 9px 4px 0;
+    color: #202020;
+    font-size: 11px;
+}
+.nav li:not(.header){
+	font-size: 11px;
+	cursor: pointer;
+}
+
+.nav2 li {
+    display: inline-block;
+    border: 1px solid #c0c0c0;
+    padding: 2px 6px;
+    margin: 0 9px 4px 0;
+    color: #202020;
+    font-size: 11px;
+}
+.header {
+    background-color: #f0f0f0;
+    padding: 2px 12px !important;
+    width: 48px;
+}
+
+.boxwidth {width: 71px;
+}
+
+.hover {
+    border-color: #909090 !important;
+    background-color: #e0f0e0;
+}
+    
+.click {
+    border: 1px solid #000000;
+    color: #ffffff !important;
+    background-color: #79A088;
+}
+
+#seasons {
+	margin-top: 8px;
+}
+
+#matches table {
+	table-layout: fixed;
+    width:100%;
+    margin-left: -8px;
+    margin-right: auto;
+    empty-cells: hide;
+    border-spacing: 8px 4px;
+}
+#matches td {
+    border: 1px solid #c0c0c0;
+    padding: 2px 1px 2px 10px;
+    color: #202020;
+    font-size: 11px;
+}
+
+#matches td.cellgrey {
+    color: #c0c0c0; 
+}
+
+#matches td:first-child {
+    padding: 2px 0 2px 6px;
+}
+
+#matches td:not(:first-child):not(:empty) {
+	cursor: pointer;
+}
+
+#matchdetails {
+	float:left;
+	width:100%;
+	min-height: 400px;
+	margin: 12px auto;
+	text-align: left;
+	font-size: 11px;
+	line-height: 150%;
+}
+#matchdetails h1 {
+	font-size: 14px;
+	color: #404040;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+#matchdetails h2 {
+	font-size: 12px;
+	color: #3f7855;
+	font-weight: 700;
+	margin-top: 12px;
+}
+
+#report {
+	text-align: justify;
+	max-width: 60%;
+	line-height: 140%;
+}
+
+#report-wider {
+	text-align: justify;
+	max-width: 60%;
+	line-height: 140%;
+}
+
+#milestones ul {
+	list-style-type: circle; 
+	padding-left: 18px;
+	margin: 0;
+}
+
+#chartbuttons ul.nav  {
+	margin: 18px 0 24px -18px;
+}
+
+#chartbuttons {
+	padding-left: 0;
+}
+ 
+#milestones ul.nav  {
+	margin: 18px 0 24px -18px;
+}
+ 
+#milestones ul li.cell {
+	font-size: 11px;
+	margin: 0 12px 6px 0;
+	padding: 0 5px;
+}
+
+#milestones a:hover {
+	background-color: transparent;
+	
+}
+#milestones a:link {
+	color: #000000;
+	background-color: transparent;
+}
+
+#material {
+	float: right;
+	width: 36%;
+	font-size: 11px;
+	margin: 0px 0 12px 12px;
+	padding:0;
+}
+
+#material .undofloat {
+	float: none !important;
+}
+
+#chartbuttons li {
+    display: inline-block;
+    border: 1px solid #c0c0c0;
+    padding: 2px 6px;
+    margin: 0 9px 4px 0;
+    color: #202020;
+    font-size: 11px;
+}
+
+#tablecontainer {margin-top: -12px}
+
+.thisdate {
+	background-color: #e0f0e0;
+	} 
+
+h3 { 
+	text-align: center;
+	margin: 15px auto 12px;
+}
+	
+.bold { font-weight: 700; }
+.green { color: green; }
+.grey { color: #606060; }
+.font11px { font-size: 11px; }
+.font12px { font-size: 12px; }
+.font15px { font-size: 15px; }
+
+.score { font-size: 16px;	font-weight: 700; margin: 10px 0 6px; }
+.aet { font-size: 11px; margin: 0 0 4px; font-weight: 700; }
+.penalties { font-size: 11px; margin: 4px 0; font-weight: 700; }
+.team { margin: 6px 0 0; }
+.opp { color: #606060; }
+.goals { margin: 9px 0 0; }
+.audio { border-width: 0; vertical-align: middle; margin: 1px 0px 1px 3px; }
+.image { border-width: 0; vertical-align: middle; margin: 2px 6px; }
+.video { border-width: 0; vertical-align: middle; margin: 2px 6px; } 
+
+	
+.caption {
+	margin: 0 0 20px -24px;
+	padding: 0 24px;
+	text-align: center;
+	font-size: 11px;
+	font-style: italic;
+	font-weight: 500;
+	}
+	
+.venue, .attendance, .visitors, .totpoints { margin-right: 18px; }
+
+a:hover {background-color: transparent;}
+
+a.control img {
+ opacity:0.4; 
+ filter:alpha(opacity=40);
+}
+a.control:hover img {
+ opacity:1.0; 
+ filter:alpha(opacity=100);
+ cursor: hand; cursor: pointer;
+}
+
+.highslide-wrapper .highslide-header ul {margin: 0 0 6px; font-weight: bold; font-size: 12px;}
+.highslide-wrapper .highslide-header a {color: black;}
+.highslide-dimming {background: black;}
+
+-->
+</style> *@

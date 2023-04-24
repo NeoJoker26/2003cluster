@@ -1,0 +1,312 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _2003v5
+build_property.RootNamespace = _2003v5
+build_property.ProjectDir = /home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/AllPlayers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWxsUGxheWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/AppearanceChart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXBwZWFyYW5jZUNoYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/ArgyleFCFacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXJneWxlRkNGYWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/ArgyleHistoryMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXJneWxlSGlzdG9yeU1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/AttendanceHighsAndLows.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXR0ZW5kYW5jZUhpZ2hzQW5kTG93cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Authors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aG9ycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/BestAndWorstStarts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQmVzdEFuZFdvcnN0U3RhcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter10ArgyleFCsFinalTriumph.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjEwQXJneWxlRkNzRmluYWxUcml1bXBoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter11PlymouthArgylesEarlyYears.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjExUGx5bW91dGhBcmd5bGVzRWFybHlZZWFycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter12ArgyleAndTheGreatWar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjEyQXJneWxlQW5kVGhlR3JlYXRXYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter13IntoTheFootballLeague.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjEzSW50b1RoZUZvb3RiYWxsTGVhZ3VlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter14LifeInTheSecondDivision.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjE0TGlmZUluVGhlU2Vjb25kRGl2aXNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter15TheEndOfAnEra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjE1VGhlRW5kT2ZBbkVyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter16TheSecondWorldWarYears.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjE2VGhlU2Vjb25kV29ybGRXYXJZZWFycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter17FromTheAshes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjE3RnJvbVRoZUFzaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter18IntoTheFifties.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjE4SW50b1RoZUZpZnRpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter19FromBestToWorstViaHollywood.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjE5RnJvbUJlc3RUb1dvcnN0VmlhSG9sbHl3b29kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter1InTheBeginning.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjFJblRoZUJlZ2lubmluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter2FromStruggleToDemise.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjJGcm9tU3RydWdnbGVUb0RlbWlzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter3RisingFromThePhoenix.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjNSaXNpbmdGcm9tVGhlUGhvZW5peC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter4TheArgyleAthleticUmbrella.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjRUaGVBcmd5bGVBdGhsZXRpY1VtYnJlbGxhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter5HomeParkHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjVIb21lUGFya0hvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter6TheArgyleAffair.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjZUaGVBcmd5bGVBZmZhaXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter7TheBigBoysComeToTown.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjdUaGVCaWdCb3lzQ29tZVRvVG93bi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter8ArgyleFCBecomesSemiprofessional.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjhBcmd5bGVGQ0JlY29tZXNTZW1pcHJvZmVzc2lvbmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Chapter9TheBirthOfPlymouthArgyle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hhcHRlcjlUaGVCaXJ0aE9mUGx5bW91dGhBcmd5bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/CompetitionTotals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcGV0aXRpb25Ub3RhbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/ConsecutiveAppearances.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29uc2VjdXRpdmVBcHBlYXJhbmNlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/ConsecutiveReports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29uc2VjdXRpdmVSZXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/ConsecutiveResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29uc2VjdXRpdmVSZXN1bHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/CurrentSquad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VycmVudFNxdWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/DailyDiary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGFpbHlEaWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Day.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/DevonFriendlies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV2b25GcmllbmRsaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/FactsAndFigures.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmFjdHNBbmRGaWd1cmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/FootballLeagueByCalendarYear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9vdGJhbGxMZWFndWVCeUNhbGVuZGFyWWVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/FootballLeagueByDecade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9vdGJhbGxMZWFndWVCeURlY2FkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/FootballLeagueRecordByDecade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRm9vdGJhbGxMZWFndWVSZWNvcmRCeURlY2FkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Friendlies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRnJpZW5kbGllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/GoalscorersBySeason.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR29hbHNjb3JlcnNCeVNlYXNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/GoalscoresRankedBySeason.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR29hbHNjb3Jlc1JhbmtlZEJ5U2Vhc29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/GreenJerseyJourney.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR3JlZW5KZXJzZXlKb3VybmV5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/HistoryMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSGlzdG9yeU1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Homepark.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZXBhcmsuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/HowItAllBegan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG93SXRBbGxCZWdhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/LeagueTablePlus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGVhZ3VlVGFibGVQbHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Managers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWFuYWdlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/MatchDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWF0Y2hEYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/MOTD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTU9URC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/NonMatchPhoto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTm9uTWF0Y2hQaG90by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Opposition.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT3Bwb3NpdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/ProgressGraphs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZ3Jlc3NHcmFwaHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/RecordsAndAchievements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVjb3Jkc0FuZEFjaGlldmVtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/ScoreCounts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2NvcmVDb3VudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Seasons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2Vhc29ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/ShowChapters.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hvd0NoYXB0ZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/ShowFullDatabase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hvd0Z1bGxEYXRhYmFzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/ShowReports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hvd1JlcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/SuccessRankingByOpposition.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VjY2Vzc1JhbmtpbmdCeU9wcG9zaXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/SuccessRankingsByOpposition.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VjY2Vzc1JhbmtpbmdzQnlPcHBvc2l0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/TeamPhotos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVhbVBob3Rvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/TheLatestMatch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGhlTGF0ZXN0TWF0Y2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/TopPlayers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9wUGxheWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/TopSubstitues.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9wU3Vic3RpdHVlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/TopSubstitutes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVG9wU3Vic3RpdHV0ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/VideosFoundOnline.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmlkZW9zRm91bmRPbmxpbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/YoungestAndOldest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvWW91bmdlc3RBbmRPbGRlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-nxcfzniho9

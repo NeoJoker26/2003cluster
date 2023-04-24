@@ -1,0 +1,224 @@
+﻿@page
+@model _2003v5.Pages.FootballLeagueRecordByDecadeModel
+@{
+}
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin:3 0 12 0" bordercolor="#111111" width="980">
+    <tbody>
+        <tr>
+            <td width="50%" style="border-style: none; border-width: medium" valign="top">
+                <p style="margin-top: 0; margin-bottom: 2"><b>Notes:</b></p>
+            </td>
+            <td width="50%" style="border-style: none; border-width: medium" valign="top">
+                &nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" style="border-style: none; border-width: medium" valign="top">
+                <p style="text-align: left; margin-top: 0; margin-bottom: 6">
+                    1. This
+                    report compares Argyle's playing record by decade. Note that the
+                    numbers are based on match dates, so some
+                    seasons appear across two decades.
+                </p>
+                <p style="text-align: left; margin-top: 0; margin-bottom: 6">
+                    2.
+                    The average home attendance gives a reasonable indication of a
+                    successful team, although oddly, the best attended period coincides
+                    with some of the worst results. These were the post-WW2 years, when football
+                    was hugely popular after many years of austerity.
+                </p>
+                <p style="text-align: left; margin-top: 0; margin-bottom: 6">
+                    3. A
+                    better indication of success is the proportion of games won. The green, yellow and grey bars illustrate the percentage of
+                    games in that decade that were won, drawn and lost (detailed figures
+                    appear when you hover on a bar).&nbsp;
+                </p>
+                <p style="text-align: left; margin-top: 0; margin-bottom: 6">
+                    4. The
+                    blue bars need some explanation. A simple total of points is not much
+                    use when comparing seasons because the number of games  varies.
+                    The average points per game (using 3 points for a win in all cases) is
+                    a better indicator, i.e. total points divided by total games. However,
+                    most would agree that a win in a higher division is more impressive
+                    than in a lower one, so without some form of a weighting, we
+                    still don't get a true view. The blue bars are the result of applying
+                    a  weighting factor of 1.2 in favour of each higher division.
+                    <i>(continued in next column)</i>
+                </p>
+            </td>
+            <td width="50%" style="border-style: none; border-width: medium" valign="top">
+                <p style="text-align: left; margin-top: 0; margin-bottom: 0; margin-left:6">
+                    So how does this work? A win in tier-4 gets 3 points, a win in tier-3 gets 1.2 x 3 points
+                    and a win in tier-2 gets 1.2 x 1.2 x 3 points. This method is also
+                    used for draws.
+                    Thus a&nbsp;record in a higher tier is given more weight than a
+                    similar one lower down. Of course the big question is what should
+                    that factor be? How much better is each tier compared with the next
+                    lower one? The report
+                    starts with a factor of 1.2 but to be honest, it's a guess. And by the
+                    way, reducing the factor to 1 is the same as no weighting, so the bars
+                    reduce to the actual points gained.
+                </p><form style="padding: 0; margin: 0;" method="POST" action="gosdb-misc7" onsubmit="return FrontPage_Form1_Validator(this)" language="JavaScript" name="FrontPage_Form1" webbot-action="--WEBBOT-SELF--">
+                    <input type="hidden" name="VTI-GROUP" value="0">
+                    <p style="margin-left: 6; margin-top:3; margin-bottom:0">
+                        You can change the weighting factor here:
+                        <input type="text" name="weightfactor" size="1" value="1.2" maxlength="3" style="font-size: 10px"><input type="submit" value="Change" name="B1" style="font-size: 10px">
+                        (between 1 and 2).
+                    </p>
+                    <p style="margin-left: 6"></p>
+                </form>
+                <p style="margin-left: 6">
+                </p>
+                <p style="text-align: left; margin-top: 0; margin-bottom: 0; margin-left:6">
+                    Like the bars in the previous column, detailed figures appear when you hover on a
+                    a blue bar.
+                </p><p style="text-align: left; margin-top: 6; margin-bottom: 0; margin-left:6">
+                    5. So
+                    what are the best and worst decades? From the number of games won,
+                    the 1920s is the best, but this was in tier-3. With a small rise in
+                    the weighting factor, the 1930's soon comes into its own. The worst
+                    season is a close-run thing; at least using the default weighting. Despite the high attendances, the four seasons in
+                    the 1940s were not the best, nor were the 1990s, but it's the latter
+                    case that takes the wooden spoon if you raise the weighting factor.
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table id="table1" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+    <tbody>
+        <tr>
+            <td style="text-align:left;" rowspan="2" valign="bottom"><b>Decade</b></td>
+            <td colspan="4" style="border-bottom-style: none; border-bottom-width: medium" valign="bottom">
+                <b>Seasons in Tiers</b>
+            </td>
+            <td valign="bottom" rowspan="2">
+                <b>
+                    Average<br>
+                    &nbsp;Home<br>
+                    Attend.
+                </b>
+            </td>
+            <td valign="bottom" rowspan="2" style="text-align: left">
+                <b>
+                    Top
+                    Player This<br>
+                    Decade <br>
+                </b>Hover in cell for top 10
+            </td>
+            <td style="text-align:left;" rowspan="2" valign="bottom">
+                <font color="#FFFFFF">
+                    <span style="background-color: #008000">
+                        &nbsp;Won
+                    </span>
+                </font><span style="background-color: #FFFF99">
+                    <font color="#FFCC66">&nbsp;</font>Drawn<font color="#FFCC66"> </font>
+                </span><span style="background-color: #808080">
+                    <font color="#FFFFFF">&nbsp;Lost </font>
+                </span><b>
+                    &nbsp;Ratios<br>
+                </b>Hover in cell for values
+            </td>
+            <td style="text-align:left; border-bottom-style:none; border-bottom-width:medium" valign="bottom" rowspan="2">
+                <font color="#333399">
+                    <b>
+                        Weighted average
+                        points<br>
+                        per game
+                    </b>(see note 4)<b>
+                        <br>
+                    </b>
+                </font>Hover in cell for values
+            </td>
+        </tr>
+        <tr>
+            <td style="border-top-style: none; border-top-width: medium" valign="bottom">
+                <b>1</b>
+            </td>
+            <td style="border-top-style: none; border-top-width: medium" valign="bottom">
+                <b>2</b>
+            </td>
+            <td style="border-top-style: none; border-top-width: medium" valign="bottom">
+                <b>3</b>
+            </td>
+            <td style="border-top-style: none; border-top-width: medium" valign="bottom">
+                <b>4</b>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<script language="JavaScript" type="text/javascript">
+                                                                                                                      <!--
+function FrontPage_Form1_Validator(theForm) {
+    if (theForm.weightfactor.value == "") {
+        alert("Please enter a value for the \"Weight Factor\" field.");
+        theForm.weightfactor.focus();
+        return (false);
+    }
+    if (theForm.weightfactor.value.length > 3) {
+        alert("Please enter at most 3 characters in the \"Weight Factor\" field.");
+        theForm.weightfactor.focus();
+        return (false);
+    }
+    var checkOK = "0123456789-.";
+    var checkStr = theForm.weightfactor.value;
+    var allValid = true;
+    var validGroups = true;
+    var decPoints = 0;
+    var allNum = "";
+    for (i = 0; i < checkStr.length; i++) {
+        ch = checkStr.charAt(i);
+        for (j = 0; j < checkOK.length; j++)
+            if (ch == checkOK.charAt(j))
+                break;
+        if (j == checkOK.length) {
+            allValid = false;
+            break;
+        }
+        if (ch == ".") {
+            allNum += ".";
+            decPoints++;
+        }
+        else
+            allNum += ch;
+    }
+    if (!allValid) {
+        alert("Please enter only digit characters in the \"Weight Factor\" field.");
+        theForm.weightfactor.focus();
+        return (false);
+    }
+    if (decPoints > 1 || !validGroups) {
+        alert("Please enter a valid number in the \"weightfactor\" field.");
+        theForm.weightfactor.focus();
+        return (false);
+    }
+    var chkVal = allNum;
+    var prsVal = parseFloat(allNum);
+    if (chkVal != "" && !(prsVal <= 2 && prsVal >= 1)) {
+        alert("Please enter a value less than or equal to \"2\" and greater than or equal to \"1\" in the \"Weight Factor\" field.");
+        theForm.weightfactor.focus();
+        return (false);
+    }
+    return (true);
+}
+//--></script>
+@*
+    @foreach (var Table in Model.FLRDT)
+        {
+            <tr>
+                <td>@Table.decade</td>
+                <td>@Table.tier1</td>
+                <td>@Table.tier2</td>
+                <td>@Table.tier3</td>
+                <td>@Table.tier4</td>
+                <td>@Table.attendance</td>
+                <td>
+                    Starts: @Table.i1[0].@Table.PlayerSurname1 (@Table.Goal1)<br>
+                    Goals: @Table.i2[0].@Table.PlayerSurname2 (@Table.Goal2)
+                </td>
+                <td>@Table.wins @Table.draws @Table.defeats</td>
+                <td>@Model.Weightedpointsratio(@Table.weightedpoints)</td> <!--this is the width of the image-->
+            </tr>
+        }
+*@

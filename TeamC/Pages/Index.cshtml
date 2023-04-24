@@ -1,0 +1,176 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "GoS Home page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/site.css"/>
+    <link rel="stylesheet" href="css/gos2.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greens on Screen</title>
+</head>
+
+<body>
+    <P></P>
+    <P></P>
+    <P></P>
+    <table>
+        <tr>
+            <th>
+                <img src="~/images/history-small.jpg"/>
+                <form> <!--Search By buttons-->
+                    <input type="button" class="search-form-btn" onclick="window.location.href='MatchDate';" value="MATCH DATE"/>
+                    <input type="button" class="search-form-btn" onclick="window.location.href='Day';" value="DAY"/>
+                    <input type="button" class="search-form-btn" onclick="window.location.href='Seasons';" value="SEASONS"/>
+                    <input type="button" class="search-form-btn" onclick="window.location.href='Opposition';" value="OPPOSITION"/>
+                    <p>
+                        <input type="button" class="search-form-btn" onclick="window.location.href='TopPlayers';" value="TOP PLAYERS"/>
+                        <input type="button" class="search-form-btn" onclick="window.location.href='AllPlayers';" value="ALL PLAYERS"/>
+                        <input type="button" class="search-form-btn" onclick="window.location.href='Managers';" value="MANAGERS"/>
+                    </p>
+                    <p><b>OR</b></p>
+                    <p>
+                    <input type="button" class="search-form-btn" onclick="window.location.href='ShowReports';" value="SHOW REPORTS"/>
+                    <input type="button" class="search-form-btn" onclick="window.location.href='ShowFullDatabase';" value="FULL GoS-DB"/>
+                    <p>
+                </form>
+            </th>
+            <th>
+                <bold><h5 style="color:#005045;">Welcome to the sights, sounds and history of Plymouth Argyle Football Club</h5></bold>
+                <h5 style="color:#005045;">Pictures of the day</h5>
+                <img src="https://greensonscreen.co.uk/images/dailyphoto/143---IMG_8988.jpg" style="width:150px;height:150px;">
+                <img src="https://greensonscreen.co.uk/images/dailyphoto/144---P1020538.jpg" style="width:150px;height:150px;">
+            </th>
+            <th>
+                <div>
+                    <form > <!--History-->
+                        <div class="row">
+                            <div class="column">
+                                <img src="~/images/gosdb-small.jpg"/>
+                                <input type="button" class="history-btn" onclick="window.location.href='Chapter1InTheBeginning';" value="HOW IT ALL BEGAN" />
+                                <input type="button" class="history-btn" onclick="window.location.href='ArgyleHistoryMenu';" value="HISTORY MENU"/>
+                            </div>
+                        <div class="column">
+                            <input type="button" class="history-btn" onclick="window.location.href='FactsAndFigures';" value="ARGYLE FC FACTS" />
+                            <input type="button" class="history-btn" onclick="window.location.href='argylehistory_shirt.pdf';" value="GREEN JERSEY JOURNEY" />
+                            </div>
+                        </div>
+                        <div class="history-bottom">
+                            <input type="button" class="history-btn" onclick="window.location.href='ShowChapters';" value="SHOW CHAPTERS" />
+                        </div>
+                    </form>
+                </div>
+            </th>
+        </tr>
+    </table>
+    <P></P>
+    <P></P>
+    <P></P>
+    <table style="width:100%">
+        <tr>
+            <th>
+                <form> <!--Here and now-->
+                    <span>Here and Now</span>
+                    <input type="button" class="here-now-btn" onclick="window.location.href='DailyDiary';" value="Daily Diary & OTD" />
+                    <input type="button" class="here-now-btn" onclick="window.location.href='CurrentSquad';" value="Current Squad" />
+                    <input type="button" class="here-now-btn" onclick="window.location.href='TheLatestMatch';" value="The latest Match" />
+                    <input type="button" class="here-now-btn" onclick="window.location.href='LeagueTablePlus';" value="League Table Plus" />
+                    <input type="button" class="here-now-btn" onclick="window.location.href='AppearanceChart';" value="Appearance Chart" />
+                    <input type="button" class="here-now-btn" onclick="window.location.href='ProgressGraphs';" value="Progress Graphs" />
+                </form>
+            </th>
+            <th>
+                <h5 style="color:#005045;">Match of the day</h5>
+                <p>Information on the matches that have happened on this day (including the year it happened)<p>
+                <h5 style="color:#005045;">On this day</h5>
+                <p>Information on events that happened on this day<p>
+                    <table class="table">
+                        <thead>
+                        </thead>
+                        <!-- <tbody>
+                            @foreach (var otd in Model.onThisDayTBL)
+                                {
+                                    <tr>
+                                        <td>@otd.year</td>
+                                        <td>@otd.fact</td>
+
+                                    </tr>
+                                }
+                        </tbody> -->
+                    </table>
+                    <h5 style="color:#005045;">Born this day</h5>
+                <p>Information on the players that were born on this day</p>
+            </th>
+            <th><div class="row">
+                    <div class="column">
+                <form><!--Then and Now-->
+                    <span>Then and Now</span>
+                    <input type="button" class="then-now-btn" onclick="window.location.href='RecordsAndAchievements';" value="Records & Achievements" />
+                    <input type="button" class="then-now-btn" onclick="window.location.href='TeamPhotos';" value="Team Photos" />
+                    <input type="button" class="then-now-btn" onclick="window.location.href='Friendlies';" value="Friendly Matches" />
+                    <input type="button" class="then-now-btn" onclick="window.location.href='VideosFoundOnline';" value="Videos Found Online" />
+                    <input type="button" class="then-now-btn" onclick="window.location.href='NonMatchPhoto';" value="Non-Match Photo Archive" />
+                </form>
+                </div>
+                        <div class="column">
+                <form> <!--Other Sites-->
+                    <span>Other Sites</span>
+                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.pafc.co.uk/';" value="PAFC Offical" />
+                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.facebook.com/ArgyleWFC';" value="Argyle Women" />
+                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.argylearchive.org.uk/';" value="The Argyle Archive" />
+                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.argylefanstrust.com/';" value="Argyle Fans' Trust" />
+                            <input type="button" class="then-now-btn" onclick="window.location.href='https://pasoti.co.uk/talk/';" value="PASOTI" />
+                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.greentaverners.co.uk/';" value="Green Taverners" />
+                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.facebook.com/groups/1325246504231190';" value="Senior Greens" />
+                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.plymouthherald.co.uk/all-about/plymouth-argyle';" value="Plymouth Live" />
+                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.bbc.co.uk/sport/football/teams/plymouth-argyle';" value="BBC Sport" />
+                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.skysports.com/plymouth-argyle';" value="Sky Sport" />
+                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.newsnow.co.uk/h/Sport/Football/League+One/Plymouth+Argyle?type=ln';" value="News Sports" />
+                            <input type="button" class="then-now-btn" onclick="window.location.href='http://www.historicalkits.co.uk/Plymouth_Argyle/Plymouth_Argyle.htm';" value="Historical Football Kits" />
+                        </form>
+                    </div>
+                </div>
+            </th>
+        </tr>
+    </table>
+</body>
+<style>
+    *::before, *::after, * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: white;
+        color: black;
+        text-align: center;
+    }
+
+    .strength-meter {
+        position: relative;
+        left: -42%;
+        height: 1rem;
+        width: 15%;
+        border: 3px solid black;
+        border-radius: 1rem;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+        .strength-meter::before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: calc(1% * var(--strength, 0));
+            background-color: black;
+            transition: width 200ms;
+        }
+
+    .normal > * {
+        margin-top: .3rem;
+        color: black;
+    }
+</style>
+</html>

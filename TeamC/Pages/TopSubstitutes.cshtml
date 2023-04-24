@@ -1,0 +1,59 @@
+﻿@page
+@model _2003v5.Pages.TopSubstitutesModel
+@{
+}
+
+<table border="0" style="border-collapse: collapse; margin:6 0 12 0" bordercolor="#111111">
+
+</table>
+<table>
+    <tr><td colspan="2"><b>ALL PLAYERS</b></td></tr>
+    <tr><td>Players making any appearance</td><td align= right;>@Model.AP1</td></tr>
+    <tr><td>Players who have started a game</td><td align=right;>@Model.AP2</td></tr>
+    <tr><td>Players who have appeared as a substitute</td><td align= right;>@Model.AP3</td></tr>
+    <tr><td>Total player substitutions</td><td align=right;>@Model.AP4</td></tr>
+    <tr><td colspan="2">
+            <p style="margin-top: 6px"><b>Highest Substitute Appearances</b>
+        </td>
+        @foreach(var Player in Model.HSA)
+        {
+        <tr><td>@Player.forename @Player.surname </td><td align= right;>@Player.count</td></tr>
+        }
+       
+    </tr>
+    <tr>
+        <td colspan="2">
+            <p style="margin-top: 6"><b>Top Substitute Goalscorers</b>
+        </td>
+        @foreach (var Player in Model.TSG)
+        {
+        <tr><td>@Player.forename @Player.surname </td><td align= right;>@Player.count</td></tr>
+        }
+    </tr>
+</table>
+<table id="table2" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+    <tr><td colspan="2"><b>CURRENT SQUAD</b></td></tr>
+    <tr><td>Players making any appearance</td><td align= right;>@Model.CS1</td></tr>
+    <tr><td>Players who have started a game</td><td align= right;>@Model.CS2</td></tr>
+    <tr><td>Players who have appeared as a substitute</td><td align= right;>@Model.CS3</td></tr>
+    <tr><td>Total player substitutions</td><td align= right;>@Model.CS4</td></tr>
+    <tr>
+        <td colspan="2">
+            <p style="margin-top: 6"><b>Highest Substitute Appearances</b>
+        </td>
+        @foreach (var Player in Model.HSA2)
+        {
+        <tr><td>@Player.forename @Player.surname </td><td align= right;>@Player.count</td></tr>
+        }
+
+    </tr>
+    <tr>
+        <td colspan="2">
+            <p style="margin-top: 6px"><b>Top Substitute Goalscorers</b>
+        </td>
+        @foreach (var Player in Model.TSG2)
+        {
+        <tr><td>@Player.forename @Player.surname </td><td align= right;>@Player.count</td></tr>
+        }
+    </tr>
+    </table>

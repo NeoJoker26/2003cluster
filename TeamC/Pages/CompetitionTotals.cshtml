@@ -1,0 +1,114 @@
+﻿@page
+@model _2003v5.Pages.CompetitionTotalsModel
+@{
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <table id="sumtable" border="0" cellpadding="0" cellspacing="0" style="margin-top: 9; border-collapse: collapse">
+        <tbody>
+            <tr>
+                <td style="border: 0px none white;" colspan="2">&nbsp;</td>
+                <td colspan="6" class="l r" style="text-align:center; border-top-color: #C0C0C0; border-top-width: 1">
+                    <b>Home</b></td><td colspan="6" class="l r" style="text-align:center; border-top-color: #C0C0C0; border-top-width: 1">
+                        <b>Away or Neutral</b></td><td colspan="6" class="l r" style="text-align:center; border-top-color: #C0C0C0; border-top-width: 1">
+                            <b>Totals</b></td><td colspan="3" class="l r" style="text-align:center; border-top-color: #C0C0C0; border-top-width: 1">
+                                <b>Attendance</b></td></tr><tr><td style="padding:0 8 0 8; text-align: left"><b>Type</b></td>
+                                    <td style="padding:0 8 0 8; text-align: left"><b>Competition</b></td>
+                                    <td class="l"><b>P</b></td>
+                                    <td><b>W</b></td>
+                                    <td><b>D</b></td>
+                                    <td><b>L</b></td>
+                                    <td><b>F</b></td>
+                                    <td class="r"><b>A</b></td>
+                                    <td class="l"><b>P</b></td>
+                                    <td><b>W</b></td>
+                                    <td><b>D</b></td>
+                                    <td><b>L</b></td>
+                                    <td><b>F</b></td>
+                                    <td class="r"><b>A</b></td>
+                                    <td class="l"><b>P</b></td>
+                                    <td><b>W</b></td>
+                                    <td><b>D</b></td>
+                                    <td><b>L</b></td>
+                                    <td><b>F</b></td>
+                                    <td class="r"><b>A</b></td>
+                                    <td class="l" style="text-align: center"><b>Avg<br>Home</b></td>
+                                    <td class="r" style="text-align: center"><b>Avg<br>Away</b></td>
+                                    </tr><tr onmouseover="this.className = 'rowhlt';" onmouseout="this.className = '';">
+                @foreach (var Match in Model.MatchesTable)
+                {
+    
+    
+                <tr>
+                        @if (@Match.comptype1 == "zzz" && Match.comptype2 == "zzzz" && Match.competition == "zzzzz")
+                        {
+                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>Grand Totals/</td>
+                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>Averages</td>
+                        }
+                        else if (Match.comptype1 == "League" && Match.comptype2 == "zzzz" && Match.competition == "zzzzz")
+                        {
+                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>Football League Totals/</td>
+                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>Averages</td>
+                        }
+                        else if (Match.competition == "zzzzz")
+                        {
+                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>@if (Match.comptype2 != "zzzz")
+                                {
+                                    @Match.comptype2
+                                } Totals/</td>
+                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>Averages</td>
+                        }
+                        else if (@Match.comptype1 != "zzz" && Match.comptype2 != "zzzz" && Match.competition != "zzzzz")
+                        {
+                        <td>@Match.comptype1</td>
+                        <td>@Match.competition</td>
+                        }
+                        @if (Match.comptype2 != "zzzz" || @Match.comptype1 == "zzz" && Match.comptype2 == "zzzz" && Match.competition == "zzzzz" || Match.comptype1 == "League" && Match.comptype2 == "zzzz" && Match.competition == "zzzzz" || Match.competition == "zzzzz")
+                        {
+                        <td>@Match.HP</td>
+                        <td>@Match.HW</td>
+                        <td>@Match.HD</td>
+                        <td>@Match.HL</td>
+                        <td>@Match.HF</td>
+                        <td>@Match.HA</td>
+                        <td>@Match.AP</td>
+                        <td>@Match.AW</td>
+                        <td>@Match.AD</td>
+                        <td>@Match.AL</td>
+                        <td>@Match.AF</td>
+                        <td>@Match.AA</td>
+                        <td>@Match.P</td>
+                        <td>@Match.W</td>
+                        <td>@Match.D</td>
+                        <td>@Match.L</td>
+                        <td>@Match.F</td>
+                        <td>@Match.A</td>
+                        <td>
+                                @if (@Match.HAT == 0) { }
+                                else
+                                {
+                                    @Match.HAT
+                                }
+                        </td>
+                        <td>
+                                @if (@Match.AAT == 0) { }
+                                else
+                                {
+                                    @Match.AAT
+                                }
+                        </td>
+                        }
+                </tr>
+                }
+        </tbody>
+    </table>
+</div>
+</body>
+</html> 

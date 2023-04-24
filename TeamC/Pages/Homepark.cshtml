@@ -1,0 +1,89 @@
+﻿@page
+@model _2003v5.Pages.HomeparkModel
+@{
+}
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+<title>GoS Home Park</title>
+<link href="images/favicon.ico" rel="shortcut icon">
+<link rel="stylesheet" type="text/css" href="gos2.css">
+<link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+</head>
+
+<style>
+#content {width: 980px; margin: 0 auto;}
+#current {padding:0 0 20px 0;}
+#current h1 {margin:24px 0 4px; text-align:center; font-size:18px;}
+#current p {margin:6px 0; text-align: center;}
+#currentcentre {margin:0 auto; width: 400px;}
+#older {display: none; width: 500px; margin: 12px 0 18px; clear:both;}
+#older p {text-align:left;}
+.oldershow {padding:4px;}
+#slides {width: 500px; clear:both;}
+#slides h1 {margin:12px 0 4px; text-align:center; font-size:17px;}
+#slides p {margin:6px 0 18px; text-align:left;}
+#past {width:90%; padding:0 0 15px 0; clear:both;}
+#past h1 {margin:12px 0 4px; text-align:center; font-size:17px;}
+#past p {margin:6px 0; text-align:left;}
+.image {border-width: 0; margin: 0 4px -2px 0; vertical-align: baseline}
+.hover {color: #000000; background-color: #c8e0c7 !important; cursor: pointer;}
+.photoleft {float:left; border:1px solid #404040; padding:3px;}
+.photoright {float:right; border:1px solid #404040; padding:3px;}
+.hide {display: none;}
+.show1 {padding-left: 8px;}
+.show2 {padding-left: 8px; display: inline;}	/*display inline will override hide on page load*/
+.show3 {padding-left: 8px;}
+table {display: table; border-collapse: separate; border-spacing: 0; padding: 0;}
+
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" ></script> <!--Loads jQuery library 3.6.4-->
+<script>
+    $(function () { //jQuery function declares variables for each jQuery selector to avoid multiple lookups
+        const $oldershow = $('.oldershow');
+        const $older = $('#older');
+        const $delay1 = $('#delay1');
+        const $delay2 = $('#delay2');
+        const $delay3 = $('#delay3');
+        const $hide = $('.hide');
+        const $show1 = $('.show1');
+        const $show2 = $('.show2');
+        const $show3 = $('.show3');
+
+        $oldershow.on('mouseenter mouseleave', function () { //This uses two event listeners so to show when mouse enters or leaves the element
+            $(this).toggleClass('hover');
+        }).on('click', function () {
+            $oldershow.hide('fast');
+            $older.show('fast');
+        });
+
+        $older.on('click', 'table tr', function () { //When it is clicked it navigates to that URL
+            const href = $(this).find('a').attr('href');
+            if (href) {
+                window.location = href;
+            }
+        }).on('mouseenter mouseleave', 'table tr', function () { //Toggles hover class
+            $(this).toggleClass('hover');
+        });
+
+        $delay1.on('click', function () { //When one of the elements is clicked, all elements with hide class are hidden and the corresponding element with show(x) is shown
+            $hide.hide('fast');
+            $show1.show('fast');
+        });
+        $delay2.on('click', function () {
+            $hide.hide('fast');
+            $show2.show('fast');
+        });
+        $delay3.on('click', function () {
+            $hide.hide('fast');
+            $show3.show('fast');
+        });
+    });
+</script>
+
+
+<body>
+
+</body>
+</html>

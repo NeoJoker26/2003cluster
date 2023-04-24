@@ -1,0 +1,715 @@
+﻿@page
+@model TeamPhotosModel
+@{
+}
+<head>
+    <style>
+        .color-block {
+            background-color: #457b44;
+            width: 100%;
+            height: 70px;
+        }
+
+    </style>
+</head>
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="generator" content="Microsoft FrontPage 6.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <meta name="Author" content="Trevor Scallan">
+    <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+    <title>Greens on Screen</title>
+</head>
+<div id="container">
+    <p style="margin: 12px 0 6px; color: #457B44; font-size: 18px">TEAM PHOTOS</p>
+    <style>
+
+        #container {
+            width: 980px;
+            margin: 0 auto;
+        }
+
+        .button {
+            width: 75px;
+            padding: 3px;
+            margin: 2px;
+            font-family: verdana, sans-serif;
+            display: inline-block;
+            white-space: nowrap;
+            font-size: 12px;
+            position: relative;
+            outline: none;
+            overflow: visible;
+            cursor: pointer;
+            border-radius: 2px;
+            border: 1px solid #808080;
+            color: #000000 !important;
+            background: linear-gradient(#efffef,#dfefdf);
+        }
+
+            .button:hover {
+                background: linear-gradient(#c8e0c7,#c6dbc5);
+                border: 1px solid #000000;
+            }
+
+        .blank {
+            width: 75px;
+            padding: 1px;
+            margin: 2px;
+            display: inline-block;
+            font-size: 10px;
+            border: 0px none;
+            background-color: white
+        }
+
+        #updatelist {
+            width: 900px;
+            padding: 5px;
+            margin: 6px 4px 12px;
+            font-size: 11px;
+            text-align: left;
+        }
+
+            #updatelist p {
+                margin: 6px;
+            }
+
+    </style>
+
+
+    <div style="position: relative">
+        <p style="position: absolute; left: 42px; top: 4px; margin: 0; font-size: 11px; text-align:left;">
+            If you can help to improve this collection with new or better images, please get in touch.
+            <div style="position: relative">
+                <p style="position: absolute; left: 42px; top: 4px; margin: 0; font-size: 11px; text-align:left;">If you can help to improve this collection with new or better images, please get in touch.</p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+                <p class="blank"></p>
+
+
+                <button class="button" onclick="toggleImage('image1', 'images/1898-99.jpg')">1898-99</button>
+                <div id="image1Modal" style="display:none;">
+                    <img id="image1" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image2', 'images/1899-00.jpg')">1899-00</button>
+                <div id="image2Modal" style="display:none;">
+                    <img id="image2" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image3', 'images/1900-01.jpg')">1900-01</button>
+                <div id="image3Modal" style="display:none;">
+                    <img id="image3" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image4', 'images/1902-03.jpg')">1902-03</button>
+                <div id="image4Modal" style="display:none;">
+                    <img id="image4" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image5', 'images/1903-04.jpg')">1903-04</button>
+                <div id="image5Modal" style="display:none;">
+                    <img id="image5" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image6', 'images/1904-05.jpg')">1904-05</button>
+                <div id="image6Modal" style="display:none;">
+                    <img id="image6" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image7', 'images/1904-05.jpg')">1904-05</button>
+                <div id="image7Modal" style="display:none;">
+                    <img id="image7" class="modal-content" src="" alt="">
+                </div>
+                <button class="button" onclick="toggleImage('image8', 'images/1906-07.jpg')">1906-07</button>
+                <div id="image8Modal" style="display:none;">
+                    <img id="image8" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image9', 'images/1907-08a.jpg')">1907-08</button>
+                <div id="image9Modal" style="display:none;">
+                    <img id="image9" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image10', 'images/1908-09.jpg')">1908-09</button>
+                <div id="image10Modal" style="display:none;">
+                    <img id="image10" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image11', 'images/1909-10.jpg')">1909-10</button>
+                <div id="image11Modal" style="display:none;">
+                    <img id="image11" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image12', 'images/1910-11.jpg')">1910-11</button>
+                <div id="image12Modal" style="display:none;">
+                    <img id="image12" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image13', 'images/1911-12.jpg')">1911-12</button>
+                <div id="image13Modal" style="display:none;">
+                    <img id="image13" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image14', 'images/1912-13.jpg')">1912-13</button>
+                <div id="image14Modal" style="display:none;">
+                    <img id="image14" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image15', 'images/1913-14.jpg')">1913-14</button>
+                <div id="image15Modal" style="display:none;">
+                    <img id="image15" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image16', 'images/1914-15.jpg')">1914-15</button>
+                <div id="image16Modal" style="display:none;">
+                    <img id="image16" class="modal-content" src="" alt="">
+                </div>
+
+
+                <p class="blank">WW1</p>
+                <p class="blank">WW1</p>
+                <p class="blank">WW1</p>
+                <p class="blank">WW1</p>
+
+
+                <button class="button" onclick="toggleImage('image17', 'images/1920-21.jpg')">1920-21</button>
+                <div id="image17Modal" style="display:none;">
+                    <img id="image17" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image18', 'images/1921-22.jpg')">1921-22</button>
+                <div id="image18Modal" style="display:none;">
+                    <img id="image18" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image19', 'images/1922-23.jpg')">1922-23</button>
+                <div id="image19Modal" style="display:none;">
+                    <img id="image19" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image20', 'images/1923-24.jpg')">1923-24</button>
+                <div id="image20Modal" style="display:none;">
+                    <img id="image20" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image21', 'images/1924-25.jpg')">1924-25</button>
+                <div id="image21Modal" style="display:none;">
+                    <img id="image21" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image22', 'images/1925-26.jpg')">1925-26</button>
+                <div id="image22Modal" style="display:none;">
+                    <img id="image22" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image23', 'images/1926-27.jpg')">1926-27</button>
+                <div id="image23Modal" style="display:none;">
+                    <img id="image23" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image24', 'images/1927-28.jpg')">1927-28</button>
+                <div id="image24Modal" style="display:none;">
+                    <img id="image24" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image25', 'images/1928-29.jpg')">1928-29</button>
+                <div id="image25Modal" style="display:none;">
+                    <img id="image25" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image26', 'images/1929-30.jpg')">1929-30</button>
+                <div id="image26Modal" style="display:none;">
+                    <img id="image26" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image27', 'images/1930-31.jpg')">1930-31</button>
+                <div id="image27Modal" style="display:none;">
+                    <img id="image27" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image28', 'images/1931-32.jpg')">1931-32</button>
+                <div id="image28Modal" style="display:none;">
+                    <img id="image28" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image29', 'images/1932-33.jpg')">1932-33</button>
+                <div id="image29Modal" style="display:none;">
+                    <img id="image29" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image30', 'images/1933-34.jpg')">1933-34</button>
+                <div id="image30Modal" style="display:none;">
+                    <img id="image30" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image31', 'images/1934-35.jpg')">1934-35</button>
+                <div id="image31Modal" style="display:none;">
+                    <img id="image31" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image32', 'images/1935-36.jpg')">1935-36</button>
+                <div id="image32Modal" style="display:none;">
+                    <img id="image32" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image33', 'images/1936-37.jpg')">1936-37</button>
+                <div id="image33Modal" style="display:none;">
+                    <img id="image33" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image34', 'images/1937-38.jpg')">1937-38</button>
+                <div id="image34Modal" style="display:none;">
+                    <img id="image34" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image35', 'images/1938-39.jpg')">1938-39</button>
+                <div id="image35Modal" style="display:none;">
+                    <img id="image35" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image36', 'images/1939-40.jpg')">1939-40</button>
+                <div id="image36Modal" style="display:none;">
+                    <img id="image36" class="modal-content" src="" alt="">
+                </div>
+
+                <p class="blank">WW2</p>
+                <p class="blank">WW2</p>
+                <p class="blank">WW2</p>
+                <p class="blank">WW2</p>
+                <p class="blank">WW2</p>
+
+                <button class="button" onclick="toggleImage('image37', 'images/1945-46.jpg')">1945-46</button>
+                <div id="image37Modal" style="display:none;">
+                    <img id="image37" class="modal-content" src="" alt="">
+                </div>
+                <button class="button" onclick="toggleImage('image38', 'images/1946-47.jpg')">1946-47</button>
+                <div id="image38Modal" style="display:none;">
+                    <img id="image38" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image39', 'images/1947-48.jpg')">1947-48</button>
+                <div id="image39Modal" style="display:none;">
+                    <img id="image39" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image40', 'images/1948-49.jpg')">1948-49</button>
+                <div id="image40Modal" style="display:none;">
+                    <img id="image40" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image41', 'images/1949-50.jpg')">1949-50</button>
+                <div id="image41Modal" style="display:none;">
+                    <img id="image41" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image42', 'images/1950-51.jpg')">1950-51</button>
+                <div id="image42Modal" style="display:none;">
+                    <img id="image42" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image43', 'images/1951-52.jpg')">1951-52</button>
+                <div id="image43Modal" style="display:none;">
+                    <img id="image43" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image44', 'images/1952-53.jpg')">1952-53</button>
+                <div id="image44Modal" style="display:none;">
+                    <img id="image44" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image45', 'images/1953-54.jpg')">1953-54</button>
+                <div id="image45Modal" style="display:none;">
+                    <img id="image45" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image46', 'images/1954-55.jpg')">1954-55</button>
+                <div id="image46Modal" style="display:none;">
+                    <img id="image46" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image47', 'images/1955-56.jpg')">1955-56</button>
+                <div id="image47Modal" style="display:none;">
+                    <img id="image47" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image48', 'images/1956-57.jpg')">1956-57</button>
+                <div id="image48Modal" style="display:none;">
+                    <img id="image48" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image49', 'images/1957-58.jpg')">1957-58</button>
+                <div id="image49Modal" style="display:none;">
+                    <img id="image49" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image50', 'images/1958-59.jpg')">1958-59</button>
+                <div id="image50Modal" style="display:none;">
+                    <img id="image50" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image51', 'images/1959-60.jpg')">1959-60</button>
+                <div id="image51Modal" style="display:none;">
+                    <img id="image51" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image52', 'images/1960-61.jpg')">1960-61</button>
+                <div id="image52Modal" style="display:none;">
+                    <img id="image52" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image53', 'images/1961-62.jpg')">1961-62</button>
+                <div id="image53Modal" style="display:none;">
+                    <img id="image53" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image54', 'images/1962-63.jpg')">1962-63</button>
+                <div id="image54Modal" style="display:none;">
+                    <img id="image54" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image55', 'images/1963-64.jpg')">1963-64</button>
+                <div id="image55Modal" style="display:none;">
+                    <img id="image55" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image56', 'images/1964-65.jpg')">1964-65</button>
+                <div id="image56Modal" style="display:none;">
+                    <img id="image56" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image57', 'images/1965-66.jpg')">1965-66</button>
+                <div id="image57Modal" style="display:none;">
+                    <img id="image57" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image58', 'images/1966-67.jpg')">1966-67</button>
+                <div id="image58Modal" style="display:none;">
+                    <img id="image58" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image59', 'images/1967-68.jpg')">1967-68</button>
+                <div id="image59Modal" style="display:none;">
+                    <img id="image59" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image60', 'images/1968-69.jpg')">1968-69</button>
+                <div id="image60Modal" style="display:none;">
+                    <img id="image60" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image61', 'images/1969-70.jpg')">1969-70</button>
+                <div id="image61Modal" style="display:none;">
+                    <img id="image61" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image62', 'images/1970-71.jpg')">1970-71</button>
+                <div id="image62Modal" style="display:none;">
+                    <img id="image62" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image63', 'images/1971-72.jpg')">1971-72</button>
+                <div id="image63Modal" style="display:none;">
+                    <img id="image63" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image64', 'images/1972-73.jpg')">1972-73</button>
+                <div id="image64Modal" style="display:none;">
+                    <img id="image64" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image65', 'images/1973-74.jpg')">1973-74</button>
+                <div id="image65Modal" style="display:none;">
+                    <img id="image65" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image66', 'images/1974-75.jpg')">1974-75</button>
+                <div id="image66Modal" style="display:none;">
+                    <img id="image66" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image67', 'images/1975-76.jpg')">1975-76</button>
+                <div id="image67Modal" style="display:none;">
+                    <img id="image67" class="modal-content" src="" alt="">
+                </div>
+
+
+                <button class="button" onclick="toggleImage('image68', 'images/1976-77.jpg')">1976-77</button>
+                <div id="image68Modal" style="display:none;">
+                    <img id="image68" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image69', 'images/1977-78.jpg')">1977-78</button>
+                <div id="image69Modal" style="display:none;">
+                    <img id="image69" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image70', 'images/1978-79.jpg')">1978-79</button>
+                <div id="image70Modal" style="display:none;">
+                    <img id="image70" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image71', 'images/1979-80.jpg')">1979-80</button>
+                <div id="image71Modal" style="display:none;">
+                    <img id="image71" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image72', 'images/1980-81.jpg')">1980-81</button>
+                <div id="image72Modal" style="display:none;">
+                    <img id="image72" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image73', 'images/1981-82.jpg')">1981-82</button>
+                <div id="image73Modal" style="display:none;">
+                    <img id="image73" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image74', 'images/1982-83.jpg')">1982-83</button>
+                <div id="image74Modal" style="display:none;">
+                    <img id="image74" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image75', 'images/1983-84.jpg')">1983-84</button>
+                <div id="image75Modal" style="display:none;">
+                    <img id="image75" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image76', 'images/1984-85.jpg')">1984-85</button>
+                <div id="image76Modal" style="display:none;">
+                    <img id="image76" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image77', 'images/1985-86.jpg')">1985-86</button>
+                <div id="image77Modal" style="display:none;">
+                    <img id="image77" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image78', 'images/1986-87.jpg')">1986-87</button>
+                <div id="image78Modal" style="display:none;">
+                    <img id="image78" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image79', 'images/1987-88.jpg')">1987-88</button>
+                <div id="image79Modal" style="display:none;">
+                    <img id="image79" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image80', 'images/1988-89.jpg')">1988-89</button>
+                <div id="image80Modal" style="display:none;">
+                    <img id="image80" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image81', 'images/1989-90.jpg')">1989-90</button>
+                <div id="image81Modal" style="display:none;">
+                    <img id="image81" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image82', 'images/1990-91.jpg')">1990-91</button>
+                <div id="image82Modal" style="display:none;">
+                    <img id="image82" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image83', 'images/1991-92.jpg')">1991-92</button>
+                <div id="image83Modal" style="display:none;">
+                    <img id="image83" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image84', 'images/1992-93.jpg')">1992-93</button>
+                <div id="image84Modal" style="display:none;">
+                    <img id="image84" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image85', 'images/1993-94.jpg')">1993-94</button>
+                <div id="image85Modal" style="display:none;">
+                    <img id="image85" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image86', 'images/1994-95.jpg')">1994-95</button>
+                <div id="image86Modal" style="display:none;">
+                    <img id="image86" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image87', 'images/1995-96.jpg')">1995-96</button>
+                <div id="image87Modal" style="display:none;">
+                    <img id="image87" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image88', 'images/1996-97.jpg')">1996-97</button>
+                <div id="image88Modal" style="display:none;">
+                    <img id="image88" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image89', 'images/1997-98.jpg')">1997-98</button>
+                <div id="image89Modal" style="display:none;">
+                    <img id="image89" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image90', 'images/1998-99.jpg')">1998-99</button>
+                <div id="image90Modal" style="display:none;">
+                    <img id="image90" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image91', 'images/1999-2000.jpg')">1999-20</button>
+                <div id="image91Modal" style="display:none;">
+                    <img id="image91" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image92', 'images/2000-2001.jpg')">2000-01</button>
+                <div id="image92Modal" style="display:none;">
+                    <img id="image92" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image93', 'images/2001-2002.jpg')">2001-02</button>
+                <div id="image93Modal" style="display:none;">
+                    <img id="image93" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image94', 'images/2002-2003.jpg')">2002-03</button>
+                <div id="image94Modal" style="display:none;">
+                    <img id="image94" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image95', 'images/2003-2004.jpg')">2003-04</button>
+                <div id="image95Modal" style="display:none;">
+                    <img id="image95" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image96', 'images/2004-2005.jpg')">2004-05</button>
+                <div id="image96Modal" style="display:none;">
+                    <img id="image96" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image97', 'images/2005-2006.jpg')">2005-06</button>
+                <div id="image97Modal" style="display:none;">
+                    <img id="image97" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image98', 'images/2006-2007.jpg')">2006-07</button>
+                <div id="image98Modal" style="display:none;">
+                    <img id="image98" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image99', 'images/2007-2008.jpg')">2007-08</button>
+                <div id="image99Modal" style="display:none;">
+                    <img id="image99" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image100', 'images/2008-2009.jpg')">2008-09</button>
+                <div id="image100Modal" style="display:none;">
+                    <img id="image100" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image101', 'images/2009-2010.jpg')">2009-10</button>
+                <div id="image101Modal" style="display:none;">
+                    <img id="image101" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image102', 'images/2010-2011.jpg')">2010-11</button>
+                <div id="image102Modal" style="display:none;">
+                    <img id="image102" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image103', 'images/2011-2012.jpg')">2011-12</button>
+                <div id="image103Modal" style="display:none;">
+                    <img id="image103" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image104', 'images/2012-2013.jpg')">2012-13</button>
+                <div id="image104Modal" style="display:none;">
+                    <img id="image104" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image105', 'images/2013-2014.jpg')">2013-14</button>
+                <div id="image105Modal" style="display:none;">
+                    <img id="image105" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image106', 'images/2014-2015.jpg')">2014-15</button>
+                <div id="image106Modal" style="display:none;">
+                    <img id="image106" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image107', 'images/2015-2016.jpg')">2015-16</button>
+                <div id="image107Modal" style="display:none;">
+                    <img id="image107" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image108', 'images/2016-2017.jpg')">2016-17</button>
+                <div id="image108Modal" style="display:none;">
+                    <img id="image108" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image109', 'images/2017-2018.jpg')">2017-18</button>
+                <div id="image109Modal" style="display:none;">
+                    <img id="image109" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image110', 'images/2018-2019.jpg')">2018-19</button>
+                <div id="image110Modal" style="display:none;">
+                    <img id="image110" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image111', 'images/2019-2020.jpg')">2019-20</button>
+                <div id="image111Modal" style="display:none;">
+                    <img id="image111" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image112', 'images/2020-2021.jpg')">2020-21</button>
+                <div id="image112Modal" style="display:none;">
+                    <img id="image112" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image113', 'images/2021-2022.jpg')">2021-22</button>
+                <div id="image113Modal" style="display:none;">
+                    <img id="image113" class="modal-content" src="" alt="">
+                </div>
+
+                <button class="button" onclick="toggleImage('image114', 'images/2022-2023.jpg')">2022-23</button>
+                <div id="image114Modal" style="display:none;">
+                    <img id="image114" class="modal-content" src="" alt="">
+                </div>
+            </div>
+
+            <script>
+                function toggleImage(imageId, imageUrl) {
+                    var modal = document.getElementById(imageId + "Modal");
+                    var image = document.getElementById(imageId);
+
+                    if (modal.style.display === "block") {
+                        modal.style.display = "none";
+                        image.src = "";
+                    } else {
+                        image.onload = function () {
+                            modal.style.display = "block";
+                        }
+                        image.src = imageUrl;
+                        modal.style.display = "block";
+                    }
+                }
+            </script>
+
+        </div>
+    </div>
