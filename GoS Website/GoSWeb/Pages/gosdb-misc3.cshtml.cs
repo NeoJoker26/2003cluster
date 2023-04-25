@@ -50,7 +50,7 @@ namespace GoSWeb.Pages
             switch (Request.Query["SN2"])
             {
                 case null:
-                    SN2 = "1";
+                    SN2 = "120";
                     break;
                 default:
                     SN2 = Request.Query["SN2"];
@@ -132,6 +132,21 @@ namespace GoSWeb.Pages
                 }
             }
         }
+        public string Conclusion(int goalsfor, int goalsagainst)
+        {
+            int R =  goalsfor - goalsagainst;
+            switch (R)
+            {
+                case 0:
+                    return "D";
+                default:
+                    if (R > 0)
+                        return "W";
+                    else
+                        return "L";                  
+            }          
+        }
+
         public class table
         {
             public int rank;
