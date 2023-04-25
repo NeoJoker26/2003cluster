@@ -1,4 +1,4 @@
-﻿@page
+@page
 @model GoSWeb.Pages.gosdb_misc3Model
 @{
 }
@@ -17,7 +17,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td>@Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
+                <td>@Model.Conclusion(@Match.goalsfor, @Match.goalsagainst) @Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
             </tr>
         }
 </table>
@@ -37,7 +37,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td>@Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
+                <td>@Model.Conclusion(@Match.goalsfor, @Match.goalsagainst) @Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
                 </tr>
         }
 </table>
@@ -57,7 +57,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td>@Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
+                <td>@Model.Conclusion(@Match.goalsfor, @Match.goalsagainst) @Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
             </tr>
         }
 </table>
