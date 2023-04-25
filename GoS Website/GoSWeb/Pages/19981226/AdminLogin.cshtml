@@ -1,0 +1,31 @@
+﻿@page
+@model GoSWeb.Pages._19981226.testModel
+@{
+}
+<title>GoS Admin</title>
+<h1>Admin Login</h1>
+
+
+
+    <label for="Password">Username:</label><br>
+    <input type="text" id="Username" name="Username"><br>
+    <label for="Password">Password:</label><br>
+    <input type="text" id="Password" name="Password"><br><br>
+    <p id="EM"></p> <!--EM = Error Mensage-->
+    <input type="submit" value="Submit" onclick="Submit()">
+
+
+<script>
+    //Writes the last Username that was log in (on the computer)
+    document.getElementById("Username").defaultValue = localStorage.getItem("GoS_administrator");
+    
+    function Submit() {
+        //stores your Username and password in your Local memory
+        localStorage.setItem('GoS_administrator', document.getElementById("Username").value);     
+        window.location.replace("Check?GoS_administrator=" + document.getElementById("Username").value + "&GoS_administrator_PassWord=" + document.getElementById("Password").value + "&Page=12934756");
+     //this will make the Server check weather the password is correct or not
+         
+    }
+    
+
+</script>
