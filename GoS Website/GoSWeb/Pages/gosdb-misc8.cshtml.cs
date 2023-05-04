@@ -65,7 +65,8 @@ namespace GoSWeb.Pages
             }
             switch (bestworst)
             {
-                case "worst":                
+                case "worst":
+                    orderby = orderby + " asc";
                     break;
                 default:
                     orderby = orderby + " desc";
@@ -82,7 +83,7 @@ namespace GoSWeb.Pages
             {
                 cnn.Open();
                 //SQL command
-                string sql = "WITH CTE1 as \r\n(select distinct cast(year(date) as varchar) + '-' + cast(year(date) + "+yearcountm1+" as varchar) as years, year(date) as startyear, year(date) + "+ yearcountm1 + " as endyear\r\nfrom [v_match_FL-39] a \r\nwhere year(date) <> 1920 \r\n  and year(date) <> 1946 \r\n    and year(date) + "+ yearcountm1 + " <  GETDATE()\r\n      and year(date) + "+ yearcountm1 + " not between 1939 and 1946 \r\n), \r\nCTE2 as \r\n(select years, 1 as played, goalsfor, goalsagainst, \r\ncase when goalsfor > goalsagainst then 1 else 0 end as wins, \r\ncase when goalsfor = goalsagainst then 1 else 0 end as draws, \r\ncase when goalsfor < goalsagainst then 1 else 0 end as defeats, \r\ncase when goalsfor > goalsagainst then 3 \r\n\t when goalsfor = goalsagainst then 1 \r\n     else 0 \r\n\t end as modernpoints \r\n     from [v_match_FL-39] join CTE1 on year(date) between startyear and endyear \r\n"+ homeawayclause2 +"\r\n),\r\nCTE3 as\r\n(select years, sum(played) as played, sum(goalsfor) as goalsfor, sum(goalsagainst) as goalsagainst, \r\n\t\t\t  sum(goalsfor) - sum(goalsagainst) as goaldiff, \r\n\t\t\t  sum(wins) as wins, sum(draws) as draws, sum(defeats) as defeats, \r\n\t\t\t  sum(modernpoints) as modernpoints\r\nfrom CTE2 \r\n group by years \r\n )  \r\nselect rank() over (order by " + orderby+ ") as rank, years, played, goalsfor, goalsagainst, \r\n\t\t\t  goaldiff,\r\n              wins, draws, defeats, \r\n\t\t\t  modernpoints\r\nfrom CTE3  \r\norder by rank, years";
+                string sql = "WITH CTE1 as \r\n(select distinct cast(year(date) as varchar) + '-' + cast(year(date) + "+yearcountm1+" as varchar) as years, year(date) as startyear, year(date) + "+ yearcountm1 + " as endyear\r\nfrom [v_match_FL-39] a \r\nwhere year(date) <> 1920 \r\n  and year(date) <> 1946 \r\n    and year(date) + "+ yearcountm1 + " <  GETDATE()\r\n      and year(date) + "+ yearcountm1 + " not between 1939 and 1946 \r\n), \r\nCTE2 as \r\n(select years, 1 as played, goalsfor, goalsagainst, \r\ncase when goalsfor > goalsagainst then 1 else 0 end as wins, \r\ncase when goalsfor = goalsagainst then 1 else 0 end as draws, \r\ncase when goalsfor < goalsagainst then 1 else 0 end as defeats, \r\ncase when goalsfor > goalsagainst then 3 \r\n\t when goalsfor = goalsagainst then 1 \r\n     else 0 \r\n\t end as modernpoints \r\n     from [v_match_FL-39] join CTE1 on year(date) between startyear and endyear \r\n"+ homeawayclause2 +"\r\n),\r\nCTE3 as\r\n(select years, sum(played) as played, sum(goalsfor) as goalsfor, sum(goalsagainst) as goalsagainst, \r\n\t\t\t  sum(goalsfor) - sum(goalsagainst) as goaldiff, \r\n\t\t\t  sum(wins) as wins, sum(draws) as draws, sum(defeats) as defeats, \r\n\t\t\t  sum(modernpoints) as modernpoints\r\nfrom CTE2 \r\n group by years \r\n )  \r\nselect rank() over (order by " + orderby + ") as rank, years, played, goalsfor, goalsagainst, goaldiff, wins, draws, defeats, modernpoints from CTE3 order by rank, years";
                 //also chance it to the login that is not the admin login
                 using (SqlCommand command = new SqlCommand(sql, cnn))
                 {

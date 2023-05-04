@@ -93,15 +93,36 @@ namespace GoSWeb.Pages
                         }
                     }
                 }
-            }
+				
+			}
+            
+
         }
-
-
-
-                
-
-        
-        public class Player
+        public string RemoveDigits(string input)
+		{
+			string result = "";
+			foreach (char c in input)
+			{
+				if (!Char.IsDigit(c))
+			    {
+						result += c;
+				}
+			}
+			return result;
+		}
+		public string ExtractDate(DateTime inputDate)
+		{
+			string outputDate = inputDate.ToString("yyyy-MM-dd");
+			return outputDate;
+		}
+        public string photojpg(int player_id_spell1,byte primephoto,char photo_exits)
+        {       
+            if (primephoto == 0)
+                return player_id_spell1.ToString() + ".jpg";          
+            else
+                return player_id_spell1.ToString() + "_" + primephoto.ToString() + ".jpg";
+        }
+		public class Player
         {
             public byte squad_no;
             public DateTime dob;

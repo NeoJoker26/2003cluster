@@ -1,11 +1,10 @@
-@page
+﻿@page
 @model GoSWeb.Pages.gosdb_misc3Model
 @{
 }
-<table>
-    <thead>
-        <tr>Highest Attendances at Home Park*</tr>
-    </thead>
+
+<table id="table1" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+    <tr><td colspan="4"><p style="margin: 3 0 3 0"><b>Highest Attendances at Home Park*</b></p></td></tr>
     <tbody>
         @foreach (var Match in Model.HAHP)
         {
@@ -16,12 +15,16 @@
                 <td>@Match.shortcomp @Match.subcomp</td>
             </tr>
             <tr>
-                <td></td>
-                <td>@Model.Conclusion(@Match.goalsfor, @Match.goalsagainst) @Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
+                <td colspan="2"></td>
+                <td colspan="2">@Model.Conclusion(@Match.goalsfor, @Match.goalsagainst) @Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>              
             </tr>
         }
 </table>
-
+<p style="margin-top: 6; margin-bottom: 6">
+    *Note: GoS-DB confines itself to
+    competitive<br>games, but let's not forget the 37639 who saw<br>the 3-2 win against
+    Santos on March 14th, 1973.
+</p>
 <table>
     <thead>
         <tr>Highest Attendances On The Road</tr>

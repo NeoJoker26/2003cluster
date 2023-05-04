@@ -32,7 +32,7 @@ namespace GoSWeb.Pages._19981226
   
             switch (Username)
             {
-                case "MiguelRelvas":
+                case "MiguelRelvas": //delete this
                     if (Password == "GoSadminpassword123")
                         return 0;                                       
                     break;

@@ -2,7 +2,7 @@
 @model GoSWeb.Pages.gosdb_misc2Model
 @{
 }
-
+<link rel="stylesheet" type="text/css" href="~/css/gos2.css">
 <script>
     function Submit() {
         var comp = document.getElementById("comp").value; // league or  all
@@ -13,192 +13,144 @@
     }
 
 </script>
+<center>
 <form style="font-size: 10px; padding: 0; margin: 0;" action="Submit" method="post" name="form1">
     <select id="comp" name="competition" style="font-size: 10px"><option value="ALL" selected="">All Competitions</option><option value="FLG">Football League</option></select> <select id="homeaway" name="homeaway" style="font-size: 10px"><option value="ha" selected="">Home &amp; Away</option><option value="ho">Home only</option><option value="ao">Away only</option></select><br><input type="button" onclick="Submit()" style="width: auto; overflow: visible; color: #000000; background-color: #e0f0e0; font-size: 11px; padding: 1 5 1 5; margin: 9 0 0 0" value="Select options and click to redisplay" name="B1"><p></p>
 </form>
 <h3>@Model.heading</h3>
-<!--First table-->
-<table>
-    <thead>
-        <tr>Consecutive Wins</tr>
-        <tr>
-            <th>
-                Games |
-            </th>
-            <th>
-                First Match |
-            </th>
-            <th>
-                Last Match |
-            </th>
-            <th>
-                Days
-            </th>
-        </tr>
-    </thead>
+</center>
+<center>
+<table border="0" cellpadding="10" cellspacing="0" style="border-collapse: collapse; margin:0 0 12 0" bordercolor="#111111" >
     <tbody>
-        @foreach (var Match in Model.Consecutive_Wins_Table)
-        {
         <tr>
-            <td>@Match.wins</td>
-            <td>@Match.start_wins.Day @Model.MonthName(Match.start_wins) @Match.start_wins.Year</td>
-            <td>@Match.date.Day/@Model.MonthName(Match.date)/@Match.date.Year</td>
-            <td>@Match.interval</td>
-        </tr>
-        }
+            <td style="text-align: right">
+                <table class="tables" border="0" cellpadding="0" cellspacing="0" style="margin-top: 9; border-collapse: collapse">
+                    <tbody>
+                        <tr>
+                            <td colspan="4">
+                        <b>Consecutive Wins</b>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Games</b>
+                                </td>
+                                <td>
+                                    <b>First Match</b>
+                                    </td>
+                                    <td>
+                                        <b>Last Match</b>
+                                        </td>
+                                        <td>
+                                            <b>Days</b>
+                                            </td>
+                                            </tr>
+                        @foreach (var Match in Model.Consecutive_Wins_Table)
+                        {
+                            <tr>
+                                <td class="center">@Match.wins</td>
+                                <td>@Match.start_wins.Day @Model.MonthName(Match.start_wins) @Match.start_wins.Year</td>
+                                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+                                <td class="right">@Match.interval</td>
+                            </tr>
+                        }
+</tbody>
 </table>
-<!--second table-->
-<table>
-    <thead>
-        <tr>Consecutive Draws</tr>
+            </td>
+            <td style="text-align: center">
+                <table class="tables" border="0" cellpadding="0" cellspacing="0" style="margin-top: 9; border-collapse: collapse">
+                    <tbody><tr><td colspan="4"><b>Consecutive Draws</b></td></tr><tr><td><b>Games</b></td><td><b>First Match</b></td><td><b>Last Match</b></td><td><b>Days</b></td></tr>
+                        @foreach (var Match in Model.Consecutive_Draws_Table)
+                        {
+                            <tr>
+                                <td class="center">@Match.draws</td>
+                                <td>@Match.start_draws.Day @Model.MonthName(Match.start_draws) @Match.start_draws.Year</td>
+                                <td>@Match.date.Day @Model.MonthName(@Match.date) @Match.date.Year</td>
+                                <td class="right">@Match.interval</td>
+                            </tr>
+                        }
+                        
+</tbody>
+</table>
+            </td>
+            <td>
+                <table class="tables" border="0" cellpadding="0" cellspacing="0" style="margin-top: 9; border-collapse: collapse"><tbody><tr><td colspan="4"><b>Consecutive Defeats</b></td></tr><tr><td><b>Games</b></td><td><b>First Match</b></td><td><b>Last Match</b></td><td><b>Days</b></td></tr>
+                        @foreach (var Match in Model.Consecutive_Defeats_Table)
+                        {
+                            <tr>
+                                <td class="center">@Match.defeats</td>
+                                <td>@Match.start_defeats.Day @Model.MonthName(@Match.start_defeats) @Match.start_defeats.Year</td>
+                                <td>@Match.date.Day @Model.MonthName(@Match.date) @Match.date.Year</td>
+                                <td class="right">@Match.interval</td>
+                            </tr>
+                        }
+                </tbody>
+                </table>
+            </td>
+        </tr>
         <tr>
-            <th>
-                Games |
-            </th>
-            <th>
-                First Match |
-            </th>
-            <th>
-                Last Match |
-            </th>
-            <th>
-                Days
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var Match in Model.Consecutive_Draws_Table)
-        {
-            <tr>
-                <td>@Match.draws</td>
-                <td>@Match.start_draws.Day @Model.MonthName(Match.start_draws) @Match.start_draws.Year</td>
-                <td>@Match.date.Day @Model.MonthName(@Match.date) @Match.date.Year</td>
-                <td>@Match.interval</td>
-            </tr>
-        }
+            <td style="text-align: right">
+                <table class="tables" border="0" cellpadding="0" cellspacing="0" style="margin-top: 9; border-collapse: collapse"><tbody><tr><td colspan="4"><b>Without Losing</b></td></tr><tr><td><b>Games</b></td><td><b>First Match</b></td><td><b>Last Match</b></td><td><b>Days</b></td></tr>
+                        @foreach (var Match in Model.Without_Losing_Table)
+                        {
+                            <tr>
+                                <td class="center">@Match.nodefeats</td>
+                                <td>@Match.start_nodefeats.Day @Model.MonthName(@Match.start_nodefeats) @Match.start_nodefeats.Year</td>
+                                <td>@Match.date.Day @Model.MonthName(@Match.date) @Match.date.Year</td>
+                                <td class="right">@Match.interval</td>
+                            </tr>
+                        }
+</tbody>
 </table>
-<!--Threed table-->
-<table>
-    <thead>
-        <tr>Consecutive Defeats</tr>
-        <tr>
-            <th>
-                Games |
-            </th>
-            <th>
-                First Match |
-            </th>
-            <th>
-                Last Match |
-            </th>
-            <th>
-                Days
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var Match in Model.Consecutive_Defeats_Table)
-        {
-            <tr>
-                <td>@Match.defeats</td>
-                <td>@Match.start_defeats.Day @Model.MonthName(@Match.start_defeats) @Match.start_defeats.Year</td>
-                <td>@Match.date.Day @Model.MonthName(@Match.date) @Match.date.Year</td>
-                <td>@Match.interval</td>
-            </tr>
-        }
+            </td>
+            <td style="text-align: center">
+                <table class="tables" border="0" cellpadding="0" cellspacing="0" style="margin-top: 9; border-collapse: collapse">
+                    <tbody><tr><td style="border-bottom: 0px none;" colspan="4"><b>Without Winning</b></td></tr><tr><td><b>Games</b></td><td><b>First Match</b></td><td><b>Last Match</b></td><td><b>Days</b></td></tr>
+                        @foreach (var Match in Model.Without_Winning_Table)
+                        {
+                            <tr>
+                                <td class="center">@Match.nowins</td>
+                                <td>@Match.start_nowins.Day @Model.MonthName(@Match.start_nowins) @Match.start_nowins.Year</td>
+                                <td>@Match.date.Day @Model.MonthName(@Match.date) @Match.date.Year</td>
+                                <td class="right">@Match.interval</td>
+                            </tr>
+                        }
+</tbody>
 </table>
-<!--fourth table-->
-<table>
-    <thead>
-        <tr>Without Losing</tr>
-        <tr>
-            <th>
-                Games |
-            </th>
-            <th>
-                First Match |
-            </th>
-            <th>
-                Last Match |
-            </th>
-            <th>
-                Days
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var Match in Model.Without_Losing_Table)
-        {
-            <tr>
-                <td>@Match.nodefeats</td>
-                <td>@Match.start_nodefeats.Day @Model.MonthName(@Match.start_nodefeats) @Match.start_nodefeats.Year</td>
-                <td>@Match.date.Day @Model.MonthName(@Match.date) @Match.date.Year</td>
-                <td>@Match.interval</td>
-            </tr>
-        }
+            </td>
+            <td style="text-align: center">
+                <table class="tables" border="0" cellpadding="0" cellspacing="0" style="margin-top: 9; border-collapse: collapse">
+                    <tbody><tr><td style="border-bottom: 0px none;" colspan="4"><b>Clean Sheets</b></td></tr><tr><td><b>Games</b></td><td><b>First Match</b></td><td><b>Last Match</b></td><td><b>Days</b></td></tr>
+                        @foreach (var Match in Model.Clean_Sheets_Table)
+                        {
+                            <tr>
+                                <td class="center">@Match.cleansheets</td>
+                                <td>@Match.start_cleansheets.Day @Model.MonthName(@Match.start_cleansheets) @Match.start_cleansheets.Year</td>
+                                <td>@Match.date.Day @Model.MonthName(@Match.date) @Match.date.Year</td>
+                                <td class="right">@Match.interval</td>
+                            </tr>
+                        }
+</tbody>
 </table>
+            </td>
 
-<!--fith table-->
-
-<table>
-    <thead>
-        <tr>Without Winning</tr>
-        <tr>
-            <th>
-                Games |
-            </th>
-            <th>
-                First Match |
-            </th>
-            <th>
-                Last Match |
-            </th>
-            <th>
-                Days
-            </th>
         </tr>
-    </thead>
-    <tbody>
-        @foreach (var Match in Model.Without_Winning_Table)
-        {
-            <tr>
-                <td>@Match.nowins</td>
-                <td>@Match.start_nowins.Day @Model.MonthName(@Match.start_nowins) @Match.start_nowins.Year</td>
-                <td>@Match.date.Day @Model.MonthName(@Match.date) @Match.date.Year</td>
-                <td>@Match.interval</td>
-            </tr>
-        }
-</table>
-<!--six table-->
-<table>
-    <thead>
-        <tr>Clean Sheets</tr>
         <tr>
-            <th>
-                Games |
-            </th>
-            <th>
-                First Match |
-            </th>
-            <th>
-                Last Match |
-            </th>
-            <th>
-                Days
-            </th>
+            <td colspan="6">
+                <p class="header1" style="margin-top: 18; margin-bottom: 0; " align="center">
+                    <span style="font-weight: 400">
+                        Green background for dates in the last 5
+                        years
+                    </span>
+                </p>
+                <p class="style1" style="margin-top: 9; margin-bottom: 0; " align="center">
+                    <span style="font-weight: 400">* Indicates that the period spans seasons</span>
+                </p>
+            </td>
         </tr>
-    </thead>
-    <tbody>
-        @foreach (var Match in Model.Clean_Sheets_Table)
-        {
-            <tr>
-                <td>@Match.cleansheets</td>
-                <td>@Match.start_cleansheets.Day @Model.MonthName(@Match.start_cleansheets) @Match.start_cleansheets.Year</td>
-                <td>@Match.date.Day @Model.MonthName(@Match.date) @Match.date.Year</td>
-                <td>@Match.interval</td>
-            </tr>
-        }
+    </tbody>
 </table>
+</center>
 <script>
     let params = new URLSearchParams(location.search);
     let comp = params.get('competition');

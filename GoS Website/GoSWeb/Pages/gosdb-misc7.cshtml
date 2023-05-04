@@ -59,7 +59,7 @@
                     starts with a factor of 1.2 but to be honest, it's a guess. And by the
                     way, reducing the factor to 1 is the same as no weighting, so the bars
                     reduce to the actual points gained.<script language="JavaScript" type="text/javascript">
-                                                           <!--
+                                                           
                                                            function FrontPage_Form1_Validator(theForm) {
 
                                                                if (theForm.weightfactor.value == "") {
@@ -115,7 +115,11 @@
                                                                    theForm.weightfactor.focus();
                                                                    return (false);
                                                                }
-                                                               return (true);
+
+                                                               const weightfactorInput = document.querySelector('input[name="weightfactor"]');
+                                                               const weightfactorValue = weightfactorInput.value;
+                                                               location.href = `gosdb-misc7?weighting=${weightfactorValue}`;
+                                                               return false;
                                                            }
                                                            //--></script>
                 </p><form style="padding: 0; margin: 0;" method="POST" action="gosdb-misc7" onsubmit="return FrontPage_Form1_Validator(this)" language="JavaScript" name="FrontPage_Form1" webbot-action="--WEBBOT-SELF--">
@@ -127,6 +131,11 @@
                     </p>
                     <p style="margin-left: 6"></p>
                 </form>
+                <script>
+                    const weightingParam = new URLSearchParams(window.location.search).get('weighting');
+                    const weightfactorInput = document.querySelector('input[name="weightfactor"]');
+                    weightfactorInput.value = (weightingParam && weightingParam >= 1 && weightingParam <= 2) ? weightingParam : '1.2';
+                </script>
                 <p style="margin-left: 6">
                 </p>
                 <p style="text-align: left; margin-top: 0; margin-bottom: 0; margin-left:6">
@@ -145,7 +154,7 @@
         </tr>
     </tbody>
 </table>
-
+<center>
 <table id="table1" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
     <tbody>
         <tr>
@@ -206,10 +215,11 @@
                 <b>4</b>
             </td>
         </tr>
+        
         @foreach (var Table in Model.FLRDT)
         {
             <tr>
-                <td>@Table.decade</td>
+                <td>@Table.decade|</td>
                 <td>@Table.tier1</td>
                 <td>@Table.tier2</td>
                 <td>@Table.tier3</td>
@@ -219,9 +229,17 @@
                     Starts: @Table.i1[0].@Table.PlayerSurname1 (@Table.Goal1)<br>
                     Goals: @Table.i2[0].@Table.PlayerSurname2 (@Table.Goal2)
                 </td>
-                <td>@Table.wins @Table.draws @Table.defeats</td>
-                <td>@Model.Weightedpointsratio(@Table.weightedpoints)</td> <!--this is the width of the image-->
+                <td>
+                    <img border="0" src="images/green_1x1.gif" height="10" width="@{int greenwidth = 200 * Table.wins / Table.matches;@greenwidth}">
+                    <img border="0" src="images/yellow_1x1.gif" height="10" width="@{int yellowwidth = 200 * Table.draws / Table.matches;@yellowwidth}">
+                    <img border="0" src="images/darkgrey_1x1.gif" height="10" width="@{int greywidth= 200 * Table.defeats / Table.matches;@greywidth}">
+                </td>           
+                <td style="text-align:left;" onmouseover="showtip('1920-1929: <br>Average points per game: 1.86<br>Applying the weighting factor (1.2) for higher tiers,<br>average points per game: 2.24')">
+                    <img style="margin-top:1" border="0" src="images/blue2_1x1.gif" height="10" width="@Model.Weightedpointsratio(@Table.weightedpoints)">
+                    </td>                          
             </tr>
         }
+        
     </tbody>
 </table>
+</center>
