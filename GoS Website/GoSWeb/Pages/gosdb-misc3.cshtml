@@ -2,65 +2,142 @@
 @model GoSWeb.Pages.gosdb_misc3Model
 @{
 }
+<link rel="stylesheet" type="text/css" href="~/css/gos2.css">
+<style>
+	
+	#table1 td {
+		border: 1px solid #c0c0c0;
+		text-align: left;
+		margin: 0;
+		white-space: nowrap;
+		padding-left: 4;
+		padding-right: 4;
+		padding-top: 1;
+		padding-bottom: 1
+	}
 
-<table id="table1" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
-    <tr><td colspan="4"><p style="margin: 3 0 3 0"><b>Highest Attendances at Home Park*</b></p></td></tr>
-    <tbody>
-        @foreach (var Match in Model.HAHP)
-        {
-            <tr>
-                <td>@Match.rank</td>
-                <td>@Match.attendance</td>
-                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
-                <td>@Match.shortcomp @Match.subcomp</td>
-            </tr>
-            <tr>
-                <td colspan="2"></td>
-                <td colspan="2">@Model.Conclusion(@Match.goalsfor, @Match.goalsagainst) @Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>              
-            </tr>
-        }
-</table>
-<p style="margin-top: 6; margin-bottom: 6">
-    *Note: GoS-DB confines itself to
-    competitive<br>games, but let's not forget the 37639 who saw<br>the 3-2 win against
-    Santos on March 14th, 1973.
-</p>
-<table>
-    <thead>
-        <tr>Highest Attendances On The Road</tr>
-    </thead>
-    <tbody>
-        @foreach (var Match in Model.HATR)
-        {
-                <tr>
-                    <td>@Match.rank</td>
-                    <td>@Match.attendance</td>
-                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
-                    <td>@Match.shortcomp @Match.subcomp</td>
-                </tr>
-                <tr>
-                    <td></td>
-                <td>@Model.Conclusion(@Match.goalsfor, @Match.goalsagainst) @Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
-                </tr>
-        }
-</table>
+	#table2 td {
+		border: 1px solid #c0c0c0;
+		text-align: left;
+		margin: 0;
+		white-space: nowrap;
+		padding-left: 4;
+		padding-right: 4;
+		padding-top: 1;
+		padding-bottom: 1
+	}
 
-<table>
-    <thead>
-        <tr>Lowest Attendances at Home Park</tr>
-    </thead>
-    <tbody>
-        @foreach (var Match in Model.LAHP)
-        {
-            <tr>
-                <td>@Match.rank</td>
-                <td>@Match.attendance</td>
-                <td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
-                <td>@Match.shortcomp @Match.subcomp</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>@Model.Conclusion(@Match.goalsfor, @Match.goalsagainst) @Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
-            </tr>
-        }
+	#table3 td {
+		border: 1px solid #c0c0c0;
+		text-align: left;
+		margin: 0;
+		white-space: nowrap;
+		padding-left: 4;
+		padding-right: 4;
+		padding-top: 1;
+		padding-bottom: 1
+	}
+
+	.med {
+		font-size: medium;
+		font-weight: normal;
+		padding: 0;
+		margin: 0
+	}
+
+	#res {
+		padding-right: 1em;
+		margin: 0 16px
+	}
+
+	ol li {
+		list-style: none
+	}
+
+	.g {
+		margin: 1em 0
+	}
+
+	li.g {
+		font-size: small;
+		font-family: arial,sans-serif
+	}
+
+	.s {
+		max-width: 42em
+	}
+	
+</style>
+<center>
+<p style="margin-top:6; margin-bottom:0; text-align:center; font-size:13px; color:#006E32"><b>@Model.heading</b></p>
+<p style="margin-top:3; margin-bottom:9; text-align:center;">Note: attendance figures for @Model.at2 of the @Model.matchcount matches in<br>the selected category and date range are unrecorded</p>
+<table border="0" cellpadding="10" cellspacing="10" style="border-collapse: collapse; margin:0 0 12 0" bordercolor="#111111">
+	<tbody>
+		<tr>
+			<td valign="top">
+
+				<table id="table1" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse"><tbody><tr><td colspan="4"><p style="margin: 3 0 3 0"><b>Highest Attendances at Home Park*</b></p></td></tr>
+						@foreach (var Match in Model.HAHP)
+						{
+							<tr>
+								<td>@Match.rank</td>
+								<td>@Match.attendance</td>
+								<td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+								<td>@Match.shortcomp @Match.subcomp</td>
+							</tr>
+							<tr>
+								<td colspan="2"></td>
+								<td colspan="2">@Model.Conclusion(@Match.goalsfor, @Match.goalsagainst) @Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
+							</tr>
+						}
+</tbody>
 </table>
+				<p style="margin-top: 6; margin-bottom: 6">
+					*Note: GoS-DB confines itself to
+					competitive<br>games, but let's not forget the 37639 who saw<br>the 3-2 win against
+					Santos on March 14th, 1973.
+				</p>
+			</td>
+			<td valign="top">
+				<table id="table2" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse"><tbody><tr><td colspan="4"><p style="margin: 3 0 3 0"><b>Highest Attendances On The Road</b></p></td></tr>
+						@foreach (var Match in Model.HATR)
+						{
+							<tr>
+								<td>@Match.rank</td>
+								<td>@Match.attendance</td>
+								<td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+								<td>@Match.shortcomp @Match.subcomp</td>
+							</tr>
+							<tr>
+									<td colspan="2"></td>
+									<td colspan="2">@Model.Conclusion(@Match.goalsfor, @Match.goalsagainst) @Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
+							</tr>
+						}
+</tbody>
+</table>
+			</td>
+			<td valign="top">
+				<table id="table3" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse"><tbody><tr><td colspan="4"><p style="margin: 3 0 3 0"><b>Lowest Attendances at Home Park</b></p></td></tr>
+						@foreach (var Match in Model.LAHP)
+						{
+							<tr>
+								<td>@Match.rank</td>
+								<td>@Match.attendance</td>
+								<td>@Match.date.Day @Model.MonthName(Match.date) @Match.date.Year</td>
+								<td>@Match.shortcomp @Match.subcomp</td>
+							</tr>
+							<tr>
+									<td colspan="2" td>
+									<td colspan="2">@Model.Conclusion(@Match.goalsfor, @Match.goalsagainst) @Match.goalsfor-@Match.goalsagainst v @Match.opposition</td>
+							</tr>
+						}
+</tbody>
+</table>
+			</td>
+		</tr>
+
+
+
+	</tbody>
+</table>
+</center>

@@ -16,13 +16,17 @@ namespace GoSWeb.Pages
         string competition;
         string SN1; //1 -1000
         string SN2; //1-1000
+        public string heading;
+        public int attcount;
+        public int at2;
+        public int matchcount;
         public void OnGet()
         {
             //reading parameters
             competition = Request.Query["competition"];
             //
             string LFCvalue = "'L','F','C'";
-            string heading;
+            
             switch (competition)
             {
                 case "FLG":
@@ -127,6 +131,22 @@ namespace GoSWeb.Pages
                             GLAHP.goalsfor = (int)reader.GetInt16(6);
                             GLAHP.goalsagainst = (int)reader.GetInt16(7);
                             LAHP.Add(GLAHP);
+                        }
+                    }
+                }
+                sql = "select count(attendance) as attcount, count(*) as matchcount \r\nfrom v_match_all join season on date between date_start and date_end \r\nwhere season_no between "+SN1+" and "+SN2+"\r\n  and LFC in (" + LFCvalue + ") ";
+
+                //also chance it to the login that is not the admin login
+                using (SqlCommand command = new SqlCommand(sql, cnn))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        //get which row and store it in a list
+                        while (reader.Read())
+                        {
+                            attcount = (int)reader.GetInt32(0);
+                            matchcount = (int)reader.GetInt32(1);
+                            at2 = matchcount - attcount;
                         }
                     }
                 }

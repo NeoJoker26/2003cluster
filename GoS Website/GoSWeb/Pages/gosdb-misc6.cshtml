@@ -169,7 +169,16 @@
                     <td>@Match.goalsagainst</td>
                     <td>@Match.goaldiff</td>
                     <td>@Match.modernpoints</td>
-                    <td>@Match.endpos @Match.promrel</td> <!--P means green arrow and R means read arrow-->
+                        <td>
+                            @Match.endpos @if (Match.promrel == "P")
+                            {
+                                <img src="~/images/promote.gif" border="0">
+                            }
+                            @if (Match.promrel == "R"){
+                                <img src="~/images/relegate.gif" border="0">
+                            }
+                        </td>
+         <!--P means green arrow and R means read arrow-->
                 </tr>
             }
         </tbody>

@@ -2,57 +2,117 @@
 @model GoSWeb.Pages.gosdb_misc4Model
 @{
 }
+<link rel="stylesheet" type="text/css" href="~/css/gos2.css">
+<center>
+<table border="0" cellspacing="0" style="border-collapse: collapse" cellpadding="0" width="980">
+    <tbody>
+        <tr>
+            <td width="260" valign="top" style="text-align:center;">
+
+                <p style="text-align: center; margin-top:0; margin-bottom:3">
+                    <a href="gosdb.asp"><font color="#404040"><img border="0" src="images/gosdb-small.jpg" align="left"></font></a><font color="#404040">
+                        <b>
+                            <font style="font-size: 15px">
+                                Search by<br>
+                            </font>
+                        </b><span style="font-size: 15px"><b>Player</b></span>
+                    </font>
+                </p><p style="text-align: center; margin-top:0; margin-bottom:0">
+                    <b>
+                        <a href="gosdb.asp">Back to<br>GoS-DB Hub</a>
+                    </b>
+                </p>
+
+            </td>
+
+            <td width="460" align="center" style="text-align: center" valign="top">
+                <p style="margin-top:12; margin-bottom:0; text-align:center; font-size:18px; color:#006E32">
+                    MISCELLANEOUS REPORTS
+                </p>
+
+                <p style="margin-top:6; margin-bottom:0; text-align:center; font-size:13px">
+                    <b>Report 4: Top Substitutes</b>
+                </p>
+            </td>
+
+            <td width="260" valign="top" align="justify">
+                <span style="font-size: 10px">
+                    'Miscellaneous Reports' is an ever-growing collection of pages that reflect
+                    broad aspects of Argyle's playing history. If you have an idea for another,
+                    please get in touch.
+                </span>
+
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 <table border="0" style="border-collapse: collapse; margin:6 0 12 0" bordercolor="#111111">
+    <tbody>
+        <tr>
+            <td valign="top" style="padding-right: 15px">
+                <table id="table1" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+                    <tbody>
+                        <tr><td colspan="2"><b>ALL PLAYERS</b></td></tr>
 
-</table>
-<table>
-    <tr><td colspan="2"><b>ALL PLAYERS</b></td></tr>
-    <tr><td>Players making any appearance</td><td align="" right"">@Model.AP1</td></tr>
-    <tr><td>Players who have started a game</td><td align="" right"">@Model.AP2</td></tr>
-    <tr><td>Players who have appeared as a substitute</td><td align="" right"">@Model.AP3</td></tr>
-    <tr><td>Total player substitutions</td><td align="" right"">@Model.AP4</td></tr>
-    <tr><td colspan="2">
-            <p style="margin-top: 6"><b>Highest Substitute Appearances</b>
-        </td>
-        @foreach(var Player in Model.HSA)
-        {
-        <tr><td>@Player.forename @Player.surname </td><td align="" right"">@Player.count</td></tr>
-        }
-       
-    </tr>
-    <tr>
-        <td colspan="2">
-            <p style="margin-top: 6"><b>Top Substitute Goalscorers</b>
-        </td>
-        @foreach (var Player in Model.TSG)
-        {
-        <tr><td>@Player.forename @Player.surname </td><td align="" right"">@Player.count</td></tr>
-        }
-    </tr>
-</table>
-<table id="table2" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
-    <tr><td colspan="2"><b>CURRENT SQUAD</b></td></tr>
-    <tr><td>Players making any appearance</td><td align="" right"">@Model.CS1</td></tr>
-    <tr><td>Players who have started a game</td><td align="" right"">@Model.CS2</td></tr>
-    <tr><td>Players who have appeared as a substitute</td><td align="" right"">@Model.CS3</td></tr>
-    <tr><td>Total player substitutions</td><td align="" right"">@Model.CS4</td></tr>
-    <tr>
-        <td colspan="2">
-            <p style="margin-top: 6"><b>Highest Substitute Appearances</b>
-        </td>
-        @foreach (var Player in Model.HSA2)
-        {
-        <tr><td>@Player.forename @Player.surname </td><td align="" right"">@Player.count</td></tr>
-        }
+                        <tr><td>Players making any appearance</td><td align="right">@Model.AP1</td></tr>
+                        <tr><td>Players who have started a game</td><td align="right">@Model.AP2</td></tr>
+                        <tr><td>Players who have appeared as a substitute</td><td align="right">@Model.AP3</td></tr>
+                        <tr><td>Total player substitutions</td><td align="right">@Model.AP4</td></tr>
+                        <tr>
+                            <td colspan="2">
+                                <p style="margin-top: 6"><b>Highest Substitute Appearances</b></p>
+                            </td>
+                        </tr>
+                        @foreach (var Player in Model.HSA)
+                        {
+                         <tr><td>@Player.forename @Player.surname </td><td align="" right"">@Player.count</td></tr>
+                        }
+                        <tr>
+                            <td colspan="2">
+                                <p style="margin-top: 6"><b>Top Substitute Goalscorers</b></p>
+                            </td>
+                        </tr>
+                        @foreach (var Player in Model.TSG)
+                        {
+                            <tr><td>@Player.forename @Player.surname </td><td align="" right"">@Player.count</td></tr>
+                        }
+                    </tbody>
+                </table>
 
-    </tr>
-    <tr>
-        <td colspan="2">
-            <p style="margin-top: 6"><b>Top Substitute Goalscorers</b>
-        </td>
-        @foreach (var Player in Model.TSG2)
-        {
-        <tr><td>@Player.forename @Player.surname </td><td align="" right"">@Player.count</td></tr>
-        }
-    </tr>
-    </table>
+            </td>
+            <td valign="top" style="padding-left: 15px">
+                <table id="table2" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+                    <tbody>
+                        <tr><td colspan="2"><b>CURRENT SQUAD</b></td></tr>
+
+                        <tr><td>Players making any appearance</td><td align="right">@Model.CS1</td></tr>
+                        <tr><td>Players who have started a game</td><td align="right">@Model.CS2</td></tr>
+                        <tr><td>Players who have appeared as a substitute</td><td align="right">@Model.CS3</td></tr>
+                        <tr><td>Total player substitutions</td><td align="right">@Model.CS4</td></tr>
+                        <tr>
+                            <td colspan="2">
+                                <p style="margin-top: 6"><b>Highest Substitute Appearances</b></p>
+                            </td>
+                        </tr>
+                        @foreach (var Player in Model.HSA2)
+                        {
+            <tr><td>@Player.forename @Player.surname </td><td align="" right"">@Player.count</td></tr>
+                        }
+                        <tr>
+                            <td colspan="2">
+                                <p style="margin-top: 6"><b>Top Substitute Goalscorers</b></p>
+                            </td>
+                        </tr>
+                        @foreach (var Player in Model.TSG2)
+                        {
+                            <tr><td>@Player.forename @Player.surname </td><td align="" right"">@Player.count</td></tr>
+                        }
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+</center>
