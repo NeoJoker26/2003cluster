@@ -1,0 +1,91 @@
+﻿@page
+@model GoSWeb.Pages.CurrentSquadModel
+@{
+}
+<head>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <title>Greens on Screen</title>
+
+    <style>
+
+
+
+        *::before, *::after, * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+
+        .strength-meter {
+            position: relative;
+            left: -42%;
+            height: 1rem;
+            width: 15%;
+            border: 3px solid black;
+            border-radius: 1rem;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+            .strength-meter::before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: calc(1% * var(--strength, 0));
+                background-color: black;
+                transition: width 200ms;
+            }
+
+        .normal > * {
+            margin-top: .3rem;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <P></P>
+    <P></P>
+    <P></P>
+
+    <table>
+        <tr>
+            <th>
+               
+
+
+            </th>
+
+            <th>
+                <h1>Plymouth Argyle Current Squad</h1>
+            </th>
+
+            <th>
+                <table style="border-collapse: collapse" width="100%" cellspacing="0" cellpadding="0" bordercolor="#111111" border="0">
+                    <tbody>
+                        </tbody>
+                </table>
+            </th>
+        </tr>
+    </table>
+
+
+
+
+
+
+</body>

@@ -1,0 +1,239 @@
+﻿@page
+@model GoSWeb.Pages.progresstablesModel
+@{
+    
+    
+}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Page created by Jonathan - All code by Jonathan unless otherwise stated-->
+
+
+    <title>Greens on Screen</title>
+
+    <style>
+
+
+
+        *::before, *::after, * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+
+        .strength-meter {
+            position: relative;
+            left: -42%;
+            height: 1rem;
+            width: 15%;
+            border: 3px solid black;
+            border-radius: 1rem;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+            .strength-meter::before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: calc(1% * var(--strength, 0));
+                background-color: black;
+                transition: width 200ms;
+            }
+
+        .normal > * {
+            margin-top: .3rem;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+
+    <P></P>
+    <P></P>
+    <P></P>
+
+    <table>
+        <tr>
+            <th>
+
+                
+
+            </th>
+
+            <th>
+                <h1>Plymouth Argyle Current Squad</h1>
+            </th>
+
+            <th>
+                
+            </th>
+        </tr>
+        <tr>
+            <th>
+                
+            </th>
+            <th>
+                <div id="tooltip" style="position: absolute; display: none; background-color: rgba(0, 0, 0, 0.8); color: white; padding: 5px; font-size: 12px;"></div>
+                <canvas id="ProgressGraph" height="600" width="1200"></canvas>
+                
+
+                <script>
+                    var OppArray = [
+                    @foreach (var md in Model.sqlLists.matchData)
+                    {
+                        var words = md.opposition.Split(',');
+                        @Html.Raw("[" + string.Join(",", words.Select(w => $"\"{w.Trim()}\"")) + "],")
+                    }
+                                          ];
+                    
+                    const canvas = document.getElementById('ProgressGraph');
+                    const context = canvas.getContext('2d');
+                    const tooltip = document.getElementById('tooltip');
+                    
+                    //bar stuff
+                    const barWidth = 5;
+                    const barSpacing = 20;
+                    const padding = 30;
+
+                    const data = []; //turning c# list into js array
+                    @foreach (var md in Model.sqlLists.matchData)
+                    {
+                        <text>data.push(@md.totpoints); </text>
+                    }
+                    const maxDataValue = Math.max(...data);
+                    const barHeight = (canvas.height - padding) / maxDataValue;
+                    //Y-axis
+                    for (let i = 0; i <= maxDataValue; i += 10) {
+                        const labelY = canvas.height - i * barHeight - padding;
+                        context.fillText(i.toString(), 10, labelY);
+                    }   
+                    //X-axis 
+                    for (let i = 0; i < data.length; i++) {
+                        const x = i * (barWidth + barSpacing) + padding + barWidth / 2;
+                        const y = canvas.height - 10;
+                        context.font = "16px Arial";
+                        context.fillStyle = "black";
+                        context.fillText((i + 1).toString(), x, y);
+                        context.fillText((i + 1).toString(), x, y);
+                    }
+                    //bar
+                    for (let i = 0; i < data.length; i++) {
+                        const x = i * (barWidth + barSpacing) + padding;
+                        const y = canvas.height - data[i] * barHeight - padding;
+                        context.fillStyle = "#64a46c";
+                        context.fillRect(x, y, barWidth, data[i] * barHeight);
+                    }
+                    canvas.addEventListener("mousemove", function (event) {
+                        const rect = canvas.getBoundingClientRect();
+                        const mouseX = event.clientX - rect.left;
+                        const mouseY = event.clientY - rect.top;
+
+                        for (let i = 0; i < data.length; i++) {
+                            const x = i * (barWidth + barSpacing);
+                            const y = canvas.height - data[i] * barHeight;
+
+                            if (mouseX > x && mouseX < x + barWidth && mouseY > y && mouseY < canvas.height) {
+                                // Set tooltip text and position
+                                tooltip.textContent = OppArray[i] + ": " + data[i];
+                                tooltip.style.display = 'block';
+                                tooltip.style.left = (mouseX) + 'px';
+                                tooltip.style.top = (mouseY) + 'px';
+                            }
+                        }
+                    });
+                    canvas.addEventListener("mouseout", function (event) {
+                        // Hide tooltip
+                        tooltip.style.display = 'none';
+                    });
+
+                </script>
+
+                <table id="grid" class="grid"><!--Second table for position-->
+                    <tr>
+                        <th colspan="48"></th>
+                        
+                        <th></th>
+                    </tr>
+
+                </table>
+
+                <script>//X-axis 
+                    const headerRow = document.createElement("tr");
+                    const yAxisHeader = document.createElement("th");
+                    headerRow.appendChild(yAxisHeader);
+
+                    for (let i = 1; i <= 46; i++) {
+                        const headerCell = document.createElement("th");
+                        headerCell.textContent = i;
+                        headerRow.appendChild(headerCell);
+                    }
+
+                    headerRow.innerHTML += "<th>End</th>";
+                    document.getElementById("grid").appendChild(headerRow);
+
+                    const grid = document.getElementById("grid");
+
+                    //Create rows/columns
+                    for (let i = 0; i < 24; i++) { //Y-axis
+                        const row = document.createElement("tr");
+                        const yAxisCell = document.createElement("td");
+                        yAxisCell.textContent = i + 1;
+                        row.appendChild(yAxisCell);
+
+                        for (let j = 0; j < 47; j++) {
+                            const cell = document.createElement("td");
+                            row.appendChild(cell);
+                        }
+
+                        grid.appendChild(row);
+                    }
+
+                    //Colours cells based on team's position this season
+                    const currentPos = []
+                    @foreach (var md in Model.sqlLists.matchData)
+                    {
+                        <text>currentPos.push(@md.position); </text>
+                    }
+
+                        let columnIndex = 0;
+                    currentPos.forEach(pos => {
+                        if (pos > 0) {
+                            const rowIndex = pos + 1;
+                            const colIndex = columnIndex + 1;
+                            const cell = grid.rows[rowIndex].cells[colIndex];
+                            cell.classList.add("coloured");
+                        }
+
+                        columnIndex = (columnIndex + 1) % 47;
+                    });
+
+
+                </script>
+
+
+
+
+            </th>
+            <th>
+                
+            </th>
+        </tr>
+        
+    </table>
+
+
+
+
+
+
+</body>

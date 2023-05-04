@@ -1,0 +1,179 @@
+﻿@page
+@model GoSWeb.Pages.gosdb_headtoheadModel
+@{
+}
+
+<style>
+
+
+
+    *::before, *::after, * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: white;
+        color: black;
+        text-align: center;
+    }
+
+    .strength-meter {
+        position: relative;
+        left: -42%;
+        height: 1rem;
+        width: 15%;
+        border: 3px solid black;
+        border-radius: 1rem;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+        .strength-meter::before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: calc(1% * var(--strength, 0));
+            background-color: black;
+            transition: width 200ms;
+        }
+
+    .normal > * {
+        margin-top: .3rem;
+        color: black;
+    }
+            .image {
+            display: grid;
+            align-items: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5px;
+            max-width: 50%;
+            max-height: 50%;
+            text-align: center;
+
+        }
+        .title{
+            text-align: center;
+            color:forestgreen;
+            height: 50px;
+            vertical-align: super;
+            padding: 30;
+           
+        }
+        .pageinfo{
+            align-content: center;
+           
+        }
+        .selectlist{
+            align-content: center;
+        }
+
+        .alltables{
+            align-content:center;
+        }
+</style>
+<!--Picture, Selector, and right Text-->
+<table class="pageinfo" style="width:100%;">
+    <tr>
+        <td class="picture" width="260" valign="top" style="text-align: right; width: 15%">
+            <p>
+                <div class="image">
+                    <img src="~/images/gosdb.jpg" alt="GOSDB">
+                    <div class="text">
+                        
+
+                    </div>
+                </div>
+
+            </p>
+            <h3 style=font-size =5px">
+                
+            </h3>
+            <p style="font-size: 25px;">
+                <b>Search by Opposition</b>
+                
+
+
+            </p>
+
+        </td>
+        <td class="title" style="width: 35%;">
+            <h1>Head to Head</h1>
+            <div class="selectlist" style=" padding-block: 20px; align-content: left">
+
+                <!--Drop downs-->
+                <select name="Comp" id="comp">
+                    <option selected="selected"> All Competitions</option>
+                    <option value="1">Year 1</option>
+                    <option value="2">Year 2</option>
+                </select>
+                <select name="H&A" id="h&a">
+                    <option selected="selected"> Home and away</option>
+                    <option value="1">Year 1</option>
+                    <option value="2">year2</option>
+                </select>
+                <select name="from" id="from">
+                    <option selected="selected"> From 1903-1904</option>
+                    <option value="1">Season1</option>
+                    <option value="2">Season2</option>
+                </select>
+                <p style="font-size: 2px">&nbsp</p>
+                <select name="To" id="to">
+                    <option selected="selected"> To 2022-2023</option>
+                    <option value="1">Season1</option>
+                    <option value="2">Season2</option>
+                </select>
+                <select name="Order" id="order">
+                    <option selected="selected"> Order By Opposition</option>
+                    <option value="1">Season1</option>
+                    <option value="2">Season2</option>
+                </select>
+            
+                <!--Submit btn-->
+                <br />
+                <p style="font-size: 2px">&nbsp</p>
+                <button type="button" style="background-color: #E8F4E4;">Select options above and click here to redisplay</button>
+
+
+            </div>
+        </td>
+        <td class="mass-text" style="text-align: right; font-size: small; width: 20%;">
+            <p>
+                Our record against every team ever played.
+                Select options to change the scope of the search.
+                Select a team for full match details.
+            </p>
+        </td>
+    </tr>
+
+</table> <!--TOP TABLE END-->
+
+<div class="alltables">
+    <table class="tb2" border="1" style="width: 45%;  float: left; padding: 15%;">
+        <tr style="width: 45%">
+            <th> Opposition 2 </th>
+            <th style="width: 5%"> P </th>
+            <th style="width: 5%"> W </th>
+            <th style="width: 5%"> D </th>
+            <th style="width: 5%"> L </th>
+            <th style="width: 5%"> F </th>
+            <th style="width: 5%"> A </th>
+
+        </tr>
+
+    </table>
+    <table class="tb1" border="1" style="width: 45%; float: left;">
+        <tr style="width: 45%">
+            <th> Opposition 1</th>
+            <th style="width: 5%"> P </th>
+            <th style="width: 5%"> W </th>
+            <th style="width: 5%"> D </th>
+            <th style="width: 5%"> L </th>
+            <th style="width: 5%"> F </th>
+            <th style="width: 5%"> A </th>
+
+        </tr>
+      
+
+
+    </table>
+</div>
