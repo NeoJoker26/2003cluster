@@ -9,9 +9,10 @@ namespace GoSWeb.Pages._19981226
         {
 
         }       
-        public void Redirect(string Username,string Password)
+        public int Redirect(string Username,string Password)
         {
-            Response.Redirect("Check?GoS_administrator=" + Username + "&GoS_administrator_PassWord=" + Password + "&&Check=AdminMenu");
+            Response.Redirect("Check?GoS_administrator=" + Username + "&GoS_administrator_PassWord=" + Password);
+            return 0;
         }
     }
     

@@ -4,6 +4,17 @@
     string[] e = {" of ",""};
     int i = 0;
 }
+<script>
+    function Submit() {
+        console.log(document.getElementById("competition").value);
+        window.location.replace("gosdb-misc5?competition=" + document.getElementById("competition").value);
+    }
+</script>
+<form style="font-size: 10px; padding: 0; margin: 0;"  method="post" name="form1">
+
+
+    <select name="competition" id="competition" style="font-size: 10px"><option value="ALL" selected="">All Competitions</option><option value="FLG">Football League</option><option value="FAC">FA Cup</option><option value="CUP">Any Cup</option></select><br><input type="button" onclick="Submit()" style="width: auto; overflow: visible; color: #000000; background-color: #e0f0e0; font-size: 11px; padding: 1 5 1 5; margin: 9 0 0 0" value="Select and click to redisplay" name="B1"><p></p>
+</form>
 <link rel="stylesheet" type="text/css" href="~/css/gos2.css">
 <center>
 <p>

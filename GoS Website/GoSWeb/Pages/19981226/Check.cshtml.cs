@@ -10,16 +10,11 @@ namespace GoSWeb.Pages._19981226
         {
             string Username = Request.Query["GoS_administrator"];
             string Password = Request.Query["GoS_administrator_PassWord"];
-            string Page = Request.Query["page"];
+            string Page = Request.Query["Check"];
 
             if (Checkin(Username,Password) == 0)
             {
-                Page = WebPage(Page);
-
-                if (Page == "1")
-                    Response.Redirect("AdminLogin");
-
-                Response.Redirect(Page + "?GoS_administrator=" + Username + "&GoS_administrator_PassWord=" + Password);
+                Response.Redirect("AdminMenu?GoS_administrator=" + Username + "&GoS_administrator_PassWord=" + Password);
             }
             else
                Response.Redirect("AdminLogin");
@@ -28,13 +23,11 @@ namespace GoSWeb.Pages._19981226
         }
         public int Checkin(string Username, string Password)
         {
-            
-  
             switch (Username)
             {
                 case "MiguelRelvas": //delete this
-                    if (Password == "GoSadminpassword123")
-                        return 0;                                       
+                    if (Password == "123") //GoSadminpassword123
+						return 0;                                       
                     break;
                 case "MattEllacott":
                     break;
@@ -49,16 +42,7 @@ namespace GoSWeb.Pages._19981226
             }
             return 1;
         }
-        public string WebPage(string id)
-        {
-            switch (id)
-            {
-                case "12934756":
-                    return "AdminMenu";
-                default:                
-                    return "1";                
-            }
-        }
+        
     }
     
 }

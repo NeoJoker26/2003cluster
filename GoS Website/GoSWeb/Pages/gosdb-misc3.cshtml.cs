@@ -14,8 +14,8 @@ namespace GoSWeb.Pages
         public List<table> HATR = new List<table>();
         public List<table> LAHP = new List<table>();
         string competition;
-        string SN1; //1 -1000
-        string SN2; //1-1000
+		public string SN1; //1 -1000
+		public string SN2; //1-1000
         public string heading;
         public int attcount;
         public int at2;

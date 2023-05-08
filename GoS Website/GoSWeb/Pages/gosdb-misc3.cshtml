@@ -2,7 +2,52 @@
 @model GoSWeb.Pages.gosdb_misc3Model
 @{
 }
+<script>
+	let params = new URLSearchParams(location.search);
+	let comp = params.get('competition');
+	let SN1 = params.get('SN1');
+	let SN2 = params.get('SN2');
+	
+	
+
+	
+</script>
+<script>
+	function Submit(){		
+		window.location.replace("gosdb-misc3?competition=" + document.getElementById("competition").value + "&SN1=" + document.getElementById("SN1").value + "&SN2=" + document.getElementById("SN2").value);
+	}
+</script>
 <link rel="stylesheet" type="text/css" href="~/css/gos2.css">
+<center>
+<form style="font-size: 10px; padding: 0; margin: 0;" method="post" name="form1">
+	<select name="competition" style="font-size: 10px" id="competition">
+		<option value="ALL" selected="">All Competitions</option>
+		<option value="FLG">Football League</option>
+		<option value="CUP">All Cups</option>
+	</select>
+	<select name="season1" style="font-size: 10px" id="SN1">
+		<option value="1">From 1903-1904</option>
+		<option value="2">From 1904-1905</option>
+		<option value="3">From 1905-1906</option>
+		<option value="4">From 1906-1907</option>
+		<option value="5">From 1907-1908</option>
+		<option value="6">From 1908-1909</option>
+		<option value="7">From 1909-1910</option>
+		<option value="8">From 1910-1911</option>
+		<option value="9">From 1911-1912</option>
+		<option value="10">From 1912-1913</option>
+		<option value="11">From 1913-1914</option>
+		<option value="12">From 1914-1915</option>
+		<option value="13">From 1919-1920</option>
+		<option value="14">From 1920-1921</option><option value="15">From 1921-1922</option><option value="16">From 1922-1923</option><option value="17">From 1923-1924</option><option value="18">From 1924-1925</option><option value="19">From 1925-1926</option><option value="20">From 1926-1927</option><option value="21">From 1927-1928</option><option value="22">From 1928-1929</option><option value="23">From 1929-1930</option><option value="24">From 1930-1931</option><option value="25">From 1931-1932</option><option value="26">From 1932-1933</option><option value="27">From 1933-1934</option><option value="28">From 1934-1935</option><option value="29">From 1935-1936</option><option value="30">From 1936-1937</option><option value="31">From 1937-1938</option><option value="32">From 1938-1939</option><option value="33">From 1939-1940</option><option value="34">From 1944-1945</option><option value="35">From 1945-1946</option><option value="36">From 1946-1947</option><option value="37">From 1947-1948</option><option value="38">From 1948-1949</option><option value="39">From 1949-1950</option><option value="40">From 1950-1951</option><option value="41">From 1951-1952</option><option value="42">From 1952-1953</option><option value="43">From 1953-1954</option><option value="44">From 1954-1955</option><option value="45">From 1955-1956</option><option value="46">From 1956-1957</option><option value="47">From 1957-1958</option><option value="48">From 1958-1959</option><option value="49">From 1959-1960</option><option value="50">From 1960-1961</option><option value="51">From 1961-1962</option><option value="52">From 1962-1963</option><option value="53">From 1963-1964</option><option value="54">From 1964-1965</option><option value="55">From 1965-1966</option><option value="56">From 1966-1967</option><option value="57">From 1967-1968</option><option value="58">From 1968-1969</option><option value="59">From 1969-1970</option><option value="60">From 1970-1971</option><option value="61">From 1971-1972</option><option value="62">From 1972-1973</option><option value="63">From 1973-1974</option><option value="64">From 1974-1975</option><option value="65">From 1975-1976</option><option value="66">From 1976-1977</option><option value="67">From 1977-1978</option><option value="68">From 1978-1979</option><option value="69">From 1979-1980</option><option value="70">From 1980-1981</option><option value="71">From 1981-1982</option><option value="72">From 1982-1983</option><option value="73">From 1983-1984</option><option value="74">From 1984-1985</option><option value="75">From 1985-1986</option><option value="76">From 1986-1987</option><option value="77">From 1987-1988</option><option value="78">From 1988-1989</option><option value="79">From 1989-1990</option><option value="80">From 1990-1991</option><option value="81">From 1991-1992</option><option value="82">From 1992-1993</option><option value="83">From 1993-1994</option><option value="84">From 1994-1995</option><option value="85">From 1995-1996</option><option value="86">From 1996-1997</option><option value="87">From 1997-1998</option><option value="88">From 1998-1999</option><option value="89">From 1999-2000</option><option value="90">From 2000-2001</option><option value="91">From 2001-2002</option><option value="92">From 2002-2003</option><option value="93">From 2003-2004</option><option value="94">From 2004-2005</option><option value="95">From 2005-2006</option><option value="96">From 2006-2007</option><option value="97">From 2007-2008</option><option value="98">From 2008-2009</option><option value="99">From 2009-2010</option><option value="100">From 2010-2011</option><option value="101">From 2011-2012</option><option value="102">From 2012-2013</option><option value="103">From 2013-2014</option><option value="104">From 2014-2015</option><option value="105">From 2015-2016</option><option value="106">From 2016-2017</option><option value="107">From 2017-2018</option><option value="108">From 2018-2019</option><option value="109">From 2019-2020</option><option value="110">From 2020-2021</option><option value="111">From 2021-2022</option><option value="112">From 2022-2023</option></select> 
+		<select name="season2" style="font-size: 10px" id="SN2">
+			<option value="1">To 1903-1904</option>
+			<option value="2">To 1904-1905</option>
+			<option value="3">To 1905-1906</option><option value="4">To 1906-1907</option><option value="5">To 1907-1908</option><option value="6">To 1908-1909</option><option value="7">To 1909-1910</option><option value="8">To 1910-1911</option><option value="9">To 1911-1912</option><option value="10">To 1912-1913</option><option value="11">To 1913-1914</option><option value="12">To 1914-1915</option><option value="13">To 1919-1920</option><option value="14">To 1920-1921</option><option value="15">To 1921-1922</option><option value="16">To 1922-1923</option><option value="17">To 1923-1924</option><option value="18">To 1924-1925</option><option value="19">To 1925-1926</option><option value="20">To 1926-1927</option><option value="21">To 1927-1928</option><option value="22">To 1928-1929</option><option value="23">To 1929-1930</option><option value="24">To 1930-1931</option><option value="25">To 1931-1932</option><option value="26">To 1932-1933</option><option value="27">To 1933-1934</option><option value="28">To 1934-1935</option><option value="29">To 1935-1936</option><option value="30">To 1936-1937</option><option value="31">To 1937-1938</option><option value="32">To 1938-1939</option><option value="33">To 1939-1940</option><option value="34">To 1944-1945</option><option value="35">To 1945-1946</option><option value="36">To 1946-1947</option><option value="37">To 1947-1948</option><option value="38">To 1948-1949</option><option value="39">To 1949-1950</option><option value="40">To 1950-1951</option><option value="41">To 1951-1952</option><option value="42">To 1952-1953</option><option value="43">To 1953-1954</option><option value="44">To 1954-1955</option><option value="45">To 1955-1956</option><option value="46">To 1956-1957</option><option value="47">To 1957-1958</option><option value="48">To 1958-1959</option><option value="49">To 1959-1960</option><option value="50">To 1960-1961</option><option value="51">To 1961-1962</option><option value="52">To 1962-1963</option><option value="53">To 1963-1964</option><option value="54">To 1964-1965</option><option value="55">To 1965-1966</option><option value="56">To 1966-1967</option><option value="57">To 1967-1968</option><option value="58">To 1968-1969</option><option value="59">To 1969-1970</option><option value="60">To 1970-1971</option><option value="61">To 1971-1972</option><option value="62">To 1972-1973</option><option value="63">To 1973-1974</option><option value="64">To 1974-1975</option><option value="65">To 1975-1976</option><option value="66">To 1976-1977</option><option value="67">To 1977-1978</option><option value="68">To 1978-1979</option><option value="69">To 1979-1980</option><option value="70">To 1980-1981</option><option value="71">To 1981-1982</option><option value="72">To 1982-1983</option><option value="73">To 1983-1984</option><option value="74">To 1984-1985</option><option value="75">To 1985-1986</option><option value="76">To 1986-1987</option><option value="77">To 1987-1988</option><option value="78">To 1988-1989</option><option value="79">To 1989-1990</option><option value="80">To 1990-1991</option><option value="81">To 1991-1992</option><option value="82">To 1992-1993</option><option value="83">To 1993-1994</option><option value="84">To 1994-1995</option><option value="85">To 1995-1996</option><option value="86">To 1996-1997</option><option value="87">To 1997-1998</option><option value="88">To 1998-1999</option><option value="89">To 1999-2000</option><option value="90">To 2000-2001</option><option value="91">To 2001-2002</option><option value="92">To 2002-2003</option><option value="93">To 2003-2004</option><option value="94">To 2004-2005</option><option value="95">To 2005-2006</option><option value="96">To 2006-2007</option><option value="97">To 2007-2008</option><option value="98">To 2008-2009</option><option value="99">To 2009-2010</option><option value="100">To 2010-2011</option><option value="101">To 2011-2012</option><option value="102">To 2012-2013</option><option value="103">To 2013-2014</option><option value="104">To 2014-2015</option><option value="105">To 2015-2016</option><option value="106">To 2016-2017</option><option value="107">To 2017-2018</option><option value="108">To 2018-2019</option><option value="109">To 2019-2020</option><option value="110">To 2020-2021</option><option value="111">To 2021-2022</option><option value="112" selected="">To 2022-2023</option>
+</select><br>
+	<input type="button" onclick="Submit()" style="width: auto; overflow: visible; color: #000000; background-color: #e0f0e0; font-size: 11px; padding: 1 5 1 5; margin: 9 0 0 0" value="Select options and click to redisplay" name="B1"><p></p>
+</form>
+</center>
 <style>
 	
 	#table1 td {

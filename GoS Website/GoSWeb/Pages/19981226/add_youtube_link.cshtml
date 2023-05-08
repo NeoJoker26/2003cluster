@@ -1,0 +1,84 @@
+﻿@page
+@model GoSWeb.Pages._19981226.add_youtube_linkModel
+@{
+}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GoS Admin</title>
+	<link rel="stylesheet" type="text/css" href="../gos2.css">
+	<style>
+		<!--
+		#container {
+			font-size: 11px;
+			text-align: left;
+			width: fit-content;
+			margin: 24px auto;
+		}
+		-->
+		input[name="video"]:checked + label {
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<h3 style="margin:6px 0 15px;">ADD YOUTUBE LINKS</h3>
+</body>
+</html>
+<p class=""style1bold"" style=""margin-bottom:18px"">1. <a target="_blank" href="https://www.youtube.com/user/argylemedia">Copy link parameter from here</a></p>
+<form action="add_youtube_link" method="post">
+	<input type=" hidden" name=" phase" value=" 1" id="link">
+	<input type=" hidden" name=" admin" value="@Model.Username">
+	<p class="" style1bold"">2. Select video type:</p>
+	<input type=" radio" name=" video" id=" action" value=" action" onclick="S1()">
+	<label for=" action">Action Highlights</label><br>
+	<input type=" radio" name=" video" id=" moments" value=" moments" onclick="S2()">
+	<label for=" moments">Matchday Moments</label><br>
+	<input type=" radio" name=" video" id=" found" value=" found" onclick="S3()">
+	<label for=" found">Found on YouTube</label><br>
+	<p class=" style1bold">3. Check match date:</p>
+	<input type=" text" name=" matchdate" size=" 6" value="@Model.match_date" id="date">
+	<br><input style=" margin:20px 5px 0;" type=" submit" value="Add" onclick="Add_code()">
+	<input type=" button" value=" Back" onclick=" history.back()">
+</form>
+
+
+<script>
+	var t = 0;
+	@Model.type = 0;
+	
+	function Add_code() {
+		var date = document.getElementById("date").value
+		var link = document.getElementById("link").value
+		if(t != 0){
+			var s = @Model.Add_youtube_Link(Model.type,Request.Form["date"],Request.Form["link"]);
+			if(s = 0){
+				confirm("success to upload");
+			}
+			else if(s == 1){
+				confirm("fail to upload");
+			}
+			else{
+				confirm("error");
+			}
+		}
+		else{
+			confirm("Please select a Type")
+		}
+	}
+	function S1(){
+		t = 1;
+		@Model.type = 1;
+	}
+	function S2() {
+		@Model.type = 2;
+	}
+	function S3() {
+	    @Model.type = 3;
+	}
+</script>

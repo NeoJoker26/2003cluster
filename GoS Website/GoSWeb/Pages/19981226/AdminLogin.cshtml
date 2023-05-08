@@ -2,6 +2,7 @@
 @model GoSWeb.Pages._19981226.testModel
 @{
 }
+
 <title>GoS Admin</title>
 <h1>Admin Login</h1>
 
@@ -22,7 +23,7 @@
     function Submit() {
         //stores your Username and password in your Local memory
         localStorage.setItem('GoS_administrator', document.getElementById("Username").value);     
-        window.location.replace("Check?GoS_administrator=" + document.getElementById("Username").value + "&GoS_administrator_PassWord=" + document.getElementById("Password").value + "&Page=12934756");
+        window.location.replace("Check?GoS_administrator=" + document.getElementById("Username").value + "&GoS_administrator_PassWord=" + document.getElementById("Password").value);
      //this will make the Server check weather the password is correct or not
          
     }

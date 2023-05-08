@@ -8,3 +8,19 @@
 <h2>GREENS ON SCREEN ADMINISTRATION</h2>
 
 <h4>Welcome back @Model.fullname</h4>
+
+<button onclick="add_youtube_link()">Add youtube link</button>
+
+<script>
+    
+    
+    function add_youtube_link() {     
+        const urlParams = new URLSearchParams(window.location.search);
+
+        window.location.replace("add_youtube_link?GoS_administrator=" + urlParams.get('GoS_administrator') + "&GoS_administrator_PassWord=" + urlParams.get('GoS_administrator_PassWord') + "&Page=AdminMenu");
+     //this will make the Server check weather the password is correct or not
+         
+    }
+    
+
+</script>
