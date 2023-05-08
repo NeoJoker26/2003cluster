@@ -1,4 +1,23 @@
 ﻿/*start of Morgan Trainor code*/
+.statButton {
+    background-color: #457B44; /* Green */
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+    .statButton:hover {
+        background-color: #345E34; /* Darker green */
+    }
+
 /*Navbar*/
 #HeaderTable {
     padding-bottom: 50px;

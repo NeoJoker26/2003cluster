@@ -12,6 +12,17 @@
     <link rel="stylesheet" type="text/css" href="~/css/GoS.css?ver=1">
 </head>
 <body>
+    <script>
+        function popupToggle(popupId) {
+            var popup = document.getElementById(popupId);
+            if (popup.style.display === "none") {
+                popup.style.display = "block";
+            } else {
+                popup.style.display = "none";
+
+            }
+        }
+    </script>
 
     <div id="sidebar">
         <div id="printhead">
@@ -116,7 +127,28 @@
     <hr class="hrLine" />
 
     <p class="heading">1899-00: ARGYLE ATHLETIC CLUB FORMED</a></p>
-    <div class="imageright noprint" style="padding: 0 10 0 10; margin-top: 6; margin-bottom: 6; text-align: left;"><p>Stats for 1899-00: <a href="argylehistory_amateurstats.asp?stat=9900F"><u>First XI</u></a> - <a href="argylehistory_amateurstats.asp?stat=9900R"><u>Reserve XI</u></a> - <a href="argylehistory_amateurstats.asp?stat=9900P"><u>Players</u></a></p></div>
+    <div class="imageright noprint" style="padding: 0 10 0 10; margin-top: 6; margin-bottom: 6; text-align: left;">
+        <p>
+            Stats for 1899-00:
+            <div class="statButtons">
+
+                <button class="statButton" onclick="popupToggle('popupImage1')">First XI</button>
+                <div class="popupImage" id="popupImage1" style="display: none">
+                    <img src="~/images/history/extras/9900F.png">
+                </div>
+
+                <button class="statButton" onclick="popupToggle('popupImage2')">Reserve XI</button>
+                <div class="popupImage" id="popupImage2" style="display: none">
+                    <img src="~/images/history/extras/9900R.png">
+                </div>
+
+                <button class="statButton" onclick="popupToggle('popupImage3')">Players</button>
+                <div class="popupImage" id="popupImage3" style="display: none">
+                    <img src="~/images/history/extras/9900P.png">
+                </div>
+            </div>
+        </p>
+    </div>
     <p>The Argyle Football Club met for their Annual meeting on 5th June 1899 where Clarence Spooner was re-elected President, Francis Crouch Hon. Treasurer, and Thomas Floyd Hon. Secretary for 1899-00. Later in the month, it was announced that the Argyle Athletic Club had formed to encourage the practice of all branches of athletics and promoting social contact amongst the members. In addition to the cricket and football teams, classes had been formed for swimming and boating, and cycle and other parties are being arranged.</p>
     <div class="imageright" style="width:156px"><img width=143 height=191 src="/images/history/image108.jpg"><p style="font-size: 11px; margin: 4px 3px 2px 6px; line-height: 1.2; text-align:left;">Percy N. Buchan, elected captain of Argyle F.C. 1899-1900</p></div>
     <p>To facilitate the social side of its work the Club acquired rooms at 91, Mutley Plain, a neighbourhood that was close to most of its 100 members. The rooms were small but the largest was big enough to be used as a billiard room. Clarence Spooner had organised the Avenue Recreation Club for Spooner &amp; Co. employees along similar lines ten years earlier. He was President of the Argyle Athletic Club and Francis Crouch Secretary and Treasurer. Crouch, formally opened the Argyle Athletic Club rooms, in the absence of the President, on the evening of Saturday 1st July 1899. The clubhouse had a modern interior decorated and furnished with ‘great taste’ by Spooner &amp; Co, thanks to Clarence Spooner. </p>

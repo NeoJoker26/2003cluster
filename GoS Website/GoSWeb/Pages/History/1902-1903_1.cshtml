@@ -12,6 +12,17 @@
     <link rel="stylesheet" type="text/css" href="~/css/GoS.css?ver=1">
 </head>
 <body>
+    <script>
+        function popupToggle(popupId) {
+            var popup = document.getElementById(popupId);
+            if (popup.style.display === "none") {
+                popup.style.display = "block";
+            } else {
+                popup.style.display = "none";
+
+            }
+        }
+    </script>
 
     <div id="sidebar">
         <div id="printhead">
@@ -127,7 +138,33 @@
     <hr class="hrLine" />
 
     <a name="0"><p class="heading">1902-03: ARGYLE LOOKING FOR A PROFESSIONAL COACH</a></p>
-    <div class="imageright noprint" style="padding: 0 10 0 10; margin-top: 6; margin-bottom: 6; text-align: left;"><p>Stats for 1902-03: <a href="argylehistory_amateurstats.asp?stat=0203F"><u>First XI</u></a> - <a href="argylehistory_amateurstats.asp?stat=0203R"><u>Reserve XI</u></a> - <a href="argylehistory_amateurstats.asp?stat=0203WF"><u>Wed XI</u></a> - <a href="argylehistory_amateurstats.asp?stat=0203P"><u>Players</u></a></p></div>
+    <div class="imageright noprint" style="padding: 0 10 0 10; margin-top: 6; margin-bottom: 6; text-align: left;">
+        <p>
+            Stats for 1902-03:
+            <div class="statButtons">
+
+                <button class="statButton" onclick="popupToggle('popupImage1')">First XI</button>
+                <div class="popupImage" id="popupImage1" style="display: none">
+                    <img src="~/images/history/extras/0203F.png">
+                </div>
+
+                <button class="statButton" onclick="popupToggle('popupImage2')">Reserve XI</button>
+                <div class="popupImage" id="popupImage2" style="display: none">
+                    <img src="~/images/history/extras/0203R.png">
+                </div>
+
+                <button class="statButton" onclick="popupToggle('popupImage3')">Wed XI</button>
+                <div class="popupImage" id="popupImage3" style="display: none">
+                    <img src="~/images/history/extras/0203WF.png">
+                </div>
+
+                <button class="statButton" onclick="popupToggle('popupImage4')">Players</button>
+                <div class="popupImage" id="popupImage4" style="display: none">
+                    <img src="~/images/history/extras/0203P.png">
+                </div>
+            </div>
+        </p>
+    </div>
     <p>The ordinary Argyle Association Football Club Annual Meeting was held at the Argyle Athletic Club on the evening of Friday 13th June 1902. A large attendance, presided over by J. D. Spooner, heard the inquest on the tantalising and ultimately, frustrating 1901-02 season. The failure in the domestic competitions was put down to bad luck and the strain of the professional games. Some members (players) became 'stale'. The professional matches were declared a success. On paper, they should have made a profit but without knowing the demands each club made and the extra hospitality expenses, it is possible it was only negligible.</p>
     <p>Chairman for the evening, J. D. Spooner, announced that the Argyle Athletic Club was “altering the style of the running of the club”. They, the Argyle Football Club, would have a freer hand and a bit more money. The directors of the club would let them have Home Park at a cheaper rent than last year, and they were going to engage a professional, not only as a good player, but one who could coach them in the game and would be a trainer. This professional player/coach would take the management of the first soccer eleven into his own hands. Argyle were negotiating with John Devey, a well-known Aston Villa player who retired last year. The directors were prepared to pay him a big salary. Employing a professional coach who would take charge of First Team management moved Argyle F.C. up the ladder to becoming professional as a club. The changes to running the club sprang directly from the Football Association ruling to separate football from the Argyle Athletic Club Limited.</p>
     <p>Francis Crouch (Secretary of Argyle Athletic Club Limited) explained further that his directors deemed it advisable that the Association Football Club “should be worked as a separate organisation entirely”. They proposed to give the club a lump sum “to start them off in life” and reduce the rent of Home Park to half the sum paid last year. Any members of the Athletic Club who were members of the Association Club would have half their subscriptions handed to the football club. The members of the football club could use the premises in Old Town Street for meetings but were not members of the Athletic Club by “virtue” of their belonging to the football club. Crouch’s explanation was a very complicated way of saying “no change”. Even after this date, new Argyle F.C. players were still listed as having one share in the Argyle Athletic Club Limited. Some Argyle F.C. officers were elected for 1902-03 with Clarence Spooner continuing as President. Curiously, J. D. Spooner announced that Argyle had entered the 1902-03 F.A. Cup, but this fact was never mentioned again and nor did Argyle take part in it.</p>

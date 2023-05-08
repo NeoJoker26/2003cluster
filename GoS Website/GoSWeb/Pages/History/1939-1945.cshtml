@@ -13,6 +13,17 @@
     <link rel="stylesheet" type="text/css" href="~/css/GoS.css?ver=1">
 </head>
 <body>
+    <script>
+        function popupToggle(popupId) {
+            var popup = document.getElementById(popupId);
+            if (popup.style.display === "none") {
+                popup.style.display = "block";
+            } else {
+                popup.style.display = "none";
+
+            }
+        }
+    </script>
 
     <div id="sidebar">
         <div id="printhead">
