@@ -1,6 +1,14 @@
 ﻿/*start of Morgan Trainor code*/
+/*History bibliography*/
+.heading2 {
+    font-weight: bold;
+}
+.heading3 {
+    font-weight: bold;
+}
+/*history page statistic buttons*/
 .statButton {
-    background-color: #457B44; /* Green */
+    background-color: #457B44;
     color: white;
     border: none;
     padding: 5px 5px;
@@ -15,7 +23,7 @@
 }
 
     .statButton:hover {
-        background-color: #345E34; /* Darker green */
+        background-color: #345E34;
     }
 
 /*Navbar*/
