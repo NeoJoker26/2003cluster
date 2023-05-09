@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GoSWeb
+build_property.RootNamespace = GoSWeb
+build_property.ProjectDir = C:\Neo\final\TP\2003cluster\GoS Website\GoSWeb\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Neo\final\TP\2003cluster\GoS Website\GoSWeb
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/argylehistorymenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYXJneWxlaGlzdG9yeW1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/CurrentSquad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VycmVudFNxdWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/dailydiary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGFpbHlkaWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/gosdb-headtohead.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItaGVhZHRvaGVhZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/gosdb-players.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItcGxheWVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/gosdb-seasons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItc2Vhc29ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1886-1890.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxODg2LTE4OTAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1890-1895.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxODkwLTE4OTUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1895-1899.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxODk1LTE4OTkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1899-1900.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxODk5LTE5MDAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1900-1901.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAwLTE5MDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1901-1902_1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAxLTE5MDJfMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1901-1902_2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAxLTE5MDJfMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1902-1903_1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAyLTE5MDNfMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1902-1903_2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAyLTE5MDNfMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1902-1903_3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAyLTE5MDNfMy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1903-1910.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAzLTE5MTAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1910-1920.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTEwLTE5MjAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1920-1930.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTIwLTE5MzAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1930-1934.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTMwLTE5MzQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1934-1939.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTM0LTE5MzkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1939-1945.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTM5LTE5NDUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1945-1950.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTQ1LTE5NTAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1950-1953.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTUwLTE5NTMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/1953-1957.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTUzLTE5NTcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/bib1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVxiaWIxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/History/ps1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVxwczEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/progresstables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNccHJvZ3Jlc3N0YWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Neo/final/TP/2003cluster/GoS Website/GoSWeb/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
