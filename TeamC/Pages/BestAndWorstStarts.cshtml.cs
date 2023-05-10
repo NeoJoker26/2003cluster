@@ -93,8 +93,8 @@ namespace _2003v5.Pages
 
             //get data from sqlserver
 
-            string connectionString = @"Data Source=sql11.hostinguk.net;Initial Catalog=greenson_greensonscreen;User ID=greenson_gosadmin;Password=d7^fIY5[K6km1G";
-            using (SqlConnection cnn = new SqlConnection(connectionString))
+            string connetionString = @"Data Source=sql11.hostinguk.net;Initial Catalog=greenson_greensonscreen;User ID=greenson_gosadmin;Password=d7^fIY5[K6km1G";
+            using (SqlConnection cnn = new SqlConnection(connetionString))
             {
                 cnn.Open();
                 //SQL command

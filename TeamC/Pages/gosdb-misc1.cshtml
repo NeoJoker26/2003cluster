@@ -1,0 +1,227 @@
+﻿@page
+@model _2003v5.Pages.gosdb_misc1Model
+@using System.Data.SqlClient;
+@{
+}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="Author" content="Trevor Scallan">
+    <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+    <title>GoS-DB Miscellaneous Report</title>
+    <link rel="stylesheet" type="text/css" href="gos2.css">
+
+    <style>
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #sumtable td {
+            border: 1px solid #c0c0c0;
+            text-align: right;
+            margin: 0;
+            white-space: nowrap;
+            padding-left: 1;
+            padding-right: 2;
+            padding-top: 1;
+            padding-bottom: 1
+        }
+
+        #sumtable .l {
+            padding-left: 4;
+            border-left: 2px solid #c0c0c0;
+        }
+
+        #sumtable .r {
+            padding-right: 6;
+            border-right: 2px solid #c0c0c0;
+        }
+
+        #sumtable .rowhlt {
+            background-color: #d5e9d7;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--#include file="top_code.htm"-->
+    <div class="container">
+        <div style="width: 260px; display: inline-block; text-align: center;">
+            <p style="text-align: center; margin-top:0; margin-bottom:3">
+                <a href="gosdb.asp">
+                    <font color="#404040">
+                        <img border="0" src="images/gosdb-small.jpg" align="left">
+                    </font>
+                </a>
+                <font color="#404040">
+                    <b><font style="font-size: 15px">Search by<br></font></b><span style="font-size: 15px"><b>Player</b></span>
+                </font>
+            </p>
+            <p style="text-align: center; margin-top:0; margin-bottom:0">
+                <b>
+                    <a href="gosdb.asp">Back to<br>GoS-DB Hub</a>
+                </b>
+            </p>
+        </div>
+
+        <div style="width: 460px; display: inline-block; text-align: center;">
+            <p style="margin-top:12; margin-bottom:0; text-align:center; font-size:18px; color:#006E32">
+                MISCELLANEOUS REPORTS
+            </p>
+            <p style="margin-top:6; margin-bottom:0; text-align:center; font-size:13px">
+                <b>Report 1: Competition Totals</b>
+            </p>
+        </div>
+
+        <div style="width: 260px; display: inline-block; text-align: justify;">
+            '<span style="font-size: 10px">
+                Miscellaneous Reports' is an ever-growing collection of pages that reflect
+                broad aspects of Argyle's playing history. If you have an idea for another,
+                please get in touch.
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
+
+        @{
+            string connectionString = @"Data Source=sql11.hostinguk.net;Initial Catalog=greenson_greensonscreen;User ID=greenson_gosadmin;Password=d7^fIY5[K6km1G";
+            using (SqlConnection cnn = new SqlConnection(connectionString))
+            {
+                string outline = "";
+                string sql = "WITH CTE1 AS ( ";
+
+                sql += "select case LFC when 'F' then 'League' when 'L' then 'Non-league' else 'Cup' end as comptype1, ";
+                sql += "case LFC when 'F' then 'League' + ' tier ' + cast(tier as varchar) when 'L' then 'Non-league' else 'Cup' end as comptype2, ";
+                sql += "competition, ";
+                sql += "1 as p, ";
+                sql += "case when goalsfor > goalsagainst then 1 else 0 end as w, ";
+                sql += "case when goalsfor = goalsagainst then 1 else 0 end as d, ";
+                sql += "case when goalsfor < goalsagainst then 1 else 0 end as l, ";
+                sql += "goalsfor as f, goalsagainst as a, attendance at,  ";
+                sql += "case when homeaway = 'H' then 1 else 0 end as hp, ";
+                sql += "case when homeaway = 'H' and goalsfor > goalsagainst then 1 else 0 end as hw, ";
+                sql += "case when homeaway = 'H' and goalsfor = goalsagainst then 1 else 0 end as hd, ";
+                sql += "case when homeaway = 'H' and goalsfor < goalsagainst then 1 else 0 end as hl, ";
+                sql += "case when homeaway = 'H' then goalsfor else 0 end as hf, ";
+                sql += "case when homeaway = 'H' then goalsagainst else 0 end as ha, ";
+                sql += "case when homeaway = 'H' then attendance else NULL end as hat, ";
+                sql += "case when homeaway <> 'H' then 1 else 0 end as ap, ";
+                sql += "case when homeaway <> 'H' and goalsfor > goalsagainst then 1 else 0 end as aw, ";
+                sql += "case when homeaway <> 'H' and goalsfor = goalsagainst then 1 else 0 end as ad, ";
+                sql += "case when homeaway <> 'H' and goalsfor < goalsagainst then 1 else 0 end as al, ";
+                sql += "case when homeaway <> 'H' then goalsfor else 0 end as af, ";
+                sql += "case when homeaway <> 'H' then goalsagainst else 0 end as aa, ";
+                sql += "case when homeaway <> 'H' then attendance else NULL end as aat ";
+                sql += "from v_match_all join season on date between date_start and date_end ";
+                sql += ") ";
+                sql += "select case when grouping(comptype1) = 1 then 'zzz' else comptype1 end as comptype1, ";
+                sql += " case when grouping(comptype2) = 1 then 'zzzz' else comptype2 end as comptype2, ";
+                sql += " case when grouping(competition) = 1 then 'zzzzz' else competition end as competition, ";
+                sql += "sum(p) as P, sum(w) as W, sum(d) as D, sum(l) as L, sum(f) as F, sum(a) as A, avg(at) as AT, ";
+                sql += "sum(hp) as HP, sum(hw) as HW, sum(hd) as HD, sum(hl) as HL, sum(hf) as HF, sum(ha) as HA, avg(hat) as HAT, ";
+                sql += "sum(ap) as AP, sum(aw) as AW, sum(ad) as AD, sum(al) as AL, sum(af) as AF, sum(aa) as AA, avg(aat) as AAT  ";
+                sql += "from CTE1 ";
+                sql += "group by comptype1, comptype2, competition with rollup ";
+                sql += "order by comptype1, comptype2, competition ";
+
+
+                outline += "<tr>";
+                outline += "<td style=\"border: 0px none white;\" colspan=\"2\">&nbsp;</td>";
+                outline += "<td colspan=\"6\" class=\"l r\" style=\"text-align:center; border-top-color: #C0C0C0; border-top-width: 1\"><b>Home</b></td>";
+                outline += "<td colspan=\"6\" class=\"l r\" style=\"text-align:center; border-top-color: #C0C0C0; border-top-width: 1\"><b>Away or Neutral</b></td>";
+                outline += "<td colspan=\"6\" class=\"l r\" style=\"text-align:center; border-top-color: #C0C0C0; border-top-width: 1\"><b>Totals</b></td>";
+                outline += "<td colspan=\"3\" class=\"l r\" style=\"text-align:center; border-top-color: #C0C0C0; border-top-width: 1\"><b>Attendance</b></td>";
+                outline += "</tr>";
+                outline += "<tr>";
+                outline += "<td style=\"padding:0 8 0 8; text-align: left\"><b>Type</b></td>";
+                outline += "<td style=\"padding:0 8 0 8; text-align: left\"><b>Competition</b></td>";
+                outline += "<td class=\"l\"><b>P</b></td>";
+                outline += "<td><b>W</b></td>";
+                outline += "<td><b>D</b></td>";
+                outline += "<td><b>L</b></td>";
+                outline += "<td><b>F</b></td>";
+                outline += "<td class=\"r\"><b>A</b></td>";
+                outline += "<td class=\"l\"><b>P</b></td>";
+                outline += "<td><b>W</b></td>";
+                outline += "<td><b>D</b></td>";
+                outline += "<td><b>L</b></td>";
+                outline += "<td><b>F</b></td>";
+                outline += "<td class=\"r\"><b>A</b></td>";
+                outline += "<td class=\"l\"><b>P</b></td>";
+                outline += "<td><b>W</b></td>";
+                outline += "<td><b>D</b></td>";
+                outline += "<td><b>L</b></td>";
+                outline += "<td><b>F</b></td>";
+                outline += "<td class=\"r\"><b>A</b></td>";
+                outline += "<td class=\"l\" style=\"text-align: center\"><b>Avg<br>Home</b></td>";
+                outline += "<td class=\"l\" style=\"text-align: center\"><b>Avg<br>Away</b></td>";
+                outline += "</tr>";
+
+                await cnn.OpenAsync();
+                using (SqlCommand cmd = new SqlCommand(sql, cnn))
+
+                using (SqlDataReader rs = await cmd.ExecuteReaderAsync())
+                {
+                    while (rs.Read()) 
+                    {
+                        if (rs["comptype1"].ToString() != "zzz" && rs["comptype1"].ToString() != "League" && rs["comptype2"].ToString() == "zzzz" && rs["competition"].ToString() == "zzzzz")
+                        {
+                            
+                        }
+                        else if (rs["comptype1"].ToString() == "zzz" && rs["comptype2"].ToString() == "zzzz" && rs["competition"].ToString() == "zzzzz")
+                        {
+                            outline = outline + "<tr style=\"font-weight:bold; color:#004b18;\" onmouseover=\"this.className = 'rowhlt';\" onmouseout=\"this.className = '';\"><td style=\"padding:0 8 0 8; text-align: left\" colspan=\"2\">Grand Totals/Averages</td>";
+                        }
+                        else if (rs["comptype1"].ToString() == "League" && rs["comptype2"].ToString() == "zzzz" && rs["competition"].ToString() == "zzzzz")
+                        {
+                            outline = outline + "<tr style=\"color:#004b18;\" onmouseover=\"this.className = 'rowhlt';\" onmouseout=\"this.className = '';\"><td style=\"padding:0 8 0 8; text-align: left\" colspan=\"2\">Football League Totals/Averages</td>";
+                        }
+                        else if (rs["competition"].ToString() == "zzzzz")
+                        {
+                            outline = outline + "<tr style=\"color:#004b18;\" onmouseover=\"this.className = 'rowhlt';\" onmouseout=\"this.className = '';\"><td style=\"padding:0 8 0 8; text-align: left\" colspan=\"2\">" + rs["comptype2"].ToString() + " Totals/Averages</td>";
+                        }
+                        else
+                        {
+                            outline = outline + "<tr onmouseover=\"this.className = 'rowhlt';\" onmouseout=\"this.className = '';\"><td style=\"padding:0 8 0 8; text-align: left\">" + rs["comptype2"].ToString() + "</td>";
+                            outline = outline + "<td style=\"padding:0 8 0 8; text-align: left\">" + rs["competition"].ToString() + "</td>";
+                        }
+                        outline = outline + "<td class=\"l\">" + rs["HP"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["HW"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["HD"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["HL"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["HF"].ToString() + "</td>";
+                        outline = outline + "<td class=\"r\">" + rs["HA"].ToString() + "</td>";
+                        outline = outline + "<td class=\"l\">" + rs["AP"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["AW"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["AD"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["AL"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["AF"].ToString() + "</td>";
+                        outline = outline + "<td class=\"r\">" + rs["AA"].ToString() + "</td>";
+                        outline = outline + "<td class=\"l\">" + rs["P"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["W"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["D"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["L"].ToString() + "</td>";
+                        outline = outline + "<td>" + rs["F"].ToString() + "</td>";
+                        outline = outline + "<td class=\"r\">" + rs["A"].ToString() + "</td>";
+                        outline = outline + "<td class=\"l\" align=\"right\">" + rs["HAT"].ToString() + "</td>";
+                        outline = outline + "<td class=\"r\" align=\"right\">" + rs["AAT"].ToString() + "</td>";
+                        outline = outline + "</tr>";
+                        rs.Close();
+
+                        outline = outline + "</table>";
+
+                        Response.WriteAsync(outline);
+                    }
+                }
+                cnn.Close();
+            }
+        }
+  

@@ -1,31 +1,154 @@
 ﻿@page
 @model OppositionModel
 @{
+    DateTime today = DateTime.Now;
+    string day = today.Day.ToString();
+    string month = today.ToString("MMM");
+    // Dummy data
+    string dummyData = "0";
 }
 <html>
-<table>
-    <thead>
-        <tr>
-            <th>Opposition</th>
-            <th>P</th>
-            <th>W</th>
-            <th>D</th>
-            <th>L</th>
-            <th>F</th>
-            <th>A</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Total</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
+
+<div id="bigDiv" style="width: 1000px;">
+
+    <div id="DivA" style="text-align: left; width: 300px; display: inline-block; vertical-align: top;">
+        <div style="display: inline-block; vertical-align: top;">
+            <img src="~/images/gosdb-small.jpg" alt="Image" style="width: 160px; height: 70px; display: inline-block; vertical-align: top;">
+            <div style="display: inline-block; vertical-align: top; margin-left: 10px;">
+                <p style="font-size: 14px; font-weight: bold; margin: 0; padding: 0; height: 35px;">Search by Date</p>
+                <a onclick="window.location.href='ShowFullDatabase'" style="display: block; width: 100px; height: 35px; margin: 0; padding: 0;">Back to GoS-DB Hub</a>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="DivB" style="text-align: center; width: 360px; display: inline-block; vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 3px; text-align:center;">
+            <span style="font-size: 18px">
+                <font color="#006E32">
+                    HEAD TO HEAD RESULTS
+                </font>
+            </span>
+        </p>
+        <div class="button-row" style="display: flex; justify-content: space-between;">
+            <div class="dropdown" style="width: calc(20% - 10px);">
+                <button class="dropdown-button"><span>Button 1</span></button>
+                <div class="dropdown-content">
+                    <a href="#" data-value="All Competitions">All Competitions</a>
+                    <a href="#" data-value="Football League">Football League</a>
+                    <a href="#" data-value="All Leagues">All Leagues</a>
+                    <a href="#" data-value="FA Cup">FA Cup</a>
+                    <a href="#" data-value="All Cups">All Cups</a>
+                </div>
+            </div>
+            <div class="dropdown" style="width: calc(20% - 10px);">
+                <button class="dropdown-button"><span>Button 2</span></button>
+                <div class="dropdown-content">
+                    <a href="#" data-value="Home & Away">Home & Away</a>
+                    <a href="#" data-value="Home Only">Home Only</a>
+                    <a href="#" data-value="Away Only">Away Only</a>
+                </div>
+            </div>
+            <div class="dropdown" style="width: calc(20% - 10px);">
+                <button class="dropdown-button"><span>Button 3</span></button>
+                <div class="dropdown-content">
+                    <a href="#" data-value="Option 1">Option 1</a>
+                    <a href="#" data-value="Option 2">Option 2</a>
+                </div>
+            </div>
+            <div class="dropdown" style="width: calc(20% - 10px);">
+                <button class="dropdown-button"><span>Button 4</span></button>
+                <div class="dropdown-content">
+                    <a href="#" data-value="Option 1">Option 1</a>
+                    <a href="#" data-value="Option 2">Option 2</a>
+                </div>
+            </div>          
+        </div>
+        <div class="dropdown" style="width: 100%;">
+            <button class="dropdown-button"><span>Button 6</span></button>
+            <div class="dropdown-content">
+                <a href="#" data-value="Option 1">Option 1</a>
+                <a href="#" data-value="Option 2">Option 2</a>
+            </div>
+        </div>
+        <button id="submitBtn" style="width: 100px; background-color: white; border: none; margin-top: 10px;">Submit</button>
+    </div>
+
+    <div id="DivC" style="text-align: left; width: 290px; display: inline-block; vertical-align: top;">
+        <div style="display: inline-block; vertical-align: top;">
+            <p>Our record against every team ever played. Select options to change the scope of the search. Select a team for full match details.</p>
+
+        </div>    
+    </div>
+
+    <div id="extra" style="text-align: center; width: 100%;">
+        <p id="extra">Where a team has changed its name, all results are shown under its latest name, but contemporary names are used on the results page for each club.</p>
+    </div>
+</div>
 
 </html>
+<style>
+    #extra {
+        text-align: center;
+    }
+    .button-row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 100px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var dropdownOptions = document.querySelectorAll('.dropdown-content a');
+    
+        dropdownOptions.forEach(function(option) {
+            option.addEventListener('click', function(event) {
+                event.preventDefault();
+                var selectedValue = this.getAttribute('data-value');
+                var button = this.closest('.dropdown').querySelector('.dropdown-button span');
+                button.textContent = selectedValue;
+            });
+        });
+    });
+</script>

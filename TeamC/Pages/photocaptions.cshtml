@@ -1,0 +1,76 @@
+﻿@page
+@model _2003v5.Pages.photocaptionsModel
+@{
+
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Greens on Screen</title>
+    <link rel="stylesheet" type="text/css" href="gos2.css" />
+    <style>
+        td {
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form method="post" action="photocap1">
+            <div style="text-align: center; margin-bottom: 18px; margin-top: 12px;">
+                <font color="#47784D" style="font-size: 18px"><b>Photo Captions</b></font>
+            </div>
+            <div style="margin-left: auto; margin-right: auto; margin-bottom: 12px; text-align: center; width: 374px;">
+                <div style="text-align: left; width: 354px;">
+                    <label for="code">Set Code:</label>
+                    <input type="text" id="code" name="code" size="14" />
+                </div>
+                <div style="text-align: left; width: 354px;">
+                    <label for="type">Set Type:</label>
+                    <select id="type" name="type">
+                        <option value="M">Match</option>
+                        <option value="O">Other Match</option>
+                        <option value="F">Pre-season</option>
+                        <option value="E">Random Event</option>
+                        <option value="H">Redevelopment</option>
+                        <option value="S">Season</option>
+                        <option value="W">Slideshow</option>
+                    </select>
+                </div>
+                <div style="text-align: left; width: 354px;">
+                    <label for="process">Process:</label>
+                    <select id="process" name="process">
+                        <option value="1">1. Normal</option>
+                        <option value="2">2. Changed photos</option>
+                        <option value="3">3. Destroy & start again</option>
+                    </select>
+                </div>
+                <div style="text-align: left; width: 354px; margin-top: 12px;">
+                    <input type="submit" name="b1" value="Process uploaded images ready for captions" style="width: 260px; font-size: 12px; margin-left: 0; margin-right: 0; padding: 0;" />&nbsp;&nbsp;<b>|</b>&nbsp;<a target="_top" href="index">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div style="margin-left: 12px; text-align: left; border-collapse: collapse; border-color: #111111; width: 441px;">
+        <div style="margin-top: 6px; margin-bottom: 3px;">
+            <b>Process Notes</b>
+        </div>
+        <div style="width: 394px;">
+            <div style="display: flex;">
+                <div style="width: 391px;"> 1: Normal: captions are being written for the uploaded images based on the set code and type selected.</div>
+            </div>
+            <div style="display: flex;">
+                <div style="width: 391px;">2: Changed photos: captions are being updated for the changed images based on the set code and type selected.</div>
+            </div>
+            <div style="display: flex;">
+              
+                <div style="width: 391px;">3: Destroy & start again: all existing captions will be deleted, and new captions will be generated for the uploaded images based on the set code and type selected.</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+

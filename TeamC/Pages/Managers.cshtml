@@ -1,4 +1,209 @@
 ﻿@page
 @model ManagersModel
 @{
+
 }
+<div id="bigDiv" style="width: 1000px; display: flex; justify-content: space-between;">
+    <div id="DivA" style="text-align: left; width: 300px; display: inline-block; vertical-align: top;">
+        <div style="display: inline-block; vertical-align: top;">
+            <img src="~/images/gosdb-small.jpg" alt="Image" style="width: 160px; height: 70px; display: inline-block; vertical-align: top;">
+            <div style="display: inline-block; vertical-align: top; margin-left: 10px;">
+                <p style="font-size: 14px; font-weight: bold; margin: 0; padding: 0; height: 35px;">Search by Date</p>
+                <a onclick="window.location.href='ShowFullDatabase'" style="display: block; width: 100px; height: 35px; margin: 0; padding: 0;">Back to GoS-DB Hub</a>
+            </div>
+        </div>
+
+    </div>
+
+   <div id="DivB" class="border d-flex flex-column justify-content-center align-items-center" style="width: 300px; height: 100%;">
+    <h2 style="text-align: center; margin-top: 0;">MANAGERS</h2>
+    <p style="text-align: center;">Choose to exclude/include caretaker managers and to combine/separate multiple spells...</p>
+    <div class="d-flex justify-content-center">
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="include-caretakers" name="caretakers" value="include">
+            <label class="btn btn-secondary" for="include-caretakers">Include Caretakers</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" id="combine-spells" name="spells" value="combine">
+            <label class="btn btn-secondary" for="combine-spells">Combine Spells</label>
+        </div>
+    </div>
+</div>
+
+    <div id="DivC" style="text-align: left; width: 290px; display: inline-block; vertical-align: top;">
+        <div style="display: inline-block; vertical-align: top;">
+            <p>Just a mass of numbers? Each manager's name leads to a full profile, and the page comes into its own when you use the 'sort' buttons to bring out the best and worst of any column.</p>
+
+        </div>
+    </div>
+</div>
+<table id="managers" style="border-collapse: collapse">
+    <tr>
+        <th>Manager Id</th>
+        <th>Name</th>
+        <th>From Date</th>
+        <th>To Date</th>
+        <th>Days in charge</th>
+    </tr>
+    @foreach (var comb in Model.combinedList)
+    {
+        <tr>
+            <td>@comb.manager_id</td>
+            <td>@comb.forname @comb.surname</td>
+            <td>@comb.from_date</td>
+            <td>@comb.to_date</td>
+            <td>@comb.days</td>
+            <td>@comb.footnote_no</td>
+            <td>@comb.footnote</td>
+        </tr>
+    }
+</table>
+
+
+
+<div id="footerDiv" style="text-align: left; width: 1000px; margin-top: 10px;">
+    <p style="font-size: 12px; margin-top: 0; margin-bottom: 0;">Footnotes:</p>
+    <ul style="font-size: 12px; margin-top: 0; margin-bottom: 0;">
+        <li>1. For an even comparison, points are calculated using three for a win in all cases. Three points, replacing two, was introduced into English football in 1981. A draw has always earned one point.</li>
+        <li>2. In the absence of clear evidence, this Appointed date is a close estimate.</li>
+        <li>3. Bob Jack announced his resignation on 10 March 1938 but agreed to remain at the club until the end of the season.</li>
+        <li>4. Jack Tresadern's appointment was announced at half-time in the match at Luton on April 7th, but he took over at Home Park a week later.</li>
+        <li>5. Jimmy Rae was made acting manager on September 8th, having been Jack Tresadern's assistant, and was fully appointed on 12 November 1947.</li>
+        <li>6. Neil Dougall and George Taylor's joint managership began in March 1960 as an "emergency" arrangement, and were confirmed on a permanent basis that summer.</li>
+        <li>7. In March 1961 it was announced that joint managers Neil Dougall and George Taylor would revert to their coaching duties at the end of the season, and that Vic Buckingham would become manager from June 1st. Buckingham, formerly the manager of West Bromwich Albion and at that time in charge at Ajax, was both experienced and successful, and considered quite a coup for Argyle. Although still at Ajax, the manager-designate found time (because Ajax played on Sundays) to watch several matches over the following two months and also had a significant influence at Home Park, including discussions with the board on player retention and a new pay and incentive scheme. However, on May 8th came the shock news that Buckingham had accepted the job of manager at Sheffield Wednesday. With the club in some disarray, Argyle's secretary Jess Lowe took on the managerial duties until a new man could be found. As events turned out, that new man was Neil Dougall. As for Buckingham, he spent three years at Hillsborough, another three managing Fulham and numerous shorts spells with European clubs, including Ajax (again) and Barcelona.</li>
+        <li>8. Derek Ufton began as caretaker manager. His full appointment was announced on 18 May 1965.</li>
+        <li>9. Peter Shilton was suspended on January 4th, but his tenure was effectively over and Steve McCall took over at this point. Shilton actually resigned a week later.</li>
+        <li>10. Steve McCall was appointed in a temporary capacity on Peter Shilton's departure, but a week later was converted to full manager when Shilton's dispute was resolved.</li>
+        <li>11. Carl Fletcher began as caretaker manager but was appointed as full manager when the club emerged from administration on 1 Nov 2011.</li>
+    </ul>
+</div>
+
+
+<style>
+    .hide {
+        display: none;
+    }
+
+    .rowhlt {
+        background-color: #e3eee3;
+    }
+
+    .hover {
+        color: #000000;
+        background-color: #c8e0c7 !important;
+        cursor: pointer;
+    }
+
+    .close {
+        cursor: pointer;
+    }
+
+    .grey {
+        background-color: #e0e0e0;
+    }
+
+    .green {
+        background-color: #e3eee3;
+    }
+
+    .black {
+        background-color: #202020;
+        color: #ffffff;
+    }
+
+    .leftpad {
+        padding-left: 5px !important;
+    }
+
+    #managers {
+        border-collapse: collapse;
+        margin: 12px 0;
+    }
+
+        #managers td {
+            border: 1px solid #c0c0c0;
+            padding: 3px 1px 3px 1px;
+            text-align: right;
+            vertical-align: top;
+        }
+
+        #managers th {
+            border: 1px solid #c0c0c0;
+            text-align: center;
+            padding: 5px 1px 5px 1px;
+            vertical-align: bottom;
+        }
+
+        #managers td p {
+            text-align: left;
+        }
+
+    #manageres ol {
+        font-size: 11px;
+    }
+
+    #managers .manager_name {
+        text-align: left;
+        white-space: nowrap;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .manager_details {
+        vertical-align: text-bottom;
+        margin: 0 1px 0 0;
+        padding: 0
+    }
+
+    .playerlisthead {
+        font-weight: bold;
+        margin: 9px 0 4px;
+    }
+
+    .playerlist {
+        margin: 4px 0 9px;
+    }
+
+    .date {
+        white-space: nowrap;
+    }
+
+    .button {
+        padding: 4px 8px 5px;
+        margin-right: 8px;
+        margin-bottom: 10px;
+        font-family: verdana, sans-serif;
+        display: inline-block;
+        white-space: nowrap;
+        font-size: 11px;
+        position: relative;
+        outline: none;
+        overflow: visible;
+        cursor: pointer;
+        border-radius: 4px;
+        border: 1px solid #808080;
+        color: #000000 !important;
+        background: linear-gradient(#e0f0e0,#d0e0d0);
+    }
+
+        .button:hover {
+            opacity: 0.70;
+            filter: alpha(opacity=70);
+            border: 1px solid #202020;
+        }
+
+    .ui-dialog {
+        font-family: verdana,arial,helvetica,sans-serif;
+        font-size: 12px;
+        background: #e3eee3;
+    }
+
+    .ui-dialog-content {
+        text-align: center;
+        line-height: 1.8;
+    }
+</style>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>

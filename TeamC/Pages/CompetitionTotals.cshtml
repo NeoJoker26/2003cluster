@@ -49,21 +49,21 @@
                 <tr>
                         @if (@Match.comptype1 == "zzz" && Match.comptype2 == "zzzz" && Match.competition == "zzzzz")
                         {
-                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>Grand Totals/</td>
-                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>Averages</td>
+                        <td style="padding:0px 8px 0px 8px; text-align: left; colspan:2px;">Grand Totals/</td>
+                        <td style="padding:0px 8px 0px 8px; text-align: left; colspan:2px;">Averages</td>
                         }
                         else if (Match.comptype1 == "League" && Match.comptype2 == "zzzz" && Match.competition == "zzzzz")
                         {
-                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>Football League Totals/</td>
-                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>Averages</td>
+                        <td style="padding:0px 8px 0px 8px; text-align: left; colspan:2px;">Football League Totals/</td>
+                            <td style="padding:0px 8px 0px 8px; text-align: left; colspan:2px;">Averages</td>
                         }
                         else if (Match.competition == "zzzzz")
                         {
-                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>@if (Match.comptype2 != "zzzz")
+                        <td sstyle="padding:0px 8px 0px 8px; text-align: left; colspan:2px;">@if (Match.comptype2 != "zzzz")
                                 {
                                     @Match.comptype2
                                 } Totals/</td>
-                        <td style="" padding:0 8 0 8; text-align: left; colspan=2px;>Averages</td>
+                        <td style="padding:0px 8px 0px 8px; text-align: left; colspan:2px;">Averages</td>
                         }
                         else if (@Match.comptype1 != "zzz" && Match.comptype2 != "zzzz" && Match.competition != "zzzzz")
                         {

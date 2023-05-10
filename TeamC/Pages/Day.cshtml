@@ -1,4 +1,214 @@
 ﻿@page
 @model DayModel
 @{
+    DateTime today = DateTime.Now;
+    string day = today.Day.ToString();
+    string month = today.ToString("MMM");
+    // Dummy data
+    string dummyData = "0";
 }
+    
+<div id="bigDiv" style="width: 1000px;">
+
+    <div id="DivA" style="text-align: left; width: 300px; display: inline-block; vertical-align: top;">
+        <div style="display: inline-block; vertical-align: top;">
+            <img src="~/images/gosdb-small.jpg" alt="Image" style="width: 160px; height: 70px; display: inline-block; vertical-align: top;">
+            <div style="display: inline-block; vertical-align: top; margin-left: 10px;">
+                <p style="font-size: 14px; font-weight: bold; margin: 0; padding: 0; height: 35px;">Search by Date</p>
+                <a onclick="window.location.href='ShowFullDatabase'" style="display: block; width: 100px; height: 35px; margin: 0; padding: 0;">Back to GoS-DB Hub</a>
+            </div>
+        </div>
+        <table style="border-collapse: collapse; border: 1px solid black; width: 100%; margin-top: 10px;">
+            <tr>
+                <td colspan="6" style="font-weight: bold; font-size: 11px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border-bottom: 1px solid black;">
+                    The Best of Dates<br>
+                    <span style="font-size: 10px;">The most successful dates in the club's history (excludes those with fewer than 5 games)</span><br>
+                    <span style="font-size: 10px;">P: Games played on this date</span><br>
+                    <span style="font-size: 10px;">%W: Percentage of games won</span><br>
+                    <span style="font-size: 10px;">Av GD: Average goal difference</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="font-weight: bold; font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">Top 10 on Wins</td>
+                <td colspan="3" style="font-weight: bold; font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">Top 10 on Goal Diff</td>
+            </tr>
+            <tr>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">Good Date</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">P</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">%W</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">Good Date</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">P</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">Av GD</td>
+            </tr>
+            <tr>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">15 December</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">15</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">73</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">19 October</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">20</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">1.2</td>
+            </tr>
+    </table>
+</div>
+
+    <div id="DivB" style="text-align: center; width: 360px; display: inline-block; vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 3px; text-align:center;">
+            <span style="font-size: 18px">
+                <font color="#006E32">
+                    PAFC BY DATE
+                </font>
+            </span>
+        </p>
+        <p style="margin-top: 0; margin-bottom: 6px; text-align:center; font-size: 14px;">
+            <b>Today: @day @month</b>
+        </p>
+        
+        <p style="margin: 3px 0; font-size: 12px; display: inline-block;">Select a new date ...</p> <br>
+        <form style="padding: 0; margin: 0; display: inline-block;">
+            <select name="month" style="margin-right: 5px; display: inline-block;">
+                <option value="1">January</option>
+                <option value="2">February</option>
+            </select>
+            <select name="day" style="margin-right: 5px; display: inline-block;">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <br>
+            <input type="submit" style="width: auto; overflow: visible; color: #000000; background-color: #e0f0e0; font-size: 11px; margin-top: 3px; margin-bottom: 0; padding: 1px 5px; display: block; margin: 0 auto;" value="Display selected date" name="B1">
+        </form>
+        <p style="margin: 12px 0 0; font-weight: bold; text-align:center;">ON THIS DAY</p>
+        <p style="margin: 12px 0 0; font-weight: bold; text-align:center;">BORN THIS DAY</p>
+        <p style="margin: 12px 0 0; font-weight: bold; text-align:center;">MATCH RECORD</p>
+        <p style="margin: 12px 0 0; font-weight: bold; text-align:center;">MATCH RECORD</p>
+        <table style="border-collapse: collapse; border: 1px solid black; width: 100%; margin-top: 10px;">
+            <tr>
+                <td>@day @month</td>
+                <td>P</td>
+                <td>W</td>
+                <td>D</td>
+                <td>L</td>
+                <td>F</td>
+                <td>A</td>
+                <td>Avg Att</td>
+            </tr>
+            <tr>
+                <td>Home</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+            </tr>
+            <tr>
+                <td>Away</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+            </tr>
+            <tr>
+                <td>Both</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+                <td>@dummyData</td>
+            </tr>
+        </table>
+        <br>
+        
+    </div>
+    
+    <div id="DivC" style="text-align: left; width: 290px; display: inline-block; vertical-align: top;">
+        <div style="display: inline-block; vertical-align: top;">
+            <p>This page displays events, birthdays and match details for games played on today's date, in all competitions. Select a different day and month for the overall club record and individual match details for that day.</p>
+
+        </div>
+        <table style="border-collapse: collapse; border: 1px solid black; width: 100%; margin-top: 10px;">
+            <tr>
+                <td colspan="6" style="font-weight: bold; font-size: 11px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border-bottom: 1px solid black;">
+                    The Best of Dates<br>
+                    <span style="font-size: 10px;">The most successful dates in the club's history (excludes those with fewer than 5 games)</span><br>
+                    <span style="font-size: 10px;">P: Games played on this date</span><br>
+                    <span style="font-size: 10px;">%W: Percentage of games won</span><br>
+                    <span style="font-size: 10px;">Av GD: Average goal difference</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="font-weight: bold; font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">Top 10 on Wins</td>
+                <td colspan="3" style="font-weight: bold; font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">Top 10 on Goal Diff</td>
+            </tr>
+            <tr>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">Good Date</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">P</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">%W</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">Good Date</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">P</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">Av GD</td>
+            </tr>
+            <tr>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">15 December</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">15</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">73</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">19 October</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">20</td>
+                <td style="font-size: 12px; font-family: 'Trebuchet MS',helvetica,verdana,arial,sans-serif; padding: 5px; border: 1px solid black;">1.2</td>
+            </tr>
+        </table>
+    </div>
+    <div id="extra">
+        <p id="extra">Below is the full record for the chosen day. Click on [+] for more, or the date for the full match page.</p>
+    </div> 
+</div>
+<div id="tableDiv">
+    <table style="border-collapse: collapse; border: 1px solid black; width: 100%; margin-top: 10px;">
+        <tr>
+            <td>[+]</td>
+            <td>Match Date</td>
+            <td>Result</td>
+            <td>Comp.</td>
+            <td>Att.</td>
+            <td>Venue</td>
+        </tr>
+        <tr>
+            <td>[+]</td>
+            <td>01 Jan 2023</td>
+            <td>TeamA 2 - 1 TeamB</td>
+            <td>Competition1</td>
+            <td>10,000</td>
+            <td>Venue1</td>
+        </tr>
+        <tr>
+            <td>[+]</td>
+            <td>05 Jan 2023</td>
+            <td>TeamC 0 - 0 TeamD</td>
+            <td>Competition2</td>
+            <td>Unknown</td>
+            <td>Venue2</td>
+        </tr>
+        <tr>
+            <td>[+]</td>
+            <td>10 Jan 2023</td>
+            <td>TeamE 3 - 2 TeamF</td>
+            <td>Competition3</td>
+            <td>15,000</td>
+            <td>Venue3</td>
+        </tr>
+    </table>
+</div>
+
+<style>
+
+
+#extra {
+  text-align: center;
+}
+
+</style>

@@ -3,174 +3,352 @@
 @{
     ViewData["Title"] = "GoS Home page";
 }
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/site.css"/>
-    <link rel="stylesheet" href="css/gos2.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greens on Screen</title>
 </head>
 
 <body>
-    <P></P>
-    <P></P>
-    <P></P>
-    <table>
-        <tr>
-            <th>
-                <img src="~/images/history-small.jpg"/>
-                <form> <!--Search By buttons-->
-                    <input type="button" class="search-form-btn" onclick="window.location.href='MatchDate';" value="MATCH DATE"/>
-                    <input type="button" class="search-form-btn" onclick="window.location.href='Day';" value="DAY"/>
-                    <input type="button" class="search-form-btn" onclick="window.location.href='Seasons';" value="SEASONS"/>
-                    <input type="button" class="search-form-btn" onclick="window.location.href='Opposition';" value="OPPOSITION"/>
-                    <p>
-                        <input type="button" class="search-form-btn" onclick="window.location.href='TopPlayers';" value="TOP PLAYERS"/>
-                        <input type="button" class="search-form-btn" onclick="window.location.href='AllPlayers';" value="ALL PLAYERS"/>
-                        <input type="button" class="search-form-btn" onclick="window.location.href='Managers';" value="MANAGERS"/>
-                    </p>
-                    <p><b>OR</b></p>
-                    <p>
-                    <input type="button" class="search-form-btn" onclick="window.location.href='ShowReports';" value="SHOW REPORTS"/>
-                    <input type="button" class="search-form-btn" onclick="window.location.href='ShowFullDatabase';" value="FULL GoS-DB"/>
-                    <p>
-                </form>
-            </th>
-            <th>
-                <bold><h5 style="color:#005045;">Welcome to the sights, sounds and history of Plymouth Argyle Football Club</h5></bold>
-                <h5 style="color:#005045;">Pictures of the day</h5>
-                <img src="https://greensonscreen.co.uk/images/dailyphoto/143---IMG_8988.jpg" style="width:150px;height:150px;">
-                <img src="https://greensonscreen.co.uk/images/dailyphoto/144---P1020538.jpg" style="width:150px;height:150px;">
-            </th>
-            <th>
-                <div>
-                    <form > <!--History-->
-                        <div class="row">
-                            <div class="column">
-                                <img src="~/images/gosdb-small.jpg"/>
-                                <input type="button" class="history-btn" onclick="window.location.href='Chapter1InTheBeginning';" value="HOW IT ALL BEGAN" />
-                                <input type="button" class="history-btn" onclick="window.location.href='ArgyleHistoryMenu';" value="HISTORY MENU"/>
-                            </div>
-                        <div class="column">
-                            <input type="button" class="history-btn" onclick="window.location.href='FactsAndFigures';" value="ARGYLE FC FACTS" />
-                            <input type="button" class="history-btn" onclick="window.location.href='argylehistory_shirt.pdf';" value="GREEN JERSEY JOURNEY" />
-                            </div>
-                        </div>
-                        <div class="history-bottom">
-                            <input type="button" class="history-btn" onclick="window.location.href='ShowChapters';" value="SHOW CHAPTERS" />
-                        </div>
-                    </form>
-                </div>
-            </th>
-        </tr>
-    </table>
-    <P></P>
-    <P></P>
-    <P></P>
-    <table style="width:100%">
-        <tr>
-            <th>
-                <form> <!--Here and now-->
-                    <span>Here and Now</span>
-                    <input type="button" class="here-now-btn" onclick="window.location.href='DailyDiary';" value="Daily Diary & OTD" />
-                    <input type="button" class="here-now-btn" onclick="window.location.href='CurrentSquad';" value="Current Squad" />
-                    <input type="button" class="here-now-btn" onclick="window.location.href='TheLatestMatch';" value="The latest Match" />
-                    <input type="button" class="here-now-btn" onclick="window.location.href='LeagueTablePlus';" value="League Table Plus" />
-                    <input type="button" class="here-now-btn" onclick="window.location.href='AppearanceChart';" value="Appearance Chart" />
-                    <input type="button" class="here-now-btn" onclick="window.location.href='ProgressGraphs';" value="Progress Graphs" />
-                </form>
-            </th>
-            <th>
-                <h5 style="color:#005045;">Match of the day</h5>
-                <p>Information on the matches that have happened on this day (including the year it happened)<p>
-                <h5 style="color:#005045;">On this day</h5>
-                <p>Information on events that happened on this day<p>
-                    <table class="table">
-                        <thead>
-                        </thead>
-                        <!-- <tbody>
-                            @foreach (var otd in Model.onThisDayTBL)
-                                {
-                                    <tr>
-                                        <td>@otd.year</td>
-                                        <td>@otd.fact</td>
+    <bold><h5 style="color: #43784D;text-align: center;font-size:15px;font-weight: 700;">Welcome to the sights, sounds and history of Plymouth Argyle Football Club</h5></bold>
 
-                                    </tr>
-                                }
-                        </tbody> -->
-                    </table>
-                    <h5 style="color:#005045;">Born this day</h5>
-                <p>Information on the players that were born on this day</p>
-            </th>
-            <th><div class="row">
-                    <div class="column">
-                <form><!--Then and Now-->
-                    <span>Then and Now</span>
-                    <input type="button" class="then-now-btn" onclick="window.location.href='RecordsAndAchievements';" value="Records & Achievements" />
-                    <input type="button" class="then-now-btn" onclick="window.location.href='TeamPhotos';" value="Team Photos" />
-                    <input type="button" class="then-now-btn" onclick="window.location.href='Friendlies';" value="Friendly Matches" />
-                    <input type="button" class="then-now-btn" onclick="window.location.href='VideosFoundOnline';" value="Videos Found Online" />
-                    <input type="button" class="then-now-btn" onclick="window.location.href='NonMatchPhoto';" value="Non-Match Photo Archive" />
-                </form>
+    <div class="content-wrapper" style="display: flex; flex-wrap: wrap; justify-content: center;">
+
+        <div class="divA" style=flex-basis: 33.33%; width: 33.33%;">
+            <img class="top-image" src="~/images/gosdb-small.jpg" alt="Image description" width="180" height="80">
+            <p class="image-text">GoS-DB is a relational database of over 100,000 facts and stats from 1903 to @DateTime.Now.ToString("dddd d MMMM, yyyy")</p>
+
+            <button class="gos-button" onclick="window.location.href='MatchDate';">Match Date</button>
+            <button class="gos-button" onclick="window.location.href='Day';">Day</button>
+            <button class="gos-button" onclick="window.location.href='Seasons';">Seasons</button>
+            <button class="gos-button" onclick="window.location.href='Opposition';">Opposition</button>
+            <br>
+            <button class="gos-button" onclick="window.location.href='TopPlayers';">Top Players</button>
+            <button class="gos-button" onclick="window.location.href='AllPlayers';">All Players</button>
+            <button class="gos-button" onclick="window.location.href='Managers';">Managers</button>
+            <p class="or-text">or</p>
+            <div id="report-container">
+                <div class="button-row">
+                    <button id="show-reports-button" class="gos-button" onclick="showReports()">Show Reports</button>
                 </div>
-                        <div class="column">
-                <form> <!--Other Sites-->
-                    <span>Other Sites</span>
-                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.pafc.co.uk/';" value="PAFC Offical" />
-                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.facebook.com/ArgyleWFC';" value="Argyle Women" />
-                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.argylearchive.org.uk/';" value="The Argyle Archive" />
-                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.argylefanstrust.com/';" value="Argyle Fans' Trust" />
-                            <input type="button" class="then-now-btn" onclick="window.location.href='https://pasoti.co.uk/talk/';" value="PASOTI" />
-                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.greentaverners.co.uk/';" value="Green Taverners" />
-                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.facebook.com/groups/1325246504231190';" value="Senior Greens" />
-                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.plymouthherald.co.uk/all-about/plymouth-argyle';" value="Plymouth Live" />
-                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.bbc.co.uk/sport/football/teams/plymouth-argyle';" value="BBC Sport" />
-                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.skysports.com/plymouth-argyle';" value="Sky Sport" />
-                            <input type="button" class="then-now-btn" onclick="window.location.href='https://www.newsnow.co.uk/h/Sport/Football/League+One/Plymouth+Argyle?type=ln';" value="News Sports" />
-                            <input type="button" class="then-now-btn" onclick="window.location.href='http://www.historicalkits.co.uk/Plymouth_Argyle/Plymouth_Argyle.htm';" value="Historical Football Kits" />
-                        </form>
-                    </div>
+                <ol id="reports-list" style="display: none;">
+                    <li><a onclick="window.location.href='CompetitionTotals';">Competition Totals</a></li>
+                    <li><a onclick="window.location.href='ConsecutiveResults';">Consecutive Results</a></li>
+                    <li><a onclick="window.location.href='AttendanceHighsAndLows';">Attendance Highs And Lows</a></li>
+                    <li><a onclick="window.location.href='TopSubstitues';">Top Substitues</a></li>
+                    <li><a onclick="window.location.href='YoungestAndOldest';">Youngest And Oldest</a></li>
+                    <li><a onclick="window.location.href='BestAndWorstStarts';">Best And Worst Starts</a></li>
+                    <li><a onclick="window.location.href='FootballLeagueByDecade';">Footbal lLeague By Decade</a></li>
+                    <li><a onclick="window.location.href='FootballLeagueByCalendarYear';">Football League By Calendar Year</a></li>
+                    <li><a onclick="window.location.href='SuccessRankingsByOpposition';">Success Rankings By Opposition</a></li>
+                    <li><a onclick="window.location.href='GoalscorersBySeason';">Score Counts</a></li>
+                    <li><a onclick="window.location.href='ScoreCounts';">Consecutive Appearances</a></li>
+                    <li><a onclick="window.location.href='ConsecutiveAppearances';">Competition Totals</a></li>
+                </ol>
+            </div>
+
+            <div class="lists-container">
+                <div class="list">
+                    <div class="list-title">What's new?</div>
+                    <ul>
+                        <li><div class="list-item">Item 1</div></li>
+                        <li><div class="list-item">Item 2</div></li>
+
+                    </ul>
                 </div>
-            </th>
-        </tr>
-    </table>
+                <div class="list">
+                    <div class="list-title">Here and Now</div>
+                    <ul>
+                        <li><div class="list-item" onclick="window.location.href='DailyDiary';">Daily Diary</div></li>
+                        <li><div class="list-item" onclick="window.location.href='CurrentSquad';">Current Squad</div></li>
+                        <li><div class="list-item">@($"English Football League One #44 TeamA '{1}' TeamB '{2}'")</div></li>
+                        <li><div class="list-item" onclick="window.location.href='LeagueTablePlus';">League Table Plus</div></li>
+                        <li><div class="list-item" onclick="window.location.href='AppearanceChart';">Appearance Chart</div></li>
+                        <li><div class="list-item" onclick="window.location.href='ProgressGraphs';">Progress Graphs</div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="divB">
+            <h5 style="color:#005045;">Pictures of the day</h5>
+            <img src="https://via.placeholder.com/340x200.png" alt="Dummy Image" width="340" height="200">
+
+            <p style="width:90%; margin: 20px 0 12px; padding: 6px 0 5px; color:#101010; text-align:center; border:1px solid #c0c0c0; background: #fffff8;"><span style="color:#005045;">Match of the day</span></p>
+            @{
+
+                DateTime today = DateTime.Today;
+
+
+                Random random = new Random();
+                int teamAScore = random.Next(0, 5);
+                int teamBScore = random.Next(0, 5);
+            }
+
+            <div>
+                @today.ToString("MMMM dd, yyyy") &nbsp;&nbsp;&nbsp; Division
+            </div>
+
+            <div style="color: green;">
+                Some words about football
+            </div>
+
+            <div>
+                TeamA @teamAScore - TeamB @teamBScore
+            </div>
+
+           <div style="text-align:center; width: 50%; margin: 0 auto;">
+                <p><a href="#">[See More]</a></p>
+            </div>
+
+
+
+
+            <h5 style="color:#005045;">On this day</h5>
+
+
+
+
+            @foreach (var otd in Model.onThisDayTBL)
+            {
+                <b>@otd.year:</b> @otd.fact
+            }
+
+
+            <h5 style="color:#005045;">Born this day</h5>
+
+
+
+            @foreach (var btd in Model.bornThisDayTBL)
+            {
+
+                @btd.prime_photo
+                <td> <b>@btd.year: </b> @btd.forename @btd.surname INSERT GOALS- between @btd.first_game_year and @btd.last_game_year. <br /><br /> @btd.penpic</td>
+            }
+        </div>
+        <div class="divC">
+            <img class="top-image" src="~/images/history-small.jpg" alt="Image description" width="180" height="80">
+            <p class="image-text">The History of Argyle is an original, comprehensive and thoroughly researched account of Plymouth Argyle - formerly Argyle FC - from its earliest roots in 1886 to, so far, 1957</p>
+
+            <button class="gos-button" onclick="window.location.href='History/1886-1890';">How It All Began</button>
+            <button class="gos-button" onclick="window.location.href='ArgyleHistoryMenu';">History Menu</button>
+            <br>
+            <button class="gos-button" onclick="window.location.href='FactsAndFigures';">Argyle FC Facts</button>
+            <button class="gos-button" onclick="window.location.href='argylehistory_shirt.pdf';">GREEN JERSEY JOURNEY</button> 
+            <br>
+            <button id="toggle-list-button" class="gos-button" onclick="toggleList()">Show Chapters</button>
+            <ol id="hidden-list" style="display: none;">
+                <li><a onclick="window.location.href='History/1886-1890';">1886-90: In the Beginning</a></li>
+                <li><a onclick="window.location.href='History/1890-1895';">1890-95: From Struggle to Demise</a></li>
+                <li><a onclick="window.location.href='History/1895-1899';">1895-99: Rising from the Phoenix</a></li>
+                <li><a onclick="window.location.href='History/1899-1900';">1899-00: The Argyle Athletic Umbrella</a></li>
+                <li><a onclick="window.location.href='History/1900-1901';">1900-01: Home Park Home</a></li>
+                <li><a onclick="window.location.href='History/1901-1902_1';">1901-02 (1): The Argyle Affair</a></li>
+                <li><a onclick="window.location.href='History/1901-1902_2';">1901-02 (2): The Big Boys Come to Town</a></li>
+                <li><a onclick="window.location.href='History/1902-1903_1';">1902-03 (1): Argyle FC Becomes Semi-Pro</a></li>
+                <li><a onclick="window.location.href='History/1902-1903_2';">1902-03 (2): Birth of Plymouth Argyle</a></li>
+                <li><a onclick="window.location.href='History/1902-1903_3';">1902-03 (3): Argyle FC's Final Triumph</a></li>
+                <li><a onclick="window.location.href='History/1903-1910';">1903-1910: Plymouth Argyle's Early Years</a></li>
+                <li><a onclick="window.location.href='History/1910-1920';">1910-1920: Argyle and the Great War</a></li>
+                <li><a onclick="window.location.href='History/1920-1930';">1920-1930: Into the Football League</a></li>
+                <li><a onclick="window.location.href='History/1930-1934';">1930-1934: Life in the Second Division</a></li>
+                <li><a onclick="window.location.href='History/1934-1939';">1934-1939: The End of an Era</a></li>
+                <li><a onclick="window.location.href='History/1939-1945';">1939-1945: The Second World War Years</a></li>
+                <li><a onclick="window.location.href='History/1945-1950';">1945-50: From the Ashes</a></li>
+                <li><a onclick="window.location.href='History/1950-1953';">1950-53: Into the Fifties</a></li>
+                <li><a onclick="window.location.href='History/1953-1957';">1953-57: From Best to Worst, via Hollywood</a></li>
+            </ol>        
+
+            <div class="lists-container">
+                <div class="list">
+                    <div class="list-title">Here and Now</div>
+                    <ul>
+                        <li><div class="list-item" onclick="window.location.href='RecordsAndAchievements';">Records & Achievements</div></li>
+                        <li><div class="list-item" onclick="window.location.href='TeamPhotos';">Team Photos</div></li>
+                        <li><div class="list-item" onclick="window.location.href='FriendlyMatches';">Friendly Matches</div></li>
+                        <li><div class="list-item" onclick="window.location.href='VideosFoundOnline';">Videos Found Online</div></li>
+                        <li><div class="list-item" onclick="window.location.href='NonMatchPhoto';">Non-Match Photo Archive</div></li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <div class="list-title">Here and Now</div>
+                    <ul>
+                        <li><div class="list-item" onclick="window.location.href='https://www.pafc.co.uk/';">PAFC Offical</div></li>
+                        <li><div class="list-item" onclick="window.location.href='https://www.facebook.com/ArgyleWFC';">Argyle Women</div></li>
+                        <li><div class="list-item" onclick="window.location.href='https://www.argylearchive.org.uk/';">The Argyle Archive</div></li>
+                        <li><div class="list-item" onclick="window.location.href='https://www.argylefanstrust.com/';">League Table Plus</div></li>
+                        <li><div class="list-item" onclick="window.location.href='https://pasoti.co.uk/talk/';">Argyle Fans' Trust</div></li>
+                        <li><div class="list-item" onclick="window.location.href='https://www.greentaverners.co.uk/';">PASOTIs</div></li>
+                        <li><div class="list-item" onclick="window.location.href='https://www.facebook.com/groups/1325246504231190';">Green Taverners</div></li>
+                        <li><div class="list-item" onclick="window.location.href='https://www.plymouthherald.co.uk/all-about/plymouth-argyle';">Senior Greens</div></li>
+                        <li><div class="list-item" onclick="window.location.href='https://www.bbc.co.uk/sport/football/teams/plymouth-argyle';">Plymouth Live</div></li>
+                        <li><div class="list-item" onclick="window.location.href='https://www.skysports.com/plymouth-argyle';">BBC Sport</div></li>
+                        <li><div class="list-item" onclick="window.location.href='https://www.newsnow.co.uk/h/Sport/Football/League+One/Plymouth+Argyle?type=ln';">Sky Sport</div></li>
+                        <li><div class="list-item" onclick="window.location.href='http://www.historicalkits.co.uk/Plymouth_Argyle/Plymouth_Argyle.htm';">News Sports</div></li>
+
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+</html>
 <style>
-    *::before, *::after, * {
-        box-sizing: border-box;
+    .content-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    body {
-        background-color: white;
-        color: black;
+    .divA {
+        flex-basis: 30%;
+        width: 30%;
         text-align: center;
     }
 
-    .strength-meter {
-        position: relative;
-        left: -42%;
-        height: 1rem;
-        width: 15%;
-        border: 3px solid black;
-        border-radius: 1rem;
-        margin: 0 auto;
-        overflow: hidden;
+    .divB {
+        flex-basis: 40%;
+        width: 40%;
+        text-align: center;
     }
 
-        .strength-meter::before {
-            content: '';
-            position: absolute;
-            height: 100%;
-            width: calc(1% * var(--strength, 0));
-            background-color: black;
-            transition: width 200ms;
+    .divC {
+        flex-basis: 30%;
+        width: 30%;
+        text-align: center;
+    }
+
+
+    .top-image {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .gos-button {
+        padding: 4px 8px;
+        margin: 0 0 6px;
+        font-family: verdana, sans-serif;
+        display: inline-block;
+        white-space: nowrap;
+        font-size: 11px;
+        position: relative;
+        outline: none;
+        overflow: visible;
+        cursor: pointer;
+        border-radius: 3px;
+        border: 1px solid #808080;
+        color: #000000 !important;
+        background: linear-gradient(#e0f0e0,#d0e0d0);
+        text-transform: uppercase;
+        font-family: verdana,arial,helvetica,sans-serif;
+        font-size: 10px;
+    }
+
+    .image-text {
+        width: 180px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .or-text {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+
+    .lists-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .list {
+        font-size: 11px;
+        color: #101010;
+        border-top: medium none;
+        padding: 5px;
+        flex: 1;
+    }
+
+    .list-title {
+        font-weight: bold;
+        background-color: #e0f0e0;
+        padding: 4px;
+        border: 1px solid #808080;
+        border-radius: 3px;
+        text-align: center;
+    }
+
+    .list ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 5px 0;
+    }
+
+    .list li {
+        margin-bottom: 4px;
+    }
+
+    .list-item {
+        border: 1px solid #808080;
+        border-radius: 3px;
+        padding: 4px;
+        background-color: #ffffff;
+    }
+
+    .button-row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .or-text {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    #reports-list {
+        list-style-type: decimal;
+        padding-left: 20px;
+    }
+
+        #reports-list li a {
+            color: inherit;
+            text-decoration: none;
         }
 
-    .normal > * {
-        margin-top: .3rem;
-        color: black;
+            #reports-list li a:hover {
+                text-decoration: underline;
+            }
+
+    .list-button:hover {
+        background-color: #f2f2f2;
+        cursor: pointer;
     }
 </style>
-</html>
+
+
+<script>
+    function showReports() {
+        $("#reports-list").show();
+        $("#show-reports-button").text("Hide Reports");
+        $("#show-reports-button").attr("onclick", "hideReports()");
+    }
+
+    function hideReports() {
+        $("#reports-list").hide();
+        $("#show-reports-button").text("Show Reports");
+        $("#show-reports-button").attr("onclick", "showReports()");
+    }
+    function toggleList() {
+        const list = document.getElementById("hidden-list");
+        if (list.style.display === "none") {
+            list.style.display = "block";
+        } else {
+            list.style.display = "none";
+        }
+    }
+
+</script>

@@ -8,39 +8,34 @@
 <link rel="stylesheet" type="text/css" href="~/css/GoS.css">
 <link rel="stylesheet" href="css/site.css" />
 <link rel="stylesheet" href="css/gos2.css" />
+<link rel="stylesheet" href="css/GoS.css" />
 <NOSCRIPT>
     <font color="red" style="font-size: 11px; font-weight: 700" face="Arial">
         You have Javascript disabled in your browser, so not all features of this site will function correctly. Consider changing your browser's security settings<br>to allow javascript, or include www.greensonscreen.co.uk as a trusted site. Feel free to contact me if I can help (steve@greensonscreen.co.uk).
     </font>
 </NOSCRIPT>
-
 <body>
-<header>
-<table id="HeaderTable" style="width:1000px">
-    <tr>
-        <th>
-            <div>
-                <input type="button" id="myBtn" onclick="window.location.href='Index';" value="Gos home" />
-                <a href="https://www.facebook.com/greensonscreen" target="_blank">
-                    <img src="~/images/facebook_icon.png" alt="Facebook" />
-                </a>
-            </div>
-        </th>
-        <th>
+    <header>
+        <div id="HeaderContainer">
             <div class="imageSwap">
                 <img src="/images/goshead2.jpg" alt="GoS Header" class="bigBanner">
-            </div>
-        </th>
-        <th>
-            <div>
-                <button onclick="showPopup()">About Us</button>
+                <div class="leftControls">
+                    <input type="button" id="myBtn" onclick="window.location.href='Index';" value="Gos home" />
+                    <a href="https://www.facebook.com/greensonscreen" target="_blank">
+                        <img src="~/images/facebook_icon.png" alt="Facebook" />
+                    </a>
+                </div>
+                <div class="rightControls">
+                    <button onclick="showPopup()">About Us</button>
                     <button onclick="showPopup2()">Contact Us</button>
                 </div>
-            </th>
-        </tr>
-    </table>
-</header>
-<div class="container">
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
@@ -59,93 +54,60 @@
             <p>UK time at page load: @britishTime.ToShortDateString(), @britishTime.ToShortTimeString().</p>
         </div>
     </footer>
-<style>
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 0 15px;
-        }
-        #HeaderTable {
-            margin: 0 auto;
-        }
-    </style>
-    <style>
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 0 15px;
-        }
-    </style>
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 
-    @await RenderSectionAsync("Scripts", required: false)
+    @await RenderSectionAsync("Scripts", false)
 </body>
 </html>
-@*
-<script>
-    function showPopup() {
-        document.getElementById("myPopup").style.display = "block";
+
+<style>
+    #HeaderContainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 80px;
     }
-    
-    function showPopup2() {
-        document.getElementById("myPopup2").style.display = "block";
+
+    .imageSwap {
+        position: relative;
+        display: inline-block;
     }
-    
-    function hidePopup() {
-        document.getElementById("myPopup").style.display = "none";
+
+    .bigBanner {
+        max-width: 1000px;
+        max-height: 72px;
     }
-    
-    function hidePopup2() {
-        document.getElementById("myPopup2").style.display = "none";
+
+    .leftControls {
+        position: absolute;
+        top: 45px;
+        left: 50%; 
+        transform: translateX(-500px); 
     }
-</script>
-<!-- 
-<div id="myPopup" class="popup">
-    <div class="popup-content">
-        <p>
-            Greens on Screen’s first page was published in January 1999. Its early purpose was to bring 
-            Plymouth Argyle a little closer to those unable to see their team, and whilst it has changed 
-            a great deal over the years, its core themes - sites and sounds for Westcountry exiles - still 
-            stand. The site was very lucky to take on the content of Trevor Scallan’s Semper Viridis in the 
-            summer of 2007, and in 2009 launched GoS-DB, a wealth of facts and figures from PAFC’s history. 
-            A year later we embarked on a complete history of Argyle, with much-valued contributions from 
-            chapter authors.
-            <br />
-            <br />
-            Greens on Screen is an amateur website and proud of it. It is run by one person as a hobby, 
-            although there have been aspects of the site over the years that would be much the poorer 
-            without the had work and much-valued contributions of a small band of volunteers.
-            <br />
-            <br />
-            Greens on Screen is self-taught and as a result, a little bit quirky. Amongst a few stubborn 
-            principles, advertisements will never appear (and don’t get me started on the plague of betting 
-            promotions on other sites). It began its life before many others, including the club’s official 
-            site, when there was a large gap to be filled, and although there is now a wide variety to choose 
-            from, GoS’s sole aim, to be a service to fellow supporters, still seems to have a place.
-            <br />
-            <br />
-            Steve Dean
-        </p>
-        <button onclick="hidePopup()">Close</button>
-    </div>
-</div>
-<div id="myPopup2" class="popup">
-    <div class="popup-content">
-        <p>
-            To get in touch, please write to: <br />
-            <a href="mailto:contact@greensonscreen.co.uk">contact@greensonscreen.co.uk</a>
-        </p>
-        <button onclick="hidePopup2()">Close</button>
-    </div>
-</div>
-<th>
-    <img src="/images/goshead2small.jpg" alt="GoS Header" class="smallBanner">
-</th> 
-<th>
-                    <div>
-                        <button onclick="showPopup()">About Us</button>
-                        <button onclick="showPopup2()">Contact Us</button>
-                    </div>
-                </th>*@
+
+    .rightControls {
+        position: absolute;
+        top: 45px;
+        right: 50%; 
+        transform: translateX(500px); 
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #base {
+        width: 1000px;
+        text-align: center;
+    }
+
+    .container {
+        margin: 0 auto; 
+    }
+</style>

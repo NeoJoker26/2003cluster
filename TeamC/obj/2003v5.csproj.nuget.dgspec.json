@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/2003v5.csproj": {}
+    "C:\\Neo\\final\\2003cluster\\TeamC\\2003v5.csproj": {}
   },
   "projects": {
-    "/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/2003v5.csproj": {
+    "C:\\Neo\\final\\2003cluster\\TeamC\\2003v5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/2003v5.csproj",
+        "projectUniqueName": "C:\\Neo\\final\\2003cluster\\TeamC\\2003v5.csproj",
         "projectName": "2003v5",
-        "projectPath": "/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/2003v5.csproj",
-        "packagesPath": "/home/neojoker26/.nuget/packages/",
-        "outputPath": "/home/neojoker26/Downloads/comp2003_2022-team-c-main/TeamC/obj/",
+        "projectPath": "C:\\Neo\\final\\2003cluster\\TeamC\\2003v5.csproj",
+        "packagesPath": "C:\\Users\\Neo\\.nuget\\packages\\",
+        "outputPath": "C:\\Neo\\final\\2003cluster\\TeamC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/neojoker26/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Neo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,9 +40,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.5, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Linq.Expressions": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -49,7 +71,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -61,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.116/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
