@@ -74,7 +74,14 @@ namespace _2003v5.Pages
                             GFLRDT.draws = reader.GetInt32(7);
                             GFLRDT.defeats = reader.GetInt32(8);
                             GFLRDT.modernpoints = reader.GetInt32(9);
-                            GFLRDT.weightedpoints = (int)reader.GetDecimal(10);
+                            try
+                            {
+                                GFLRDT.weightedpoints = (float)reader.GetDecimal(10);
+                            }
+                            catch (Exception ex)
+                            {
+                                GFLRDT.weightedpoints = (float)reader.GetInt32(10);
+                            }
                             GFLRDT.attendance = reader.GetInt32(11);
                             string[] playerinfo = Playerinfo(reader.GetString(0));
                             GFLRDT.PlayerSurname1 = playerinfo[0];
@@ -102,7 +109,7 @@ namespace _2003v5.Pages
             public int draws;
             public int defeats;
             public int modernpoints;
-            public int weightedpoints;
+            public float weightedpoints;
             public int attendance;
             public string PlayerSurname1;
             public string PlayerSurname2;

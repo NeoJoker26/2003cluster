@@ -2,3 +2,80 @@
 @model _2003v5.Pages.CurrentSquadModel
 @{
 }
+<link rel="stylesheet" type="text/css" href="~/css/gos2.css">
+
+<center>
+    <p style="margin-top: 12; margin-bottom: 3"><font color="#457B44" style="font-size: 18px">PLYMOUTH ARGYLE CURRENT SQUAD</font></p>
+    <!--<p style="margin: 0" class="style1">
+        Click on
+        <img src="images/sort.gif" border="0" hspace="0" align="top"> to re-order; on a name for more details.
+    </p>-->
+    <div id="squad">
+        <table border="0" cellspacing="0" style="border-collapse: collapse" cellpadding="0" width="980">
+            <tbody>
+                <tr>
+                    <th>
+                        <b>No </b>
+                    </th>
+                    <th>
+                        <b>Name </b>
+                    </th>
+                    <th>
+                        <b>Position </b>
+                    </th>
+                    <th>
+                        <b>Born on </b>
+                    </th>
+                    <th>
+                        <b>Born in </b>
+                    </th>
+                    <th>
+                        <b>Came From </b>
+                    </th>
+                    <th>
+                        <b>Signed </b>
+                    </th>
+                    <th>
+                        <b>Starts</b>
+                        <b>(subs)</b>
+                    </th>
+                    <th>
+                        <b>Goals</b>
+                    </th>
+                </tr>
+
+
+                @foreach (var Match in Model.PlayerTable)
+                {
+                    <tr>
+                        <td>@Match.squad_no </td>
+                        <td>@Match.name </td>
+                        <td>@Model.RemoveDigits(@Match.sortposition) </td>
+                        <td>@Model.ExtractDate(@Match.dob) </td>
+                        <td>@if (@Match.pob != "N")
+                            {
+                                @Match.pob
+                            } </td>
+                        <td>@Match.came_from </td>
+                        <td>@Model.ExtractDate(@Match.signed_this_spell) </td>
+                        <td>@Match.starts (@Match.subs)</td>
+                        <td>@Match.goal  </td>
+                    </tr>
+                }
+                <tr><td colspan="9">* Ryan Law is currently on loan at Yeovil Town<br>* Luke Jephcott is currently on loan at Swindon Town<br>* Finley Craske is currently on loan at Truro City<br>* Brandon Pursall is currently on loan at Tavistock<br></td></tr>
+            </tbody>
+        </table>
+        <div id="squadphotos">
+            @foreach (var Match in Model.PlayerTable)
+            {
+                <a href="gosdb-players2?pid=@Match.player_id_spell1&amp;from=squad">
+                    <figure>
+                        <img width="192" src="~/images/gosdb-photos-players/@Model.photojpg(@Match.player_id_spell1,Match.prime_photo,Match.photo_exits)" onerror="this.onerror=null;this.src='~/images/gosdb-photos-players/nophoto.jpg';">
+                        <figcaption>@Match.squad_no . @Match.name</figcaption>
+                    </figure>
+                </a>
+            }
+
+        </div>
+    </div>
+</center>

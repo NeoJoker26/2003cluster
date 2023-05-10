@@ -2,80 +2,131 @@
 @model _2003v5.Pages.FootballLeagueByCalendarYearModel
 @{
 }
-<p style="margin-top:0; margin-bottom:6px; text-align:center; font-size:12px; color:#006E32;"><b>@Model.heading1</b></p>
-<p style="margin-top:0; margin-bottom:6px; text-align:center; font-size:12px; color:#006E32;">><b>@Model.heading2</b></p>
-<p style="margin-top:0; margin-bottom:12; text-align:center; font-size:11px">
-    <b>Note: for a fair comparison, only years that included Football<br>League fixtures each side of a summer break have been included.</b>
-</p>
-
-<table id="table1" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
-    <thead>
-    </thead>
-    <tbody>
-        <tr>
-            <th>
-                <b>#</b>
-            </th>
-            <th>
-                <b>Year</b>
-            </th>
-            <th>
-                <b>P</b>
-            </th>
-            <th>
-                <b>W</b>
-            </th>
-            <th>
-                <b>D</b>
-            </th>
-            <th>
-                <b>L</b>
-            </th>
-            <th>
-                <b>F</b>
-            </th>
-            <th>
-                <b>A</b>
-            </th>
-            <th>
-                <b>
-                    Goal
-                </b>
-                <b>
-                    Diff
-                </b>
-            </th>
-            <th>
-                <b>
-                    Mod'n
-                </b>
-                <b>
-                    Points
-                </b>
-            </th>
-            <th>
-                <b>
-                    Mod'n Pts
-                </b>
-                <b>
-                    Per Game
-                </b>
-            </th>
-        </tr>
-        @foreach (var LR in Model.LRTable)
-        {
+<link rel="stylesheet" type="text/css" href="~/css/gos2.css">
+<center>
+    <table border="0" cellspacing="0" style="border-collapse: collapse" cellpadding="0" width="980">
+        <tbody>
             <tr>
-                <td>@LR.rank</td>
-                <td>@LR.years</td>
-                <td>@LR.played</td>
-                <td>@LR.wins</td>
-                <td>@LR.draws</td>
-                <td>@LR.defeats</td>
-                <td>@LR.goalsfor</td>
-                <td>@LR.goalsagainst</td>
-                <td>@LR.goaldiff</td>
-                <td>@LR.mordenpoints</td>
-                <td>@Math.Round(@LR.MPG, 2)</td>
+                <td width="260" valign="top" style="text-align:center;">
+
+                    <p style="text-align: center; margin-top:0; margin-bottom:3">
+                        <a href="gosdb"><font color="#404040"><img border="0" src="images/gosdb-small.jpg" align="left"></font></a><font color="#404040">
+                            <b>
+                                <font style="font-size: 15px">
+                                    Search by<br>
+                                </font>
+                            </b><span style="font-size: 15px"><b>Player</b></span>
+                        </font>
+                    </p><p style="text-align: center; margin-top:0; margin-bottom:0">
+                        <b>
+                            <a href="gosdb">Back to<br>GoS-DB Hub</a>
+                        </b>
+                    </p>
+
+                </td>
+
+                <td width="460" align="center" style="text-align: center" valign="top">
+                    <p style="margin-top:12; margin-bottom:0; text-align:center; font-size:18px; color:#006E32">
+                        MISCELLANEOUS REPORTS
+                    </p>
+
+                    <p style="margin-top:6; margin-bottom:0; text-align:center; font-size:13px">
+                        <b>Report 8: League Results in a Calendar Year</b>
+                    </p>
+
+                </td>
+
+                <td width="260" valign="top" align="justify">
+                    '<span style="font-size: 10px">
+                        Miscellaneous Reports' is an ever-growing collection of pages that reflect
+                        broad aspects of Argyle's playing history. If you have an idea for another,
+                        please get in touch.
+                    </span>
+
+                </td>
             </tr>
+        </tbody>
+    </table>
+    <table id="table2" border="0" cellpadding="0" cellspacing="0" width="320" style="border-collapse: collapse">
+
+        <form style="font-size: 10px; padding: 0; margin: 0;" action="Submit()" method="post" name="form1"></form>
+
+        <tbody>
+            <tr><td>Choose display order:</td><td><select id="bestworst" name="bestworst" style="font-size: 10px"><option value="best" selected="">Greatest first</option><option value="worst">Least first</option></select></td></tr>
+            <tr><td>Sort criteria (Modern Points means 3 for a win for every season):</td><td><select id="bycolumn" name="bycolumn" style="font-size: 10px"><option value="modpoints" selected="">Modern Points</option><option value="diff">Goal Difference</option><option value="wins">Wins</option><option value="defeats">Defeats</option></select></td></tr>
+            <tr><td>Calendar year range (leave at one for a single year view):</td><td><select id="yearcount" name="yearcount" style="font-size: 10px"><option value="1" selected="">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select></td></tr>
+            <tr><td>Venue:</td><td><select id="homeaway" name="homeaway" style="font-size: 10px"><option value="ha" selected="">Home &amp; Away</option><option value="ho">Home only</option><option value="ao">Away only</option></select></td></tr>
+            <tr><td colspan="2" align="center"><input type="submit" style="width: auto; overflow: visible; color: #000000; background-color: #e0f0e0; font-size: 11px; padding: 1 5 1 5; margin: 9 0 12 0" value="Select options and click to redisplay" name="B1" onclick="Submit()"><p></p></td></tr>
+        </tbody>
+    </table>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+
+        // Get the parameter values
+        const bestworstValueu = urlParams.get('bestworst');
+        const bycolumnValueu = urlParams.get('bycolumn');
+        const yearcountValueu = urlParams.get('yearcount');
+        const homeawayValueu = urlParams.get('homeaway');
+
+        // Set the values of the input fields
+        if (bestworstValueu != null)
+            document.getElementById("bestworst").value = bestworstValueu;
+        if (bycolumnValueu != null)
+            document.getElementById("bycolumn").value = bycolumnValueu;
+        if (yearcountValueu != null)
+            document.getElementById("yearcount").value = yearcountValueu;
+        if (homeawayValueu != null)
+            document.getElementById("homeaway").value = homeawayValueu;
+
+        function Submit() {
+            var bestworstValue = document.getElementById("bestworst").value;
+            var bycolumnValue = document.getElementById("bycolumn").value;
+            var yearcountValue = document.getElementById("yearcount").value;
+            var homeawayValue = document.getElementById("homeaway").value;
+
+            location.href = "FootballLeagueByCalendarYear?bestworst=" + bestworstValue + "&bycolumn=" + bycolumnValue + "&yearcount=" + yearcountValue + "&homeaway=" + homeawayValue;
         }
-</table>
+    </script>
+    <!---->
+    <p style="" margin-top:0; margin-bottom:6; text-align:center; font-size:12px; color:#006E32""><b>@Model.heading1</b></p>
+    <p style="" margin-top:0; margin-bottom:12; text-align:center; font-size:12px; color:#006E32""><b>@Model.heading2</b></p>
+    <p style="margin-top:0; margin-bottom:12; text-align:center; font-size:11px">
+        Note: for a fair comparison, only years that included Football<br>League fixtures each side of a summer break have been included.</b>
+    </p>
+
+    <table>
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>#</b></td>
+                <td><b>Year</b></td>
+                <td><b>P</b></td>
+                <td <%response.write(style1)%><b>W</b></td>
+                <td><b>D</b></td>
+                <td <%response.write(style2)%><b>L</b></td>
+                <td><b>F</b></td>
+                <td><b>A</b></td>
+                <td <%response.write(style3)%><b>Goal<br>Diff</b></td>
+                <td <%response.write(style4)%><b>Mod'n<br>Points</b></td>
+                <td><b>Mod'n Pts<br>Per Game</b></td>
+            </tr>
+            @foreach (var LR in Model.LRTable)
+            {
+                <tr>
+                    <td>@LR.rank</td>
+                    <td>@LR.years</td>
+                    <td>@LR.played</td>
+                    <td>@LR.wins</td>
+                    <td>@LR.draws</td>
+                    <td>@LR.defeats</td>
+                    <td>@LR.goalsfor</td>
+                    <td>@LR.goalsagainst</td>
+                    <td>@LR.goaldiff</td>
+                    <td>@LR.mordenpoints</td>
+                    <td>@Math.Round(@LR.MPG, 2)</td>
+                </tr>
+            }
+    </table>
+</center>

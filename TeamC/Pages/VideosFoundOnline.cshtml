@@ -2,3 +2,91 @@
 @model VideosFoundOnlineModel
 @{
 }
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-19" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GoS-DB Match Page</title>
+    <link rel="stylesheet" type="text/css" href="gos2.css">
+    <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+
+    <style>
+
+
+        .video {
+            border-width: 0;
+            vertical-align: bottom;
+            margin-right: 6px;
+            width: 12px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #c0c0c0;
+            padding: 2px 10px;
+        }
+
+        .right {
+            text-align: right
+        }
+
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: darkgreen;
+            background-color: transparent;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+    <center>
+
+        <NOSCRIPT>
+            <font color="red" style="font-size: 11px; font-weight: 700" face="Arial">
+                You have Javascript disabled in your browser, so not all features of this site will function correctly. Consider changing your browser's security settings<br>to allow javascript, or include www.greensonscreen.co.uk as a trusted site. Feel free to contact me if I can help (steve@greensonscreen.co.uk).
+            </font>
+        </NOSCRIPT>
+        <div id="container">
+            <p style="margin: 18px auto 6px; font-size: 18px; color:#457b44; font-family:Arial,Helvetica,sans-serif;">VIDEOS FOUND ONLINE</p>
+            <p class="style4" style="margin: 6px auto;"><b>All Identified Videos</b> | <a href="youtubeview?parm=1">Last Ten Days</a></p>
+
+            <table style="border-collapse: collapse; border: 1px solid #d0d0d0; margin-top: 12px; padding: 2px 1px;">
+                <thead>
+                    <tr>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var Match in Model.VideoTable)
+                    {
+                        <tr>
+                            <td> @Match.date.Day @Model.MonthName(Match.date) @Match.date.Year </td>
+                            @if (Match.homeaway == "H") { }
+                            else { }
+                            <td><a href="gosdb-match?date=@Match.date.Year-@Match.date.Month-@Match.date.Day">Match page</a></td> <!--link to page lateer-->
+                            @if (Match.straight_to_youtube != "Y")
+                            {
+                                <td><a href="https://www.youtube.com/embed/@Match.material_detailes1?rel=0&wmode=transparent&fs=0&autoplay=1" onclick="return hs.htmlExpand(this, { objectType: 'iframe' })" class="highslide">Play here</a></td>
+                            }//do a pop up menu
+                            else
+                            {
+                                <td></td>
+                            }
+                            <td><a href="https://www.youtube.com/watch?v=@Match.material_detailes1"> Play on YouTube </a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+    </center>
+    </div>
+</body>
+</html>

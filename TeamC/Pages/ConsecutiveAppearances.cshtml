@@ -2,7 +2,67 @@
 @model _2003v5.Pages.ConsecutiveAppearancesModel
 @{
 }
-<table border="0" style="border-collapse: collapse; margin:10px 0px 6px 0px" bordercolor="#111111">
+<link rel="stylesheet" type="text/css" href="~/css/gos2.css">
+<style>
+
+	#table1 th, #table2 th, #table3 th {
+		border: 1px solid #c0c0c0;
+		text-align: left;
+		margin: 0;
+		white-space: nowrap;
+		padding: 6px 4px
+	}
+
+	#table1 td, #table2 td, #table3 td {
+		border: 1px solid #c0c0c0;
+		text-align: right;
+		margin: 0;
+		white-space: nowrap;
+		padding: 2px 4px
+	}
+</style>
+<center>
+	<table border="0" cellspacing="0" style="border-collapse: collapse; margin:0 auto; padding:15px" width="980">
+		<tbody>
+			<tr>
+				<td width="260" valign="top" style="text-align:center;">
+
+					<p style="text-align: center; margin-top:0; margin-bottom:3">
+						<a href="gosdb"><font color="#404040"><img border="0" src="images/gosdb-small.jpg" align="left"></font></a><font color="#404040">
+							<b>
+								<font style="font-size: 15px">
+									Search by<br>
+								</font>
+							</b><span style="font-size: 15px"><b>Player</b></span>
+						</font>
+					</p><p style="text-align: center; margin-top:0; margin-bottom:0">
+						<b>
+							<a href="gosdb">Back to<br>GoS-DB Hub</a>
+						</b>
+					</p>
+
+				</td>
+
+				<td width="460" align="center" style="text-align: center" valign="top">
+					<p style="margin-top:12; margin-bottom:0; text-align:center; font-size:18px; color:#006E32">MISCELLANEOUS REPORTS</p>
+					<p style="margin-top:6; margin-bottom:0; text-align:center; font-size:13px">
+						<b>Report 12: Consecutive Appearances</b>
+					</p>
+				</td>
+
+				<td width="260" valign="top" align="justify">
+					<span style="font-size: 10px">
+						'Miscellaneous Reports' is an ever-growing collection of pages that reflect
+						broad aspects of Argyle's playing history. If you have an idea for another,
+						please get in touch.
+					</span>
+
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</center>
+<table border="0" style="border-collapse: collapse; margin:10px 0 6 0" bordercolor="#111111">
 	<tbody>
 		<tr>
 			<td valign="top" style="padding-right:20px">
@@ -12,7 +72,7 @@
 						{
 							<tr>
 								<td>@Appearances.rank</td>
-								<td><a href="gosdb-players2?pid=@Appearances.player_id">@Appearances.surname, @Appearances.forename</a></td>
+								<td><a href="gosdb-players2?pid=@Appearances.player_id">@Appearances.surname, @Appearances.forename</td>
 								<td>@Appearances.consec_count</td>
 								<td>@Appearances.start_date.Day @Model.MonthName(Appearances.start_date) @Appearances.start_date.Year to <br>
 								<td>@Appearances.end_date.Day @Model.MonthName(Appearances.end_date) @Appearances.end_date.Year</td>
@@ -28,7 +88,7 @@
 						{
 							<tr>
 								<td>@Appearances.rank</td>
-								<td><a href="gosdb-players2?pid=@Appearances.player_id">@Appearances.surname, @Appearances.forename</a></td>
+								<td><a href="gosdb-players2?pid=@Appearances.player_id">@Appearances.surname, @Appearances.forename</td>
 								<td>@Appearances.consec_count</td>
 								<td>@Appearances.start_date.Day @Model.MonthName(Appearances.start_date) @Appearances.start_date.Year to <br>
 								<td>@Appearances.end_date.Day @Model.MonthName(Appearances.end_date) @Appearances.end_date.Year</td>
@@ -52,7 +112,7 @@
 						@foreach (var Appearances in Model.AppearancesTable3)
 						{
 							<tr>
-								<td><a href="gosdb-players2?pid=@Appearances.player_id">@Appearances.surname, @Appearances.forename</a></td>
+								<td><a href="gosdb-players2?pid=@Appearances.player_id">@Appearances.surname, @Appearances.forename</td>
 								<td>@Appearances.goal_consec_count</td>
 								<td>@Appearances.goal_count</td>
 								<td>@Appearances.start_date.Day @Model.MonthName(Appearances.start_date) @Appearances.start_date.Year to <br>
