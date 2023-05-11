@@ -4617,19 +4617,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Neo\\.nuget\\packages\\": {}
+    "C:\\Users\\Miguel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Neo\\final\\2003cluster\\TeamC\\2003v5.csproj",
+      "projectUniqueName": "C:\\Users\\Miguel\\Desktop\\acw2\\2003cluster\\TeamC\\2003v5.csproj",
       "projectName": "2003v5",
-      "projectPath": "C:\\Neo\\final\\2003cluster\\TeamC\\2003v5.csproj",
-      "packagesPath": "C:\\Users\\Neo\\.nuget\\packages\\",
-      "outputPath": "C:\\Neo\\final\\2003cluster\\TeamC\\obj\\",
+      "projectPath": "C:\\Users\\Miguel\\Desktop\\acw2\\2003cluster\\TeamC\\2003v5.csproj",
+      "packagesPath": "C:\\Users\\Miguel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Miguel\\Desktop\\acw2\\2003cluster\\TeamC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Neo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Miguel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4699,7 +4699,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

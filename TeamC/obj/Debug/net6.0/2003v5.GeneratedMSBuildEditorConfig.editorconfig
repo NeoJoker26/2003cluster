@@ -9,425 +9,437 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _2003v5
 build_property.RootNamespace = _2003v5
-build_property.ProjectDir = C:\Neo\final\2003cluster\TeamC\
+build_property.ProjectDir = C:\Users\Miguel\Desktop\acw2\2003cluster\TeamC\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Neo\final\2003cluster\TeamC
+build_property.MSBuildProjectDirectory = C:\Users\Miguel\Desktop\acw2\2003cluster\TeamC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/19981226/add_youtube_link.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/19981226/add_youtube_link.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMTk5ODEyMjZcYWRkX3lvdXR1YmVfbGluay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/19981226/AdminLogin.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/19981226/AdminLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMTk5ODEyMjZcQWRtaW5Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/19981226/AdminMenu.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/19981226/AdminMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMTk5ODEyMjZcQWRtaW5NZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/19981226/Check.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/19981226/Check.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMTk5ODEyMjZcQ2hlY2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/AllPlayers.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/AllPlayers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWxsUGxheWVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/AppearanceChart.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/AppearanceChart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwZWFyYW5jZUNoYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/ArgyleFCFacts.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/ArgyleFCFacts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJneWxlRkNGYWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/ArgyleHistoryMenu.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/ArgyleHistoryMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJneWxlSGlzdG9yeU1lbnUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/AttendanceHighsAndLows.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/AttendanceHighsAndLows.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXR0ZW5kYW5jZUhpZ2hzQW5kTG93cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Audiotitles.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Audiotitles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXVkaW90aXRsZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Authors.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Authors.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9ycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/BestAndWorstStarts.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/BestAndWorstStarts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVzdEFuZFdvcnN0U3RhcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter10ArgyleFCsFinalTriumph.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter10ArgyleFCsFinalTriumph.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjEwQXJneWxlRkNzRmluYWxUcml1bXBoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter11PlymouthArgylesEarlyYears.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter11PlymouthArgylesEarlyYears.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjExUGx5bW91dGhBcmd5bGVzRWFybHlZZWFycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter12ArgyleAndTheGreatWar.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter12ArgyleAndTheGreatWar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjEyQXJneWxlQW5kVGhlR3JlYXRXYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter13IntoTheFootballLeague.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter13IntoTheFootballLeague.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjEzSW50b1RoZUZvb3RiYWxsTGVhZ3VlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter14LifeInTheSecondDivision.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter14LifeInTheSecondDivision.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjE0TGlmZUluVGhlU2Vjb25kRGl2aXNpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter15TheEndOfAnEra.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter15TheEndOfAnEra.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjE1VGhlRW5kT2ZBbkVyYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter16TheSecondWorldWarYears.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter16TheSecondWorldWarYears.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjE2VGhlU2Vjb25kV29ybGRXYXJZZWFycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter17FromTheAshes.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter17FromTheAshes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjE3RnJvbVRoZUFzaGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter18IntoTheFifties.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter18IntoTheFifties.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjE4SW50b1RoZUZpZnRpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter19FromBestToWorstViaHollywood.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter19FromBestToWorstViaHollywood.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjE5RnJvbUJlc3RUb1dvcnN0VmlhSG9sbHl3b29kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter1InTheBeginning.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter1InTheBeginning.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjFJblRoZUJlZ2lubmluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter2FromStruggleToDemise.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter2FromStruggleToDemise.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjJGcm9tU3RydWdnbGVUb0RlbWlzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter3RisingFromThePhoenix.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter3RisingFromThePhoenix.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjNSaXNpbmdGcm9tVGhlUGhvZW5peC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter4TheArgyleAthleticUmbrella.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter4TheArgyleAthleticUmbrella.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjRUaGVBcmd5bGVBdGhsZXRpY1VtYnJlbGxhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter5HomeParkHome.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter5HomeParkHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjVIb21lUGFya0hvbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter6TheArgyleAffair.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter6TheArgyleAffair.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjZUaGVBcmd5bGVBZmZhaXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter7TheBigBoysComeToTown.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter7TheBigBoysComeToTown.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjdUaGVCaWdCb3lzQ29tZVRvVG93bi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter8ArgyleFCBecomesSemiprofessional.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter8ArgyleFCBecomesSemiprofessional.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjhBcmd5bGVGQ0JlY29tZXNTZW1pcHJvZmVzc2lvbmFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Chapter9TheBirthOfPlymouthArgyle.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Chapter9TheBirthOfPlymouthArgyle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hhcHRlcjlUaGVCaXJ0aE9mUGx5bW91dGhBcmd5bGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/CompetitionTotals.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/CompetitionTotals.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcGV0aXRpb25Ub3RhbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/ConsecutiveAppearances.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/ConsecutiveAppearances.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc2VjdXRpdmVBcHBlYXJhbmNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/ConsecutiveReports.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/ConsecutiveReports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc2VjdXRpdmVSZXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/ConsecutiveResults.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/ConsecutiveResults.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc2VjdXRpdmVSZXN1bHRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/CurrentSquad.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/CurrentSquad.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VycmVudFNxdWFkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/DailyDiary.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/DailyDiary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFpbHlEaWFyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Day.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Day.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/DevonFriendlies.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/DevonFriendlies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV2b25GcmllbmRsaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Emailcode.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Emailcode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1haWxjb2RlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Error.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/FactsAndFigures.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/FactsAndFigures.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmFjdHNBbmRGaWd1cmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/FootballLeagueByCalendarYear.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/FootballLeagueByCalendarYear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vdGJhbGxMZWFndWVCeUNhbGVuZGFyWWVhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/FootballLeagueByDecade.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/FootballLeagueByDecade.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vdGJhbGxMZWFndWVCeURlY2FkZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/FootballLeagueRecordByDecade.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/FootballLeagueRecordByDecade.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vdGJhbGxMZWFndWVSZWNvcmRCeURlY2FkZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Friendlies.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Friendlies.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJpZW5kbGllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/GoalscorersBySeason.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/FriendlyMatches.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJpZW5kbHlNYXRjaGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/GoalscorersBySeason.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR29hbHNjb3JlcnNCeVNlYXNvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/GoalscoresRankedBySeason.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/GoalscoresRankedBySeason.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR29hbHNjb3Jlc1JhbmtlZEJ5U2Vhc29uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/gosdb-misc1.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/gosdb-about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItYWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/gosdb-misc1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGItbWlzYzEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/GreenJerseyJourney.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/gosdb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ29zZGIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/GreenJerseyJourney.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR3JlZW5KZXJzZXlKb3VybmV5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/HistoryMenu.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/HistoryMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeU1lbnUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1886-1890.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1886-1890.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxODg2LTE4OTAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1890-1895.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1890-1895.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxODkwLTE4OTUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1895-1899.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1895-1899.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxODk1LTE4OTkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1899-1900.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1899-1900.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxODk5LTE5MDAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1900-1901.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1900-1901.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAwLTE5MDEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1901-1902_1.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1901-1902_1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAxLTE5MDJfMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1901-1902_2.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1901-1902_2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAxLTE5MDJfMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1902-1903_1.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1902-1903_1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAyLTE5MDNfMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1902-1903_2.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1902-1903_2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAyLTE5MDNfMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1902-1903_3.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1902-1903_3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAyLTE5MDNfMy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1903-1910.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1903-1910.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTAzLTE5MTAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1910-1920.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1910-1920.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTEwLTE5MjAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1920-1930.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1920-1930.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTIwLTE5MzAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1930-1934.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1930-1934.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTMwLTE5MzQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1934-1939.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1934-1939.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTM0LTE5MzkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1939-1945.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1939-1945.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTM5LTE5NDUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1945-1950.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1945-1950.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTQ1LTE5NTAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1950-1953.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1950-1953.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTUwLTE5NTMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/1953-1957.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/1953-1957.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVwxOTUzLTE5NTcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/bib1.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/bib1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVxiaWIxLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/History/ps1.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/History/ps1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeVxwczEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Homepark.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Homepark.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZXBhcmsuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/HowItAllBegan.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/HowItAllBegan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG93SXRBbGxCZWdhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Index.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/LeagueTablePlus.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/LeagueTablePlus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVhZ3VlVGFibGVQbHVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Managers.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Managers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/MatchDate.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/MatchDate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0Y2hEYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Matchreport.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Matchreport.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0Y2hyZXBvcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/MOTD.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/MOTD.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTU9URC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/NonMatchPhoto.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/NonMatchPhoto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm9uTWF0Y2hQaG90by5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Opposition.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Opposition.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3Bwb3NpdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/photocaptions.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/photocaptions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNccGhvdG9jYXB0aW9ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Privacy.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/ProgressGraphs.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/ProgressGraphs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZ3Jlc3NHcmFwaHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/RecordsAndAchievements.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/RecordsAndAchievements.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVjb3Jkc0FuZEFjaGlldmVtZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/ScoreCounts.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/ScoreCounts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NvcmVDb3VudHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Seasons.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Seasons.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vhc29ucy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/ShowChapters.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/ShowChapters.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd0NoYXB0ZXJzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/ShowFullDatabase.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/ShowFullDatabase.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd0Z1bGxEYXRhYmFzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/ShowReports.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/ShowReports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd1JlcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/SuccessRankingByOpposition.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/SuccessRankingByOpposition.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VjY2Vzc1JhbmtpbmdCeU9wcG9zaXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/SuccessRankingsByOpposition.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/SuccessRankingsByOpposition.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VjY2Vzc1JhbmtpbmdzQnlPcHBvc2l0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/TeamPhotos.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/TeamPhotos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhbVBob3Rvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/TheLatestMatch.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/TheLatestMatch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhlTGF0ZXN0TWF0Y2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/TopPlayers.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/TopPlayers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9wUGxheWVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/TopSubstitues.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/TopSubstitues.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9wU3Vic3RpdHVlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/TopSubstitutes.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/TopSubstitutes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9wU3Vic3RpdHV0ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/VideosFoundOnline.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/VideosFoundOnline.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlkZW9zRm91bmRPbmxpbmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/YoungestAndOldest.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/YoungestAndOldest.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWW91bmdlc3RBbmRPbGRlc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/_ViewImports.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/_ViewStart.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Neo/final/2003cluster/TeamC/Pages/Shared/_Layout.cshtml]
+[C:/Users/Miguel/Desktop/acw2/2003cluster/TeamC/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qwuij775mn
