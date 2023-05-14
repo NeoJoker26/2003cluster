@@ -2,107 +2,271 @@
 @model TopPlayersModel
 @{
 }
-<div id="bigDiv" style="width: 1000px;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-19">
+    <title>GoS-DB Players</title>
+    <link rel="stylesheet" type="text/css" href="gos2.css">
 
-    <div id="DivA" style="text-align: left; width: 300px; display: inline-block; vertical-align: top;">
-        <div style="display: inline-block; vertical-align: top;">
-            <img src="~/images/gosdb-small.jpg" alt="Image" style="width: 160px; height: 70px; display: inline-block; vertical-align: top;">
-            <div style="display: inline-block; vertical-align: top; margin-left: 10px;">
-                <p style="font-size: 14px; font-weight: bold; margin: 0; padding: 0; height: 35px;">Search by Date</p>
-                <a onclick="window.location.href='ShowFullDatabase'" style="display: block; width: 100px; height: 35px; margin: 0; padding: 0;">Back to GoS-DB Hub</a>
-            </div>
-        </div>
+    <style>
+        <!--
+        #ajaxplayerlist p {
+            margin: 0 0 0 12px;
+            padding: 0;
+            font-size: 11px;
+            font-weight: normal;
+            text-align: left;
+            color: #202020;
+        }
 
-    </div>
+        #ranktable1 td {
+            text-align: left;
+            margin: 0;
+            padding: 0 3px;
+            font-family: "Trebuchet MS",helvetica,verdana,arial,sans-serif;
+            font-size: 12px;
+        }
 
-    <div id="DivB" style="text-align: center; width: 360px; display: inline-block; vertical-align: top;">
-        <p style="margin-top: 0; margin-bottom: 3px; text-align:center;">
-            <span style="font-size: 18px">
-                <font color="#006E32">
-                    THE PLAYERS
-                </font>
-            </span>
-        </p>
-        <div class="button-row" style="display: flex; justify-content: space-between;">
-            <div class="dropdown" style="width: calc(20% - 10px);">
-                <button class="dropdown-button"><span>Button 1</span></button>
-                <div class="dropdown-content">
-                    <a href="#" data-value="All Competitions">All Competitions</a>
-                    <a href="#" data-value="Football League">Football League</a>
-                    <a href="#" data-value="All Leagues">All Leagues</a>
-                    <a href="#" data-value="FA Cup">FA Cup</a>
-                    <a href="#" data-value="All Cups">All Cups</a>
-                </div>
-            </div>
-            <div class="dropdown" style="width: calc(20% - 10px);">
-                <button class="dropdown-button"><span>Button 2</span></button>
-                <div class="dropdown-content">
-                    <a href="#" data-value="Home & Away">Home & Away</a>
-                    <a href="#" data-value="Home Only">Home Only</a>
-                    <a href="#" data-value="Away Only">Away Only</a>
-                </div>
-            </div>  
-        </div>
-        <button id="submitBtn" style="width: 100px; background-color: white; border: none; margin-top: 10px;">Submit</button>
-    </div>
+        #ranktable1 .right {
+            text-align: right;
+        }
 
-    <div id="DivC" style="text-align: left; width: 290px; display: inline-block; vertical-align: top;">
-        <div style="display: inline-block; vertical-align: top;">
-            <p>Top 100 lists for the chosen competitions, with an option to limit the results to a range of seasons. <i>Note: the first list - Time at Club - is for all competitions, regardless of selection.</i></p>
+        #ranktable1 .center {
+            text-align: center;
+        }
 
-        </div>
-    </div>
-    <div id="extra" style="text-align: center; width: 100%;">
-        <p id="extra"><b>Ranked by Time at Club: </b> the total time between first and final first-team games, whilst on PAFC's books. For players who left the club and then returned for a second or third spell, the time for each spell is accumulated. Careers interupted by war are broken into separate spells, so the war years are not included in the results. Loans from other clubs count as a separate spell; loans to other clubs have no impact.</p>
-    </div>
-</div>
-<style>
-    #extra {
-        text-align: center;
-    }
-    .button-row {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
+        #ranktable1 .bold {
+            font-weight: bold;
+        }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
+        #ranktable1 .head1 {
+            font-family: verdana,arial,sans-serif;
+            font-size: 11px;
+            padding: 4px;
+        }
 
-.dropdown-button {
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    width: 100px;
-    padding: 8px;
-    font-size: 14px;
-}
+        #ranktable1 .head2 {
+            font-family: verdana,arial,sans-serif;
+            font-size: 11px;
+        }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
+        #ranktable2 td {
+            text-align: left;
+            margin: 0;
+            padding: 0 3px;
+            font-family: "Trebuchet MS",helvetica,verdana,arial,sans-serif;
+            font-size: 12px;
+        }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
+        #ranktable2 .right {
+            text-align: right;
+        }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
+        #ranktable2 .bold {
+            font-weight: bold;
+        }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+        #ranktable2 .head1 {
+            font-family: verdana,arial,sans-serif;
+            font-size: 11px;
+            padding: 4px;
+        }
 
-</style>
+        #ranktable2 .head2 {
+            font-family: verdana,arial,sans-serif;
+            font-size: 11px;
+        }
+
+        #ranktable3 td {
+            text-align: left;
+            margin: 0;
+            padding: 0 3px;
+            font-family: "Trebuchet MS",helvetica,verdana,arial,sans-serif;
+            font-size: 12px;
+        }
+
+        #ranktable3 .right {
+            text-align: right;
+        }
+
+        #ranktable3 .bold {
+            font-weight: bold;
+        }
+
+        #ranktable3 .head1 {
+            font-family: verdana,arial,sans-serif;
+            font-size: 11px;
+            padding: 4px;
+        }
+
+        #ranktable3 .head2 {
+            font-family: verdana,arial,sans-serif;
+            font-size: 11px;
+        }
+
+        #ranktable4 td {
+            text-align: left;
+            margin: 0;
+            padding: 0 3px;
+            font-family: "Trebuchet MS",helvetica,verdana,arial,sans-serif;
+            font-size: 12px;
+        }
+
+        #ranktable4 .right {
+            text-align: right;
+        }
+
+        #ranktable4 .bold {
+            font-weight: bold;
+        }
+
+        #ranktable4 .head1 {
+            font-family: verdana,arial,sans-serif;
+            font-size: 11px;
+            padding: 4px;
+        }
+
+        #ranktable4 .head2 {
+            font-family: verdana,arial,sans-serif;
+            font-size: 11px;
+        }
+
+        -->
+    </style>
+    
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="~/css/gos2.css">
+<center>
+    <table border="0" cellspacing="0" style="border-collapse: collapse" cellpadding="0" width="980">
+        <tbody>
+            <tr>
+                <td width="260" valign="top" style="text-align:center;">
+
+                    <p style="text-align: center; margin-top:0; margin-bottom:3">
+                        <a href="gosdb.asp"><font color="#404040"><img border="0" src="images/gosdb-small.jpg" align="left"></font></a><font color="#404040">
+                            <b>
+                                <font style="font-size: 15px">
+                                    Search by<br>
+                                </font>
+                            </b><span style="font-size: 15px"><b>Player</b></span>
+                        </font>
+                    </p><p style="text-align: center; margin-top:0; margin-bottom:0">
+                        <b>
+                            <a href="gosdb.asp">Back to<br>GoS-DB Hub</a>
+                        </b>
+                    </p>
+
+                </td>
+
+                <td width="460" align="center" style="text-align: center">
+                    <p style="margin-top:9; margin-bottom:0; text-align:center; font-size:18px; color:#006E32">
+                        THE PLAYERS
+                    </p>
+
+                    <p style="color: #CC3300; margin: 12 30 6 30; text-align:center; "><b>Competitions selected: All</b></p><p style="margin: 6 0 6 0; text-align:centre"><a href="gosdb-players0"><u>Reselect Competitions</u></a></p>
+                </td>
+
+                <td width="260" valign="top" align="right">
+
+                    <p style="margin:0; text-align:justify">Top 100 lists for the chosen competitions, with an option to limit the results to a range of seasons. <i>Note: the first list - Time at Club - is for all competitions, regardless of selection.</i></p>
+
+
+                </td>
+            </tr>
+
+            <tr>
+                <td width="980" valign="top" style="text-align:center;" colspan="3">
+
+                    <div>
+                        <center>
+                            <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="980px">
+                                <tbody>
+                                    <tr><td colspan="4" style="text-align: center; border: 0px solid #c0c0c0;">
+                                        <form style="font-size: 10px; padding: 0; margin: 0; text-align: center;" action="gosdb-players1" method="post" name="form1">
+                                                <select name="season1" style="font-size: 10px" id="season1">
+                                                <option value="1">From 1903-1904</option><option value="2">From 1904-1905</option><option value="3">From 1905-1906</option><option value="4">From 1906-1907</option><option value="5">From 1907-1908</option><option value="6">From 1908-1909</option><option value="7">From 1909-1910</option><option value="8">From 1910-1911</option><option value="9">From 1911-1912</option><option value="10">From 1912-1913</option><option value="11">From 1913-1914</option><option value="12">From 1914-1915</option><option value="13">From 1919-1920</option><option value="14">From 1920-1921</option><option value="15">From 1921-1922</option><option value="16">From 1922-1923</option><option value="17">From 1923-1924</option><option value="18">From 1924-1925</option><option value="19">From 1925-1926</option><option value="20">From 1926-1927</option><option value="21">From 1927-1928</option><option value="22">From 1928-1929</option><option value="23">From 1929-1930</option><option value="24">From 1930-1931</option><option value="25">From 1931-1932</option><option value="26">From 1932-1933</option><option value="27">From 1933-1934</option><option value="28">From 1934-1935</option><option value="29">From 1935-1936</option><option value="30">From 1936-1937</option><option value="31">From 1937-1938</option><option value="32">From 1938-1939</option><option value="33">From 1939-1940</option><option value="34">From 1944-1945</option><option value="35">From 1945-1946</option><option value="36">From 1946-1947</option><option value="37">From 1947-1948</option><option value="38">From 1948-1949</option><option value="39">From 1949-1950</option><option value="40">From 1950-1951</option><option value="41">From 1951-1952</option><option value="42">From 1952-1953</option><option value="43">From 1953-1954</option><option value="44">From 1954-1955</option><option value="45">From 1955-1956</option><option value="46">From 1956-1957</option><option value="47">From 1957-1958</option><option value="48">From 1958-1959</option><option value="49">From 1959-1960</option><option value="50">From 1960-1961</option><option value="51">From 1961-1962</option><option value="52">From 1962-1963</option><option value="53">From 1963-1964</option><option value="54">From 1964-1965</option><option value="55">From 1965-1966</option><option value="56">From 1966-1967</option><option value="57">From 1967-1968</option><option value="58">From 1968-1969</option><option value="59">From 1969-1970</option><option value="60">From 1970-1971</option><option value="61">From 1971-1972</option><option value="62">From 1972-1973</option><option value="63">From 1973-1974</option><option value="64">From 1974-1975</option><option value="65">From 1975-1976</option><option value="66">From 1976-1977</option><option value="67">From 1977-1978</option><option value="68">From 1978-1979</option><option value="69">From 1979-1980</option><option value="70">From 1980-1981</option><option value="71">From 1981-1982</option><option value="72">From 1982-1983</option><option value="73">From 1983-1984</option><option value="74">From 1984-1985</option><option value="75">From 1985-1986</option><option value="76">From 1986-1987</option><option value="77">From 1987-1988</option><option value="78">From 1988-1989</option><option value="79">From 1989-1990</option><option value="80">From 1990-1991</option><option value="81">From 1991-1992</option><option value="82">From 1992-1993</option><option value="83">From 1993-1994</option><option value="84">From 1994-1995</option><option value="85">From 1995-1996</option><option value="86">From 1996-1997</option><option value="87">From 1997-1998</option><option value="88">From 1998-1999</option><option value="89">From 1999-2000</option><option value="90">From 2000-2001</option><option value="91">From 2001-2002</option><option value="92">From 2002-2003</option><option value="93">From 2003-2004</option><option value="94">From 2004-2005</option><option value="95">From 2005-2006</option><option value="96">From 2006-2007</option><option value="97">From 2007-2008</option><option value="98">From 2008-2009</option><option value="99">From 2009-2010</option><option value="100">From 2010-2011</option><option value="101">From 2011-2012</option><option value="102">From 2012-2013</option><option value="103">From 2013-2014</option><option value="104">From 2014-2015</option><option value="105">From 2015-2016</option><option value="106">From 2016-2017</option><option value="107">From 2017-2018</option><option value="108">From 2018-2019</option><option value="109">From 2019-2020</option><option value="110">From 2020-2021</option><option value="111">From 2021-2022</option><option value="112">From 2022-2023</option></select>
+                                                <select name="season2" style="font-size: 10px" id="season2">
+                                                <option value="1">To 1903-1904</option><option value="2">To 1904-1905</option><option value="3">To 1905-1906</option><option value="4">To 1906-1907</option><option value="5">To 1907-1908</option><option value="6">To 1908-1909</option><option value="7">To 1909-1910</option><option value="8">To 1910-1911</option><option value="9">To 1911-1912</option><option value="10">To 1912-1913</option><option value="11">To 1913-1914</option><option value="12">To 1914-1915</option><option value="13">To 1919-1920</option><option value="14">To 1920-1921</option><option value="15">To 1921-1922</option><option value="16">To 1922-1923</option><option value="17">To 1923-1924</option><option value="18">To 1924-1925</option><option value="19">To 1925-1926</option><option value="20">To 1926-1927</option><option value="21">To 1927-1928</option><option value="22">To 1928-1929</option><option value="23">To 1929-1930</option><option value="24">To 1930-1931</option><option value="25">To 1931-1932</option><option value="26">To 1932-1933</option><option value="27">To 1933-1934</option><option value="28">To 1934-1935</option><option value="29">To 1935-1936</option><option value="30">To 1936-1937</option><option value="31">To 1937-1938</option><option value="32">To 1938-1939</option><option value="33">To 1939-1940</option><option value="34">To 1944-1945</option><option value="35">To 1945-1946</option><option value="36">To 1946-1947</option><option value="37">To 1947-1948</option><option value="38">To 1948-1949</option><option value="39">To 1949-1950</option><option value="40">To 1950-1951</option><option value="41">To 1951-1952</option><option value="42">To 1952-1953</option><option value="43">To 1953-1954</option><option value="44">To 1954-1955</option><option value="45">To 1955-1956</option><option value="46">To 1956-1957</option><option value="47">To 1957-1958</option><option value="48">To 1958-1959</option><option value="49">To 1959-1960</option><option value="50">To 1960-1961</option><option value="51">To 1961-1962</option><option value="52">To 1962-1963</option><option value="53">To 1963-1964</option><option value="54">To 1964-1965</option><option value="55">To 1965-1966</option><option value="56">To 1966-1967</option><option value="57">To 1967-1968</option><option value="58">To 1968-1969</option><option value="59">To 1969-1970</option><option value="60">To 1970-1971</option><option value="61">To 1971-1972</option><option value="62">To 1972-1973</option><option value="63">To 1973-1974</option><option value="64">To 1974-1975</option><option value="65">To 1975-1976</option><option value="66">To 1976-1977</option><option value="67">To 1977-1978</option><option value="68">To 1978-1979</option><option value="69">To 1979-1980</option><option value="70">To 1980-1981</option><option value="71">To 1981-1982</option><option value="72">To 1982-1983</option><option value="73">To 1983-1984</option><option value="74">To 1984-1985</option><option value="75">To 1985-1986</option><option value="76">To 1986-1987</option><option value="77">To 1987-1988</option><option value="78">To 1988-1989</option><option value="79">To 1989-1990</option><option value="80">To 1990-1991</option><option value="81">To 1991-1992</option><option value="82">To 1992-1993</option><option value="83">To 1993-1994</option><option value="84">To 1994-1995</option><option value="85">To 1995-1996</option><option value="86">To 1996-1997</option><option value="87">To 1997-1998</option><option value="88">To 1998-1999</option><option value="89">To 1999-2000</option><option value="90">To 2000-2001</option><option value="91">To 2001-2002</option><option value="92">To 2002-2003</option><option value="93">To 2003-2004</option><option value="94">To 2004-2005</option><option value="95">To 2005-2006</option><option value="96">To 2006-2007</option><option value="97">To 2007-2008</option><option value="98">To 2008-2009</option><option value="99">To 2009-2010</option><option value="100">To 2010-2011</option><option value="101">To 2011-2012</option><option value="102">To 2012-2013</option><option value="103">To 2013-2014</option><option value="104">To 2014-2015</option><option value="105">To 2015-2016</option><option value="106">To 2016-2017</option><option value="107">To 2017-2018</option><option value="108">To 2018-2019</option><option value="109">To 2019-2020</option><option value="110">To 2020-2021</option><option value="111">To 2021-2022</option><option value="112" selected="">To 2022-2023</option></select>
+                                                <input type="hidden" value="1,2,3,4,5,6,7" name="scope">
+                                                <input type="hidden" value="Player Rankings" name="button">
+                                                    <input type="button" onclick="Submit()" style="width: auto; overflow: visible; color: #000000; background-color: #e0f0e0; font-size: 11px; padding: 1 5 1 5; margin: 0 0 0 0" value="Redisplay" name="B1"><p></p>
+                                                </form>
+                                                <script>
+                                                function Submit() {
+                                                        window.location.replace("TopPlayers?season1=" + document.getElementById("season1").value + "&season2=" + document.getElementById("season2").value );
+                                                }
+                                                </script>
+                                                </td></tr><tr><td valign="top">
+                                                    <table id="ranktable1" border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#e0e0e0">
+                                                        <tbody>
+                                                            <tr><td nowrap="" colspan="2" class="head1"><b>Ranked by Time at Club</b><br>(see footnote)</td><td class="head2 center">Spells</td><td class="head2 right">Yrs</td><td class="head2 right">Days</td></tr>
+                                                            
+                                                    @foreach (var player in Model.RTCtable)
+                                                    {
+                                                        <tr>
+                                                        <td class="right">@player.rank</td>
+                                                            <td><a href="gosdb-players2?pid=@player.player_id_spell1&amp;scp=1,2,3,4,5,6,7">@player.surname, @player.forename</a></td>
+                                                            <td class="center">@if(@player.maxspell == 2){@player.maxspell}</td>
+                                                            <td class="right">@player.years</td>
+                                                            <td class="right">@player.days</td>
+                                                        </tr>
+                                                    }
+                                                </tbody>
+                                                    </table>
+                                                    </td>
+                                                    <td valign="top">
+                                                        <table id="ranktable2" border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#c0c0c0">
+                                                        <tbody>
+                                                        <tr><td colspan="2" class="head1 bold">Ranked by<br>Appearances</td><td class="head2 right">Starts</td><td class="head2 right">Subs</td></tr>
+                                                    @foreach(var player in Model.RAtable)
+                                                    {
+                                                        <tr>
+                                                            <td class="right">@player.rank</td>
+                                                            <td><a href="gosdb-players2?pid=@player.player_id_spell1&amp;scp=1,2,3,4,5,6,7">@player.surname, @player.forename</a></td>                                                           
+                                                            <td class="right">@player.totstarts</td>
+                                                            <td class="right">@player.totsubs</td>
+                                                        </tr>
+                                                    }
+                                                </tbody>
+                                                        </table>
+                                                    </td>
+                                                        <td valign="top">
+                                                        <table id="ranktable3" border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#c0c0c0">
+                                                        <tbody>
+                                                        <tr><td colspan="2" class="head1 bold">Ranked by<br>Goals Scored</td><td class="head2 right">Goals</td><td class="head2 right">Goals<br>/Game</td></tr>
+                                                    @foreach(var player in Model.RGStable)
+                                                    {
+                                                        <tr>
+                                                            <td class="right">@player.rank</td>
+                                                            <td><a href="gosdb-players2?pid=@player.player_id_spell1&amp;scp=1,2,3,4,5,6,7">@player.surname, @player.forename</a></td>
+                                                            <td class="right">@player.goals</td>
+                                                            <td class="right">@Math.Round(@player.pergame,2)</td>
+                                                        </tr>
+                                                    }
+                                                </tbody>
+                                                        </table>
+                                                        </td>
+                                                        <td valign="top">
+                                                        <table id="ranktable4" border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#c0c0c0">
+                                                        <tbody>
+                                                        <tr><td colspan="2" class="head1 bold">Ranked by<br>Goals per Game</td><td class="head2 right">Goals<br>/Game</td><td class="head2 right">Goals</td></tr>
+                                                    @foreach (var player in Model.RGGtable)
+                                                    {
+                                                        <tr>
+                                                            <td class="right">@player.rank</td>
+                                                            <td><a href="gosdb-players2?pid=@player.player_id_spell1&amp;scp=1,2,3,4,5,6,7">@player.surname, @player.forename</a></td>                                                          
+                                                            <td class="right">@Math.Round(@player.pergame,3)</td>
+                                                            <td class="right">@player.goals</td>
+                                                        </tr>
+                                                    }
+                                                        </tbody>
+                                                        </table></td></tr></tbody></table><p style="margin:12px; text-align:left;"><span style="font-weight:700">Ranked by Time at Club:</span> the total time between first and final first-team games, whilst on PAFC's books. For players who left the club and then returned for a second or third spell, the time for each spell is accumulated. Careers interupted by war are broken into separate spells, so the war years are not included in the results. Loans from other clubs count as a separate spell; loans to other clubs have no impact.</p></center></div>
+
+                </td>
+
+            </tr>
+
+        </tbody>
+    </table>
+</center>
+</body>

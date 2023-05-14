@@ -18,13 +18,14 @@
     }
 </style>
 <center>
+    <div id="sv1">
     <table border="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="980" cellpadding="0">
         <tbody>
             <tr>
                 <td width="270" valign="top">
                     <div style="width:260;">
                         <p style="text-align: center; margin-top:0; margin-bottom:3">
-                            <a href="gosdb.asp"><font color="#404040"><img border="0" src="images/gosdb-small.jpg" align="left"></font></a><font color="#404040">
+                            <a href="gosdb"><font color="#404040"><img border="0" src="images/gosdb-small.jpg" align="left"></font></a><font color="#404040">
                                 <b>
                                     <font style="font-size: 15px">
                                         Search by<br>
@@ -33,7 +34,7 @@
                             </font>
                         </p><p style="text-align: center; margin-top:0; margin-bottom:0">
                             <b>
-                                <a href="gosdb.asp">Back to<br>GoS-DB Hub</a>
+                                <a href="gosdb">Back to<br>GoS-DB Hub</a>
                             </b>
                         </p>
                     </div>
@@ -41,7 +42,7 @@
                 <td align="center">
                     <p style="margin-top: 6; margin-bottom: 9"><font style="font-size: 18px;" color="#006e32">HEAD TO HEAD RESULTS</font></p>
 
-                    <form style="font-size: 10px; padding: 0; margin: 0;" method="post" name="form1">
+                    <form style="font-size: 10px; padding: 0; margin: 0; " method="post" name="form1">
                         <p style="margin-top: 0px; margin-bottom: 6px;"><font style="font-size: 12px;" color="#202020"><b></b></font></p>
                         <select name="competition" id="competition" style="font-size: 10px"><option value="ALL" selected="">All Competitions</option><option value="FLG">Football League</option><option value="LGS">All Leagues</option><option value="FAC">FA Cup</option><option value="CUP">All Cups</option></select>
                         <select name="homeaway" id="homeaway" style="font-size: 10px"><option value="ha" selected="">Home &amp; Away</option><option value="ho">Home only</option><option value="ao">Away only</option></select>
@@ -54,9 +55,7 @@
                         function Submit() {
                             window.location.replace("Opposition?competition=" + document.getElementById("competition").value + "&homeaway=" + document.getElementById("homeaway").value + "&season1=" + document.getElementById("season1").value + "&season2=" + document.getElementById("season2").value + "&order=" + document.getElementById("order").value);
                         }
-                    </script>
-                    <h1>@Model.heading1</h1>
-                    <p>@Model.headtext</p>
+                    </script>                  
                 </td>
                 <td width="270" valign="top">
                     <p style="margin-bottom:4pt; margin-right:3; margin-left:15" align="justify">
@@ -75,12 +74,11 @@
             </tr>
         </tbody>
     </table>
-    <table style="border-collapse: collapse;" border="0" bordercolor="#111111" cellpadding="0" cellspacing="0" width="900">
-        <tbody>
-            <tr>
+        <table style="border-collapse: collapse;" border="0" bordercolor="#111111" cellpadding="0" cellspacing="0" width="900">
+            <tbody>
+                <tr>
 
-                <td align="center" valign="top">
-                    <table style="border-collapse: collapse;" border="1" bordercolor="#c0c0c0" cellpadding="0" cellspacing="0" cols="11">
+                    <td align="center" valign="top"><table style="border-collapse: collapse;" border="1" bordercolor="#c0c0c0" cellpadding="0" cellspacing="0" cols="11">
                         <tbody>
                             <tr>
                                 <td><b>Opposition</b></td>
@@ -90,99 +88,87 @@
                                 <td width="30"><b>L</b></td>
                                 <td width="30"><b>F</b></td>
                                 <td width="30"><b>A</b></td>
-                            </tr>
-                            @foreach (var head in Model.hthtable)
-                            {
-                                @if (N < 74)
+                                </tr>
+                                @foreach (var head in Model.hthtable)
                                 {
-                                    <tr>
-                                        <td>
-                                            @if (@head.name_now == null || @head.name_now == "")
-                                            {
-                                                <b>Total</b>
-                                                a = @head.P; b = @head.W; c = @head.D; d = @head.L; e = @head.F; f = @head.A;
-                                            }
-                                            else
-                                            {
-                                                @head.name_now
-                                            }
-                                        </td>
-                                        <td>@head.P</td>
-                                        <td>@head.W</td>
-                                        <td>@head.D</td>
-                                        <td>@head.L</td>
-                                        <td>@head.F</td>
-                                        <td>@head.A</td>
-                                    </tr>
-                                    N++;
+                                    @if (N < 74)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @if (@head.name_now == null || @head.name_now == "")
+                                                {
+                                                    <b>Total</b>
+                                                    a = @head.P; b = @head.W; c = @head.D; d = @head.L; e = @head.F; f = @head.A;
+                                                }
+                                                else
+                                                {
+                                                    <a href="gosdb-results?team=@head.name_now&comp=&s1=&s2=">@head.name_now</a>
+                                                }
+                                            </td>
+                                            <td>@head.P</td>
+                                            <td>@head.W</td>
+                                            <td>@head.D</td>
+                                            <td>@head.L</td>
+                                            <td>@head.F</td>
+                                            <td>@head.A</td>
+                                        </tr>
+                                        N++;
+                                    }
                                 }
-                            }
-                        </tbody>
-                    </table>
-                </td>
-                <td align="center" valign="top">
-                    <table style="border-collapse: collapse;" border="1" bordercolor="#c0c0c0" cellpadding="0" cellspacing="0" cols="11">
-                        <tbody>
-                            <tr>
-                                <td><b>Opposition</b></td>
-                                <td width="30"><b>P</b></td>
-                                <td width="30"><b>W</b></td>
-                                <td width="30"><b>D</b></td>
-                                <td width="30"><b>L</b></td>
-                                <td width="30"><b>F</b></td>
-                                <td width="30"><b>A</b></td>
-                            </tr>
-                            @foreach (var head in Model.hthtable)
-                            {
-                                @if (N2 >= 74)
+</tbody>
+</table></td>
+                    <td align="center" valign="top"><table style="border-collapse: collapse;" border="1" bordercolor="#c0c0c0" cellpadding="0" cellspacing="0" cols="11">
+                        <tbody><tr><td><b>Opposition</b></td><td width="30"><b>P</b></td><td width="30"><b>W</b></td><td width="30"><b>D</b></td><td width="30"><b>L</b></td><td width="30"><b>F</b></td><td width="30"><b>A</b></td></tr>
+                                @foreach (var head in Model.hthtable)
                                 {
-                                    <tr>
-                                        <td>
-                                            @if (@head.name_now == null || @head.name_now == "")
-                                            {
-                                                <b>Total</b>
-                                            }
-                                            else
-                                            {
-                                                @head.name_now
-                                            }
-                                        </td>
-                                        <td>@head.P</td>
-                                        <td>@head.W</td>
-                                        <td>@head.D</td>
-                                        <td>@head.L</td>
-                                        <td>@head.F</td>
-                                        <td>@head.A</td>
-                                    </tr>
+                                    @if (N2 >= 74)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @if (@head.name_now == null || @head.name_now == "")
+                                                {
+                                                    <b>Total</b>
+                                                }
+                                                else
+                                                {
+                                                    <a href="gosdb-results?team=@head.name_now&comp=&s1=&s2=">@head.name_now </a>
+                                                }
+                                            </td>
+                                            <td>@head.P</td>
+                                            <td>@head.W</td>
+                                            <td>@head.D</td>
+                                            <td>@head.L</td>
+                                            <td>@head.F</td>
+                                            <td>@head.A</td>
+                                        </tr>
 
+                                    }
+                                    N2++;
                                 }
-                                N2++;
-                            }
-                            <tr>
-                                <td>
-                                    <b>Total</b>
-                                </td>
-                                <td>@a</td>
-                                <td>@b</td>
-                                <td>@c</td>
-                                <td>@d</td>
-                                <td>@e</td>
-                                <td>@f</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
+                                <tr>
+                                    <td>
+                                        <b>Total</b>
+                                    </td>
+                                    <td>@a</td>
+                                    <td>@b</td>
+                                    <td>@c</td>
+                                    <td>@d</td>
+                                    <td>@e</td>
+                                    <td>@f</td>
+                                </tr>
+</tbody></table></td>
 
-            </tr>
-            <tr>
-                <td colspan="2" align="center" valign="top">
-                    <p style="margin: 12px 12px 0pt;">
-                        Where a team has changed its name, all results are shown under its latest name,
-                        but contemporary names are used on the results page for each club.
-                    </p>
-                </td>
-            </tr>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" valign="top">
+                        <p style="margin: 12px 12px 0pt;">
+                            Where a team has changed its name, all results are shown under its latest name,
+                            but contemporary names are used on the results page for each club.
+                        </p>
+                    </td>
+                </tr>
 
-        </tbody>
-    </table>
+            </tbody>
+        </table>
+    </div>
 </center>
