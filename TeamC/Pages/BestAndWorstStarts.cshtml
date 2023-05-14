@@ -130,33 +130,19 @@
 
 
         <table id="table1" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; margin-top:12px;">
-            <thead>
-                <tr>
-                    <th>
-                        <b>#</b>
-                    </th>
-                    <th>Seasson</th>
-                    <th>W</th>
-                    <th>D</th>
-                    <th>L</th>
-                    <th>F</th>
-                    <th>A</th>
-                    <th>
-                        <b>Goal</b>
-                        <b>Diff</b>
-                    </th>
-                    <th>
-                        <b>Mod'n</b>
-                        <b>Points</b>
-                    </th>
-                    <th>
-                        <b>Final</b>
-                        <b>Pos'n</b>
-                    </th>
-
-                </tr>
-            </thead>
-            <tbody>
+    <tbody>
+    <tr>
+      <td><b>#</b></td>
+      <td><b>Season</b></td>
+      <td><b>W</b></td>
+      <td><b>D</b></td>
+      <td><b>L</b></td>
+      <td><b>F</b></td>
+      <td><b>A</b></td>
+      <td><b>Goal<br>Diff</b></td>
+      <td><b>Mod'n<br>Points</b></td>
+      <td><b>Final<br>Pos'n</b></td>
+    </tr>
                 @foreach (var Match in Model.MatchesTable)
                 {
                     <tr>
@@ -182,8 +168,8 @@
                         <!--P means green arrow and R means read arrow-->
                     </tr>
                 }
-            </tbody>
-        </table>
+</tbody>
+</table>
         <script>
             //it will make the button display the same option was the User selected previouslly
             let params = new URLSearchParams(location.search);
