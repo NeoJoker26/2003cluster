@@ -1,143 +1,178 @@
 ﻿@page
 @model SeasonsModel
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Seasons</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
-</head>
-<body>
+<meta name="Author" content="Miguel Relvas">
+@{
+    string inter = "?";
+    string nothing = "";
+}
+<link rel="stylesheet" type="text/css" href="gos2.css">
+<div style="margin:0px auto; width:980px">
+  <table>
+    <tbody><tr>
+      <td width="260" valign="top" style="text-align: left">
+		<div style="width:260;">
+		<p style="text-align: center; margin-top:0; margin-bottom:3">
+		<a href="gosdb.asp"><font color="#404040"><img border="0" src="images/gosdb-small.jpg" align="left"></font></a><font color="#404040"> 
+		<b><font style="font-size: 15px">Search by<br>
+		</font></b><span style="font-size: 15px"><b>Season</b></span></font></p><p style="text-align: center; margin-top:0; margin-bottom:0">
+		<b>
+		<a href="gosdb.asp">Back to<br>GoS-DB Hub</a> </b>
+		</p></div>
+      </td>
+      <td align="center" valign="top" style="text-align: center" width="460">
+      <p style="margin-top: 9; margin-bottom: 18">
+      <span style="font-size: 18px"><font color="#006E32">
+      SEASONS' RESULTS</font></span></p>
+      <form style="font-size: 10px; padding: 0; margin: 0;" action="gosdb-seasons" method="post" name="form1">
 
-<div class="container mt-4" style="max-width: 1000px; height: 200px; border: 1px solid black;">
-    <div class="row" style="height: 100%;">
+      <select name="season1" id="season1" style="font-size: 10px"><option value="1">From 1903-1904</option><option value="2">From 1904-1905</option><option value="3">From 1905-1906</option><option value="4">From 1906-1907</option><option value="5">From 1907-1908</option><option value="6">From 1908-1909</option><option value="7">From 1909-1910</option><option value="8">From 1910-1911</option><option value="9">From 1911-1912</option><option value="10">From 1912-1913</option><option value="11">From 1913-1914</option><option value="12">From 1914-1915</option><option value="13">From 1919-1920</option><option value="14">From 1920-1921</option><option value="15">From 1921-1922</option><option value="16">From 1922-1923</option><option value="17">From 1923-1924</option><option value="18">From 1924-1925</option><option value="19">From 1925-1926</option><option value="20">From 1926-1927</option><option value="21">From 1927-1928</option><option value="22">From 1928-1929</option><option value="23">From 1929-1930</option><option value="24">From 1930-1931</option><option value="25">From 1931-1932</option><option value="26">From 1932-1933</option><option value="27">From 1933-1934</option><option value="28">From 1934-1935</option><option value="29">From 1935-1936</option><option value="30">From 1936-1937</option><option value="31">From 1937-1938</option><option value="32">From 1938-1939</option><option value="33">From 1939-1940</option><option value="34">From 1944-1945</option><option value="35">From 1945-1946</option><option value="36">From 1946-1947</option><option value="37">From 1947-1948</option><option value="38">From 1948-1949</option><option value="39">From 1949-1950</option><option value="40">From 1950-1951</option><option value="41">From 1951-1952</option><option value="42">From 1952-1953</option><option value="43">From 1953-1954</option><option value="44">From 1954-1955</option><option value="45">From 1955-1956</option><option value="46">From 1956-1957</option><option value="47">From 1957-1958</option><option value="48">From 1958-1959</option><option value="49">From 1959-1960</option><option value="50">From 1960-1961</option><option value="51">From 1961-1962</option><option value="52">From 1962-1963</option><option value="53">From 1963-1964</option><option value="54">From 1964-1965</option><option value="55">From 1965-1966</option><option value="56">From 1966-1967</option><option value="57">From 1967-1968</option><option value="58">From 1968-1969</option><option value="59">From 1969-1970</option><option value="60">From 1970-1971</option><option value="61">From 1971-1972</option><option value="62">From 1972-1973</option><option value="63">From 1973-1974</option><option value="64">From 1974-1975</option><option value="65">From 1975-1976</option><option value="66">From 1976-1977</option><option value="67">From 1977-1978</option><option value="68">From 1978-1979</option><option value="69">From 1979-1980</option><option value="70">From 1980-1981</option><option value="71">From 1981-1982</option><option value="72">From 1982-1983</option><option value="73">From 1983-1984</option><option value="74">From 1984-1985</option><option value="75">From 1985-1986</option><option value="76">From 1986-1987</option><option value="77">From 1987-1988</option><option value="78">From 1988-1989</option><option value="79">From 1989-1990</option><option value="80">From 1990-1991</option><option value="81">From 1991-1992</option><option value="82">From 1992-1993</option><option value="83">From 1993-1994</option><option value="84">From 1994-1995</option><option value="85">From 1995-1996</option><option value="86">From 1996-1997</option><option value="87">From 1997-1998</option><option value="88">From 1998-1999</option><option value="89">From 1999-2000</option><option value="90">From 2000-2001</option><option value="91">From 2001-2002</option><option value="92">From 2002-2003</option><option value="93">From 2003-2004</option><option value="94">From 2004-2005</option><option value="95">From 2005-2006</option><option value="96">From 2006-2007</option><option value="97">From 2007-2008</option><option value="98">From 2008-2009</option><option value="99">From 2009-2010</option><option value="100">From 2010-2011</option><option value="101">From 2011-2012</option><option value="102">From 2012-2013</option><option value="103">From 2013-2014</option><option value="104">From 2014-2015</option><option value="105">From 2015-2016</option><option value="106">From 2016-2017</option><option value="107">From 2017-2018</option><option value="108">From 2018-2019</option><option value="109">From 2019-2020</option><option value="110">From 2020-2021</option><option value="111">From 2021-2022</option><option value="112">From 2022-2023</option></select> 
+      <select name="season2" id="season2" style="font-size: 10px"><option value="1">To 1903-1904</option><option value="2">To 1904-1905</option><option value="3">To 1905-1906</option><option value="4">To 1906-1907</option><option value="5">To 1907-1908</option><option value="6">To 1908-1909</option><option value="7">To 1909-1910</option><option value="8">To 1910-1911</option><option value="9">To 1911-1912</option><option value="10">To 1912-1913</option><option value="11">To 1913-1914</option><option value="12">To 1914-1915</option><option value="13">To 1919-1920</option><option value="14">To 1920-1921</option><option value="15">To 1921-1922</option><option value="16">To 1922-1923</option><option value="17">To 1923-1924</option><option value="18">To 1924-1925</option><option value="19">To 1925-1926</option><option value="20">To 1926-1927</option><option value="21">To 1927-1928</option><option value="22">To 1928-1929</option><option value="23">To 1929-1930</option><option value="24">To 1930-1931</option><option value="25">To 1931-1932</option><option value="26">To 1932-1933</option><option value="27">To 1933-1934</option><option value="28">To 1934-1935</option><option value="29">To 1935-1936</option><option value="30">To 1936-1937</option><option value="31">To 1937-1938</option><option value="32">To 1938-1939</option><option value="33">To 1939-1940</option><option value="34">To 1944-1945</option><option value="35">To 1945-1946</option><option value="36">To 1946-1947</option><option value="37">To 1947-1948</option><option value="38">To 1948-1949</option><option value="39">To 1949-1950</option><option value="40">To 1950-1951</option><option value="41">To 1951-1952</option><option value="42">To 1952-1953</option><option value="43">To 1953-1954</option><option value="44">To 1954-1955</option><option value="45">To 1955-1956</option><option value="46">To 1956-1957</option><option value="47">To 1957-1958</option><option value="48">To 1958-1959</option><option value="49">To 1959-1960</option><option value="50">To 1960-1961</option><option value="51">To 1961-1962</option><option value="52">To 1962-1963</option><option value="53">To 1963-1964</option><option value="54">To 1964-1965</option><option value="55">To 1965-1966</option><option value="56">To 1966-1967</option><option value="57">To 1967-1968</option><option value="58">To 1968-1969</option><option value="59">To 1969-1970</option><option value="60">To 1970-1971</option><option value="61">To 1971-1972</option><option value="62">To 1972-1973</option><option value="63">To 1973-1974</option><option value="64">To 1974-1975</option><option value="65">To 1975-1976</option><option value="66">To 1976-1977</option><option value="67">To 1977-1978</option><option value="68">To 1978-1979</option><option value="69">To 1979-1980</option><option value="70">To 1980-1981</option><option value="71">To 1981-1982</option><option value="72">To 1982-1983</option><option value="73">To 1983-1984</option><option value="74">To 1984-1985</option><option value="75">To 1985-1986</option><option value="76">To 1986-1987</option><option value="77">To 1987-1988</option><option value="78">To 1988-1989</option><option value="79">To 1989-1990</option><option value="80">To 1990-1991</option><option value="81">To 1991-1992</option><option value="82">To 1992-1993</option><option value="83">To 1993-1994</option><option value="84">To 1994-1995</option><option value="85">To 1995-1996</option><option value="86">To 1996-1997</option><option value="87">To 1997-1998</option><option value="88">To 1998-1999</option><option value="89">To 1999-2000</option><option value="90">To 2000-2001</option><option value="91">To 2001-2002</option><option value="92">To 2002-2003</option><option value="93">To 2003-2004</option><option value="94">To 2004-2005</option><option value="95">To 2005-2006</option><option value="96">To 2006-2007</option><option value="97">To 2007-2008</option><option value="98">To 2008-2009</option><option value="99">To 2009-2010</option><option value="100">To 2010-2011</option><option value="101">To 2011-2012</option><option value="102">To 2012-2013</option><option value="103">To 2013-2014</option><option value="104">To 2014-2015</option><option value="105">To 2015-2016</option><option value="106">To 2016-2017</option><option value="107">To 2017-2018</option><option value="108">To 2018-2019</option><option value="109">To 2019-2020</option><option value="110">To 2020-2021</option><option value="111">To 2021-2022</option><option value="112" selected="">To 2022-2023</option></select> 
+      <select name="order" id="orderby" style="font-size: 10px"><option value="S" selected="">Order by Season</option><option value="S-">Order by Season, latest first</option><option value="E">Order by Position in Football League</option><option value="U">Order by Players Used</option><option value="CS">Order by Clean Sheets</option><option value="P">Order by Played</option><option value="W">Order by Wins</option><option value="D">Order by Draws</option><option value="L">Order by Defeats</option><option value="F">Order by Goals For</option><option value="A">Order by Goals Against</option><option value="PO">Order by Points (3-1-0 for all)</option><option value="HP">Order by Home Played</option><option value="HW">Order by Home Wins</option><option value="HD">Order by Home Draws</option><option value="HL">Order by Home Defeats</option><option value="HF">Order by Home Goals For</option><option value="HA">Order by Home Goals Against</option><option value="HPO">Order by Home Points (3-1-0 for all)</option><option value="AP">Order by Away Played</option><option value="AW">Order by Away Wins</option><option value="AD">Order by Away Draws</option><option value="AL">Order by Away Defeats</option><option value="AF">Order by Away Goals For</option><option value="AA">Order by Away Goals Against</option><option value="APO">Order by Away Points (3-1-0 for all)</option><option value="AT">Order by Avg Attend</option><option value="HAT">Order by Avg Home Attend</option><option value="AAT">Order by Avg Away Attend</option><option value="CP">Order by Cup Played</option><option value="CW">Order by Cup Wins</option><option value="CD">Order by Cup Draws</option><option value="CL">Order by Cup Defeats</option><option value="CF">Order by Cup Goals For</option><option value="CA">Order by Cup Goals Against</option></select>
+      <input type="button" onclick="Submit()"style="width: auto; overflow: visible; color: #000000; background-color: #e0f0e0; font-size: 11px; padding: 1 5 1 5; margin: 9 0 0 0" value="Select options above and click here to redisplay" name="B1"><p></p>
+      </form>
+      <script>
+          function Submit(){
+                            window.location.replace("Seasons?season1=" + document.getElementById("season1").value + "&season2=" + document.getElementById("season2").value + "&orderby=" + document.getElementById("orderby").value);
+                        }
 
-        <div class="col-sm-4 border" style="height: 100%; width: 200px;">
-            <img src="~/images/history-small.jpg" alt="Logo" style="height: 100px; width: 200px;"/>
-        </div>
+      </script>
+  </td>
+      <td width="260" valign="top" style="text-align: center">
+      <p style="margin-bottom:3pt; margin-right:3; text-align:justify; margin-top:3">Just a mass 
+      of numbers? The years link on each line leads to the full season's results, and the page 
+      comes into its own when you use the 'order by' box to bring out the best 
+      and worst of any column. </p>
+      </td>
+    </tr>
+  </tbody></table>
+  
+  <table class="seasons">
+    <tbody><tr>
+      <th style="border-left: 0; border-right: 0; border-top: 0" colspan="5">&nbsp;</th>
+      <th rowspan="2" valign="bottom">Pla-<br>
+      yers<br>
+      Used</th>
+      <th rowspan="2" valign="bottom">Cl'n<br>
+      She-<br>
+      ets</th>
+      <th colspan="6"><b>League Matches</b></th>
+      <th colspan="6"><b>League Home</b></th>
+      <th colspan="6"><b>League Away</b></th>
+      <th colspan="3"><b>Attendance</b></th>
+      <th colspan="6"><b>Cups</b></th>
+    </tr>
+    <tr>
+      <th><b>Season</b></th>
+      <th><b>Div</b></th>
+      <th style="padding: 2 1 2 1;"><b>Tier</b></th>
+      <th><b>Pos</b></th>
+      <th style="padding: 2 1 2 1;"><b>FL<br>Pos*</b></th>
+      <th><b>P</b></th>
+      <th><b>W</b></th>
+      <th><b>D</b></th>
+      <th><b>L</b></th>
+      <th><b>F</b></th>
+      <th><b>A</b></th>
+      <th><b>P</b></th>
+      <th><b>W</b></th>
+      <th><b>D</b></th>
+      <th><b>L</b></th>
+      <th><b>F</b></th>
+      <th><b>A</b></th>
+      <th><b>P</b></th>
+      <th><b>W</b></th>
+      <th><b>D</b></th>
+      <th><b>L</b></th>
+      <th><b>F</b></th>
+      <th><b>A</b></th>
+      <th style="text-align: center"><b>Avg<br>All</b></th>
+      <th style="text-align: center"><b>Avg<br>Home</b></th>
+      <th style="text-align: center"><b>Avg<br>Away</b></th>
+      <th><b>P</b></th>
+      <th><b>W</b></th>
+      <th><b>D</b></th>
+      <th><b>L</b></th>
+      <th><b>F</b></th>
+      <th><b>A</b></th>
+    </tr>
 
-        <div class="col-sm-4 border d-flex flex-column align-items-center justify-content-start" style="height: 100%; width: 400px;">
-            <div class="btn-group" style="width: 100%; margin-bottom: 10px;">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 100%; height: 30px; padding: 4px;">From 1903-1904</button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </div>
-            <div class="btn-group" style="width: 100%; margin-bottom: 10px;">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 100%; height: 30px; padding: 4px;">To 2022-2023</button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </div>
-            <div class="btn-group" style="width: 100%; margin-bottom: 10px;">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 100%; height: 30px; padding: 4px;">Order By Season</button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </div>
-        </div>
+<tr onmouseover="this.className = 'rowhlt';" onmouseout="this.className = '';" class="">
+    
+            @foreach (var season in Model.Stable)
+            {
+                <tr>
+                    <td class="season" nowrap="nowrap" style="position: relative; text-align: left;"><a href="gosdb-season?years=@season.years"><img style="vertical-align: middle; margin:0 4px 0 0; padding:0" src="images/more.png">@season.years @if (season.promrel == "P")
+                            {
+                                <img src="images/promote.gif" border="0">
+                            }
+                            @if(@season.promrel == "R"){
+                            <img src="images/relegate.gif" border="0">
+                            }
+                        </a>
+                    </td>
+                    <td style="text-align: left;">
+                            @if (@season.years == "1903-1904" || @season.years == "1904-1905" || @season.years == "1905-1906" || @season.years == "1906-1907" || @season.years == "1907-1908" || @season.years == "1908-1909")
+                            {
+                                @Model.e1
+                            }
+                            else if (@season.years == "1939-1940")
+                            {
+                                @Model.e2
 
+                                <br>
 
+                                @Model.e3
+                            }
+                            else
+                        {
+                            @season.division_short
+                        }
+                    </td>
+                    <td style="text-align: center">@if(@season.tier == 0){@nothing}else{@season.tier}</td>
+                            <td style="text-align: center">@if (@season.endpos == 0){ @nothing}else{@season.endpos}</td>
+                            <td style="text-align: center">@if (@season.flendpos == 0){ @nothing}else{ @season.flendpos}</td>
+                    <td style="text-align: center">@season.player_count</td>
+                    <td style="text-align: center">@season.clean_sheets</td>
+                    <td style="border-left: 2px solid #a0a0a0;">@season.P</td>
+                    <td>@season.W</td>
+                    <td>@season.D</td>
+                    <td>@season.L</td>
+                    <td>@season.F</td>
+                    <td>@season.A</td>
+                    <td style="border-left: 2px solid #a0a0a0;">@season.HP</td>
+                    <td>@season.HW</td>
+                    <td>@season.HD</td>
+                    <td>@season.HL</td>
+                    <td>@season.HF</td>
+                    <td>@season.HA</td>
+                    <td style="border-left: 2px solid #a0a0a0;">@season.AP</td>
+                    <td>@season.AW</td>
+                    <td>@season.AD</td>
+                    <td>@season.AL</td>
+                    <td>@season.AF</td>
+                    <td>@season.AA</td>
+                    <td align="right" style="border-left: 2px solid #a0a0a0;">@if(@season.AT == 0)
+                        {
+                            @inter
+                        }
+                        else
+                        {
+                            @season.AT
+                        }</td>
+                    <td align="right">@if(@season.HAT == 0){ @inter }else{@season.HAT}</td>
+                        <td align="right">@if(@season.AAT == 0) { @inter } else {@season.AAT}</td>
+                    <td style="border-left: 2px solid #a0a0a0;">@season.CP</td>
+                    <td>@season.CW</td>
+                    <td>@season.CD</td>
+                    <td>@season.CL</td>
+                    <td>@season.CF</td>
+                    <td>@season.CA</td>
+                </tr>
+            }
 
-        <div class="col-sm-4 border text-right" style="height: 100%; width: 240px; text-align: right; padding-top: 10px;">
-            <p style="font-size: 11px; font-weight: bold;">Just a mass of numbers? The years link on each line leads to the full season's results, and the page comes into its own when you use the 'order by' box to bring out the best and worst of any column.</p>
-        </div>
+     </tbody>
+</table>
 
-    </div>
+<p style="margin-top: 8; margin-bottom: 12"><b>*</b> 'FL Pos' out of 92 possible places, except for 1920-50 (66 places) and 1950-58 (68 places)
+</p>
 </div>
-
-    <div id="tableDiv">
-        <table style="border-collapse: collapse; border: 1px solid black; width: 100%; max-width: 1000px; margin-top: 10px;">
-            <tr>
-                <th style="border-left: 0; border-right: 0; border-top: 0"
-                    colspan="5">&nbsp;</th>
-                <th rowspan="2" valign="bottom">
-                    Pla-<br>
-                    yers<br>
-                    Used
-                </th>
-                <th rowspan="2" valign="bottom">
-                    Cl'n<br>
-                    She-<br>
-                    ets
-                </th>
-                <th colspan="6"><b>League Matches</b></th>
-                <th colspan="6"><b>League Home</b></th>
-                <th colspan="6"><b>League Away</b></th>
-                <th colspan="3"><b>Attendance</b></th>
-                <th colspan="6"><b>Cups</b></th>
-            </tr>
-            <tr>
-                <th><b>Season</b></th>
-                <th><b>Div</b></th>
-                <th style="padding: 2 1 2 1;"><b>Tier</b></th>
-                <th><b>Pos</b></th>
-                <th style="padding: 2 1 2 1;"><b>FL<br>Pos*</b></th>
-                <th><b>P</b></th>
-                <th><b>W</b></th>
-                <th><b>D</b></th>
-                <th><b>L</b></th>
-                <th><b>F</b></th>
-                <th><b>A</b></th>
-                <th><b>P</b></th>
-                <th><b>W</b></th>
-                <th><b>D</b></th>
-                <th><b>L</b></th>
-                <th><b>F</b></th>
-                <th><b>A</b></th>
-                <th><b>P</b></th>
-                <th><b>W</b></th>
-                <th><b>D</b></th>
-                <th><b>L</b></th>
-                <th><b>F</b></th>
-                <th><b>A</b></th>
-                <th style="text-align: center"><b>Avg<br>All</b></th>
-                <th style="text-align: center"><b>Avg<br>Home</b></th>
-                <th style="text-align: center"><b>Avg<br>Away</b></th>
-                <th><b>P</b></th>
-                <th><b>W</b></th>
-                <th><b>D</b></th>
-                <th><b>L</b></th>
-                <th><b>F</b></th>
-                <th><b>A</b></th>
-            </tr>
-        </table>
-    </div>
-
-    <div id="extra">
-        <p style="margin-top: 8; margin-bottom: 12"><b>*</b> 'FL Pos' out of 92 possible places, except for 1920-50 (66 places) and 1950-58 (68 places)
-    </div>
-
-    <!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-</body>
-</html>
-<style>
-    #tableDiv {
-  margin-top: 10px;
-  width: 100%;
-  max-width: 1000px;
-}
-
-table {
-  border-collapse: collapse;
-  border: 1px solid black;
-  width: 100%;
-}
-
-td {
-  border: 1px solid black;
-}
-#extra {
-  text-align: center;
-}
-</style>
