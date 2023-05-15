@@ -1,0 +1,273 @@
+﻿
+.heading2 {
+    font-weight: bold;
+}
+
+.heading3 {
+    font-weight: bold;
+}
+
+/history page statistic buttons/
+.statButton {
+    background-color: #457B44;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.statButton:hover {
+    background-color: #345E34;
+}
+
+/Navbar/
+#HeaderTable {
+    padding-bottom: 50px;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/banner image swapping based on screen size/
+.imageSwap {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.smallBanner {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    max-height: 72px;
+}
+
+.bigBanner {
+    display: none;
+    position: relative;
+    top: 0;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 72px;
+}
+
+@media (min-width: 1000px) {
+
+    .smallBanner {
+        display: none;
+    }
+
+    .bigBanner {
+        display: block;
+    }
+}
+
+/* Footer /
+#base p {
+    text-size-adjust: auto;
+}
+
+/ History */
+.historyTable {
+    padding: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px;
+    border-color: #C0C0C0;
+}
+
+    .historyTable th {
+        text-align: left;
+        font-weight: bold;
+        padding: 10px;
+        background-color: #F5F5F5;
+        border: 1px solid #DDDDDD;
+    }
+
+    .historyTable td {
+        padding: 10px;
+        border: 1px solid #DDD;
+    }
+
+    .historyTable tr:nth-child(even) {
+        background-color: #F9F9F9;
+    }
+
+.headerBox {
+    padding: 8px;
+    border: 1px solid #DDDDDD;
+}
+
+.heading {
+    font-family: Verdana, Arial;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    color: #457B44;
+}
+
+.hrLine {
+    color: black;
+}
+
+.historyTitle {
+    color: #457B44;
+    font-family: Verdana;
+}
+
+@media (min-width: 1899px) {
+    #sidebar {
+        position: absolute;
+        left: 2%;
+        top: 77px;
+        text-align: justify;
+        width: 340px;
+        padding: 6px;
+    }
+}
+
+#printhead {
+    border: 1px solid #DDDDDD;
+}
+
+    #printhead p {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 1900px) {
+    #sidebar {
+        display: none;
+    }
+}
+
+.imageright {
+    max-width: 433px;
+    height: auto;
+}
+
+.imagetext {
+    font-size: 11px;
+    margin: 4px 3px 2px 6px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+/end of Morgan Trainor code/
+/* Footer /
+    #base p {
+        text-size-adjust: auto;
+    }
+    /Teampic*/
+#teampic {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#teampic img {
+    max-width: 980px;
+    margin: 12px 0 8px;
+}
+
+#teampic p {
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1.5;
+    margin: 6px 0;
+}
+
+#teampic .head {
+    display: table;
+    width: 100%;
+    margin: 12px 0 0;
+}
+
+#teampic .head1 {
+    display: table-cell;
+    width: 50%;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#teampic .head2 {
+    display: table-cell;
+    text-align: center;
+    font-size: 18px;
+    padding: 0 72px 0 74px;
+    white-space: nowrap;
+}
+
+#teampic .head3 {
+    display: table-cell;
+    width: 50%;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#teampic .image {
+    display: table;
+    margin: 0;
+    padding: 0;
+}
+
+#teampic img {
+    margin: 12px 0;
+    padding: 0;
+}
+
+#teampic .caption {
+    display: table-row;
+    text-align: left;
+    line-height: 1.5;
+    margin: 0 4px;
+}
+/* base */
+#base {
+    width: 1200px;
+    margin: 15px auto 6px;
+    border-top: 2px solid #559761;
+    clear: both;
+}
+
+    #base p {
+        font-family: verdana,arial,helvetica,sans-serif;
+        font-size: 11px;
+        color: #666666;
+        text-align: justify;
+        margin: 4px 0 0;
+        padding: 0 10px;
+    }

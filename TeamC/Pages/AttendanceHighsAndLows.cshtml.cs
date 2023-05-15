@@ -7,8 +7,8 @@ using System;
 
 namespace _2003v5.Pages
 {
-    public class AttendanceHighsAndLowsModel : PageModel
-    {
+	public class AttendanceHighsAndLowsModel : PageModel
+	{
 		public List<table> HAHP = new List<table>();
 		public List<table> HATR = new List<table>();
 		public List<table> LAHP = new List<table>();
@@ -213,5 +213,5 @@ namespace _2003v5.Pages
 }
 
 
-    
-        
+
+

@@ -25,7 +25,7 @@ public class SeasonsModel : PageModel
         string season_no2 = Request.Query["season2"];
         string orderby = Request.Query["orderby"];
 
-        
+
         if (season_no1 == "" || season_no1 == null)
             season_no1 = "1";
         if (season_no2 == "" || season_no2 == null)
@@ -72,17 +72,17 @@ public class SeasonsModel : PageModel
                 orderby_text = " A DESC, years ";
                 heading1 += ", ordered by goals-against";
                 ordered = "Y";
-                    break;
+                break;
             case "PO":
                 orderby_text = " PO DESC, years ";
                 heading1 += ", ordered by points (3 for a win for all seasons)";
                 ordered = "Y";
-                    break;
+                break;
             case "HP":
                 orderby_text = " HP DESC, years ";
                 heading1 += ", ordered by home games played";
                 ordered = "Y";
-                    break;
+                break;
             case "HW":
                 orderby_text = " HW DESC, years ";
                 heading1 += ", ordered by home wins";
@@ -150,7 +150,7 @@ public class SeasonsModel : PageModel
                 break;
             case "AT":
                 orderby_text = " AT desc, years ";
-                heading1 +=", ordered by attendance";
+                heading1 += ", ordered by attendance";
                 ordered = "Y";
                 break;
             case "HAT":
@@ -172,7 +172,7 @@ public class SeasonsModel : PageModel
                 orderby_text = " CW DESC, years ";
                 heading1 += ", ordered by cup wins";
                 ordered = "Y";
-                    break;
+                break;
             case "CD":
                 orderby_text = " CD DESC, years ";
                 heading1 += ", ordered by cup draws";
@@ -195,7 +195,7 @@ public class SeasonsModel : PageModel
                 break;
             case "U":
                 orderby_text = " player_count DESC, years ";
-                heading1 +=  ", ordered by players used";
+                heading1 += ", ordered by players used";
                 ordered = "Y";
                 break;
             case "E":
@@ -205,7 +205,7 @@ public class SeasonsModel : PageModel
                 break;
             case "CS":
                 orderby_text = " clean_sheets DESC, years ";
-                heading1 +=  ", ordered by clean sheets";
+                heading1 += ", ordered by clean sheets";
                 ordered = "Y";
                 break;
             default:
@@ -220,7 +220,7 @@ public class SeasonsModel : PageModel
         {
             cnn.Open();
             //SQL command
-            string sql = "WITH seasonCTE1 AS ( \r\n  select season_no, years, division_short, tier, endpos, teams_above_div, promrel, sum(cs) as clean_sheets, \r\n  sum(p) as P, sum(w) as W, sum(d) as D, sum(l) as L, sum(f) as F, sum(a) as A, sum(po) as PO, avg(at) as AT, \r\n  sum(hp) as HP, sum(hw) as HW, sum(hd) as HD, sum(hl) as HL, sum(hf) as HF, sum(ha) as HA, sum(hpo) as HPO, avg(hat) as HAT,  \r\n  sum(ap) as AP, sum(aw) as AW, sum(ad) as AD, sum(al) as AL, sum(af) as AF, sum(aa) as AA, sum(apo) as APO, avg(aat) as AAT, \r\n  sum(cp) as CP, sum(cw) as CW, sum(cd) as CD, sum(cl) as CL, sum(cf) as CF, sum(ca) as CA \r\n  from ( \r\n    select season_no, years, division_short, tier, endpos, teams_above_div, promrel, \r\n    case when LFC <> 'C' then 1 else 0 end as p, \r\n    case when LFC <> 'C' and goalsfor > goalsagainst then 1 else 0 end as w, \r\n    case when LFC <> 'C' and goalsfor = goalsagainst then 1 else 0 end as d, \r\ncase when LFC <> 'C' and goalsfor < goalsagainst then 1 else 0 end as l, \r\ncase when LFC <> 'C' then goalsfor else 0 end as f,  \r\ncase when LFC <> 'C' then goalsagainst else 0 end as a,  \r\ncase when LFC <> 'C' and goalsagainst = 0 then 1 else 0 end as cs,  \r\ncase when LFC <> 'C' and goalsfor > goalsagainst then 3 when LFC <> 'C' and goalsfor = goalsagainst then 1 else 0 end as po,  \r\ncase when LFC <> 'C' then attendance else NULL end as at,  \r\ncase when LFC <> 'C' and homeaway = 'H' then 1 else 0 end as hp, \r\ncase when LFC <> 'C' and homeaway = 'H' and goalsfor > goalsagainst then 1 else 0 end as hw, \r\ncase when LFC <> 'C' and homeaway = 'H' and goalsfor = goalsagainst then 1 else 0 end as hd, \r\ncase when LFC <> 'C' and homeaway = 'H' and goalsfor < goalsagainst then 1 else 0 end as hl, \r\ncase when LFC <> 'C' and homeaway = 'H' then goalsfor else 0 end as hf, \r\ncase when LFC <> 'C' and homeaway = 'H' then goalsagainst else 0 end as ha, \r\ncase when LFC <> 'C' and homeaway = 'H' and goalsfor > goalsagainst then 3 when LFC <> 'C' and homeaway = 'H' and goalsfor = goalsagainst then 1 else 0 end as hpo,  \r\ncase when LFC <> 'C' and homeaway = 'H' then attendance else NULL end as hat, \r\ncase when LFC <> 'C' and homeaway = 'A' then 1 else 0 end as ap, \r\ncase when LFC <> 'C' and homeaway = 'A' and goalsfor > goalsagainst then 1 else 0 end as aw, \r\ncase when LFC <> 'C' and homeaway = 'A' and goalsfor = goalsagainst then 1 else 0 end as ad, \r\ncase when LFC <> 'C' and homeaway = 'A' and goalsfor < goalsagainst then 1 else 0 end as al, \r\ncase when LFC <> 'C' and homeaway = 'A' then goalsfor else 0 end as af, \r\ncase when LFC <> 'C' and homeaway = 'A' then goalsagainst else 0 end as aa, \r\ncase when LFC <> 'C' and homeaway = 'A' and goalsfor > goalsagainst then 3 when LFC <> 'C' and homeaway = 'A' and goalsfor = goalsagainst then 1 else 0 end as apo,  \r\ncase when LFC <> 'C' and homeaway = 'A' then attendance else NULL end as aat, \r\ncase when LFC = 'C' then 1 else 0 end as cp, \r\ncase when LFC = 'C' and goalsfor > goalsagainst then 1 else 0 end as cw, \r\ncase when LFC = 'C' and goalsfor = goalsagainst then 1 else 0 end as cd, \r\ncase when LFC = 'C' and goalsfor < goalsagainst then 1 else 0 end as cl, \r\ncase when LFC = 'C' then goalsfor else 0 end as cf, \r\ncase when LFC = 'C' then goalsagainst else 0 end as ca \r\nfrom v_match_all join season on date between date_start and date_end \r\nwhere season_no between " + season_no1 + " and " + season_no2 + " \r\n) as subsel \r\ngroup by season_no, years, division_short, tier, endpos, teams_above_div, promrel \r\n), \r\nseasonCTE2 AS ( \r\n  select season_no, count(distinct player_id) as player_count \r\n  from match_player join season on date between date_start and date_end \r\n  where season_no between " + season_no1 + " and " + season_no2 + " \r\n  group by season_no \r\n  ) \r\nselect player_count, years, division_short, tier, endpos, endpos + teams_above_div as flendpos, promrel, clean_sheets, \r\nP, W, D, L, F, A, PO, AT, HP, HW, HD, HL, HF, HA, HPO, HAT, AP, AW, AD, AL, AF, AA, APO, AAT, CP, CW, CD, CL, CF, CA \r\nfrom seasonCTE1 x join seasonCTE2 y on x.season_no = y.season_no \r\norder by "+ orderby_text;
+            string sql = "WITH seasonCTE1 AS ( \r\n  select season_no, years, division_short, tier, endpos, teams_above_div, promrel, sum(cs) as clean_sheets, \r\n  sum(p) as P, sum(w) as W, sum(d) as D, sum(l) as L, sum(f) as F, sum(a) as A, sum(po) as PO, avg(at) as AT, \r\n  sum(hp) as HP, sum(hw) as HW, sum(hd) as HD, sum(hl) as HL, sum(hf) as HF, sum(ha) as HA, sum(hpo) as HPO, avg(hat) as HAT,  \r\n  sum(ap) as AP, sum(aw) as AW, sum(ad) as AD, sum(al) as AL, sum(af) as AF, sum(aa) as AA, sum(apo) as APO, avg(aat) as AAT, \r\n  sum(cp) as CP, sum(cw) as CW, sum(cd) as CD, sum(cl) as CL, sum(cf) as CF, sum(ca) as CA \r\n  from ( \r\n    select season_no, years, division_short, tier, endpos, teams_above_div, promrel, \r\n    case when LFC <> 'C' then 1 else 0 end as p, \r\n    case when LFC <> 'C' and goalsfor > goalsagainst then 1 else 0 end as w, \r\n    case when LFC <> 'C' and goalsfor = goalsagainst then 1 else 0 end as d, \r\ncase when LFC <> 'C' and goalsfor < goalsagainst then 1 else 0 end as l, \r\ncase when LFC <> 'C' then goalsfor else 0 end as f,  \r\ncase when LFC <> 'C' then goalsagainst else 0 end as a,  \r\ncase when LFC <> 'C' and goalsagainst = 0 then 1 else 0 end as cs,  \r\ncase when LFC <> 'C' and goalsfor > goalsagainst then 3 when LFC <> 'C' and goalsfor = goalsagainst then 1 else 0 end as po,  \r\ncase when LFC <> 'C' then attendance else NULL end as at,  \r\ncase when LFC <> 'C' and homeaway = 'H' then 1 else 0 end as hp, \r\ncase when LFC <> 'C' and homeaway = 'H' and goalsfor > goalsagainst then 1 else 0 end as hw, \r\ncase when LFC <> 'C' and homeaway = 'H' and goalsfor = goalsagainst then 1 else 0 end as hd, \r\ncase when LFC <> 'C' and homeaway = 'H' and goalsfor < goalsagainst then 1 else 0 end as hl, \r\ncase when LFC <> 'C' and homeaway = 'H' then goalsfor else 0 end as hf, \r\ncase when LFC <> 'C' and homeaway = 'H' then goalsagainst else 0 end as ha, \r\ncase when LFC <> 'C' and homeaway = 'H' and goalsfor > goalsagainst then 3 when LFC <> 'C' and homeaway = 'H' and goalsfor = goalsagainst then 1 else 0 end as hpo,  \r\ncase when LFC <> 'C' and homeaway = 'H' then attendance else NULL end as hat, \r\ncase when LFC <> 'C' and homeaway = 'A' then 1 else 0 end as ap, \r\ncase when LFC <> 'C' and homeaway = 'A' and goalsfor > goalsagainst then 1 else 0 end as aw, \r\ncase when LFC <> 'C' and homeaway = 'A' and goalsfor = goalsagainst then 1 else 0 end as ad, \r\ncase when LFC <> 'C' and homeaway = 'A' and goalsfor < goalsagainst then 1 else 0 end as al, \r\ncase when LFC <> 'C' and homeaway = 'A' then goalsfor else 0 end as af, \r\ncase when LFC <> 'C' and homeaway = 'A' then goalsagainst else 0 end as aa, \r\ncase when LFC <> 'C' and homeaway = 'A' and goalsfor > goalsagainst then 3 when LFC <> 'C' and homeaway = 'A' and goalsfor = goalsagainst then 1 else 0 end as apo,  \r\ncase when LFC <> 'C' and homeaway = 'A' then attendance else NULL end as aat, \r\ncase when LFC = 'C' then 1 else 0 end as cp, \r\ncase when LFC = 'C' and goalsfor > goalsagainst then 1 else 0 end as cw, \r\ncase when LFC = 'C' and goalsfor = goalsagainst then 1 else 0 end as cd, \r\ncase when LFC = 'C' and goalsfor < goalsagainst then 1 else 0 end as cl, \r\ncase when LFC = 'C' then goalsfor else 0 end as cf, \r\ncase when LFC = 'C' then goalsagainst else 0 end as ca \r\nfrom v_match_all join season on date between date_start and date_end \r\nwhere season_no between " + season_no1 + " and " + season_no2 + " \r\n) as subsel \r\ngroup by season_no, years, division_short, tier, endpos, teams_above_div, promrel \r\n), \r\nseasonCTE2 AS ( \r\n  select season_no, count(distinct player_id) as player_count \r\n  from match_player join season on date between date_start and date_end \r\n  where season_no between " + season_no1 + " and " + season_no2 + " \r\n  group by season_no \r\n  ) \r\nselect player_count, years, division_short, tier, endpos, endpos + teams_above_div as flendpos, promrel, clean_sheets, \r\nP, W, D, L, F, A, PO, AT, HP, HW, HD, HL, HF, HA, HPO, HAT, AP, AW, AD, AL, AF, AA, APO, AAT, CP, CW, CD, CL, CF, CA \r\nfrom seasonCTE1 x join seasonCTE2 y on x.season_no = y.season_no \r\norder by " + orderby_text;
 
             //also chance it to the login that is not the admin login
             using (SqlCommand command = new SqlCommand(sql, cnn))
@@ -230,11 +230,11 @@ public class SeasonsModel : PageModel
                     //get which row and store it in a list
                     while (reader.Read())
                     {
-                        Seasson table = new Seasson();                        
+                        Seasson table = new Seasson();
                         table.player_count = reader.GetInt32(0);
                         table.years = reader.GetString(1);
                         try { table.division_short = reader.GetString(2); } catch { }
-                        try { table.tier = reader.GetInt32(3); } catch {  }
+                        try { table.tier = reader.GetInt32(3); } catch { }
                         try { table.endpos = reader.GetByte(4); } catch { }
                         try { table.flendpos = reader.GetInt32(5); } catch { }
                         try { table.promrel = reader.GetString(6); } catch { table.promrel = ""; }
